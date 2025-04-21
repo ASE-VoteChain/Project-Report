@@ -300,6 +300,93 @@ Cada votación se configura a través de la plataforma. Los votantes se autentic
 **How Much (¿Cuánto costaría?):**  
 El acceso básico a la plataforma será gratuito para comunidades pequeñas. Para organizaciones medianas o grandes se ofrecerán planes escalables de suscripción mensual o anual, con beneficios como validación de identidad, soporte técnico y paneles de auditoría avanzados.
 
+### 1.2.2. Lean UX Process
+
+---
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+***Problem Statement 1***
+
+|Nuestro producto tiene como objetivo garantizar procesos de votación seguros, transparentes y anónimos para comunidades mediante tecnología blockchain.|
+| - |
+|Hemos observado que muchas organizaciones comunitarias, universitarias y vecinales aún utilizan métodos tradicionales como votación a mano alzada o papeletas físicas, los cuales carecen de garantías de seguridad, anonimato y transparencia, lo que genera desconfianza y baja participación.|
+|¿Podría nuestra plataforma VoteChain, basada en tecnología blockchain, mejorar la participación ciudadana y la confianza en los resultados electorales al ofrecer un sistema descentralizado, auditable y anónimo?|
+
+***Problem Statement 2***
+
+|Nuestro producto tiene como objetivo reducir la manipulación, duplicación o pérdida de votos en procesos de toma de decisiones colectivas.|
+| - |
+|Hemos observado que en muchas elecciones locales o votaciones internas no existe una trazabilidad del voto ni un registro público inalterable del proceso, lo que permite la manipulación o invalidez de los resultados.|
+|¿Podría VoteChain, al registrar cada voto como una transacción en la blockchain, garantizar la inmutabilidad y auditabilidad del proceso electoral para generar confianza en los votantes y las autoridades organizadoras?|
+
+***Problem Statement 3***
+
+|Nuestro producto tiene como objetivo democratizar el acceso a procesos de votación seguros mediante una plataforma digital accesible y fácil de usar.|
+| - |
+|Hemos observado que las plataformas digitales de votación existentes suelen ser costosas, centralizadas o poco adaptables a las necesidades locales, lo que limita su adopción por parte de comunidades pequeñas o con bajos recursos tecnológicos.|
+|¿Podría VoteChain, al ofrecer una plataforma descentralizada de código abierto y adaptada a diversos contextos comunitarios, ampliar el acceso a herramientas de votación seguras para poblaciones que históricamente han estado excluidas?|
+
+---
+
+#### 1.2.2.2. Lean UX Assumptions
+
+1. **¿Quién es el usuario?**  
+   Nuestro usuario principal son los líderes comunitarios, gestores de organizaciones civiles, autoridades universitarias y ciudadanos que participan en procesos de toma de decisiones colectivas. También incluimos en nuestro ecosistema a observadores electorales, voluntarios organizadores y técnicos encargados de configurar votaciones dentro de la plataforma.
+
+2. **¿Dónde encaja nuestro producto en su trabajo o vida?**  
+   VoteChain se integra en momentos clave de participación democrática dentro de comunidades, asociaciones, juntas vecinales o instituciones educativas. Apoya en la organización de procesos como elecciones internas, validación de propuestas, decisiones presupuestales participativas, entre otros.
+
+3. **¿Qué problemas tiene nuestro producto que busca resolver?**  
+   - Falta de transparencia en elecciones comunitarias.  
+   - Desconfianza en los resultados por manipulación o duplicación de votos.  
+   - Falta de anonimato en votaciones presenciales.  
+   - Ausencia de trazabilidad y auditoría pública.  
+   - Baja participación por procesos engorrosos o poco accesibles.  
+
+4. **¿Cuándo y cómo es nuestro producto usado?**  
+   VoteChain es utilizado en procesos de votación planificados, donde los organizadores configuran elecciones, inscriben votantes y definen plazos. Los ciudadanos emiten su voto desde cualquier dispositivo con acceso a internet, de manera sencilla y segura. Todo el proceso queda registrado en la blockchain, generando un historial público y auditable.
+
+5. **¿Qué características son importantes?**  
+   - Registro descentralizado de votos (blockchain).  
+   - Interfaz amigable, responsiva y multilingüe.  
+   - Anonimato garantizado en la emisión del voto.  
+   - Auditoría pública en tiempo real.  
+   - Módulo de resultados cifrados y visualizaciones claras.  
+   - Configuración de votaciones con reglas personalizables.  
+
+6. **¿Cómo debe verse nuestro producto y cómo comportarse?**  
+   VoteChain debe ofrecer una interfaz moderna, accesible y segura. Debe comportarse con rapidez, sin errores ni retrasos, especialmente durante el proceso de votación. El sistema debe transmitir confianza y claridad al usuario, adaptándose tanto a computadoras como a dispositivos móviles. La información debe estar encriptada, protegida y disponible para consulta sin comprometer el anonimato del votante.
+
+---
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hypothesis Statement 1**
+
+|Creemos que al proporcionar una plataforma blockchain de votación segura, descentralizada y fácil de usar, las comunidades aumentarán su nivel de participación y confianza en los procesos de toma de decisiones colectivas.|
+| - |
+|Sabremos que esto es cierto…|  
+|Cuando al menos el 75% de los usuarios que participen en procesos de votación con VoteChain reporten una experiencia satisfactoria y un incremento en su disposición a participar en futuras votaciones.|
+
+**Hypothesis Statement 2**
+
+|Creemos que al registrar cada voto como una transacción en la blockchain, los organizadores y votantes podrán auditar los procesos de forma independiente, reduciendo los reclamos por fraude o manipulación.|
+| - |
+|Sabremos que esto es cierto…|  
+|Cuando se reduzcan en al menos 80% los reclamos de irregularidades en comparación con procesos anteriores organizados sin tecnología blockchain, y se verifique el uso del historial de votación por parte de observadores externos.|
+
+**Hypothesis Statement 3**
+
+|Creemos que al ofrecer VoteChain como una solución accesible para comunidades sin acceso previo a tecnología electoral avanzada, lograremos democratizar el acceso a procesos de votación seguros.|
+| - |
+|Sabremos que esto es cierto…|  
+|Cuando al menos 50 comunidades u organizaciones pequeñas adopten la plataforma dentro del primer año de operación y reporten una mejora en su capacidad de organización democrática.|
+
+#### 1.2.2.4. Lean UX Canvas
+En esta sección juntamos la información de los procesos UX y los juntamos en este canvas.
+
+![Lean Ux Canvas](img/leanuxcanvas.png)
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
