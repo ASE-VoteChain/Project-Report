@@ -168,9 +168,7 @@ Abril 2025
 ## Capítulo IV: Solution Software Design
 
 ### 4.1. Strategic-Level Attribute-Driven Design.
-El equipo VoteChain decidió utilizar una estrategia basada Domain-Driven Design (DDD) para poder comprender y estructurar el dominio del problema.  Esta manera de trabajar nos ayudó a que el diseño del sistema se adaptara mejor a lo que realmente necesitaban los usuarios, lo que a su vez hizo más fácil llevar a cabo votaciones que tuvieran sentido y aportaran valor al negocio.
-Para lograr esto, nos concentramos en identificar los momentos importantes dentro del sistema, definir claramente los diferentes entornos o bounded contexts que eran relevantes, diseñar cómo se comunicarían esos entornos entre sí y establecer con exactitud dónde empezaba y terminaba cada parte del sistema. Esta forma de abordar el problema no solo nos permitió entender mejor cómo funcionaba internamente todo el sistema de votación para la comunidad, sino que también nos ayudó a crear una arquitectura que fuera lógica, que pudiera crecer sin problemas y que realmente respondiera a las necesidades de los usuarios.
-A continuación, se detallará paso a paso las actividades realizadas en cada etapa de este proceso de Domain-Driven Design a nivel estratégico, desde la primera lluvia de ideas con EventStorming hasta que finalmente mapeamos todos los contextos.
+template
 #### 4.1.1. Design Purpose.
 template
 #### 4.1.2. Attribute-Driven Design Inputs.
@@ -189,7 +187,9 @@ template
 template
 
 ### 4.2. Strategic-Level Domain-Driven Design.
-template
+El equipo VoteChain decidió utilizar una estrategia basada Domain-Driven Design (DDD) para poder comprender y estructurar el dominio del problema.  Esta manera de trabajar nos ayudó a que el diseño del sistema se adaptara mejor a lo que realmente necesitaban los usuarios, lo que a su vez hizo más fácil llevar a cabo votaciones que tuvieran sentido y aportaran valor al negocio.
+Para lograr esto, nos concentramos en identificar los momentos importantes dentro del sistema, definir claramente los diferentes entornos o bounded contexts que eran relevantes, diseñar cómo se comunicarían esos entornos entre sí y establecer con exactitud dónde empezaba y terminaba cada parte del sistema. Esta forma de abordar el problema no solo nos permitió entender mejor cómo funcionaba internamente todo el sistema de votación para la comunidad, sino que también nos ayudó a crear una arquitectura que fuera lógica, que pudiera crecer sin problemas y que realmente respondiera a las necesidades de los usuarios.
+A continuación, se detallará paso a paso las actividades realizadas en cada etapa de este proceso de Domain-Driven Design a nivel estratégico, desde la primera lluvia de ideas con EventStorming hasta que finalmente mapeamos todos los contextos.
 #### 4.2.1. EventStorming.
 template
 #### 4.2.2. Candidate Context Discovery.
