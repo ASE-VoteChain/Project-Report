@@ -164,6 +164,32 @@ Abril 2025
 # Contenido
 ## Capítulo I: Introducción 
 
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
+
+VoteChain es una startup tecnológica peruana enfocada en revolucionar los procesos de votación mediante soluciones basadas en blockchain. Surge como respuesta a la creciente necesidad de transparencia, eficiencia y participación ciudadana en contextos donde la confianza en los procesos electorales o de toma de decisiones colectivas se ha visto debilitada.
+
+Nuestra plataforma permite a comunidades organizadas —como barrios, universidades, municipios, colectivos ciudadanos, organizaciones sociales y proyectos abiertos— tomar decisiones democráticas de forma digital, segura y descentralizada. Al registrar cada voto como una transacción única en una cadena de bloques, garantizamos que estos sean inmutables, auditables, anónimos y libres de manipulación.
+
+VoteChain no solo propone una alternativa tecnológica, sino también una nueva forma de participación, en la que cada voz cuenta, sin necesidad de intermediarios centralizados ni procesos complejos. Apostamos por una ciudadanía más informada, activa y conectada, con herramientas que refuercen la gobernanza local e institucional.
+
+---
+
+#### 🧭 Misión
+
+Desarrollar e implementar soluciones tecnológicas innovadoras que transformen los procesos de votación y toma de decisiones colectivas, garantizando transparencia, seguridad y participación ciudadana efectiva mediante el uso de tecnología blockchain.
+
+---
+
+#### 🌍 Visión
+
+Ser la plataforma líder en votaciones descentralizadas a nivel nacional e internacional, reconocida por fomentar la confianza, la equidad y la innovación en la participación democrática de comunidades, organizaciones e instituciones públicas y privadas.
+
+---
+
+![logo](img/logo.png)
+
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
