@@ -251,6 +251,56 @@ Los siguientes integrantes del grupo son presentados con su carrera y sus conoci
   </tr>
 </table>
 
+## 1.2. Solution Profile
+
+Esta sección presenta el perfil de solución propuesto para abordar la problemática identificada. Se estructura en dos partes: los antecedentes y la problemática que justifican la necesidad de nuestra solución, y el proceso Lean UX utilizado para diseñar una plataforma centrada en las necesidades reales de los usuarios.
+
+### 1.2.1. Antecedentes y problemática
+
+**Antecedentes:**
+
+La participación ciudadana es un pilar fundamental en las sociedades democráticas. Sin embargo, en muchas comunidades, tanto urbanas como rurales, los procesos de toma de decisiones suelen estar marcados por la falta de transparencia, baja participación y ausencia de herramientas tecnológicas que garanticen la legitimidad de los resultados.
+
+A nivel global, se han reportado múltiples iniciativas para modernizar los sistemas de votación mediante plataformas digitales, pero la mayoría de estas aún dependen de entidades centralizadas, lo que puede generar desconfianza en su gestión. Según el informe “Digital Democracy Trends 2023” (CivicTech Monitor), el 67% de los ciudadanos encuestados en América Latina indicó que estaría más dispuesto a participar si los procesos fueran accesibles, seguros y anónimos desde medios digitales.
+
+En Perú, experiencias previas de presupuestos participativos y votaciones comunales han evidenciado limitaciones como el clientelismo, falta de registros auditables y baja accesibilidad a medios digitales seguros. Asimismo, según la Defensoría del Pueblo (2022), cerca del 40% de los procesos de consulta vecinal no contaron con mecanismos que garanticen la veracidad de los resultados ni la participación representativa.
+
+**Problemática:**
+
+Pese a la existencia de canales participativos, estos no siempre aseguran una votación justa, transparente o inclusiva. En muchas comunidades y organizaciones (como asociaciones estudiantiles, vecinales o culturales), las decisiones se toman a través de métodos tradicionales: votaciones a mano alzada, encuestas sin verificación, o por decisiones centralizadas que no recogen el consenso real.
+
+Además, existe una profunda desconfianza en el conteo de votos, manipulación de resultados y la ausencia de herramientas que auditen el proceso de forma pública y transparente.
+
+**Solución:**
+
+VoteChain propone una plataforma web descentralizada que permite a cualquier comunidad organizar y ejecutar votaciones seguras, auditables, anónimas e inmutables utilizando tecnología blockchain. La solución elimina intermediarios, garantiza la integridad de cada voto emitido y fortalece la confianza colectiva en los procesos democráticos digitales.
+
+---
+
+### 5W’s y 2H’s
+
+**What (¿Qué se está haciendo?):**  
+Una plataforma web descentralizada de votación, basada en tecnología blockchain, que permite realizar elecciones digitales seguras, transparentes y anónimas en cualquier comunidad organizada.
+
+**Why (¿Por qué se está haciendo?):**  
+Porque los métodos actuales de votación en comunidades son poco confiables, vulnerables a manipulaciones y desincentivan la participación ciudadana. Se requiere un sistema moderno que garantice confianza y transparencia.
+
+**When (¿Cuándo se usa?):**  
+Se utiliza cuando una organización o comunidad necesita tomar decisiones democráticas —como elegir representantes, asignar presupuestos, validar propuestas— y desea hacerlo de forma segura y auditable.
+
+**Where (¿Dónde se usa?):**  
+Inicialmente enfocado en comunidades del Perú, incluyendo barrios, universidades, asociaciones civiles y municipios. Su diseño escalable permitirá su uso internacional en el futuro.
+
+**Who (¿Quién lo usa?):**  
+Líderes comunales, autoridades universitarias, gestores de proyectos vecinales, colectivos ciudadanos y cualquier organización que requiera una votación democrática y transparente.
+
+**How (¿Cómo?):**  
+Cada votación se configura a través de la plataforma. Los votantes se autentican con credenciales seguras y emiten su voto desde cualquier dispositivo. Cada voto es una transacción registrada en la blockchain, garantizando integridad, anonimato y auditoría pública.
+
+**How Much (¿Cuánto costaría?):**  
+El acceso básico a la plataforma será gratuito para comunidades pequeñas. Para organizaciones medianas o grandes se ofrecerán planes escalables de suscripción mensual o anual, con beneficios como validación de identidad, soporte técnico y paneles de auditoría avanzados.
+
+
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
