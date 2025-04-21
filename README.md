@@ -166,5 +166,49 @@ Abril 2025
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
+
+### 4.1. Strategic-Level Attribute-Driven Design.
+template
+#### 4.1.1. Design Purpose.
+template
+#### 4.1.2. Attribute-Driven Design Inputs.
+template
+##### 4.1.2.1. Primary Functionality (Primary User Stories).
+template
+##### 4.1.2.2. Quality attribute Scenarios.
+template
+##### 4.1.2.3. Constraints.
+template
+#### 4.1.3. Architectural Drivers Backlog.
+template
+#### 4.1.4. Architectural Design Decisions.
+template
+#### 4.1.5. Quality Attribute Scenario Refinements.
+template
+
+### 4.2. Strategic-Level Domain-Driven Design.
+template
+#### 4.2.1. EventStorming.
+template
+#### 4.2.2. Candidate Context Discovery.
+template
+#### 4.2.3. Domain Message Flows Modeling.
+template
+#### 4.2.4. Bounded Context Canvases.
+template
+#### 4.2.5. Context Mapping.
+template
+
+### 4.3. Software Architecture.
+template
+#### 4.3.1. Software Architecture System Landscape Diagram.
+template
+#### 4.3.1. Software Architecture Context Level Diagrams.
+template
+#### 4.3.2. Software Architecture Container Level Diagrams.
+template
+#### 4.3.3. Software Architecture Deployment Diagrams.
+template
+
 ## Anexos y Bibliografía 
 ## Student Outcome
