@@ -190,6 +190,66 @@ Ser la plataforma líder en votaciones descentralizadas a nivel nacional e inter
 
 ![logo](img/logo.png)
 
+### 1.1.2. Perfiles de integrantes de grupo
+Los siguientes integrantes del grupo son presentados con su carrera y sus conocimientos relevantes al desarrollo de este proyecto.
+
+<table>
+  <tr>
+    <th>
+      <img src="img/sebas_perfil.jpeg" alt="Foto de perfil de" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Ramírez Méndez, Sebastián André</b></p>
+      <p>
+        Soy una persona entusiasta que disfruta colaborar en equipo, y me caracterizo por ser transparente en mis objetivos y en mi enfoque de trabajo. Me enorgullece la capacidad que tengo para complementar a mi equipo en áreas donde puedan necesitar apoyo. Mi pasión por mi carrera me impulsa a desafiar mis habilidades y aspirar a alcanzar todo su potencial.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="" alt="Foto de perfil de" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Apellidos, Nombres</b></p>
+      <p>
+        Descripcion
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="img/nadia_perfil.png" alt="Foto de perfil de Nadia" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Apellidos, Nombres</b></p>
+      <p>
+        Descripcion
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="" alt="Foto de perfil de" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Apellidos, Nombres</b></p>
+      <p>
+        Descripcion
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="" alt="Foto de perfil de" width="700px">
+    </th>
+    <td valign="top">
+      <p><b>Apellidos, Nombres</b></p>
+      <p>
+        Descripcion
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
