@@ -388,6 +388,49 @@ En esta sección juntamos la información de los procesos UX y los juntamos en e
 
 ![Lean Ux Canvas](img/leanuxcanvas.png)
 
+## 1.3. Segmentos objetivo
+
+Para el desarrollo de VoteChain, hemos identificado dos grandes segmentos objetivos: **organizadores de votación** y **ciudadanos votantes**. Ambos desempeñan un rol clave en la adopción y éxito de la plataforma. A continuación, se detalla el perfil de cada uno.
+
+---
+
+### Segmento 1: Organizadores de votación comunitaria
+
+Los organizadores son personas responsables de gestionar procesos electorales dentro de sus comunidades, universidades, municipios u organizaciones. Este grupo está compuesto por líderes vecinales, autoridades estudiantiles, funcionarios municipales y coordinadores de colectivos ciudadanos.
+
+Tienen un conocimiento básico o intermedio de herramientas digitales y buscan soluciones que les permitan ejecutar votaciones seguras, sin depender de procesos físicos engorrosos o susceptibles de manipulación. En muchos casos, estos líderes ya están familiarizados con plataformas como formularios en línea o software de reuniones virtuales, lo que facilita su adopción de herramientas más robustas como VoteChain.
+
+El rango de edad se ha establecido entre 25 y 65 años, considerando la experiencia mínima necesaria para liderar procesos de votación comunitarios y la diversidad de actores que hoy participan en espacios organizativos en Perú.
+
+| **Segmento objetivo** | Organizadores de votación comunitaria |
+|-----------------------|---------------------------------------|
+| **Edad**              | 25-65 años                           |
+| **Ubicación**         | Perú, especialmente zonas urbanas y periurbanas |
+| **Sexo**              | Masculino y Femenino                 |
+| **Formación educativa**| Secundaria completa, técnica o universitaria |
+| **Poder adquisitivo** | Medio y alto (debido a su rol institucional) |
+| **Tecnología utilizada** | Plataforma web para crear procesos de votación, panel de administración, monitoreo de resultados en tiempo real y gestión de usuarios. |
+
+---
+
+### Segmento 2: Ciudadanos votantes
+
+Este segmento está conformado por las personas que participan como votantes en los procesos electorales habilitados en la plataforma. Pueden ser miembros de una comunidad barrial, estudiantes de una universidad, trabajadores de una organización, entre otros.
+
+A pesar de que su dominio tecnológico puede ser limitado en algunos casos, estos usuarios demandan procesos transparentes, anónimos y fáciles de usar. El acceso a internet a través de smartphones ha permitido ampliar la posibilidad de participación incluso en zonas alejadas, siempre que el sistema esté optimizado para dispositivos móviles.
+
+Se considera un rango de edad amplio, desde los 18 años en adelante, para incluir a todo ciudadano con capacidad legal de voto. El nivel educativo y poder adquisitivo son variables, ya que el sistema está pensado para ser inclusivo.
+
+| **Segmento objetivo** | Ciudadanos votantes |
+|-----------------------|---------------------|
+| **Edad**              | 18 años a más       |
+| **Ubicación**         | Perú, con proyección a América Latina |
+| **Sexo**              | Masculino y Femenino |
+| **Formación educativa**| Variada (desde educación secundaria a superior) |
+| **Poder adquisitivo** | Bajo, medio y alto |
+| **Tecnología utilizada** | Aplicación web responsiva, votación anónima, visualización de resultados post-electorales, autenticación segura. |
+
+
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
