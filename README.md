@@ -191,12 +191,13 @@ Ser la plataforma líder en votaciones descentralizadas a nivel nacional e inter
 ![logo](img/logo.png)
 
 ### 1.1.2. Perfiles de integrantes de grupo
+
 Los siguientes integrantes del grupo son presentados con su carrera y sus conocimientos relevantes al desarrollo de este proyecto.
 
 <table>
   <tr>
     <th>
-      <img src="img/sebas_perfil.jpeg" alt="Foto de perfil de" width="800px">
+      <img src="img/sebas_perfil.jpeg" alt="Foto de Sebastián Ramírez" width="250px">
     </th>
     <td valign="top">
       <p><b>Ramírez Méndez, Sebastián André</b></p>
@@ -207,49 +208,50 @@ Los siguientes integrantes del grupo son presentados con su carrera y sus conoci
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="800px">
+      <img src="img/placeholder.jpg" alt="Foto de Apellidos, Nombres" width="250px">
     </th>
     <td valign="top">
       <p><b>Apellidos, Nombres</b></p>
       <p>
-        Descripcion
+        Descripción del perfil profesional y rol dentro del proyecto. Puede incluir habilidades técnicas, experiencia previa, motivación o contribución al equipo.
       </p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="img/nadia_perfil.png" alt="Foto de perfil de Nadia" width="800px">
+      <img src="img/nadia_perfil.png" alt="Foto de Nadia" width="250px">
     </th>
     <td valign="top">
       <p><b>Apellidos, Nombres</b></p>
       <p>
-        Descripcion
+        Descripción.
       </p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="800px">
+      <img src="img/placeholder.jpg" alt="Foto de Apellidos, Nombres" width="250px">
     </th>
     <td valign="top">
       <p><b>Apellidos, Nombres</b></p>
       <p>
-        Descripcion
+        Descripción.
       </p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="" alt="Foto de perfil de" width="700px">
+      <img src="img/placeholder.jpg" alt="Foto de Apellidos, Nombres" width="250px">
     </th>
     <td valign="top">
       <p><b>Apellidos, Nombres</b></p>
       <p>
-        Descripcion
+        Descripción.
       </p>
     </td>
   </tr>
 </table>
+
 
 ## 1.2. Solution Profile
 
