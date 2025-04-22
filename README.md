@@ -28,8 +28,8 @@ Grupo: 5
 |   -  |    -    |
 |   -  |    -    |
 |   -  |    -    |
-|   -  |    -    |
-|  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
+|  Bernardo Eusebio Alessandro Joaquin   |    u202113640    |
+|  Ramirez Mendez, Sebastian Andre       |    u20191e575    |
 
 Abril 2025 
 
