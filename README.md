@@ -208,29 +208,65 @@ En la fase de Unstructured Exploration, el equipo identificó libremente los eve
 **Pain Points**
 En esta sección identificamos los principales puntos de dolor a partir de la exploración inicial del dominio. Estas preguntas nos permitieron detectar desafíos dentro del proceso de votación, orientándonos hacia áreas que requieren flujos de trabajo más claros, mayor seguridad y una mejor experiencia para el usuario.
 
+<p align="center">
+  <img src="img/PainPointsVoteChain.jpg" alt="Pain Points Diagram" width="600"/>
+</p>
+
 **Timelines**
 Como parte de la fase de Timelines en el EventStorming. Esta línea de tiempo refleja cómo se llevaría a cabo una votación usando VoteChain, desde la creación del evento hasta la publicación de resultados.
+
+<p align="center">
+  <img src="img/TimelineVoteChain.jpg" alt="Timeline Diagram" width="600"/>
+</p>
 
 **Pivotal Points**
 En la fase de Pivotal Points dentro del EventStorming, buscamos destacar los momentos clave de decisión o cambio en el flujo de eventos, aquellos que tienen impacto fuerte en el sistema o representan riesgos, validaciones críticas o transiciones importantes.
 
+<p align="center">
+  <img src="img/PivotalPointsVoteChain.jpg" alt="Pivotal Points Diagram" width="600"/>
+</p>
+
 **Commands**
 En esta etapa del EventStorming, identificamos los comandos clave que representan las acciones iniciadas por los usuarios o el sistema, las cuales dan lugar a eventos importantes dentro del flujo de votación. Estos comandos nos permiten entender cómo se desencadenan los distintos momentos del proceso y facilitan el diseño de una solución coherente y centrada en las interacciones reales.
+
+<p align="center">
+  <img src="img/CommandsVoteChain.jpg" alt="Commands Diagram" width="600"/>
+</p>
 
 **Policies**
 En esta etapa, definimos las políticas que rigen en los eventos mostrados.
 
+<p align="center">
+  <img src="img/PoliciesVoteChain.jpg" alt="Policies Diagram" width="600"/>
+</p>
+
 **Read Model**
 En esta etapa, se refleja lo que el usuario ve en pantalla: los datos que se muestran, cómo se organizan y cómo están disponibles para facilitar su experiencia.
+
+<p align="center">
+  <img src="img/ReadModelVoteChain.jpg" alt="Read Models Diagram" width="600"/>
+</p>
 
 **External Systems**
 En esta etapa, se identifica los sistemas externos con los que nuestra solución interactúa directamente. Estos sistemas cumplen funciones específicas fuera del alcance interno del dominio, como la verificación de identidad, el envío de correos electrónicos, el almacenamiento en blockchain y la generación de reportes.
 
+<p align="center">
+  <img src="img/ExternalSystemsVoteChain.jpg" alt="External Systems Diagram" width="600"/>
+</p>
+
 **Aggregates**
 En este punto, los Aggregates definen unidades clave dentro del dominio de votaciones, agrupando comandos y reglas específicas que aseguran la coherencia de cada proceso, como el registro de votantes o la emisión de votos.
 
+<p align="center">
+  <img src="img/AggregatesVoteChain.jpg" alt="Aggregates Diagram" width="600"/>
+</p>
+
 **Bounded Contexts**
 En esta útima etapa, los Bounded Contexts, nos permitieron dividir el sistema en áreas funcionales, facilitando la organización del modelo de dominio y resaltando los límites entre procesos como la autenticación, la gestión de votaciones o la publicación de resultados
+
+<p align="center">
+  <img src="img/BoundedContextsVoteChain.jpg" alt="Bounded Contexts Diagram" width="600"/>
+</p>
 
 #### 4.2.2. Candidate Context Discovery.
 template
