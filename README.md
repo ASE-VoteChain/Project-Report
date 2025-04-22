@@ -28,8 +28,8 @@ Grupo: 5
 |   -  |    -    |
 |   -  |    -    |
 |   -  |    -    |
-|   -  |    -    |
-|  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
+|  Bernardo Eusebio, Alessandro Joaquin  |    u202113640    |
+|  Ramirez Mendez, Sebastian Andre       |    u20191e575    |
 
 Abril 2025 
 
@@ -75,7 +75,75 @@ Abril 2025
 
 ## Capítulo III: Requirements Specification
 - 3.1. To-Be Scenario Mapping
+  A continuación, se presenta el Mapeo de Escenarios Futuros desarrollado específicamente para este proyecto. Este mapa ofrece una visión estructurada sobre la implementación de mejoras y transformaciones en los procesos y sistemas. Seguidamente, se muestra su       representación gráfica.
 - 3.2. User Stories
+  <table border="1">
+  <thead>
+    <tr>
+      <th>Épica</th>
+      <th>Descripción</th>
+      <th>Justificación</th>
+      <th>Segmentos Impactados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Configuración de votaciones descentralizadas</td>
+      <td>Permitir a los organizadores crear votaciones personalizadas con parámetros como duración, opciones, tipo de votación, etc.</td>
+      <td>Responde a la necesidad de procesos democráticos configurables y auditables, alineado con la descentralización del poder de decisión.</td>
+      <td>Organizadores</td>
+    </tr>
+    <tr>
+      <td>Autenticación segura de votantes</td>
+      <td>Implementar un sistema de registro y verificación segura de identidad para prevenir fraudes y duplicación de votos.</td>
+      <td>Aborda la falta de confianza y anonimato en los sistemas actuales.</td>
+      <td>Votantes, Organizadores</td>
+    </tr>
+    <tr>
+      <td>Emisión de votos anónimos y encriptados</td>
+      <td>Desarrollar un sistema que garantice el anonimato y cifrado de cada voto emitido.</td>
+      <td>Es crucial para asegurar privacidad, transparencia y confianza en la participación.</td>
+      <td>Votantes</td>
+    </tr>
+    <tr>
+      <td>Registro inmutable en blockchain</td>
+      <td>Registrar cada voto como una transacción única en la blockchain para garantizar su trazabilidad e inmutabilidad.</td>
+      <td>Garantiza la auditabilidad pública y elimina la manipulación de resultados.</td>
+      <td>Votantes, Organizadores, Observadores</td>
+    </tr>
+    <tr>
+      <td>Auditoría pública en tiempo real</td>
+      <td>Implementar un panel que muestre el progreso de la votación sin comprometer la identidad de los votantes.</td>
+      <td>Fomenta la transparencia y la vigilancia ciudadana durante el proceso.</td>
+      <td>Organizadores, Observadores</td>
+    </tr>
+    <tr>
+      <td>Visualización y publicación de resultados</td>
+      <td>Crear un módulo que permita presentar los resultados cifrados de forma clara y comprensible.</td>
+      <td>Permite validar y compartir los resultados con la comunidad de forma accesible.</td>
+      <td>Organizadores, Votantes</td>
+    </tr>
+    <tr>
+      <td>Diseño accesible y multilingüe</td>
+      <td>Ofrecer una interfaz adaptable a distintos dispositivos y contextos, con soporte multilingüe.</td>
+      <td>Facilita la inclusión de comunidades con recursos limitados o barreras idiomáticas.</td>
+      <td>Votantes, Organizadores</td>
+    </tr>
+    <tr>
+      <td>Gestión de usuarios y roles</td>
+      <td>Permitir definir roles (organizador, votante, observador, técnico) con permisos específicos.</td>
+      <td>Apoya la gobernanza distribuida y segura dentro del sistema.</td>
+      <td>Todos los segmentos</td>
+    </tr>
+    <tr>
+      <td>Escalabilidad y soporte técnico</td>
+      <td>Diseñar la arquitectura para escalar a múltiples comunidades y ofrecer soporte técnico eficiente.</td>
+      <td>Permite el crecimiento nacional e internacional, así como la sostenibilidad del sistema.</td>
+      <td>Organizadores</td>
+    </tr>
+  </tbody>
+</table>
+
 - 3.3. Impact Mapping
 - 3.4. Product Backlog
 
