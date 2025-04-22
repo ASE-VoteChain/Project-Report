@@ -27,7 +27,7 @@ Grupo: 5
 |:-----------------------------:|:-------------------:|
 |   -  |    -    |
 |   -  |    -    |
-|   -  |    -    |
+|  Ramos Ramirez, Renzo Manuel           |    u202113745    |
 |  Bernardo Eusebio Alessandro Joaquin   |    u202113640    |
 |  Ramirez Mendez, Sebastian Andre       |    u20191e575    |
 
