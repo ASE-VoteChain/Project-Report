@@ -74,7 +74,7 @@ Abril 2025
 - 2.4. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
-##3.1. To-Be Scenario Mapping
+## 3.1. To-Be Scenario Mapping
 
   A continuación, se presenta el Mapeo de Escenarios Futuros desarrollado específicamente para este proyecto. Este mapa ofrece una visión estructurada sobre la implementación de mejoras y transformaciones en los procesos y sistemas. Seguidamente, se muestra su       representación gráfica.
 
