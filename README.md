@@ -201,6 +201,10 @@ Para empezar a comprender el funcionamiento de VoteChain, llevamos a cabo una re
 **Unstructured Exploration**
 En la fase de Unstructured Exploration, el equipo identificó libremente los eventos y acciones clave relacionados con el proceso de votación, sin seguir aún una estructura definida. Esto permitió una comprensión inicial más abierta del dominio.
 
+<p align="center">
+  <img src="img/UnstructuredExplorationVoteChain.jpg" alt="Unstructured Exploration Diagram" width="600"/>
+</p>
+
 **Pain Points**
 En esta sección identificamos los principales puntos de dolor a partir de la exploración inicial del dominio. Estas preguntas nos permitieron detectar desafíos dentro del proceso de votación, orientándonos hacia áreas que requieren flujos de trabajo más claros, mayor seguridad y una mejor experiencia para el usuario.
 
