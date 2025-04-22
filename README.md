@@ -223,7 +223,10 @@ En esta etapa, se refleja lo que el usuario ve en pantalla: los datos que se mue
 En esta etapa, se identifica los sistemas externos con los que nuestra solución interactúa directamente. Estos sistemas cumplen funciones específicas fuera del alcance interno del dominio, como la verificación de identidad, el envío de correos electrónicos, el almacenamiento en blockchain y la generación de reportes.
 
 **Aggregates**
+En este punto, los Aggregates definen unidades clave dentro del dominio de votaciones, agrupando comandos y reglas específicas que aseguran la coherencia de cada proceso, como el registro de votantes o la emisión de votos.
 
+**Bounded Contexts**
+En esta útima etapa, los Bounded Contexts, nos permitieron dividir el sistema en áreas funcionales, facilitando la organización del modelo de dominio y resaltando los límites entre procesos como la autenticación, la gestión de votaciones o la publicación de resultados
 
 #### 4.2.2. Candidate Context Discovery.
 template
