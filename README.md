@@ -219,6 +219,11 @@ En esta etapa, definimos las políticas que rigen en los eventos mostrados.
 **Read Model**
 En esta etapa, se refleja lo que el usuario ve en pantalla: los datos que se muestran, cómo se organizan y cómo están disponibles para facilitar su experiencia.
 
+**External Systems**
+En esta etapa, se identifica los sistemas externos con los que nuestra solución interactúa directamente. Estos sistemas cumplen funciones específicas fuera del alcance interno del dominio, como la verificación de identidad, el envío de correos electrónicos, el almacenamiento en blockchain y la generación de reportes.
+
+**Aggregates**
+
 
 #### 4.2.2. Candidate Context Discovery.
 template
