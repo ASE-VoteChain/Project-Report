@@ -80,66 +80,34 @@ Abril 2025
   <table border="1">
   <thead>
     <tr>
+      <th>ID</th>
       <th>Épica</th>
-      <th>Descripción</th>
-      <th>Justificación</th>
-      <th>Segmentos Impactados</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>E1</td>
       <td>Configuración de votaciones descentralizadas</td>
-      <td>Permitir a los organizadores crear votaciones personalizadas con parámetros como duración, opciones, tipo de votación, etc.</td>
-      <td>Responde a la necesidad de procesos democráticos configurables y auditables, alineado con la descentralización del poder de decisión.</td>
-      <td>Organizadores</td>
     </tr>
     <tr>
+      <td>E2</td>
       <td>Autenticación segura de votantes</td>
-      <td>Implementar un sistema de registro y verificación segura de identidad para prevenir fraudes y duplicación de votos.</td>
-      <td>Aborda la falta de confianza y anonimato en los sistemas actuales.</td>
-      <td>Votantes, Organizadores</td>
     </tr>
     <tr>
+      <td>E3</td>
       <td>Emisión de votos anónimos y encriptados</td>
-      <td>Desarrollar un sistema que garantice el anonimato y cifrado de cada voto emitido.</td>
-      <td>Es crucial para asegurar privacidad, transparencia y confianza en la participación.</td>
-      <td>Votantes</td>
     </tr>
     <tr>
+      <td>E4</td>
       <td>Registro inmutable en blockchain</td>
-      <td>Registrar cada voto como una transacción única en la blockchain para garantizar su trazabilidad e inmutabilidad.</td>
-      <td>Garantiza la auditabilidad pública y elimina la manipulación de resultados.</td>
-      <td>Votantes, Organizadores, Observadores</td>
     </tr>
     <tr>
+      <td>E5</td>
       <td>Auditoría pública en tiempo real</td>
-      <td>Implementar un panel que muestre el progreso de la votación sin comprometer la identidad de los votantes.</td>
-      <td>Fomenta la transparencia y la vigilancia ciudadana durante el proceso.</td>
-      <td>Organizadores, Observadores</td>
     </tr>
     <tr>
+      <td>E6</td>
       <td>Visualización y publicación de resultados</td>
-      <td>Crear un módulo que permita presentar los resultados cifrados de forma clara y comprensible.</td>
-      <td>Permite validar y compartir los resultados con la comunidad de forma accesible.</td>
-      <td>Organizadores, Votantes</td>
-    </tr>
-    <tr>
-      <td>Diseño accesible y multilingüe</td>
-      <td>Ofrecer una interfaz adaptable a distintos dispositivos y contextos, con soporte multilingüe.</td>
-      <td>Facilita la inclusión de comunidades con recursos limitados o barreras idiomáticas.</td>
-      <td>Votantes, Organizadores</td>
-    </tr>
-    <tr>
-      <td>Gestión de usuarios y roles</td>
-      <td>Permitir definir roles (organizador, votante, observador, técnico) con permisos específicos.</td>
-      <td>Apoya la gobernanza distribuida y segura dentro del sistema.</td>
-      <td>Todos los segmentos</td>
-    </tr>
-    <tr>
-      <td>Escalabilidad y soporte técnico</td>
-      <td>Diseñar la arquitectura para escalar a múltiples comunidades y ofrecer soporte técnico eficiente.</td>
-      <td>Permite el crecimiento nacional e internacional, así como la sostenibilidad del sistema.</td>
-      <td>Organizadores</td>
     </tr>
   </tbody>
 </table>
