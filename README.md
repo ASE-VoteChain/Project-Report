@@ -218,7 +218,7 @@ Abril 2025
 
     ---
 
-    ### 2. Listado de preguntas — **Segmento: Organizadores de votación comunitaria** 
+    ### 2. Preguntas — **Segmento: Organizadores de votación comunitaria** 
 
     1. **Proceso actual**  
       - ¿Cómo gestionas hoy un proceso de votación?  
@@ -253,7 +253,7 @@ Abril 2025
 
     ---
 
-    ### 3. Listado de preguntas — **Segmento: Ciudadanos votantes** 
+    ### 3. Preguntas — **Segmento: Ciudadanos votantes** 
 
     1. **Experiencia de voto actual**  
       - ¿Cómo fue la última vez que votaste en tu comunidad?
