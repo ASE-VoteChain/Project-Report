@@ -269,7 +269,19 @@ En esta útima etapa, los Bounded Contexts, nos permitieron dividir el sistema e
 </p>
 
 #### 4.2.2. Candidate Context Discovery.
-template
+
+Ahora, se identifican posibles límites dentro del dominio del problema. A partir de lo aprendido en el Event Storming, el equipo propone agrupaciones lógicas que podrían convertirse en Bounded Contexts, ayudando a organizar mejor las responsabilidades y facilitar futuras decisiones técnicas.
+
+**Voting Management**
+
+**Voter Access & Authentication**
+
+**Vote Submission Management**
+
+**Vote Results Management**
+
+**Vote Notification Management**
+
 #### 4.2.3. Domain Message Flows Modeling.
 template
 #### 4.2.4. Bounded Context Canvases.
