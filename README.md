@@ -220,35 +220,50 @@ Abril 2025
 
     ### 2. Preguntas — **Segmento: Organizadores de votación comunitaria** 
 
-    1. **Proceso actual**  
+    1. **Proceso actual** 
+
       - ¿Cómo gestionas hoy un proceso de votación?  
 
     2. **Herramientas y tecnología**  
+
       - ¿Qué herramientas estás utilizando y por qué?  
+
       - ¿Cuáles de esas herramientas te generan mayor confianza y cuáles menos?  
 
     3. **Desafíos principales**  
-      - ¿Qué problemas enfrentas en términos de transparencia, seguridad o logística?  
+
+      - ¿Qué problemas enfrentas en términos de transparencia, seguridad o logística? 
+
       - ¿Cómo impactan el tiempo y el costo en tu capacidad de organizar elecciones?  
 
     4. **Transparencia y auditoría**  
+
       - ¿Qué tan fácil es para los votantes y observadores auditar los resultados que publicas?  
+
       - ¿Has recibido cuestionamientos sobre la legitimidad de una elección?  
 
     5. **Participación ciudadana**  
+
       - ¿Cómo motivas a que la gente participe?  
+
       - ¿Qué obstáculos ves para alcanzar una alta participación?  
 
     6. **Anonimato y privacidad**  
+
       - ¿En qué medida te preocupa que los votantes mantengan su anonimato?  
+
       - ¿Qué prácticas sigues para proteger sus datos personales?  
 
     7. **Características ideales**  
+
       - Si pudieras diseñar la plataforma perfecta, ¿qué funciones imprescindibles tendría?  
+
       - ¿Qué tipo de panel o métricas te ayudarían a supervisar mejor el proceso?  
 
     8. **Integración y soporte**  
-      - ¿Necesitas que se integre con sistemas externos (RENIEC o padrones internos)?  
+
+      - ¿Necesitas que se integre con sistemas externos (RENIEC o padrones internos)? 
+       
       - ¿Qué nivel de soporte técnico o capacitación esperarías del proveedor de la plataforma?  
 
     ---
