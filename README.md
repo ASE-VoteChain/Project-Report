@@ -303,7 +303,21 @@ Ahora, se identifican posibles límites dentro del dominio del problema. A parti
 </p>
 
 #### 4.2.3. Domain Message Flows Modeling.
-template
+
+En VoteChain, nos permite entender cómo se comunican las diferentes partes del sistema (bounded contexts) para llevar a cabo acciones importantes como registrar a un votante, verificar su identidad y permitir que emita su voto.  Utilizando diagramas de "Narración del Dominio", representamos de forma sencilla cómo viajan los mensajes, las órdenes y los eventos entre los usuarios, los sistemas y los servicios. Esto nos asegura que toda la lógica detrás del proceso funcione de manera coordinada y de acuerdo con las reglas del negocio.
+
+**Voter Register**
+
+<p align="center">
+  <img src="img/VoterRegister.jpg" alt="Voter Register Diagram" width="600"/>
+</p>
+
+**Submitting a Vote**
+
+<p align="center">
+  <img src="img/SubmittingAVote.jpg" alt="Submitting a vote Diagram" width="600"/>
+</p>
+
 #### 4.2.4. Bounded Context Canvases.
 template
 #### 4.2.5. Context Mapping.
