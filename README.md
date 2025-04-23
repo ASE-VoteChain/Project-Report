@@ -255,32 +255,44 @@ Abril 2025
 
     ### 3. Preguntas — **Segmento: Ciudadanos votantes** 
 
-    1. **Experiencia de voto actual**  
+    1. **Experiencia de voto actual** 
+
       - ¿Cómo fue la última vez que votaste en tu comunidad?
+
       - ¿Qué tan satisfecho/a quedaste con ese proceso?  
 
     2. **Confianza y transparencia**  
-      - ¿Confías en que tu voto se contó correctamente?  
+
+      - ¿Confías en que tu voto se contó correctamente? 
+
       - ¿Qué evidencias o garantías necesitas para creer en el resultado final?  
 
     3. **Dificultades y barreras**  
+
       - ¿Has dejado de votar alguna vez por falta de tiempo, distancia, desconfianza o complejidad tecnológica?  
+
       - ¿Cuál es tu dispositivo de preferencia (móvil, computadora o ambos)?  
 
     4. **Anonimato y privacidad**  
+
       - ¿Qué tan importante es para ti que nadie pueda vincular tu identidad con tu voto?  
+
       - ¿Qué preocupaciones tienes sobre la seguridad de tus datos personales?  
 
     5. **Accesibilidad y facilidad de uso**  
+
       - ¿Prefieres instrucciones paso a paso, vídeos tutoriales u otro formato?  
 
     6. **Características deseadas**  
       - ¿Te gustaría recibir confirmación inmediata de que tu voto fue registrado?  
+
       - ¿Valoras poder consultar resultados en tiempo real o prefieres un anuncio oficial posterior?   
 
     7. **Percepción de tecnología blockchain**  
       - ¿Has oído hablar de la votación en blockchain? Y si es así ¿Qué opinas?
+
       - ¿Qué información o demostraciones te ayudarían a sentirte cómodo usando VoteChain?  
+
   - 2.2.2. Registro de entrevistas
   - 2.2.3. Análisis de entrevistas
 - 2.3. Needfinding
@@ -288,6 +300,18 @@ Abril 2025
   - 2.3.2. User Task Matrix
   - 2.3.3. Empathy Mapping
   - 2.3.4. As-is Scenario Mapping
+
+      Este apartado describe el escenario actual de los usuarios antes de utilizar VoteChain, identificando sus acciones, pensamientos y emociones durante los procesos de votación tradicionales.
+
+      **Segmento objetivo: Organizadores de votación comunitaria**
+
+      <img src="img/as-is-1.png"/>
+
+      </br>
+
+      **Segmento objetivo: Ciudadanos votantes**
+
+      <img src="img/as-is-2.png"/>
 - 2.4. Ubiquitous Language
     
     Para el desarrollo de nuestro proyecto, es esencial establecer un lenguaje claro y conciso que refleje las necesidades y expectativas de todos los usuarios. Por esta razón, hemos identificado los siguientes términos clave que serán utilizados de forma consistente por el equipo de negocio y de desarrollo.
