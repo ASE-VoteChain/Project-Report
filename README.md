@@ -263,7 +263,7 @@ Abril 2025
     8. **Integración y soporte**  
 
       - ¿Necesitas que se integre con sistemas externos (RENIEC o padrones internos)? 
-       
+
       - ¿Qué nivel de soporte técnico o capacitación esperarías del proveedor de la plataforma?  
 
     ---
@@ -313,6 +313,34 @@ Abril 2025
 - 2.3. Needfinding
   - 2.3.1. User Personas
   - 2.3.2. User Task Matrix
+      - **Segmento: Organizadores de votación comunitaria**
+
+        | Tarea | Frecuencia | Importancia |
+        |-------|------------|-------------|
+        | Crear un nuevo proceso de votación | Alta | Alta |
+        | Configurar opciones, fechas y reglas de la elección | Alta | Alta |
+        | Registrar o cargar el padrón electoral | Media | Alta |
+        | Difundir la convocatoria a votación | Alta | Alta |
+        | Supervisar la emisión de votos | Alta | Alta |
+        | Verificar participación | Media | Alta |
+        | Publicar resultados de forma transparente | Alta | Alta |
+        | Generar reportes o actas para auditoría | Media | Alta |
+        | Atender reclamos o disputas del proceso | Baja | Media |
+        | Coordinar con instituciones (municipios, universidades) | Media | Media |
+
+      - **Segmento: Ciudadanos votantes**
+
+        | Tarea | Frecuencia | Importancia |
+        |-------|------------|-------------|
+        | Recibir convocatoria o notificación de elección | Alta | Alta |
+        | Validar identidad y autenticarse para votar | Media | Alta |
+        | Emitir voto de manera anónima desde un dispositivo | Alta | Alta |
+        | Confirmar que el voto fue registrado correctamente | Alta | Alta |
+        | Consultar resultados de la votación | Media | Alta |
+        | Acceder a ayuda o tutoriales sobre cómo votar | Media | Media |
+        | Confiar en que su voto será contado sin manipulaciones | Alta | Alta |
+        | Reportar errores o problemas técnicos | Baja | Media |
+
   - 2.3.3. Empathy Mapping
   - 2.3.4. As-is Scenario Mapping
 
