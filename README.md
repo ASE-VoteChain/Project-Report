@@ -274,13 +274,33 @@ Ahora, se identifican posibles límites dentro del dominio del problema. A parti
 
 **Voting Management**
 
+<p align="center">
+  <img src="img/VotingManagement.jpg" alt="Voting Management Diagram" width="600"/>
+</p>
+
 **Voter Access & Authentication**
+
+<p align="center">
+  <img src="img/VoterAccessAuthentication.jpg" alt="Voter Access Authentication Diagram" width="600"/>
+</p>
 
 **Vote Submission Management**
 
+<p align="center">
+  <img src="img/VoteSubmissionManagement.jpg" alt="Vote Submission Management Diagram" width="600"/>
+</p>
+
 **Vote Results Management**
 
+<p align="center">
+  <img src="img/VoteResultsManagement.jpg" alt="Vote Results Management Diagram" width="600"/>
+</p>
+
 **Vote Notification Management**
+
+<p align="center">
+  <img src="img/VoteNotificationManagement.jpg" alt="Vote Notification Management Diagram" width="600"/>
+</p>
 
 #### 4.2.3. Domain Message Flows Modeling.
 template
