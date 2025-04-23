@@ -61,9 +61,226 @@ Abril 2025
 ## Capítulo II: Requirements Elicitation & Analysis
 - 2.1. Competidores
   - 2.1.1. Análisis competitivo
+      <table>
+    <!-- Título -->
+      <tr>
+        <th colspan="6" valign="top"><b>Análisis Competitivo</b></th>
+      </tr>
+
+      <!-- Motivación del análisis -->
+      <tr>
+        <td rowspan="2" colspan="1" valign="top">¿Por qué llevar a cabo este Análisis?</td>
+        <td colspan="5" valign="top">
+          Este análisis permite identificar fortalezas, debilidades y “espacios
+          libres” en el mercado de plataformas de votación blockchain, de modo que
+          VoteChain priorice características, precios y mensajes de marketing que
+          maximicen su adopción en comunidades peruanas y LATAM.
+        </td>
+      </tr>
+      <tr></tr>
+
+      <!-- Cabeceras de competidores (logo + nombre) -->
+      <tr>
+        <td colspan="2" valign="top"></td>
+        <td valign="top">
+          <p><b>VoteChain</b></p>
+          <img width="130" src="img/logo.png"/>
+        </td>
+        <td valign="top">
+          <p><b>Voatz</b></p>
+          <img src="img/voatz.png"/>
+        </td>
+        <td valign="top">
+          <p><b>Polys</b></p>
+          <img src="img/polys.png"/>
+        </td>
+        <td valign="top">
+          <p><b>Follow My Vote</b></p>
+          <img src="img/followmyvote.png"/>
+        </td>
+      </tr>
+
+      <!-- PERFIL -->
+      <tr>
+        <td rowspan="2" valign="top"><p>Perfil</p></td>
+        <td valign="top">Overview</td>
+        <td valign="top">Plataforma web peruana de votación descentralizada para barrios, universidades, municipios y ONGs.</td>
+        <td valign="top">App móvil de voto remoto (iOS / Android) con biometría y cadena privada; pilotos en 8 estados EE. UU. y ligas deportivas.</td>
+        <td valign="top">SaaS de Kaspersky con backend blockchain y urna física sincronizada; orientado a gobiernos, universidades y empresas.</td>
+        <td valign="top">Solución OSS “end‑to‑end verifiable” sobre blockchain pública; instala‑se on‑premise o en la nube comunitaria.</td>
+      </tr>
+      <tr>
+        <td valign="top">¿Qué valor ofrece a los clientes?</td>
+        <td valign="top">Transparencia auditable, gas patrocinado y precios freemium.</td>
+        <td valign="top">Permite sufragio seguro de electores remotos con biometría y auditoría postelectoral centralizada.</td>
+        <td valign="top">Permite elecciones mixtas (online + presencial) con seguridad Kaspersky y despliegue rápido.</td>
+        <td valign="top">Transparencia absoluta (código abierto), auditoría ciudadana y verificación individual del voto.</td>
+      </tr>
+
+      <!-- MARKETING -->
+      <tr>
+        <td rowspan="2" valign="top"><p>Perfil de Marketing</p></td>
+        <td valign="top">Mercado objetivo</td>
+        <td valign="top">Comunidades de Perú (barrios, universidades, municipios) con proyección Latinoamérica.</td>
+        <td valign="top">Electores militares/discapacitados, convenciones partidarias, ligas deportivas US.</td>
+        <td valign="top">Ayuntamientos, universidades europeas y cámaras empresariales.</td>
+        <td valign="top">ONGs, comunidades pro-democracia y DAOs tecnológicas.</td>
+      </tr>
+      <tr>
+        <td valign="top">Estrategias de marketing</td>
+        <td valign="top">Alianzas ONPE / RENIEC; webinars en español; caso de éxito piloto barrial; plan freemium.</td>
+        <td valign="top">Relaciones públicas con secretarías estatales; premios de accesibilidad; foco en voto móvil.</td>
+        <td valign="top">Contenido de ciber‑seguridad Kaspersky; demos de urna; blog técnico.</td>
+        <td valign="top">Campañas open‑source, hackathons y patrocinios de transparencia electoral.</td>
+      </tr>
+
+      <!-- PRODUCTO -->
+      <tr>
+        <td rowspan="3" valign="top"><p>Perfil de Producto</p></td>
+        <td valign="top">Productos & Servicios</td>
+        <td valign="top">Portal de creación de elecciones, smart‑contracts upgradable, informes en tiempo real.</td>
+        <td valign="top">App voto, backend permissioned‑chain, kiosco tablet, portal autoridades y kit auditoría.</td>
+        <td valign="top">Plataforma cloud, hardware de urna, votación por correo seguro, API REST.</td>
+        <td valign="top">SDK OSS (app voto + app auditor), wallets multisig identidad, servidor verificable.</td>
+      </tr>
+      <tr>
+        <td valign="top">Precios y costos</td>
+        <td valign="top">Plan Comunidad (≤500 votos): gratis; Pro US$ 49/mes; Enterprise a medida.</td>
+        <td valign="top">Modelo de licencia por jurisdicción + tarifa de soporte (no público).</td>
+        <td valign="top">Pago por elección o licencia anual; hardware con coste adicional.</td>
+        <td valign="top">Software libre; integración y soporte bajo contrato.</td>
+      </tr>
+      <tr>
+        <td valign="top">Canales de distribución</td>
+        <td valign="top">Web app y pasarelas locales (Yape/Plin).</td>
+        <td valign="top">App stores y portal web de administración.</td>
+        <td valign="top">Web app (cloud) más hardware dedicado.</td>
+        <td valign="top">GitHub (auto‑hosting) y nube comunitaria.</td>
+      </tr>
+
+      <!-- SWOT -->
+      <tr>
+        <td rowspan="4" valign="top"><p>Análisis SWOT</p></td>
+        <td valign="top">Fortalezas</td>
+        <td valign="top">• Cumplimiento legal local<br/>• Gas patrocinado → coste ínfimo</td>
+        <td valign="top">• Pilotos gubernamentales reales<br/>• Biometría integrada</td>
+        <td valign="top">• Respaldo Kaspersky<br/>• Opción híbrida online/urna</td>
+        <td valign="top">• Código 100 % abierto<br/>• Verificación individual E2E</td>
+      </tr>
+      <tr>
+        <td valign="top">Debilidades</td>
+        <td valign="top">• Capital limitado<br/></td>
+        <td valign="top">• Código cerrado; cuestionamientos de transparencia</td>
+        <td valign="top">• Percepción geopolítica (origen ruso)<br/>• Sin KYC integrado</td>
+        <td valign="top">• Escasa tracción institucional<br/>• Financiamiento irregular</td>
+      </tr>
+      <tr>
+        <td valign="top">Oportunidades</td>
+        <td valign="top">• Ley de gobierno digital Perú<br/>• Mercado LATAM poco competido</td>
+        <td valign="top">• Voto corporativo y sindical</td>
+        <td valign="top">• Demanda post‑COVID de urnas híbridas</td>
+        <td valign="top">• Alianzas DAO y ONG de transparencia</td>
+      </tr>
+      <tr>
+        <td valign="top">Amenazas</td>
+        <td valign="top">• Desconfianza pública en blockchain<br/>• Cambios regulatorios electorales</td>
+        <td valign="top">• Auditorías negativas pueden frenar adopción</td>
+        <td valign="top">• Posibles sanciones a empresas rusas</td>
+        <td valign="top">• Competidores con mayor presupuesto</td>
+      </tr>
+      </table>
   - 2.1.2. Estrategias y tácticas frente a competidores
+
+      - **Transparencia radical y código abierto**  
+      Publicar el repositorio de VoteChain y las auditorías de smart‑contracts para contrastar con soluciones cerradas (Voatz, Polys).
+
+    - **Precios freemium y gas patrocinado**  
+      Plan Comunidad gratuito (≤ 500 votantes) y subsidio del gas en Polygon para romper barreras de entrada frente a licencias cerradas.
+
+    - **Alianzas institucionales locales**  
+      Convenios con ONPE, RENIEC y municipios piloto; certificación académica con universidades públicas para legitimidad regulatoria.
+
+    - **Educación sobre la blockchain**  
+      Webinars, bootcamps y kits de voto blockchain en español para líderes vecinales.
+
+    - **Modo offline y diseño móvil‑first**  
+      Acceso estable en zonas con conectividad limitada, ventaja frente a plataformas solo web o apps cerradas.
+
 - 2.2. Entrevistas
   - 2.2.1. Diseño de entrevistas
+
+    ### 1. Preguntas generales  
+    - ¿Cuál es tu nombre?   
+    - ¿Cuántos años tienes?   
+    - ¿Cuál es tu ocupación o rol dentro de la comunidad o institución?   
+
+    - ¿Con qué frecuencia participas en procesos de votación (organizando o votando)?  
+
+    ---
+
+    ### 2. Listado de preguntas — **Segmento: Organizadores de votación comunitaria** 
+
+    1. **Proceso actual**  
+      - ¿Cómo gestionas hoy un proceso de votación?  
+
+    2. **Herramientas y tecnología**  
+      - ¿Qué herramientas estás utilizando y por qué?  
+      - ¿Cuáles de esas herramientas te generan mayor confianza y cuáles menos?  
+
+    3. **Desafíos principales**  
+      - ¿Qué problemas enfrentas en términos de transparencia, seguridad o logística?  
+      - ¿Cómo impactan el tiempo y el costo en tu capacidad de organizar elecciones?  
+
+    4. **Transparencia y auditoría**  
+      - ¿Qué tan fácil es para los votantes y observadores auditar los resultados que publicas?  
+      - ¿Has recibido cuestionamientos sobre la legitimidad de una elección?  
+
+    5. **Participación ciudadana**  
+      - ¿Cómo motivas a que la gente participe?  
+      - ¿Qué obstáculos ves para alcanzar una alta participación?  
+
+    6. **Anonimato y privacidad**  
+      - ¿En qué medida te preocupa que los votantes mantengan su anonimato?  
+      - ¿Qué prácticas sigues para proteger sus datos personales?  
+
+    7. **Características ideales**  
+      - Si pudieras diseñar la plataforma perfecta, ¿qué funciones imprescindibles tendría?  
+      - ¿Qué tipo de panel o métricas te ayudarían a supervisar mejor el proceso?  
+
+    8. **Integración y soporte**  
+      - ¿Necesitas que se integre con sistemas externos (RENIEC o padrones internos)?  
+      - ¿Qué nivel de soporte técnico o capacitación esperarías del proveedor de la plataforma?  
+
+    ---
+
+    ### 3. Listado de preguntas — **Segmento: Ciudadanos votantes** 
+
+    1. **Experiencia de voto actual**  
+      - ¿Cómo fue la última vez que votaste en tu comunidad?
+      - ¿Qué tan satisfecho/a quedaste con ese proceso?  
+
+    2. **Confianza y transparencia**  
+      - ¿Confías en que tu voto se contó correctamente?  
+      - ¿Qué evidencias o garantías necesitas para creer en el resultado final?  
+
+    3. **Dificultades y barreras**  
+      - ¿Has dejado de votar alguna vez por falta de tiempo, distancia, desconfianza o complejidad tecnológica?  
+      - ¿Cuál es tu dispositivo de preferencia (móvil, computadora o ambos)?  
+
+    4. **Anonimato y privacidad**  
+      - ¿Qué tan importante es para ti que nadie pueda vincular tu identidad con tu voto?  
+      - ¿Qué preocupaciones tienes sobre la seguridad de tus datos personales?  
+
+    5. **Accesibilidad y facilidad de uso**  
+      - ¿Prefieres instrucciones paso a paso, vídeos tutoriales u otro formato?  
+
+    6. **Características deseadas**  
+      - ¿Te gustaría recibir confirmación inmediata de que tu voto fue registrado?  
+      - ¿Valoras poder consultar resultados en tiempo real o prefieres un anuncio oficial posterior?   
+
+    7. **Percepción de tecnología blockchain**  
+      - ¿Has oído hablar de la votación en blockchain? Y si es así ¿Qué opinas?
+      - ¿Qué información o demostraciones te ayudarían a sentirte cómodo usando VoteChain?  
   - 2.2.2. Registro de entrevistas
   - 2.2.3. Análisis de entrevistas
 - 2.3. Needfinding
@@ -72,7 +289,19 @@ Abril 2025
   - 2.3.3. Empathy Mapping
   - 2.3.4. As-is Scenario Mapping
 - 2.4. Ubiquitous Language
+    
+    Para el desarrollo de nuestro proyecto, es esencial establecer un lenguaje claro y conciso que refleje las necesidades y expectativas de todos los usuarios. Por esta razón, hemos identificado los siguientes términos clave que serán utilizados de forma consistente por el equipo de negocio y de desarrollo.
 
+    - **Comunidad:** Cualquier barrio, universidad u organización que crea y participa en una elección.  
+    - **Organizador:** Usuario que configura reglas, padrón y calendario de votación.  
+    - **Votante:** Miembro autorizado a emitir un voto único y anónimo.  
+    - **Padrón electoral:** Listado cifrado de votantes, registrado en blockchain como hash verificable.  
+    - **Boleta digital:** Voto firmado criptográficamente que se convierte en transacción.  
+    - **Smart-contract:** Programa autoejecutable desplegado en una red blockchain que contiene reglas definidas por las partes.  
+    - **Transacción:** Registro inmutable de un voto o acción administrativa.  
+    - **Tablero de resultados:** Panel en tiempo real que lee eventos del smart-contract.  
+    - **Auditoría pública:** Verificación independiente descargando la cadena y recomputando votos.  
+    - **Gas patrocinado:** Modelo en el que la plataforma paga las comisiones para que el votante no necesite criptomonedas.
 ## Capítulo III: Requirements Specification
 - 3.1. To-Be Scenario Mapping
 - 3.2. User Stories
