@@ -281,7 +281,7 @@ Ahora, se identifican posibles límites dentro del dominio del problema. A parti
 **Voter Access & Authentication**
 
 <p align="center">
-  <img src="img/VoterAccessAuthentication.jpg" alt="Voter Access Authentication Diagram" width="600"/>
+  <img src="img/VoterAccess&Authentication.jpg" alt="Voter Access Authentication Diagram" width="600"/>
 </p>
 
 **Vote Submission Management**
