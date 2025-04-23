@@ -88,11 +88,11 @@ Abril 2025
         </td>
         <td valign="top">
           <p><b>Voatz</b></p>
-          <img src="img/voatz.png"/>
+          <img src="img/Voatz.png"/>
         </td>
         <td valign="top">
           <p><b>Polys</b></p>
-          <img src="img/polys.png"/>
+          <img src="img/Polys.png"/>
         </td>
         <td valign="top">
           <p><b>Follow My Vote</b></p>
