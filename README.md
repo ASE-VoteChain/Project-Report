@@ -366,7 +366,189 @@ A continuación, se presenta el Architectural Drivers Backlog que incluye los Fu
 </table>
 
 #### 4.1.4. Architectural Design Decisions.
-template
+
+El proceso de toma de decisiones de diseño arquitectónico se llevó a cabo en varias iteraciones del Attribute-Driven Design (ADD), donde se evaluaron distintos patrones arquitectónicos y tácticas para abordar los Architectural Drivers priorizados. A lo largo de estas iteraciones, el equipo consideró cuidadosamente los pros y contras de cada patrón candidato, tomando decisiones con base en el impacto sobre los atributos de calidad (seguridad, disponibilidad, usabilidad, auditabilidad) y la complejidad técnica de cada controlador.
+
+**Iteración 1: Seguridad y anonimato de votos (FD-001)**
+<p>
+Para este driver, se evaluaron patrones y tácticas que garanticen la protección de los votos y el anonimato de los votantes mediante el uso de tecnología blockchain.
+</p>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título del Driver</th>
+      <th>Pattern 1: Blockchain Pública (Polygon)</th>
+      <th>Pattern 2: Blockchain Privada</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>Pro</th>
+      <th>Con</th>
+      <th>Pro</th>
+      <th>Con</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FD-001</td>
+      <td>Seguridad y anonimato de votos</td>
+      <td>Alta seguridad gracias a la inmutabilidad y descentralización.<br>Transacciones verificables públicamente.</td>
+      <td>Costos asociados al gas (aunque mínimos en Polygon).<br>Dependencia de la red pública.</td>
+      <td>Mayor control sobre los datos.<br>Menor exposición a ataques externos.</td>
+      <td>Menor transparencia, ya que no es pública.<br>Alta complejidad para garantizar anonimato sin auditoría pública.</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+<b>Decisión:</b> Se seleccionó el patrón <b>Blockchain Pública (Polygon)</b> porque ofrece alta seguridad y transparencia, fundamentales para generar confianza en los votantes. Además, Polygon permite minimizar costos mediante el gas patrocinado, alineándose con las restricciones de presupuesto del proyecto.
+</p>
+
+**Iteración 2: Registro inmutable en blockchain (FD-002)**
+<p>
+Para este driver, se evaluaron patrones que permitan un registro eficiente e inmutable de los votos en blockchain, optimizando el rendimiento y la escalabilidad.
+</p>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título del Driver</th>
+      <th>Pattern 1: Registro Directo en Blockchain</th>
+      <th>Pattern 2: Batching de Transacciones</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>Pro</th>
+      <th>Con</th>
+      <th>Pro</th>
+      <th>Con</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FD-002</td>
+      <td>Registro inmutable en blockchain</td>
+      <td>Alta integridad, ya que cada voto se registra como transacción individual.<br>Simplicidad en la implementación.</td>
+      <td>Altos costos y latencia en picos de tráfico.<br>Limitaciones de escalabilidad.</td>
+      <td>Reducción de costos y latencia al agrupar transacciones.<br>Mejor escalabilidad para grandes votaciones.</td>
+      <td>Mayor complejidad en la implementación.<br>Retraso en la confirmación de votos individuales.</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+<b>Decisión:</b> Se seleccionó el patrón <b>Batching de Transacciones</b> para optimizar el rendimiento y soportar grandes votaciones (hasta 10,000 votantes simultáneos), alineándose con el driver de escalabilidad (FD-007). Polygon permite implementar batching de manera eficiente, reduciendo costos y latencia.
+</p>
+
+**Iteración 3: Auditabilidad pública en tiempo real (FD-003)**
+<p>
+Para este driver, se evaluaron patrones que permitan a ciudadanos y auditores verificar los resultados de las votaciones de forma transparente y en tiempo real.
+</p>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título del Driver</th>
+      <th>Pattern 1: Panel Público con Web3.js</th>
+      <th>Pattern 2: API REST con Base de Datos Centralizada</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>Pro</th>
+      <th>Con</th>
+      <th>Pro</th>
+      <th>Con</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FD-003</td>
+      <td>Auditabilidad pública en tiempo real</td>
+      <td>Alta transparencia, ya que los datos se leen directamente de la blockchain.<br>Confianza garantizada para los usuarios.</td>
+      <td>Mayor latencia en la consulta de datos.<br>Dependencia de la red blockchain.</td>
+      <td>Consulta más rápida y eficiente.<br>Facilidad de implementación con tecnologías conocidas.</td>
+      <td>Menor transparencia, ya que los datos no se leen directamente de la blockchain.<br>Riesgo de manipulación en la base de datos.</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+<b>Decisión:</b> Se seleccionó el patrón <b>Panel Público con Web3.js</b> porque garantiza la máxima transparencia y confianza al leer los datos directamente de la blockchain, lo que es esencial para los stakeholders de VoteChain.
+</p>
+
+**Iteración 4: Disponibilidad durante votaciones (FD-004)**
+<p>
+Para este driver, se evaluaron patrones que aseguren alta disponibilidad del sistema durante los períodos de votación, incluso bajo picos de tráfico.
+</p>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título del Driver</th>
+      <th>Pattern 1: Microservicios con Balanceo de Carga</th>
+      <th>Pattern 2: Monolito con Caché</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>Pro</th>
+      <th>Con</th>
+      <th>Pro</th>
+      <th>Con</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FD-004</td>
+      <td>Disponibilidad durante votaciones</td>
+      <td>Alta disponibilidad y escalabilidad.<br>Independencia de servicios para evitar fallos en cascada.</td>
+      <td>Mayor complejidad en la implementación y despliegue.<br>Curva de aprendizaje para el equipo.</td>
+      <td>Simplicidad en la implementación.<br>Rápida configuración inicial.</td>
+      <td>Menor escalabilidad.<br>Riesgo de fallo total si el monolito cae.</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+<b>Decisión:</b> Se seleccionó el patrón <b>Microservicios con Balanceo de Carga</b> para garantizar alta disponibilidad y escalabilidad, esenciales para soportar picos de tráfico durante las votaciones. El despliegue en la nube (AWS o Vercel) facilitará esta arquitectura.
+</p>
+
+**Iteración 5: Validación segura de identidad (FD-005)**
+<p>
+Para este driver, se evaluaron patrones que permitan una validación segura y confiable de la identidad de los votantes, cumpliendo con regulaciones locales.
+</p>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título del Driver</th>
+      <th>Pattern 1: Autenticación con 2FA e Integración con RENIEC</th>
+      <th>Pattern 2: Autenticación Local con Carga Manual de Padrones</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>Pro</th>
+      <th>Con</th>
+      <th>Pro</th>
+      <th>Con</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FD-005</td>
+      <td>Validación segura de identidad</td>
+      <td>Alta seguridad mediante autenticación de dos factores.<br>Cumplimiento con regulaciones al integrarse con RENIEC.</td>
+      <td>Dependencia de APIs externas.<br>Necesidad de permisos para acceder a RENIEC.</td>
+      <td>Independencia de sistemas externos.<br>Implementación más rápida.</td>
+      <td>Menor confiabilidad en la validación.<br>Riesgo de errores en la carga manual.</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+<b>Decisión:</b> Se seleccionó el patrón <b>Autenticación con 2FA e Integración con RENIEC</b> para garantizar la autenticidad de los votantes y cumplir con las normativas peruanas, priorizando la seguridad y la confianza.
+</p>
+
 #### 4.1.5. Quality Attribute Scenario Refinements.
 template
 
