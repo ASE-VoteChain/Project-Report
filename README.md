@@ -744,6 +744,395 @@ Abril 2025
     </tr>
 </table>
 ==
+<!-- HU E03_US001 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Voto único y anónimo</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> ingreso al sistema,<br>
+            <strong>Cuando</strong> voto,<br>
+            <strong>Entonces</strong> mi identidad no se asocia con el voto emitido.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US002 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Encriptación del voto</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> elijo una opción,<br>
+            <strong>Cuando</strong> se emite el voto,<br>
+            <strong>Entonces</strong> se almacena encriptado con clave pública.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US003 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Confirmación de voto emitido</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO recibir una confirmación de que mi voto fue recibido PARA asegurarme del proceso.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> termino de votar,<br>
+            <strong>Cuando</strong> se envía el voto,<br>
+            <strong>Entonces</strong> recibo una notificación de éxito.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US004 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Prevención de doble voto</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que el sistema impida votar más de una vez PARA garantizar la equidad.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> ya he votado,<br>
+            <strong>Cuando</strong> intento votar otra vez,<br>
+            <strong>Entonces</strong> el sistema lo impide.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US005 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Revisión previa al envío</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO revisar mi selección antes de enviarla PARA confirmar mi decisión.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> seleccioné una opción,<br>
+            <strong>Cuando</strong> hago clic en "Revisar",<br>
+            <strong>Entonces</strong> veo un resumen antes de confirmar el envío.</td>
+    </tr>
+</table>
+==
+<!-- HU E03_US001 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Voto único y anónimo</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> ingreso al sistema,<br>
+            <strong>Cuando</strong> voto,<br>
+            <strong>Entonces</strong> mi identidad no se asocia con el voto emitido.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US002 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Encriptación del voto</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> elijo una opción,<br>
+            <strong>Cuando</strong> se emite el voto,<br>
+            <strong>Entonces</strong> se almacena encriptado con clave pública.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US003 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Confirmación de voto emitido</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO recibir una confirmación de que mi voto fue recibido PARA asegurarme del proceso.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> termino de votar,<br>
+            <strong>Cuando</strong> se envía el voto,<br>
+            <strong>Entonces</strong> recibo una notificación de éxito.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US004 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Prevención de doble voto</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que el sistema impida votar más de una vez PARA garantizar la equidad.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> ya he votado,<br>
+            <strong>Cuando</strong> intento votar otra vez,<br>
+            <strong>Entonces</strong> el sistema lo impide.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US005 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Revisión previa al envío</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO revisar mi selección antes de enviarla PARA confirmar mi decisión.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> seleccioné una opción,<br>
+            <strong>Cuando</strong> hago clic en "Revisar",<br>
+            <strong>Entonces</strong> veo un resumen antes de confirmar el envío.</td>
+    </tr>
+</table>
+==
+<!-- HU E05_US001 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Acceso público a resultados</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO ciudadano QUIERO acceder a los datos de votos en tiempo real PARA auditar la transparencia.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> se emiten votos,<br>
+            <strong>Cuando</strong> accedo al panel público,<br>
+            <strong>Entonces</strong> visualizo el recuento actualizado.</td>
+    </tr>
+</table>
+
+<!-- HU E05_US002 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Trazabilidad de votos</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO auditor QUIERO ver la trazabilidad de los bloques PARA verificar la validez de los registros.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> accedo a un bloque,<br>
+            <strong>Cuando</strong> lo abro,<br>
+            <strong>Entonces</strong> visualizo su historial de cambios (si los hay).</td>
+    </tr>
+</table>
+
+<!-- HU E05_US003 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Panel público interactivo</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO ciudadano QUIERO un panel visual PARA entender los resultados sin ser técnico.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> accedo a resultados,<br>
+            <strong>Cuando</strong> entro al panel,<br>
+            <strong>Entonces</strong> veo gráficos y datos entendibles.</td>
+    </tr>
+</table>
+
+<!-- HU E05_US004 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Acceso a logs de actividad</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO auditor QUIERO ver los logs de actividad del sistema PARA detectar irregularidades.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> entro a la sección de auditoría,<br>
+            <strong>Cuando</strong> consulto logs,<br>
+            <strong>Entonces</strong> puedo filtrar por fechas y acciones.</td>
+    </tr>
+</table>
+
+<!-- HU E05_US005 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Verificación cruzada</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO auditor QUIERO comparar datos entre nodos blockchain PARA asegurar integridad del sistema.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> consulto un bloque,<br>
+            <strong>Cuando</strong> lo comparo con nodos espejos,<br>
+            <strong>Entonces</strong> deben coincidir sus hashes.</td>
+    </tr>
+</table>
 
 - 3.3. Impact Mapping
 
