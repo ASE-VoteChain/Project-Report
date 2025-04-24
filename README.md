@@ -202,7 +202,19 @@ Las funcionalidades primarias de VoteChain se extraen de las historias de usuari
 Estas historias reflejan las necesidades fundamentales de los segmentos objetivo (organizadores y votantes) y guían las decisiones arquitectónicas para soportar la configuración de votaciones, autenticación segura, votación anónima, registro inmutable y auditoría transparente.
 
 ##### 4.1.2.2. Quality attribute Scenarios.
-template
+
+Los atributos de calidad son esenciales para garantizar que VoteChain cumpla con las expectativas de los usuarios y las demandas del entorno. A continuación, se presentan los escenarios de atributos de calidad priorizados, siguiendo el formato estándar (estímulo, fuente, respuesta, medida):
+
+| **Atributo** | **Escenario** | **Prioridad** |
+|--------------|---------------|---------------|
+| **Seguridad** | **Escenario**: Un atacante intenta modificar un voto registrado en la blockchain.<br>**Estímulo**: Intento de alterar un bloque.<br>**Fuente**: Atacante externo.<br>**Respuesta**: El sistema detecta la inconsistencia mediante verificación de hashes.<br>**Medida**: 100% de los intentos de alteración son detectados y reportados en menos de 1 segundo. | Alta |
+| **Disponibilidad** | **Escenario**: Un votante intenta emitir su voto durante el período de votación.<br>**Estímulo**: Solicitud de voto desde un dispositivo móvil.<br>**Fuente**: Votante autenticado.<br>**Respuesta**: El sistema procesa la solicitud y registra el voto.<br>**Medida**: 99.9% de disponibilidad durante el período de votación, con un tiempo de respuesta menor a 2 segundos. | Alta |
+| **Usabilidad** | **Escenario**: Un votante con conocimientos técnicos limitados accede a la plataforma para votar.<br>**Estímulo**: Intento de emitir un voto desde un smartphone.<br>**Fuente**: Votante no técnico.<br>**Respuesta**: La interfaz guía al usuario paso a paso, con instrucciones claras.<br>**Medida**: 90% de los usuarios completan el proceso de votación sin asistencia en menos de 3 minutos. | Media |
+| **Escalabilidad** | **Escenario**: Una comunidad grande realiza una votación con 10,000 votantes simultáneos.<br>**Estímulo**: Picos de tráfico durante la votación.<br>**Fuente**: Votantes múltiples.<br>**Respuesta**: El sistema procesa todas las transacciones sin caídas.<br>**Medida**: Soporta hasta 10,000 transacciones por minuto con un tiempo de procesamiento promedio de 1 segundo por voto. | Media |
+| **Auditabilidad** | **Escenario**: Un auditor externo verifica la validez de los resultados electorales.<br>**Estímulo**: Solicitud de auditoría de bloques.<br>**Fuente**: Auditor autorizado.<br>**Respuesta**: El sistema proporciona acceso a los registros inmutables y sus hashes.<br>**Medida**: 100% de los bloques son verificables en menos de 5 minutos. | Alta |
+
+Estos escenarios aseguran que la arquitectura priorice la seguridad, disponibilidad y auditabilidad, que son críticos para generar confianza en los procesos democráticos digitales.
+
 ##### 4.1.2.3. Constraints.
 template
 #### 4.1.3. Architectural Drivers Backlog.
