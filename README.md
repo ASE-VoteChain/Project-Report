@@ -874,133 +874,133 @@ Abril 2025
     </tr>
 </table>
 ==
-<!-- HU E03_US001 -->
-<table>
+<!-- HU E04_US001 -->
+<table class="blockchain-feature">
     <tr>
         <th>HU ID</th>
-        <td class="hu-title">E03_US001</td>
+        <td class="hu-title">E04_US001</td>
     </tr>
     <tr>
         <th>Epic ID</th>
-        <td>E3</td>
+        <td>E4</td>
     </tr>
     <tr>
         <th>Título</th>
-        <td>Voto único y anónimo</td>
+        <td>Guardado en blockchain</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
+        <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
     </tr>
     <tr>
         <th>Criterios de Aceptación</th>
-        <td><strong>Dado que</strong> ingreso al sistema,<br>
-            <strong>Cuando</strong> voto,<br>
-            <strong>Entonces</strong> mi identidad no se asocia con el voto emitido.</td>
+        <td><strong>Dado que</strong> un voto es emitido,<br>
+            <strong>Cuando</strong> se procesa,<br>
+            <strong>Entonces</strong> se registra en un bloque inmutable.</td>
     </tr>
 </table>
 
-<!-- HU E03_US002 -->
-<table>
+<!-- HU E04_US002 -->
+<table class="blockchain-feature">
     <tr>
         <th>HU ID</th>
-        <td class="hu-title">E03_US002</td>
+        <td class="hu-title">E04_US002</td>
     </tr>
     <tr>
         <th>Epic ID</th>
-        <td>E3</td>
+        <td>E4</td>
     </tr>
     <tr>
         <th>Título</th>
-        <td>Encriptación del voto</td>
+        <td>Verificación de bloques</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+        <td>COMO administrador QUIERO verificar la integridad de los bloques PARA asegurar consistencia.</td>
     </tr>
     <tr>
         <th>Criterios de Aceptación</th>
-        <td><strong>Dado que</strong> elijo una opción,<br>
-            <strong>Cuando</strong> se emite el voto,<br>
-            <strong>Entonces</strong> se almacena encriptado con clave pública.</td>
+        <td><strong>Dado que</strong> hay bloques almacenados,<br>
+            <strong>Cuando</strong> se revisa su hash,<br>
+            <strong>Entonces</strong> no debe haber alteraciones.</td>
     </tr>
 </table>
 
-<!-- HU E03_US003 -->
-<table>
+<!-- HU E04_US003 -->
+<table class="blockchain-feature">
     <tr>
         <th>HU ID</th>
-        <td class="hu-title">E03_US003</td>
+        <td class="hu-title">E04_US003</td>
     </tr>
     <tr>
         <th>Epic ID</th>
-        <td>E3</td>
+        <td>E4</td>
     </tr>
     <tr>
         <th>Título</th>
-        <td>Confirmación de voto emitido</td>
+        <td>Tiempos de registro optimizados</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>COMO votante QUIERO recibir una confirmación de que mi voto fue recibido PARA asegurarme del proceso.</td>
+        <td>COMO desarrollador QUIERO que el registro en blockchain sea eficiente PARA no afectar al rendimiento.</td>
     </tr>
     <tr>
         <th>Criterios de Aceptación</th>
-        <td><strong>Dado que</strong> termino de votar,<br>
-            <strong>Cuando</strong> se envía el voto,<br>
-            <strong>Entonces</strong> recibo una notificación de éxito.</td>
+        <td><strong>Dado que</strong> se emite un voto,<br>
+            <strong>Cuando</strong> se guarda,<br>
+            <strong>Entonces</strong> debe demorar menos de 2 segundos en escribirse en el bloque.</td>
     </tr>
 </table>
 
-<!-- HU E03_US004 -->
-<table>
+<!-- HU E04_US004 -->
+<table class="blockchain-feature">
     <tr>
         <th>HU ID</th>
-        <td class="hu-title">E03_US004</td>
+        <td class="hu-title">E04_US004</td>
     </tr>
     <tr>
         <th>Epic ID</th>
-        <td>E3</td>
+        <td>E4</td>
     </tr>
     <tr>
         <th>Título</th>
-        <td>Prevención de doble voto</td>
+        <td>Alerta por inconsistencia</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>COMO votante QUIERO que el sistema impida votar más de una vez PARA garantizar la equidad.</td>
+        <td>COMO administrador QUIERO recibir alertas si hay inconsistencias PARA actuar de inmediato.</td>
     </tr>
     <tr>
         <th>Criterios de Aceptación</th>
-        <td><strong>Dado que</strong> ya he votado,<br>
-            <strong>Cuando</strong> intento votar otra vez,<br>
-            <strong>Entonces</strong> el sistema lo impide.</td>
+        <td><strong>Dado que</strong> se detecta una alteración,<br>
+            <strong>Cuando</strong> un hash no coincide,<br>
+            <strong>Entonces</strong> se genera una alerta.</td>
     </tr>
 </table>
 
-<!-- HU E03_US005 -->
-<table>
+<!-- HU E04_US005 -->
+<table class="blockchain-feature">
     <tr>
         <th>HU ID</th>
-        <td class="hu-title">E03_US005</td>
+        <td class="hu-title">E04_US005</td>
     </tr>
     <tr>
         <th>Epic ID</th>
-        <td>E3</td>
+        <td>E4</td>
     </tr>
     <tr>
         <th>Título</th>
-        <td>Revisión previa al envío</td>
+        <td>Registro de auditoría</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>COMO votante QUIERO revisar mi selección antes de enviarla PARA confirmar mi decisión.</td>
+        <td>COMO desarrollador QUIERO mantener trazabilidad de los bloques PARA fines de auditoría.</td>
     </tr>
     <tr>
         <th>Criterios de Aceptación</th>
-        <td><strong>Dado que</strong> seleccioné una opción,<br>
-            <strong>Cuando</strong> hago clic en "Revisar",<br>
-            <strong>Entonces</strong> veo un resumen antes de confirmar el envío.</td>
+        <td><strong>Dado que</strong> se registra un bloque,<br>
+            <strong>Cuando</strong> se almacena,<br>
+            <strong>Entonces</strong> queda visible su timestamp, hash y autor.</td>
     </tr>
 </table>
 ==
