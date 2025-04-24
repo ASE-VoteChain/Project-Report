@@ -1142,6 +1142,170 @@ Abril 2025
 
 - 3.4. Product Backlog
 
+<table border="1">
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>HU ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>E01_US001</td>
+      <td>Definir parámetros de elección</td>
+      <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>E01_US002</td>
+      <td>Selección de tipo de elección</td>
+      <td>COMO administrador QUIERO elegir entre distintos tipos de votaciones PARA adaptarlas a distintas necesidades.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>E01_US005</td>
+      <td>Validación de parámetros</td>
+      <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>E01_US003</td>
+      <td>Crear estructura de votación</td>
+      <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>E01_US004</td>
+      <td>Guardar configuraciones iniciales</td>
+      <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>E02_US001</td>
+      <td>Registro de votantes</td>
+      <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>E02_US003</td>
+      <td>Validación de identidad</td>
+      <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>E02_US002</td>
+      <td>Envío de credenciales</td>
+      <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>E02_US005</td>
+      <td>Autenticación de dos factores</td>
+      <td>COMO votante QUIERO tener autenticación adicional PARA mayor seguridad en mi acceso.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>E02_US004</td>
+      <td>Recuperación de credenciales</td>
+      <td>COMO votante QUIERO recuperar mis credenciales PARA acceder si las pierdo.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>E03_US001</td>
+      <td>Voto único y anónimo</td>
+      <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>E03_US002</td>
+      <td>Encriptación del voto</td>
+      <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>E03_US004</td>
+      <td>Prevención de doble voto</td>
+      <td>COMO votante QUIERO que el sistema impida votar más de una vez PARA garantizar la equidad.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>E03_US005</td>
+      <td>Revisión previa al envío</td>
+      <td>COMO votante QUIERO revisar mi selección antes de enviarla PARA confirmar mi decisión.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>E03_US003</td>
+      <td>Confirmación de voto emitido</td>
+      <td>COMO votante QUIERO recibir una confirmación de que mi voto fue recibido PARA asegurarme del proceso.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>E04_US001</td>
+      <td>Guardado en blockchain</td>
+      <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>E04_US002</td>
+      <td>Verificación de bloques</td>
+      <td>COMO administrador QUIERO verificar la integridad de los bloques PARA asegurar consistencia.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>E04_US003</td>
+      <td>Tiempos de registro optimizados</td>
+      <td>COMO desarrollador QUIERO que el registro en blockchain sea eficiente PARA no afectar al rendimiento.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>E04_US004</td>
+      <td>Alerta por inconsistencia</td>
+      <td>COMO administrador QUIERO recibir alertas si hay inconsistencias PARA actuar de inmediato.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>E04_US005</td>
+      <td>Registro de auditoría</td>
+      <td>COMO desarrollador QUIERO mantener trazabilidad de los bloques PARA fines de auditoría.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>E05_US001</td>
+      <td>Acceso público a resultados</td>
+      <td>COMO ciudadano QUIERO acceder a los datos de votos en tiempo real PARA auditar la transparencia.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>E05_US003</td>
+      <td>Panel público interactivo</td>
+      <td>COMO ciudadano QUIERO un panel visual PARA entender los resultados
+
 ## Capítulo IV: Strategic-Level Software Design
 - 4.1. Strategic-Level Attribute-Driven Design
   - 4.1.1. Design Purpose
