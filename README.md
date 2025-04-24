@@ -319,7 +319,37 @@ En VoteChain, nos permite entender cómo se comunican las diferentes partes del 
 </p>
 
 #### 4.2.4. Bounded Context Canvases.
-template
+
+**Voter Access & Authentication System**
+
+<p align="center">
+  <img src="img/BDCanvasVoterAcces&Authentication.jpg" alt="Bounded Context Canvas Voter Access & Authentication Diagram" width="600"/>
+</p>
+
+**Voting Management System**
+
+<p align="center">
+  <img src="img/BDCanvasVoting.jpg" alt="Bounded Context Canvas Voting Management Diagram" width="600"/>
+</p>
+
+**Vote Submission Management System**
+
+<p align="center">
+  <img src="img/BDCanvasVoteSubmission.jpg" alt="Bounded Context Canvas Vote Submission Management Diagram" width="600"/>
+</p>
+
+**Vote Results Management System**
+
+<p align="center">
+  <img src="img/BDCanvasVoteResults.jpg" alt="Bounded Context Canvas Vote Results Management Diagram" width="600"/>
+</p>
+
+**Vote Notification Management System**
+
+<p align="center">
+  <img src="img/BDCanvasVoteNotification.jpg" alt="Bounded Context Canvas Notification Management Diagram" width="600"/>
+</p>
+
 #### 4.2.5. Context Mapping.
 template
 
