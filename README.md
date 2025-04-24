@@ -216,7 +216,65 @@ Los atributos de calidad son esenciales para garantizar que VoteChain cumpla con
 Estos escenarios aseguran que la arquitectura priorice la seguridad, disponibilidad y auditabilidad, que son críticos para generar confianza en los procesos democráticos digitales.
 
 ##### 4.1.2.3. Constraints.
-template
+
+Las restricciones del proyecto influyen en las decisiones arquitectónicas y se derivan del contexto del desarrollo y los recursos disponibles:
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Technical Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-001</td>
+      <td>Uso de blockchain de bajo costo</td>
+      <td>La plataforma debe utilizar una red blockchain de bajo costo para registrar votos, garantizando accesibilidad económica para comunidades pequeñas.</td>
+      <td>- La red blockchain seleccionada tiene costos de transacción menores a 0.01 USD por voto.<br>- Las transacciones de votación son visibles y verificables en la red pública.</td>
+      <td>E4</td>
+    </tr>
+    <tr>
+      <td>TS-002</td>
+      <td>Soporte para conectividad limitada</td>
+      <td>La plataforma debe permitir a los votantes emitir votos en zonas con conectividad limitada, asegurando accesibilidad en áreas rurales.</td>
+      <td>- Los votos se almacenan localmente y se sincronizan cuando hay conexión.<br>- El sistema soporta conexiones intermitentes sin pérdida de datos.</td>
+      <td>E3</td>
+    </tr>
+    <tr>
+      <td>TS-003</td>
+      <td>Cumplimiento con regulaciones locales</td>
+      <td>La plataforma debe cumplir con las normativas electorales peruanas, integrándose con sistemas como RENIEC para validar identidades.</td>
+      <td>- La validación de identidad es compatible con bases de datos de RENIEC.<br>- Los procesos cumplen con las normativas de ONPE para auditoría electoral.</td>
+      <td>E2</td>
+    </tr>
+    <tr>
+      <td>TS-004</td>
+      <td>Limitaciones de presupuesto</td>
+      <td>La solución debe desarrollarse con tecnologías de bajo costo o gratuitas debido a las restricciones financieras del proyecto.</td>
+      <td>- Se utilizan herramientas open-source o servicios gratuitos (e.g., Polygon, Vercel).<br>- Los costos operativos mensuales no exceden los 50 USD durante la fase inicial.</td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>TS-005</td>
+      <td>Tiempo de desarrollo ajustado</td>
+      <td>El sistema debe ser implementado dentro del ciclo académico 2024-02, respetando las fechas límite del proyecto.</td>
+      <td>- Las funcionalidades críticas (E1-E5) están implementadas antes del final del ciclo.<br>- El sistema pasa las pruebas de validación con usuarios antes de la entrega final.</td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>TS-006</td>
+      <td>Capacidades técnicas del equipo</td>
+      <td>La arquitectura debe basarse en tecnologías que el equipo domine (React, Node.js, Solidity, MongoDB) para garantizar un desarrollo eficiente.</td>
+      <td>- Todos los componentes se desarrollan con tecnologías conocidas por el equipo.<br>- No se requiere aprendizaje de nuevas tecnologías que retrasen el proyecto.</td>
+      <td>E1</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.1.3. Architectural Drivers Backlog.
 template
 #### 4.1.4. Architectural Design Decisions.
