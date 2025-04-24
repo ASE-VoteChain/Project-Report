@@ -1330,6 +1330,7 @@ Abril 2025
     </tr>
   </tbody>
 </table>
+
 ## Capítulo IV: Strategic-Level Software Design
 - 4.1. Strategic-Level Attribute-Driven Design
   - 4.1.1. Design Purpose
