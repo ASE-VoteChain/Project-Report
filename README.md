@@ -184,9 +184,23 @@ El propósito del diseño estratégico de VoteChain es desarrollar una arquitect
 El diseño se enfoca en priorizar los atributos de calidad **(seguridad, disponibilidad, usabilidad)** y las funcionalidades clave identificadas en las historias de usuario, mientras se respetan las restricciones de presupuesto, tiempo y conocimientos técnicos del equipo.
 
 #### 4.1.2. Attribute-Driven Design Inputs.
-template
+
+Los insumos para el diseño arquitectónico se derivan de los capítulos anteriores, incluyendo las historias de usuario, los atributos de calidad y las restricciones del proyecto.
+
 ##### 4.1.2.1. Primary Functionality (Primary User Stories).
-template
+
+Las funcionalidades primarias de VoteChain se extraen de las historias de usuario priorizadas en el Product Backlog. Las siguientes historias de usuario son las más críticas para la arquitectura, ya que definen las capacidades centrales del sistema:
+
+| **HU ID** | **Título** | **Descripción** | **Épica** |
+|-----------|------------|-----------------|-----------|
+| E01_US001 | Definir parámetros de elección | Como administrador, quiero establecer parámetros básicos (nombre, fechas, tipo) para iniciar una nueva votación. | E1: Configuración de votaciones descentralizadas |
+| E02_US003 | Validación de identidad | Como sistema, quiero validar la identidad del votante para garantizar la autenticidad del registro. | E2: Autenticación segura de votantes |
+| E03_US001 | Voto único y anónimo | Como votante, quiero que mi voto sea único y anónimo para que no puedan asociarlo conmigo. | E3: Emisión de votos anónimos y encriptados |
+| E04_US001 | Guardado en blockchain | Como administrador, quiero registrar los votos emitidos en la blockchain para evitar fraudes. | E4: Registro inmutable en blockchain |
+| E05_US001 | Acceso público a resultados | Como ciudadano, quiero acceder a los datos de votos en tiempo real para auditar la transparencia. | E5: Auditoría pública en tiempo real |
+
+Estas historias reflejan las necesidades fundamentales de los segmentos objetivo (organizadores y votantes) y guían las decisiones arquitectónicas para soportar la configuración de votaciones, autenticación segura, votación anónima, registro inmutable y auditoría transparente.
+
 ##### 4.1.2.2. Quality attribute Scenarios.
 template
 ##### 4.1.2.3. Constraints.
