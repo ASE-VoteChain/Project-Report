@@ -550,7 +550,223 @@ Para este driver, se evaluaron patrones que permitan una validación segura y co
 </p>
 
 #### 4.1.5. Quality Attribute Scenario Refinements.
-template
+
+Se realizó una priorización de los escenarios de atributos de calidad que guían las decisiones arquitectónicas. Estos escenarios se refinaron según su impacto en los Business Goals de VoteChain, con el objetivo de garantizar una solución robusta y eficiente que cumpla con las expectativas de los stakeholders (organizadores y votantes) y las regulaciones locales.
+
+**Scenario Refinement for Scenario 1: Seguridad (FD-001)**
+<table border="1">
+  <tr>
+    <td><b>Scenario(s):</b></td>
+    <td>Detección y prevención de intentos de alteración de votos registrados en la blockchain.</td>
+  </tr>
+  <tr>
+    <td><b>Business Goals:</b></td>
+    <td>Garantizar la integridad y el anonimato de los votos para generar confianza en los procesos electorales digitales.</td>
+  </tr>
+  <tr>
+    <td><b>Relevant Quality Attributes:</b></td>
+    <td>Seguridad</td>
+  </tr>
+  <tr>
+    <td rowspan="6"><b>Scenario Components</b></td>
+    <td><b>Stimulus:</b> Intento de alterar un bloque de votos en la blockchain.</td>
+  </tr>
+  <tr>
+    <td><b>Stimulus Source:</b> Atacante externo.</td>
+  </tr>
+  <tr>
+    <td><b>Environment:</b> Plataforma en producción durante o después de una votación.</td>
+  </tr>
+  <tr>
+    <td><b>Artifact [if known]:</b> Smart contracts en Polygon.</td>
+  </tr>
+  <tr>
+    <td><b>Response:</b> El sistema detecta la inconsistencia mediante verificación de hashes y notifica a los administradores.</td>
+  </tr>
+  <tr>
+    <td><b>Response Measure:</b> 100% de los intentos de alteración son detectados en menos de 500 ms, con alertas enviadas en menos de 1 segundo.</td>
+  </tr>
+  <tr>
+    <td><b>Questions:</b></td>
+    <td>¿Cómo garantizamos que las alertas lleguen a los administradores en tiempo real? ¿Qué mecanismos de respuesta se implementarán ante un ataque detectado?</td>
+  </tr>
+  <tr>
+    <td><b>Issues:</b></td>
+    <td>Dependencia de la red Polygon para la verificación de hashes. Posibles retrasos en la notificación si hay congestión en la red.</td>
+  </tr>
+</table>
+
+**Scenario Refinement for Scenario 2: Auditabilidad (FD-003)**
+<table border="1">
+  <tr>
+    <td><b>Scenario(s):</b></td>
+    <td>Verificación pública de los resultados electorales en tiempo real.</td>
+  </tr>
+  <tr>
+    <td><b>Business Goals:</b></td>
+    <td>Proveer transparencia y confianza a los ciudadanos y auditores mediante el acceso a datos verificables de la votación.</td>
+  </tr>
+  <tr>
+    <td><b>Relevant Quality Attributes:</b></td>
+    <td>Auditabilidad</td>
+  </tr>
+  <tr>
+    <td rowspan="6"><b>Scenario Components</b></td>
+    <td><b>Stimulus:</b> Solicitud de auditoría de bloques de votos.</td>
+  </tr>
+  <tr>
+    <td><b>Stimulus Source:</b> Ciudadano o auditor autorizado.</td>
+  </tr>
+  <tr>
+    <td><b>Environment:</b> Plataforma en producción durante o después de una votación.</td>
+  </tr>
+  <tr>
+    <td><b>Artifact [if known]:</b> Panel público con Web3.js.</td>
+  </tr>
+  <tr>
+    <td><b>Response:</b> El sistema proporciona acceso a los registros inmutables y sus hashes a través del panel público.</td>
+  </tr>
+  <tr>
+    <td><b>Response Measure:</b> 100% de los bloques son verificables en menos de 3 minutos, con datos disponibles para descarga en formato JSON.</td>
+  </tr>
+  <tr>
+    <td><b>Questions:</b></td>
+    <td>¿Cómo optimizamos la velocidad de consulta en la blockchain para grandes volúmenes de datos? ¿Qué medidas tomamos si la red Polygon está congestionada?</td>
+  </tr>
+  <tr>
+    <td><b>Issues:</b></td>
+    <td>Latencia en la consulta de datos debido a la dependencia de la red Polygon. Necesidad de implementar caché para mejorar el rendimiento.</td>
+  </tr>
+</table>
+
+**Scenario Refinement for Scenario 3: Disponibilidad (FD-004)**
+<table border="1">
+  <tr>
+    <td><b>Scenario(s):</b></td>
+    <td>Procesamiento de votos durante períodos de alta demanda.</td>
+  </tr>
+  <tr>
+    <td><b>Business Goals:</b></td>
+    <td>Asegurar que todos los votantes puedan emitir sus votos sin interrupciones, incluso bajo picos de tráfico.</td>
+  </tr>
+  <tr>
+    <td><b>Relevant Quality Attributes:</b></td>
+    <td>Disponibilidad</td>
+  </tr>
+  <tr>
+    <td rowspan="6"><b>Scenario Components</b></td>
+    <td><b>Stimulus:</b> Solicitud de voto desde un dispositivo móvil.</td>
+  </tr>
+  <tr>
+    <td><b>Stimulus Source:</b> Votante autenticado.</td>
+  </tr>
+  <tr>
+    <td><b>Environment:</b> Plataforma en producción durante el período de votación.</td>
+  </tr>
+  <tr>
+    <td><b>Artifact [if known]:</b> Microservicios con balanceo de carga.</td>
+  </tr>
+  <tr>
+    <td><b>Response:</b> El sistema procesa la solicitud y registra el voto en la blockchain.</td>
+  </tr>
+  <tr>
+    <td><b>Response Measure:</b> 99.9% de disponibilidad, con un tiempo de respuesta promedio de 1.5 segundos bajo carga normal.</td>
+  </tr>
+  <tr>
+    <td><b>Questions:</b></td>
+    <td>¿Cómo manejamos picos extremos de tráfico que superen las 10,000 transacciones por minuto? ¿Qué mecanismos de monitoreo implementaremos para garantizar la disponibilidad?</td>
+  </tr>
+  <tr>
+    <td><b>Issues:</b></td>
+    <td>Costos asociados al escalado de microservicios en la nube. Posibles fallos en el balanceo de carga si no se configura correctamente.</td>
+  </tr>
+</table>
+
+**Scenario Refinement for Scenario 4: Usabilidad (FD-006)**
+<table border="1">
+  <tr>
+    <td><b>Scenario(s):</b></td>
+    <td>Facilidad de uso para votantes con conocimientos técnicos limitados.</td>
+  </tr>
+  <tr>
+    <td><b>Business Goals:</b></td>
+    <td>Garantizar que los votantes puedan emitir sus votos de manera intuitiva y sin asistencia, promoviendo la adopción de la plataforma.</td>
+  </tr>
+  <tr>
+    <td><b>Relevant Quality Attributes:</b></td>
+    <td>Usabilidad</td>
+  </tr>
+  <tr>
+    <td rowspan="6"><b>Scenario Components</b></td>
+    <td><b>Stimulus:</b> Intento de emitir un voto desde un smartphone.</td>
+  </tr>
+  <tr>
+    <td><b>Stimulus Source:</b> Votante no técnico.</td>
+  </tr>
+  <tr>
+    <td><b>Environment:</b> Plataforma en producción, accesible desde dispositivos móviles.</td>
+  </tr>
+  <tr>
+    <td><b>Artifact [if known]:</b> Interfaz móvil-first desarrollada en React.</td>
+  </tr>
+  <tr>
+    <td><b>Response:</b> La interfaz guía al usuario paso a paso con instrucciones claras y un tutorial interactivo.</td>
+  </tr>
+  <tr>
+    <td><b>Response Measure:</b> 95% de los usuarios completan el proceso de votación sin asistencia en menos de 3 minutos.</td>
+  </tr>
+  <tr>
+    <td><b>Questions:</b></td>
+    <td>¿Cómo validamos que la interfaz es intuitiva para usuarios no técnicos? ¿Qué métricas usaremos para medir la usabilidad durante las pruebas?</td>
+  </tr>
+  <tr>
+    <td><b>Issues:</b></td>
+    <td>Necesidad de pruebas extensivas con usuarios reales para alcanzar el 95% de éxito. Posibles limitaciones en dispositivos móviles antiguos.</td>
+  </tr>
+</table>
+
+**Scenario Refinement for Scenario 5: Escalabilidad (FD-007)**
+<table border="1">
+  <tr>
+    <td><b>Scenario(s):</b></td>
+    <td>Soporte para grandes votaciones con votantes simultáneos.</td>
+  </tr>
+  <tr>
+    <td><b>Business Goals:</b></td>
+    <td>Asegurar que la plataforma pueda escalar para soportar votaciones de gran escala sin comprometer el rendimiento.</td>
+  </tr>
+  <tr>
+    <td><b>Relevant Quality Attributes:</b></td>
+    <td>Escalabilidad</td>
+  </tr>
+  <tr>
+    <td rowspan="6"><b>Scenario Components</b></td>
+    <td><b>Stimulus:</b> Picos de tráfico con 10,000 votantes simultáneos.</td>
+  </tr>
+  <tr>
+    <td><b>Stimulus Source:</b> Múltiples votantes.</td>
+  </tr>
+  <tr>
+    <td><b>Environment:</b> Plataforma en producción durante una votación masiva.</td>
+  </tr>
+  <tr>
+    <td><b>Artifact [if known]:</b> Batching de transacciones en Polygon.</td>
+  </tr>
+  <tr>
+    <td><b>Response:</b> El sistema procesa todas las transacciones sin caídas, utilizando batching para optimizar el rendimiento.</td>
+  </tr>
+  <tr>
+    <td><b>Response Measure:</b> Soporta hasta 12,000 transacciones por minuto, con un tiempo de procesamiento promedio de 0.8 segundos por voto.</td>
+  </tr>
+  <tr>
+    <td><b>Questions:</b></td>
+    <td>¿Qué estrategias implementaremos para manejar picos superiores a 12,000 transacciones por minuto? ¿Cómo optimizamos el batching sin comprometer la integridad?</td>
+  </tr>
+  <tr>
+    <td><b>Issues:</b></td>
+    <td>Costos asociados al aumento de transacciones en Polygon. Posible latencia en la confirmación de transacciones durante picos extremos.</td>
+  </tr>
+</table>
 
 ### 4.2. Strategic-Level Domain-Driven Design.
 
