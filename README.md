@@ -1304,8 +1304,32 @@ Abril 2025
       <td>22</td>
       <td>E05_US003</td>
       <td>Panel público interactivo</td>
-      <td>COMO ciudadano QUIERO un panel visual PARA entender los resultados
-
+      <td>COMO ciudadano QUIERO un panel visual PARA entender los resultados sin ser técnico.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>E05_US002</td>
+      <td>Trazabilidad de votos</td>
+      <td>COMO auditor QUIERO ver la trazabilidad de los bloques PARA verificar la validez de los registros.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>E05_US004</td>
+      <td>Acceso a logs de actividad</td>
+      <td>COMO auditor QUIERO ver los logs de actividad del sistema PARA detectar irregularidades.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>E05_US005</td>
+      <td>Verificación cruzada</td>
+      <td>COMO auditor QUIERO comparar datos entre nodos blockchain PARA asegurar integridad del sistema.</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
 ## Capítulo IV: Strategic-Level Software Design
 - 4.1. Strategic-Level Attribute-Driven Design
   - 4.1.1. Design Purpose
