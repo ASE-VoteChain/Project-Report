@@ -168,9 +168,21 @@ Abril 2025
 ## Capítulo IV: Solution Software Design
 
 ### 4.1. Strategic-Level Attribute-Driven Design.
-template
+
+Usaremos el Attribute-Driven Design (ADD) para garantizar que la arquitectura de VoteChain cumpla con los requisitos funcionales y no funcionales más críticos, alineándose con las necesitdades de los usuarios (organizaciones y votantes) y las restricciones del proyecto. Esta sección detallará el proceso de diseño, los insumos clave, los controladores arquitectónicos, las decisiones de diseño y los refinamientos de los escenarios de atributos de calidad.
+
 #### 4.1.1. Design Purpose.
-template
+
+El propósito del diseño estratégico de VoteChain es desarrollar una arquitectura robusta, escalable y segura que permita la creación, ejecución y auditoría de votaciones digitales descentralizadas. La arquitectura debe garantizar:
+
+- Transparencia y confianza: A través de registros inmutables en blockchain que permitan auditorías públicas.
+- Seguridad y anonimato: Protegiendo la identidad de los votantes y la integridad de los votos.
+- Accesibilidad: Facilitando el uso en dispositivos móviles y en zonas con conectividad limitada.
+- Escalabilidad: Para soportar desde pequeñas comunidades hasta organizaciones grandes.
+- Cumplimiento local: Adaptándose a regulaciones peruanas (e.g., ONPE, RENIEC) y con potencial para expandirse a otros mercados en América Latina.
+
+El diseño se enfoca en priorizar los atributos de calidad **(seguridad, disponibilidad, usabilidad)** y las funcionalidades clave identificadas en las historias de usuario, mientras se respetan las restricciones de presupuesto, tiempo y conocimientos técnicos del equipo.
+
 #### 4.1.2. Attribute-Driven Design Inputs.
 template
 ##### 4.1.2.1. Primary Functionality (Primary User Stories).
