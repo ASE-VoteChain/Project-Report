@@ -484,7 +484,7 @@ Abril 2025
 
 
 - 3.3. Impact Mapping
-- 
+
 <p align="center">
   <img src="img/impact map.jpg">
 </p>
