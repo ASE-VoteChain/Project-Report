@@ -276,7 +276,95 @@ Las restricciones del proyecto influyen en las decisiones arquitectónicas y se 
 </table>
 
 #### 4.1.3. Architectural Drivers Backlog.
-template
+
+El Architectural Drivers Backlog es el resultado de las discusiones y decisiones tomadas en el proceso de Attribute-Driven Design (ADD) para el proyecto VoteChain. En este proceso, se identificaron los drivers arquitectónicos clave que guiarán el diseño del sistema. Estos drivers se seleccionaron considerando tanto los requisitos funcionales como los atributos de calidad y las restricciones técnicas más relevantes para los usuarios (organizadores y votantes) y el contexto del proyecto. A lo largo de varias iteraciones, el equipo acordó priorizar aquellos drivers que son de alta importancia para los stakeholders y que impactan significativamente en la complejidad técnica de la arquitectura.
+
+A continuación, se presenta el Architectural Drivers Backlog que incluye los Functional Drivers, Quality Attribute Drivers y las Constraints seleccionadas:
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título del Driver</th>
+      <th>Descripción</th>
+      <th>Importancia para Stakeholders</th>
+      <th>Impacto en Architectural Technical Complexity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FD-001</td>
+      <td>Seguridad y anonimato de votos</td>
+      <td>El sistema debe garantizar que los votos sean anónimos, encriptados y resistentes a manipulaciones, utilizando tecnología blockchain para proteger la integridad del proceso electoral.</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>FD-002</td>
+      <td>Registro inmutable en blockchain</td>
+      <td>El sistema debe registrar cada voto como una transacción inmutable en una red blockchain, permitiendo auditorías públicas y previniendo fraudes.</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>FD-003</td>
+      <td>Auditabilidad pública en tiempo real</td>
+      <td>El sistema debe ofrecer un panel público que permita a ciudadanos y auditores verificar los resultados de las votaciones en tiempo real, asegurando transparencia.</td>
+      <td>High</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>FD-004</td>
+      <td>Disponibilidad durante votaciones</td>
+      <td>El sistema debe estar disponible para los votantes durante los períodos de votación, incluso bajo picos de tráfico, para garantizar la participación.</td>
+      <td>High</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>FD-005</td>
+      <td>Validación segura de identidad</td>
+      <td>El sistema debe validar la identidad de los votantes de manera segura, integrándose con bases de datos locales como RENIEC, para garantizar la autenticidad de los participantes.</td>
+      <td>High</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>FD-006</td>
+      <td>Usabilidad para usuarios no técnicos</td>
+      <td>El sistema debe ofrecer una interfaz intuitiva y accesible, optimizada para dispositivos móviles, que permita a usuarios con conocimientos técnicos limitados votar sin asistencia.</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>FD-007</td>
+      <td>Escalabilidad para grandes votaciones</td>
+      <td>El sistema debe ser capaz de soportar votaciones con hasta 10,000 votantes simultáneos, escalando sin comprometer el rendimiento.</td>
+      <td>Medium</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>FD-008</td>
+      <td>Soporte para conectividad limitada</td>
+      <td>El sistema debe permitir a los votantes emitir votos en zonas con conectividad limitada, soportando modos offline y sincronización posterior.</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>FD-009</td>
+      <td>Costo reducido de operación</td>
+      <td>El sistema debe operar con costos mínimos, utilizando tecnologías de bajo costo como Polygon con gas patrocinado, para garantizar viabilidad económica.</td>
+      <td>Medium</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>FD-010</td>
+      <td>Cumplimiento con regulaciones locales</td>
+      <td>El sistema debe cumplir con las normativas electorales peruanas, integrándose con sistemas como ONPE y RENIEC para validación y auditoría.</td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.1.4. Architectural Design Decisions.
 template
 #### 4.1.5. Quality Attribute Scenario Refinements.
