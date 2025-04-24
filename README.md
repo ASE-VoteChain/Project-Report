@@ -138,46 +138,66 @@ Abril 2025
   </thead>
   <tbody>
     <tr>
-      <td colspan="5"><strong>Épica E1: Configuración de votaciones descentralizadas</strong><br>Como ciudadano<br>Quiero configuración de votaciones descentralizadas<br>Para participar de manera confiable y segura en elecciones digitales.</td>
+      <td colspan="5"><strong>Épica E1: Configuración de votaciones descentralizadas</strong><br>
+        Como ciudadano<br>
+        Quiero configuración de votaciones descentralizadas<br>
+        Para participar de manera confiable y segura en elecciones digitales.
+      </td>
     </tr>
     <tr>
-      <td>E1_US001</td>
-      <td>Funcionalidad 1 para configuración de votaciones descentralizadas</td>
-      <td>COMO ciudadano QUIERO la funcionalidad 1 PARA contribuir a configuración de votaciones descentralizadas.</td>
-      <td>Escenario: El sistema implementa la funcionalidad 1.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E01_US001</td>
+      <td>Definir parámetros de elección</td>
+      <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+      <td>Escenario: En panel de configuración.<br>
+        Dado que el administrador accede al panel,<br>
+        Cuando completa los campos requeridos,<br>
+        Entonces puede guardar los parámetros iniciales.
+      </td>
       <td>E1</td>
     </tr>
     <tr>
-      <td>E1_US002</td>
-      <td>Funcionalidad 2 para configuración de votaciones descentralizadas</td>
-      <td>COMO ciudadano QUIERO la funcionalidad 2 PARA contribuir a configuración de votaciones descentralizadas.</td>
-      <td>Escenario: El sistema implementa la funcionalidad 2.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E01_US002</td>
+      <td>Selección de tipo de elección</td>
+      <td>COMO administrador QUIERO elegir entre distintos tipos de votaciones PARA adaptarlas a distintas necesidades.</td>
+      <td>Dado que el administrador accede al panel,<br>
+        Cuando selecciona el tipo de elección,<br>
+        Entonces el sistema adapta los campos requeridos.
+      </td>
       <td>E1</td>
     </tr>
     <tr>
-      <td>E1_US003</td>
-      <td>Funcionalidad 3 para configuración de votaciones descentralizadas</td>
-      <td>COMO ciudadano QUIERO la funcionalidad 3 PARA contribuir a configuración de votaciones descentralizadas.</td>
-      <td>Escenario: El sistema implementa la funcionalidad 3.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E01_US003</td>
+      <td>Crear estructura de votación</td>
+      <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+      <td>Dado que el administrador está creando una elección,<br>
+        Cuando agrega una estructura,<br>
+        Entonces se visualiza en la vista previa.
+      </td>
       <td>E1</td>
     </tr>
     <tr>
-      <td>E1_US004</td>
-      <td>Funcionalidad 4 para configuración de votaciones descentralizadas</td>
-      <td>COMO ciudadano QUIERO la funcionalidad 4 PARA contribuir a configuración de votaciones descentralizadas.</td>
-      <td>Escenario: El sistema implementa la funcionalidad 4.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E01_US004</td>
+      <td>Guardar configuraciones iniciales</td>
+      <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+      <td>Dado que completó la configuración,<br>
+        Cuando selecciona guardar,<br>
+        Entonces el sistema confirma que se guardó correctamente.
+      </td>
       <td>E1</td>
     </tr>
     <tr>
-      <td>E1_US005</td>
-      <td>Funcionalidad 5 para configuración de votaciones descentralizadas</td>
-      <td>COMO ciudadano QUIERO la funcionalidad 5 PARA contribuir a configuración de votaciones descentralizadas.</td>
-      <td>Escenario: El sistema implementa la funcionalidad 5.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E01_US005</td>
+      <td>Validación de parámetros</td>
+      <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+      <td>Dado que completó el formulario,<br>
+        Cuando hace clic en guardar,<br>
+        Entonces el sistema muestra errores si falta algún campo obligatorio.
+      </td>
       <td>E1</td>
     </tr>
   </tbody>
 </table>
-<br>
+
 
 
 - 3.3. Impact Mapping
