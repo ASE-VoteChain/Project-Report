@@ -613,7 +613,137 @@ Abril 2025
             <strong>Entonces</strong> el sistema muestra errores si falta algún campo obligatorio.</td>
     </tr>
 </table>
+==
+<!-- HU E02_US001 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Registro de votantes</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> estoy en la plataforma,<br>
+            <strong>Cuando</strong> ingreso mis datos,<br>
+            <strong>Entonces</strong> el sistema debe validarlos y confirmar mi registro.</td>
+    </tr>
+</table>
 
+<!-- HU E02_US002 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Envío de credenciales</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> el registro fue exitoso,<br>
+            <strong>Cuando</strong> se generan credenciales,<br>
+            <strong>Entonces</strong> el sistema las envía por un canal seguro.</td>
+    </tr>
+</table>
+
+<!-- HU E02_US003 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Validación de identidad</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> un votante se registra,<br>
+            <strong>Cuando</strong> el sistema verifica sus datos,<br>
+            <strong>Entonces</strong> debe corroborarlos con bases oficiales.</td>
+    </tr>
+</table>
+
+<!-- HU E02_US004 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Recuperación de credenciales</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO recuperar mis credenciales PARA acceder si las pierdo.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> soy un votante registrado,<br>
+            <strong>Cuando</strong> solicito recuperación,<br>
+            <strong>Entonces</strong> el sistema verifica mi identidad y envía nuevas credenciales.</td>
+    </tr>
+</table>
+
+<!-- HU E02_US005 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Autenticación de dos factores</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO tener autenticación adicional PARA mayor seguridad en mi acceso.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> ingreso mis credenciales,<br>
+            <strong>Cuando</strong> el sistema solicita un segundo factor,<br>
+            <strong>Entonces</strong> debo completarlo para acceder.</td>
+    </tr>
+</table>
+==
 
 - 3.3. Impact Mapping
 
