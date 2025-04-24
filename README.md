@@ -166,5 +166,208 @@ Abril 2025
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
+
+### 4.1. Strategic-Level Attribute-Driven Design.
+template
+#### 4.1.1. Design Purpose.
+template
+#### 4.1.2. Attribute-Driven Design Inputs.
+template
+##### 4.1.2.1. Primary Functionality (Primary User Stories).
+template
+##### 4.1.2.2. Quality attribute Scenarios.
+template
+##### 4.1.2.3. Constraints.
+template
+#### 4.1.3. Architectural Drivers Backlog.
+template
+#### 4.1.4. Architectural Design Decisions.
+template
+#### 4.1.5. Quality Attribute Scenario Refinements.
+template
+
+### 4.2. Strategic-Level Domain-Driven Design.
+
+El equipo VoteChain decidió utilizar una estrategia basada Domain-Driven Design (DDD) para poder comprender y estructurar el dominio del problema.  Esta manera de trabajar nos ayudó a que el diseño del sistema se adaptara mejor a lo que realmente necesitaban los usuarios, lo que a su vez hizo más fácil llevar a cabo votaciones que tuvieran sentido y aportaran valor al negocio.
+
+Para lograr esto, nos concentramos en identificar los momentos importantes dentro del sistema, definir claramente los diferentes entornos o bounded contexts que eran relevantes, diseñar cómo se comunicarían esos entornos entre sí y establecer con exactitud dónde empezaba y terminaba cada parte del sistema. Esta forma de abordar el problema no solo nos permitió entender mejor cómo funcionaba internamente todo el sistema de votación para la comunidad, sino que también nos ayudó a crear una arquitectura que fuera lógica, que pudiera crecer sin problemas y que realmente respondiera a las necesidades de los usuarios.
+
+A continuación, se detallará paso a paso las actividades realizadas en cada etapa de este proceso de Domain-Driven Design a nivel estratégico, desde la primera lluvia de ideas con EventStorming hasta que finalmente mapeamos todos los contextos.
+
+#### 4.2.1. EventStorming.
+
+Para empezar a comprender el funcionamiento de VoteChain, llevamos a cabo una reunión llamada EventStorming, la cual nos sirvió para tener una visión clara de los sucesos más relevantes dentro del sistema. En esta actividad donde todos participamos, pudimos identificar sin confusiones qué pasa desde el momento en que se planea una votación hasta que se dan a conocer los resultados.  Esta dinámica nos permitió encontrar los aspectos cruciales del proceso y establecer el punto de partida para diseñar el sistema de una manera más exacta.
+
+**Unstructured Exploration**
+En la fase de Unstructured Exploration, el equipo identificó libremente los eventos y acciones clave relacionados con el proceso de votación, sin seguir aún una estructura definida. Esto permitió una comprensión inicial más abierta del dominio.
+
+<p align="center">
+  <img src="img/UnstructuredExplorationVoteChain.jpg" alt="Unstructured Exploration Diagram" width="600"/>
+</p>
+
+**Pain Points**
+En esta sección identificamos los principales puntos de dolor a partir de la exploración inicial del dominio. Estas preguntas nos permitieron detectar desafíos dentro del proceso de votación, orientándonos hacia áreas que requieren flujos de trabajo más claros, mayor seguridad y una mejor experiencia para el usuario.
+
+<p align="center">
+  <img src="img/PainPointsVoteChain.jpg" alt="Pain Points Diagram" width="600"/>
+</p>
+
+**Timelines**
+Como parte de la fase de Timelines en el EventStorming. Esta línea de tiempo refleja cómo se llevaría a cabo una votación usando VoteChain, desde la creación del evento hasta la publicación de resultados.
+
+<p align="center">
+  <img src="img/TimelineVoteChain.jpg" alt="Timeline Diagram" width="600"/>
+</p>
+
+**Pivotal Points**
+En la fase de Pivotal Points dentro del EventStorming, buscamos destacar los momentos clave de decisión o cambio en el flujo de eventos, aquellos que tienen impacto fuerte en el sistema o representan riesgos, validaciones críticas o transiciones importantes.
+
+<p align="center">
+  <img src="img/PivotalPointsVoteChain.jpg" alt="Pivotal Points Diagram" width="600"/>
+</p>
+
+**Commands**
+En esta etapa del EventStorming, identificamos los comandos clave que representan las acciones iniciadas por los usuarios o el sistema, las cuales dan lugar a eventos importantes dentro del flujo de votación. Estos comandos nos permiten entender cómo se desencadenan los distintos momentos del proceso y facilitan el diseño de una solución coherente y centrada en las interacciones reales.
+
+<p align="center">
+  <img src="img/CommandsVoteChain.jpg" alt="Commands Diagram" width="600"/>
+</p>
+
+**Policies**
+En esta etapa, definimos las políticas que rigen en los eventos mostrados.
+
+<p align="center">
+  <img src="img/PoliciesVoteChain.jpg" alt="Policies Diagram" width="600"/>
+</p>
+
+**Read Model**
+En esta etapa, se refleja lo que el usuario ve en pantalla: los datos que se muestran, cómo se organizan y cómo están disponibles para facilitar su experiencia.
+
+<p align="center">
+  <img src="img/ReadModelVoteChain.jpg" alt="Read Models Diagram" width="600"/>
+</p>
+
+**External Systems**
+En esta etapa, se identifica los sistemas externos con los que nuestra solución interactúa directamente. Estos sistemas cumplen funciones específicas fuera del alcance interno del dominio, como la verificación de identidad, el envío de correos electrónicos, el almacenamiento en blockchain y la generación de reportes.
+
+<p align="center">
+  <img src="img/ExternalSystemsVoteChain.jpg" alt="External Systems Diagram" width="600"/>
+</p>
+
+**Aggregates**
+En este punto, los Aggregates definen unidades clave dentro del dominio de votaciones, agrupando comandos y reglas específicas que aseguran la coherencia de cada proceso, como el registro de votantes o la emisión de votos.
+
+<p align="center">
+  <img src="img/AggregatesVoteChain.jpg" alt="Aggregates Diagram" width="600"/>
+</p>
+
+**Bounded Contexts**
+En esta útima etapa, los Bounded Contexts, nos permitieron dividir el sistema en áreas funcionales, facilitando la organización del modelo de dominio y resaltando los límites entre procesos como la autenticación, la gestión de votaciones o la publicación de resultados
+
+<p align="center">
+  <img src="img/BoundedContextsVoteChain.jpg" alt="Bounded Contexts Diagram" width="600"/>
+</p>
+
+#### 4.2.2. Candidate Context Discovery.
+
+Ahora, se identifican posibles límites dentro del dominio del problema. A partir de lo aprendido en el Event Storming, el equipo propone agrupaciones lógicas que podrían convertirse en Bounded Contexts, ayudando a organizar mejor las responsabilidades y facilitar futuras decisiones técnicas.
+
+**Voting Management**
+
+<p align="center">
+  <img src="img/VotingManagement.jpg" alt="Voting Management Diagram" width="600"/>
+</p>
+
+**Voter Access & Authentication**
+
+<p align="center">
+  <img src="img/VoterAccess&Authentication.jpg" alt="Voter Access Authentication Diagram" width="600"/>
+</p>
+
+**Vote Submission Management**
+
+<p align="center">
+  <img src="img/VoteSubmissionManagement.jpg" alt="Vote Submission Management Diagram" width="600"/>
+</p>
+
+**Vote Results Management**
+
+<p align="center">
+  <img src="img/VoteResultsManagement.jpg" alt="Vote Results Management Diagram" width="600"/>
+</p>
+
+**Vote Notification Management**
+
+<p align="center">
+  <img src="img/VoteNotificationManagement.jpg" alt="Vote Notification Management Diagram" width="600"/>
+</p>
+
+#### 4.2.3. Domain Message Flows Modeling.
+
+En VoteChain, nos permite entender cómo se comunican las diferentes partes del sistema (bounded contexts) para llevar a cabo acciones importantes como registrar a un votante, verificar su identidad y permitir que emita su voto.  Utilizando diagramas de "Narración del Dominio", representamos de forma sencilla cómo viajan los mensajes, las órdenes y los eventos entre los usuarios, los sistemas y los servicios. Esto nos asegura que toda la lógica detrás del proceso funcione de manera coordinada y de acuerdo con las reglas del negocio.
+
+**Voter Register**
+
+<p align="center">
+  <img src="img/VoterRegister.jpg" alt="Voter Register Diagram" width="600"/>
+</p>
+
+**Submitting a Vote**
+
+<p align="center">
+  <img src="img/SubmittingAVote.jpg" alt="Submitting a vote Diagram" width="600"/>
+</p>
+
+#### 4.2.4. Bounded Context Canvases.
+
+**Voter Access & Authentication System**
+
+<p align="center">
+  <img src="img/BDCanvasVoterAcces&Authentication.jpg" alt="Bounded Context Canvas Voter Access & Authentication Diagram" width="600"/>
+</p>
+
+**Voting Management System**
+
+<p align="center">
+  <img src="img/BDCanvasVoting.jpg" alt="Bounded Context Canvas Voting Management Diagram" width="600"/>
+</p>
+
+**Vote Submission Management System**
+
+<p align="center">
+  <img src="img/BDCanvasVoteSubmission.jpg" alt="Bounded Context Canvas Vote Submission Management Diagram" width="600"/>
+</p>
+
+**Vote Results Management System**
+
+<p align="center">
+  <img src="img/BDCanvasVoteResults.jpg" alt="Bounded Context Canvas Vote Results Management Diagram" width="600"/>
+</p>
+
+**Vote Notification Management System**
+
+<p align="center">
+  <img src="img/BDCanvasVoteNotification.jpg" alt="Bounded Context Canvas Notification Management Diagram" width="600"/>
+</p>
+
+#### 4.2.5. Context Mapping.
+
+En esta sección se representa gráficamente la forma en la que los distintos Bounded Contexts del sistema VoteChain interactúan y se relacionan entre sí. A través del Context Mapping, se analiza cómo fluyen los datos, qué dependencias existen y qué patrones estratégicos del Domain-Driven Design se aplican, como Customer/Supplier, Conformist, o Shared Kernel. Este mapeo permite entender mejor los límites y responsabilidades de cada contexto, así como identificar oportunidades de mejora, desacoplamiento y evolución arquitectónica del sistema.
+
+<p align="center">
+  <img src="img/ContextMapping.png" alt="Context Mapping Diagram" width="600"/>
+</p>
+
+### 4.3. Software Architecture.
+template
+#### 4.3.1. Software Architecture System Landscape Diagram.
+template
+#### 4.3.1. Software Architecture Context Level Diagrams.
+template
+#### 4.3.2. Software Architecture Container Level Diagrams.
+template
+#### 4.3.3. Software Architecture Deployment Diagrams.
+template
+
 ## Anexos y Bibliografía 
 ## Student Outcome
