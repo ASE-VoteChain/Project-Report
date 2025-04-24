@@ -87,7 +87,7 @@ Abril 2025
 **Segmento: Ciudadanos votantes** 
 
 <p align="center">
-  <img src="img/to be scenario map2.jpg">
+  <img src="img/to be scenario map 2.jpg">
 </p>
 
 ## 3.2. User Stories
@@ -125,6 +125,60 @@ Abril 2025
     </tr>
   </tbody>
 </table>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5"><strong>Épica E1: Configuración de votaciones descentralizadas</strong><br>Como ciudadano<br>Quiero configuración de votaciones descentralizadas<br>Para participar de manera confiable y segura en elecciones digitales.</td>
+    </tr>
+    <tr>
+      <td>E1_US001</td>
+      <td>Funcionalidad 1 para configuración de votaciones descentralizadas</td>
+      <td>COMO ciudadano QUIERO la funcionalidad 1 PARA contribuir a configuración de votaciones descentralizadas.</td>
+      <td>Escenario: El sistema implementa la funcionalidad 1.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>E1_US002</td>
+      <td>Funcionalidad 2 para configuración de votaciones descentralizadas</td>
+      <td>COMO ciudadano QUIERO la funcionalidad 2 PARA contribuir a configuración de votaciones descentralizadas.</td>
+      <td>Escenario: El sistema implementa la funcionalidad 2.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>E1_US003</td>
+      <td>Funcionalidad 3 para configuración de votaciones descentralizadas</td>
+      <td>COMO ciudadano QUIERO la funcionalidad 3 PARA contribuir a configuración de votaciones descentralizadas.</td>
+      <td>Escenario: El sistema implementa la funcionalidad 3.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>E1_US004</td>
+      <td>Funcionalidad 4 para configuración de votaciones descentralizadas</td>
+      <td>COMO ciudadano QUIERO la funcionalidad 4 PARA contribuir a configuración de votaciones descentralizadas.</td>
+      <td>Escenario: El sistema implementa la funcionalidad 4.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>E1_US005</td>
+      <td>Funcionalidad 5 para configuración de votaciones descentralizadas</td>
+      <td>COMO ciudadano QUIERO la funcionalidad 5 PARA contribuir a configuración de votaciones descentralizadas.</td>
+      <td>Escenario: El sistema implementa la funcionalidad 5.<br>Dado que se necesita configuración de votaciones descentralizadas,<br>Cuando se acceda a esta funcionalidad,<br>Entonces se deberá cumplir con los parámetros de seguridad y eficiencia esperados.</td>
+      <td>E1</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
 
 - 3.3. Impact Mapping
 - 3.4. Product Backlog
