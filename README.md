@@ -351,7 +351,12 @@ En VoteChain, nos permite entender cómo se comunican las diferentes partes del 
 </p>
 
 #### 4.2.5. Context Mapping.
-template
+
+En esta sección se representa gráficamente la forma en la que los distintos Bounded Contexts del sistema VoteChain interactúan y se relacionan entre sí. A través del Context Mapping, se analiza cómo fluyen los datos, qué dependencias existen y qué patrones estratégicos del Domain-Driven Design se aplican, como Customer/Supplier, Conformist, o Shared Kernel. Este mapeo permite entender mejor los límites y responsabilidades de cada contexto, así como identificar oportunidades de mejora, desacoplamiento y evolución arquitectónica del sistema.
+
+<p align="center">
+  <img src="img/ContextMapping.png" alt="Context Mapping Diagram" width="600"/>
+</p>
 
 ### 4.3. Software Architecture.
 template
