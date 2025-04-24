@@ -482,6 +482,138 @@ Abril 2025
   </tbody>
 </table>
 
+==
+
+<!-- HU E01_US001 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Definir parámetros de elección</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> el administrador accede al panel,<br>
+            <strong>Cuando</strong> completa los campos requeridos,<br>
+            <strong>Entonces</strong> puede guardar los parámetros iniciales.</td>
+    </tr>
+</table>
+
+<!-- HU E01_US002 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Selección de tipo de elección</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO elegir entre distintos tipos de votaciones PARA adaptarlas a distintas necesidades.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> el administrador accede al panel,<br>
+            <strong>Cuando</strong> selecciona el tipo de elección,<br>
+            <strong>Entonces</strong> el sistema adapta los campos requeridos.</td>
+    </tr>
+</table>
+
+<!-- HU E01_US003 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Crear estructura de votación</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> el administrador está creando una elección,<br>
+            <strong>Cuando</strong> agrega una estructura,<br>
+            <strong>Entonces</strong> se visualiza en la vista previa.</td>
+    </tr>
+</table>
+
+<!-- HU E01_US004 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Guardar configuraciones iniciales</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> completó la configuración,<br>
+            <strong>Cuando</strong> selecciona guardar,<br>
+            <strong>Entonces</strong> el sistema confirma que se guardó correctamente.</td>
+    </tr>
+</table>
+
+<!-- HU E01_US005 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Validación de parámetros</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> completó el formulario,<br>
+            <strong>Cuando</strong> hace clic en guardar,<br>
+            <strong>Entonces</strong> el sistema muestra errores si falta algún campo obligatorio.</td>
+    </tr>
+</table>
+
 
 - 3.3. Impact Mapping
 
