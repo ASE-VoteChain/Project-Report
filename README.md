@@ -79,8 +79,15 @@ Abril 2025
   A continuación, se presenta el Mapeo de Escenarios Futuros desarrollado específicamente para este proyecto. Este mapa ofrece una visión estructurada sobre la implementación de mejoras y transformaciones en los procesos y sistemas. Seguidamente, se muestra su       representación gráfica.
   
 **Segmento: Organizadores de votación comunitaria** 
+
 <p align="center">
-  <img src="img/image1.png" alt="Logo de UPC">
+  <img src="img/to be scenario map.jpg">
+</p>
+
+**Segmento: Ciudadanos votantes** 
+
+<p align="center">
+  <img src="img/to be scenario map2.jpg">
 </p>
 
 ## 3.2. User Stories
