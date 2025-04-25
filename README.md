@@ -298,7 +298,8 @@ Abril 2025
 
       - ¿Prefieres instrucciones paso a paso, vídeos tutoriales u otro formato?  
 
-    6. **Características deseadas**  
+    6. **Características deseadas** 
+     
       - ¿Te gustaría recibir confirmación inmediata de que tu voto fue registrado?  
 
       - ¿Valoras poder consultar resultados en tiempo real o prefieres un anuncio oficial posterior?   
@@ -342,6 +343,18 @@ Abril 2025
         | Reportar errores o problemas técnicos | Baja | Media |
 
   - 2.3.3. Empathy Mapping
+       
+       - **Segmento: Organizadores de votación comunitaria**
+  
+       <img src="img/empathy-1.png">
+
+       </br>
+
+       - **Segmento: Ciudadanos votantes**
+
+       <img src="img/empathy-2.png">
+
+       </br>
   - 2.3.4. As-is Scenario Mapping
 
       Este apartado describe el escenario actual de los usuarios antes de utilizar VoteChain, identificando sus acciones, pensamientos y emociones durante los procesos de votación tradicionales.
