@@ -941,15 +941,35 @@ En esta sección se representa gráficamente la forma en la que los distintos Bo
 </p>
 
 ### 4.3. Software Architecture.
-template
 #### 4.3.1. Software Architecture System Landscape Diagram.
-template
-#### 4.3.1. Software Architecture Context Level Diagrams.
-template
-#### 4.3.2. Software Architecture Container Level Diagrams.
-template
-#### 4.3.3. Software Architecture Deployment Diagrams.
-template
+
+Esta vista representa el panorama general del sistema VoteChain en relación con su ecosistema. Permite identificar los principales actores externos, ya sean personas o sistemas, y muestra cómo interactúan con la plataforma.
+
+<p align="center">
+  <img src="img/SoftwareArchitectureSystemLandscapeDiagram.png" alt="System Landscape Diagram" width="600"/>
+</p>
+
+#### 4.3.2. Software Architecture Context Level Diagrams.
+
+En esta sección, se ubica al sistema como el núcleo del diagrama. 
+
+<p align="center">
+  <img src="img/SoftwareArchitectureContextLevelDiagrams..png" alt="Context Level Diagram" width="600"/>
+</p>
+
+#### 4.3.3. Software Architecture Container Level Diagrams.
+
+El diagrama de contenedores descompone a VoteChain en sus elementos de alto nivel, conocidos como containers.
+
+<p align="center">
+  <img src="img/SoftwareArchitectureContainerLevelDiagrams..png" alt="Container Level Diagram" width="600"/>
+</p>
+
+#### 4.3.4. Software Architecture Deployment Diagrams.
+
+<p align="center">
+  <img src="img/SoftwareArchitectureDeploymentDiagrams.png" alt="Deployment Diagram" width="600"/>
+</p>
 
 ## Anexos y Bibliografía 
 ## Student Outcome
