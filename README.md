@@ -28,7 +28,7 @@ Grupo: 5
 |   -  |    -    |
 |   -  |    -    |
 |   -  |    -    |
-|   -  |    -    |
+|  Sebastian Tasayco, Javier Martin   |    U20211E429    |
 |  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
 
 Abril 2025 
@@ -211,15 +211,15 @@ Los siguientes integrantes del grupo son presentados con su carrera y sus conoci
       <img src="img/placeholder.jpg" alt="Foto de Apellidos, Nombres" width="250px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Sebastian Tasayco, Javier Martin</b></p>
       <p>
-        Descripción del perfil profesional y rol dentro del proyecto. Puede incluir habilidades técnicas, experiencia previa, motivación o contribución al equipo.
+        Soy Martin Sebastian, estudio la carrera de Ingeniería de Software tengo experiencia en desarrollo web y metodologías ágiles. Dentro del proyecto me comprometo participo activamente en el análisis y diseño de soluciones, aportando una visión centrada en la usabilidad y la eficiencia del sistema. Me motiva crear tecnologías que generen impacto, y contribuyo al equipo combinando habilidades técnicas con orientación al trabajo colaborativo y a la mejora continua.
       </p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="img/nadia_perfil.png" alt="Foto de Nadia" width="250px">
+      <img src="img/Martin_perfil.jpeg" alt="Foto de Martin" width="250px">
     </th>
     <td valign="top">
       <p><b>Apellidos, Nombres</b></p>
