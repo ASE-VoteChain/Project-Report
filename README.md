@@ -208,7 +208,7 @@ Los siguientes integrantes del grupo son presentados con su carrera y sus conoci
   </tr>
   <tr>
     <th>
-      <img src="img/Martin_perfil.jpeg" alt="Foto de Martin" width="250px" height="250px">
+      <img src="img/Martin_perfil.jpeg" alt="Foto de Martin" width="250px">
     </th>
     <td valign="top">
       <p><b>Sebastian Tasayco, Javier Martin</b></p>
