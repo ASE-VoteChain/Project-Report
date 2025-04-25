@@ -346,12 +346,14 @@ Abril 2025
        
        - **Segmento: Organizadores de votación comunitaria**
   
+       </br>
        <img src="img/empathy-1.png">
 
        </br>
 
        - **Segmento: Ciudadanos votantes**
-
+       
+       </br> 
        <img src="img/empathy-2.png">
 
        </br>
