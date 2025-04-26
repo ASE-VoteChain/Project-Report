@@ -311,11 +311,16 @@ Abril 2025
 
   - 2.2.2. Registro de entrevistas
     ###Segmento 1: Organizadores de votación comunitaria
-    Nombre: Luis Torres
-    Edad: 66 años
-    Ocupación: Lider de junta vecinal
-    Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113640_upc_edu_pe/EULULKQDzrRDjYoEw8v_2ScBYDiAuc8vPjDNKV7qRYOusw?e=Len3sk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-    <img src="img/entrevista1.png">
+    
+     - Nombre: Luis Torres
+       
+     - Edad: 66 años
+       
+     - Ocupación: Lider de junta vecinal
+       
+     - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113640_upc_edu_pe/EULULKQDzrRDjYoEw8v_2ScBYDiAuc8vPjDNKV7qRYOusw?e=Len3sk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+    
+    <img src="img/entrevista1.PNG">
     
     ###Segmento 2: Ciudadanos votantes
     
