@@ -242,12 +242,12 @@ Los siguientes integrantes del grupo son presentados con su carrera y sus conoci
   </tr>
   <tr>
     <th>
-      <img src="img/placeholder.jpg" alt="Foto de Apellidos, Nombres" width="250px">
+      <img src="img/steve_profile_img.jpg" alt="Foto de Apellidos, Nombres" width="250px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Castillo Robles, Steve Roger</b></p>
       <p>
-        Descripción.
+        Soy Steve Castillo, estudiante de la carrera de Ingeniería de Software, apasionado por el desarrollo full-stack y enfocado en aprender y aplicar tecnologías modernas para crear soluciones eficientes que generen un impacto positivo en cada proyecto, con experiencia en desarrollo y migración de aplicaciones heredadas con jQuery a tecnologías modernas como React.js, generación y análisis de datos utilizando Power BI, Excel y bases de datos cloud, diseño y optimización de bases de datos para nuevos proyectos con PostgreSQL, desarrollo de aplicaciones mobile-first con React.js y Tailwind CSS, y aplicación de principios de arquitectura limpia y patrones como DDD y MVC, destacando mis aptitudes en desarrollo frontend con Angular, React.js y Vue.js, desarrollo backend con Spring Boot, MySQL y PostgreSQL, y el uso de herramientas adicionales como Figma, Power BI y Docker.
       </p>
     </td>
   </tr>
