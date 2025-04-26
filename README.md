@@ -310,6 +310,15 @@ Abril 2025
       - ¿Qué información o demostraciones te ayudarían a sentirte cómodo usando VoteChain?  
 
   - 2.2.2. Registro de entrevistas
+    ###Segmento 1: Organizadores de votación comunitaria
+    Nombre: Luis Torres
+    Edad: 66 años
+    Ocupación: Lider de junta vecinal
+    Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113640_upc_edu_pe/EULULKQDzrRDjYoEw8v_2ScBYDiAuc8vPjDNKV7qRYOusw?e=Len3sk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+    <img src="img/entrevista1.png">
+    
+    ###Segmento 2: Ciudadanos votantes
+    
   - 2.2.3. Análisis de entrevistas
 - 2.3. Needfinding
   - 2.3.1. User Personas
