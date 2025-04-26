@@ -310,6 +310,7 @@ Abril 2025
       - ¿Qué información o demostraciones te ayudarían a sentirte cómodo usando VoteChain?  
 
   - 2.2.2. Registro de entrevistas
+    
     ###Segmento 1: Organizadores de votación comunitaria
     
      - Nombre: Luis Torres
