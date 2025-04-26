@@ -313,6 +313,18 @@ Abril 2025
   - 2.2.3. Análisis de entrevistas
 - 2.3. Needfinding
   - 2.3.1. User Personas
+      - **Segmento: Organizadores de votación comunitaria**
+
+        <img src="img/Persona 1.png">
+
+      <br/>
+
+      - **Segmento: Ciudadanos votantes**
+
+        <img src="img/Persona 2.png">
+
+      <br/>
+
   - 2.3.2. User Task Matrix
       - **Segmento: Organizadores de votación comunitaria**
 
