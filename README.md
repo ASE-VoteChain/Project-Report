@@ -323,9 +323,20 @@ Abril 2025
     
     <img src="img/entrevista1.PNG">
     
-    ###Segmento 2: Ciudadanos votantes
+    ### Segmento 2: Ciudadanos votantes
     
   - 2.2.3. Análisis de entrevistas
+
+    ### Segmento 1: Organizadores de votación comunitaria
+ 
+     - Nombre: Luis Torres
+   
+     - Entrevistador: Alessandro Bernardo
+       
+  Luis Torres, coordinador electoral de una junta vecinal, gestiona las votaciones de forma semi-digital usando herramientas como Google Forms, Excel y WhatsApp. Los principales problemas incluyen la dificultad para garantizar la seguridad, la transparencia y la auditoría de los resultados. La falta de anonimato, la baja confianza en el proceso y el alto costo en horas voluntarias limitan la participación. Se busca un sistema ideal con autenticación segura, votación anónima pero verificable, conteo transparente y herramientas de supervisión en tiempo real. Estos desafíos generan desconfianza y cuestionamientos sobre la legitimidad de las elecciones.
+
+    ### Segmento 2: Ciudadanos votantes
+
 - 2.3. Needfinding
   - 2.3.1. User Personas
       - **Segmento: Organizadores de votación comunitaria**
