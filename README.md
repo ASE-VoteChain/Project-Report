@@ -311,7 +311,7 @@ Abril 2025
 
   - 2.2.2. Registro de entrevistas
     
-    ###Segmento 1: Organizadores de votación comunitaria
+    ### Segmento 1: Organizadores de votación comunitaria
     
      - Nombre: Luis Torres
        
