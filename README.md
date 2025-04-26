@@ -219,12 +219,12 @@ Los siguientes integrantes del grupo son presentados con su carrera y sus conoci
   </tr>
   <tr>
     <th>
-      <img src="img/placeholder.jpg" alt="Foto de Apellidos, Nombres" width="250px">
+      <img src="img/Renzo_perfil.png" alt="Foto de Apellidos, Nombres" width="250px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Ramos Ramirez, Renzo Manuel</b></p>
       <p>
-        Descripción.
+        Mi nombre es Renzo Ramos, soy un estudiante de la carrera Ingeniería de Software. Me interesa mucho el desarrollo de aplicaciones tanto web como móviles. También valoro mucho el trabajo en equipo y siempre trato de mantener una buena comunicación con mis compañeros. Siempre busco mejorar como desarrollador con cada proyecto.
       </p>
     </td>
   </tr>
