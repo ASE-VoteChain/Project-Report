@@ -230,12 +230,12 @@ Los siguientes integrantes del grupo son presentados con su carrera y sus conoci
   </tr>
   <tr>
     <th>
-      <img src="img/placeholder.jpg" alt="Foto de Apellidos, Nombres" width="250px">
+      <img src="img/Alessandro_profile.png" alt="Foto de Alessandro" width="250px">
     </th>
     <td valign="top">
-      <p><b>Apellidos, Nombres</b></p>
+      <p><b>Bernardo Eusebio, Alessandro Joaquin</b></p>
       <p>
-        Descripción.
+        Soy Alessandro Joaquin Bernardo Eusebio, estudiante de octavo semestre de Ingeniería de Software. Me apasiona el desarrollo de soluciones tecnológicas que generen un impacto positivo en las personas. A lo largo de mi carrera, he enfocado mi aprendizaje en áreas como la inteligencia artificial, la visión computacional y la gestión de proyectos. Actualmente, participo en proyectos que combinan tecnología y bienestar humano, buscando siempre crecer como profesional y aportar de manera significativa en cada equipo del que formo parte.
       </p>
     </td>
   </tr>
