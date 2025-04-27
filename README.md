@@ -27,7 +27,10 @@ Grupo: 5
 |:-----------------------------:|:-------------------:|
 |  Ramirez Mendez, Sebastian Andre       |    u20191e575    |
 |  Sebastian Tasayco, Javier Martin   |    U20211E429    |
-|  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
+|  Bernardo Eusebio Alessandro Joaquin   |    u202113640    |
+|  Ramos Ramirez, Renzo Manuel   |    u202113745    |
+|  Castillo Robles, Steve Roger   |    u202121679    |
+
 
 Abril 2025 
 
