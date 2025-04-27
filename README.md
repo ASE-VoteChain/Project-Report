@@ -28,8 +28,8 @@ Grupo: 5
 |   -  |    -    |
 |   -  |    -    |
 |   -  |    -    |
-|   -  |    -    |
-|  Ramirez Mendez, Sebastian Andre   |    u20191e575    |
+|  Bernardo Eusebio, Alessandro Joaquin  |    u202113640    |
+|  Ramirez Mendez, Sebastian Andre       |    u20191e575    |
 
 Abril 2025 
 
@@ -74,10 +74,1262 @@ Abril 2025
 - 2.4. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
-- 3.1. To-Be Scenario Mapping
-- 3.2. User Stories
+## 3.1. To-Be Scenario Mapping
+
+  A continuación, se presenta el Mapeo de Escenarios Futuros desarrollado específicamente para este proyecto. Este mapa ofrece una visión estructurada sobre la implementación de mejoras y transformaciones en los procesos y sistemas. Seguidamente, se muestra su       representación gráfica.
+  
+**Segmento: Organizadores de votación comunitaria** 
+
+<p align="center">
+  <img src="img/to be scenario map.jpg">
+</p>
+
+**Segmento: Ciudadanos votantes** 
+
+<p align="center">
+  <img src="img/to be scenario map 2.jpg">
+</p>
+
+## 3.2. User Stories
+  <table border="1">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Épica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>E1</td>
+      <td>Configuración de votaciones descentralizadas</td>
+    </tr>
+    <tr>
+      <td>E2</td>
+      <td>Autenticación segura de votantes</td>
+    </tr>
+    <tr>
+      <td>E3</td>
+      <td>Emisión de votos anónimos y encriptados</td>
+    </tr>
+    <tr>
+      <td>E4</td>
+      <td>Registro inmutable en blockchain</td>
+    </tr>
+    <tr>
+      <td>E5</td>
+      <td>Auditoría pública en tiempo real</td>
+    </tr>
+    <tr>
+      <td>E6</td>
+      <td>Visualización y publicación de resultados</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5"><strong>Épica E1: Configuración de votaciones descentralizadas</strong><br>
+        Como ciudadano<br>
+        Quiero configuración de votaciones descentralizadas<br>
+        Para participar de manera confiable y segura en elecciones digitales.
+      </td>
+    </tr>
+    <tr>
+      <td>E01_US001</td>
+      <td>Definir parámetros de elección</td>
+      <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+      <td>Escenario: En panel de configuración.<br>
+        Dado que el administrador accede al panel,<br>
+        Cuando completa los campos requeridos,<br>
+        Entonces puede guardar los parámetros iniciales.
+      </td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>E01_US002</td>
+      <td>Selección de tipo de elección</td>
+      <td>COMO administrador QUIERO elegir entre distintos tipos de votaciones PARA adaptarlas a distintas necesidades.</td>
+      <td>Dado que el administrador accede al panel,<br>
+        Cuando selecciona el tipo de elección,<br>
+        Entonces el sistema adapta los campos requeridos.
+      </td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>E01_US003</td>
+      <td>Crear estructura de votación</td>
+      <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+      <td>Dado que el administrador está creando una elección,<br>
+        Cuando agrega una estructura,<br>
+        Entonces se visualiza en la vista previa.
+      </td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>E01_US004</td>
+      <td>Guardar configuraciones iniciales</td>
+      <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+      <td>Dado que completó la configuración,<br>
+        Cuando selecciona guardar,<br>
+        Entonces el sistema confirma que se guardó correctamente.
+      </td>
+      <td>E1</td>
+    </tr>
+    <tr>
+      <td>E01_US005</td>
+      <td>Validación de parámetros</td>
+      <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+      <td>Dado que completó el formulario,<br>
+        Cuando hace clic en guardar,<br>
+        Entonces el sistema muestra errores si falta algún campo obligatorio.
+      </td>
+      <td>E1</td>
+    </tr>
+  </tbody>
+</table>
+==
+<table border="1">
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5"><strong>Épica E2: Registro y autenticación de votantes</strong><br>
+        Como votante<br>
+        Quiero registrarme y autenticarme de manera segura<br>
+        Para poder participar en las elecciones digitales.
+      </td>
+    </tr>
+    <tr>
+      <td>E02_US001</td>
+      <td>Registro de votantes</td>
+      <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+      <td>Dado que estoy en la plataforma,<br>
+        Cuando ingreso mis datos,<br>
+        Entonces el sistema debe validarlos y confirmar mi registro.
+      </td>
+      <td>E2</td>
+    </tr>
+    <tr>
+      <td>E02_US002</td>
+      <td>Envío de credenciales</td>
+      <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+      <td>Dado que el registro fue exitoso,<br>
+        Cuando se generan credenciales,<br>
+        Entonces el sistema las envía por un canal seguro.
+      </td>
+      <td>E2</td>
+    </tr>
+    <tr>
+      <td>E02_US003</td>
+      <td>Validación de identidad</td>
+      <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
+      <td>Dado que un votante se registra,<br>
+        Cuando el sistema verifica sus datos,<br>
+        Entonces debe corroborarlos con bases oficiales.
+      </td>
+      <td>E2</td>
+    </tr>
+    <tr>
+      <td>E02_US004</td>
+      <td>Recuperación de credenciales</td>
+      <td>COMO votante QUIERO recuperar mis credenciales PARA acceder si las pierdo.</td>
+      <td>Dado que soy un votante registrado,<br>
+        Cuando solicito recuperación,<br>
+        Entonces el sistema verifica mi identidad y envía nuevas credenciales.
+      </td>
+      <td>E2</td>
+    </tr>
+    <tr>
+      <td>E02_US005</td>
+      <td>Autenticación de dos factores</td>
+      <td>COMO votante QUIERO tener autenticación adicional PARA mayor seguridad en mi acceso.</td>
+      <td>Dado que ingreso mis credenciales,<br>
+        Cuando el sistema solicita un segundo factor,<br>
+        Entonces debo completarlo para acceder.
+      </td>
+      <td>E2</td>
+    </tr>
+  </tbody>
+</table>
+==
+<table border="1">
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5"><strong>Épica E3: Votación segura y verificable</strong><br>
+        Como votante<br>
+        Quiero que mi voto sea secreto, único y verificable<br>
+        Para tener confianza en el proceso electoral digital.
+      </td>
+    </tr>
+    <tr>
+      <td>E03_US001</td>
+      <td>Voto único y anónimo</td>
+      <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
+      <td>Dado que ingreso al sistema,<br>
+        Cuando voto,<br>
+        Entonces mi identidad no se asocia con el voto emitido.
+      </td>
+      <td>E3</td>
+    </tr>
+    <tr>
+      <td>E03_US002</td>
+      <td>Encriptación del voto</td>
+      <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+      <td>Dado que elijo una opción,<br>
+        Cuando se emite el voto,<br>
+        Entonces se almacena encriptado con clave pública.
+      </td>
+      <td>E3</td>
+    </tr>
+    <tr>
+      <td>E03_US003</td>
+      <td>Confirmación de voto emitido</td>
+      <td>COMO votante QUIERO recibir una confirmación de que mi voto fue recibido PARA asegurarme del proceso.</td>
+      <td>Dado que termino de votar,<br>
+        Cuando se envía el voto,<br>
+        Entonces recibo una notificación de éxito.
+      </td>
+      <td>E3</td>
+    </tr>
+    <tr>
+      <td>E03_US004</td>
+      <td>Prevención de doble voto</td>
+      <td>COMO votante QUIERO que el sistema impida votar más de una vez PARA garantizar la equidad.</td>
+      <td>Dado que ya he votado,<br>
+        Cuando intento votar otra vez,<br>
+        Entonces el sistema lo impide.
+      </td>
+      <td>E3</td>
+    </tr>
+    <tr>
+      <td>E03_US005</td>
+      <td>Revisión previa al envío</td>
+      <td>COMO votante QUIERO revisar mi selección antes de enviarla PARA confirmar mi decisión.</td>
+      <td>Dado que seleccioné una opción,<br>
+        Cuando hago clic en "Revisar",<br>
+        Entonces veo un resumen antes de confirmar el envío.
+      </td>
+      <td>E3</td>
+    </tr>
+  </tbody>
+</table>
+==
+<table border="1">
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5"><strong>Épica E4: Registro inmutable en Blockchain</strong><br>
+        Como administrador del sistema<br>
+        Quiero que los votos se almacenen en blockchain<br>
+        Para garantizar la integridad e inmutabilidad de los resultados electorales
+      </td>
+    </tr>
+    <tr>
+      <td>E04_US001</td>
+      <td>Guardado en blockchain</td>
+      <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
+      <td>Dado que un voto es emitido,<br>
+        Cuando se procesa,<br>
+        Entonces se registra en un bloque inmutable.
+      </td>
+      <td>E4</td>
+    </tr>
+    <tr>
+      <td>E04_US002</td>
+      <td>Verificación de bloques</td>
+      <td>COMO administrador QUIERO verificar la integridad de los bloques PARA asegurar consistencia.</td>
+      <td>Dado que hay bloques almacenados,<br>
+        Cuando se revisa su hash,<br>
+        Entonces no debe haber alteraciones.
+      </td>
+      <td>E4</td>
+    </tr>
+    <tr>
+      <td>E04_US003</td>
+      <td>Tiempos de registro optimizados</td>
+      <td>COMO desarrollador QUIERO que el registro en blockchain sea eficiente PARA no afectar al rendimiento.</td>
+      <td>Dado que se emite un voto,<br>
+        Cuando se guarda,<br>
+        Entonces debe demorar menos de 2 segundos en escribirse en el bloque.
+      </td>
+      <td>E4</td>
+    </tr>
+    <tr>
+      <td>E04_US004</td>
+      <td>Alerta por inconsistencia</td>
+      <td>COMO administrador QUIERO recibir alertas si hay inconsistencias PARA actuar de inmediato.</td>
+      <td>Dado que se detecta una alteración,<br>
+        Cuando un hash no coincide,<br>
+        Entonces se genera una alerta.
+      </td>
+      <td>E4</td>
+    </tr>
+    <tr>
+      <td>E04_US005</td>
+      <td>Registro de auditoría</td>
+      <td>COMO desarrollador QUIERO mantener trazabilidad de los bloques PARA fines de auditoría.</td>
+      <td>Dado que se registra un bloque,<br>
+        Cuando se almacena,<br>
+        Entonces queda visible su timestamp, hash y autor.
+      </td>
+      <td>E4</td>
+    </tr>
+  </tbody>
+</table>
+==
+<table border="1">
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5"><strong>Épica E5: Transparencia y Auditoría Pública</strong><br>
+        Como ciudadano y auditor<br>
+        Quiero acceso transparente a los datos electorales<br>
+        Para verificar la integridad del proceso democrático
+      </td>
+    </tr>
+    <tr>
+      <td>E05_US001</td>
+      <td>Acceso público a resultados</td>
+      <td>COMO ciudadano QUIERO acceder a los datos de votos en tiempo real PARA auditar la transparencia.</td>
+      <td>Dado que se emiten votos,<br>
+        Cuando accedo al panel público,<br>
+        Entonces visualizo el recuento actualizado.
+      </td>
+      <td>E5</td>
+    </tr>
+    <tr>
+      <td>E05_US002</td>
+      <td>Trazabilidad de votos</td>
+      <td>COMO auditor QUIERO ver la trazabilidad de los bloques PARA verificar la validez de los registros.</td>
+      <td>Dado que accedo a un bloque,<br>
+        Cuando lo abro,<br>
+        Entonces visualizo su historial de cambios (si los hay).
+      </td>
+      <td>E5</td>
+    </tr>
+    <tr>
+      <td>E05_US003</td>
+      <td>Panel público interactivo</td>
+      <td>COMO ciudadano QUIERO un panel visual PARA entender los resultados sin ser técnico.</td>
+      <td>Dado que accedo a resultados,<br>
+        Cuando entro al panel,<br>
+        Entonces veo gráficos y datos entendibles.
+      </td>
+      <td>E5</td>
+    </tr>
+    <tr>
+      <td>E05_US004</td>
+      <td>Acceso a logs de actividad</td>
+      <td>COMO auditor QUIERO ver los logs de actividad del sistema PARA detectar irregularidades.</td>
+      <td>Dado que entro a la sección de auditoría,<br>
+        Cuando consulto logs,<br>
+        Entonces puedo filtrar por fechas y acciones.
+      </td>
+      <td>E5</td>
+    </tr>
+    <tr>
+      <td>E05_US005</td>
+      <td>Verificación cruzada</td>
+      <td>COMO auditor QUIERO comparar datos entre nodos blockchain PARA asegurar integridad del sistema.</td>
+      <td>Dado que consulto un bloque,<br>
+        Cuando lo comparo con nodos espejos,<br>
+        Entonces deben coincidir sus hashes.
+      </td>
+      <td>E5</td>
+    </tr>
+  </tbody>
+</table>
+
+==
+
+<!-- HU E01_US001 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Definir parámetros de elección</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> el administrador accede al panel,<br>
+            <strong>Cuando</strong> completa los campos requeridos,<br>
+            <strong>Entonces</strong> puede guardar los parámetros iniciales.</td>
+    </tr>
+</table>
+
+<!-- HU E01_US002 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Selección de tipo de elección</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO elegir entre distintos tipos de votaciones PARA adaptarlas a distintas necesidades.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> el administrador accede al panel,<br>
+            <strong>Cuando</strong> selecciona el tipo de elección,<br>
+            <strong>Entonces</strong> el sistema adapta los campos requeridos.</td>
+    </tr>
+</table>
+
+<!-- HU E01_US003 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Crear estructura de votación</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> el administrador está creando una elección,<br>
+            <strong>Cuando</strong> agrega una estructura,<br>
+            <strong>Entonces</strong> se visualiza en la vista previa.</td>
+    </tr>
+</table>
+
+<!-- HU E01_US004 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Guardar configuraciones iniciales</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> completó la configuración,<br>
+            <strong>Cuando</strong> selecciona guardar,<br>
+            <strong>Entonces</strong> el sistema confirma que se guardó correctamente.</td>
+    </tr>
+</table>
+
+<!-- HU E01_US005 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E01_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E1</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Validación de parámetros</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> completó el formulario,<br>
+            <strong>Cuando</strong> hace clic en guardar,<br>
+            <strong>Entonces</strong> el sistema muestra errores si falta algún campo obligatorio.</td>
+    </tr>
+</table>
+==
+<!-- HU E02_US001 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Registro de votantes</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> estoy en la plataforma,<br>
+            <strong>Cuando</strong> ingreso mis datos,<br>
+            <strong>Entonces</strong> el sistema debe validarlos y confirmar mi registro.</td>
+    </tr>
+</table>
+
+<!-- HU E02_US002 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Envío de credenciales</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> el registro fue exitoso,<br>
+            <strong>Cuando</strong> se generan credenciales,<br>
+            <strong>Entonces</strong> el sistema las envía por un canal seguro.</td>
+    </tr>
+</table>
+
+<!-- HU E02_US003 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Validación de identidad</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> un votante se registra,<br>
+            <strong>Cuando</strong> el sistema verifica sus datos,<br>
+            <strong>Entonces</strong> debe corroborarlos con bases oficiales.</td>
+    </tr>
+</table>
+
+<!-- HU E02_US004 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Recuperación de credenciales</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO recuperar mis credenciales PARA acceder si las pierdo.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> soy un votante registrado,<br>
+            <strong>Cuando</strong> solicito recuperación,<br>
+            <strong>Entonces</strong> el sistema verifica mi identidad y envía nuevas credenciales.</td>
+    </tr>
+</table>
+
+<!-- HU E02_US005 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E02_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E2</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Autenticación de dos factores</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO tener autenticación adicional PARA mayor seguridad en mi acceso.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> ingreso mis credenciales,<br>
+            <strong>Cuando</strong> el sistema solicita un segundo factor,<br>
+            <strong>Entonces</strong> debo completarlo para acceder.</td>
+    </tr>
+</table>
+==
+<!-- HU E03_US001 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Voto único y anónimo</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> ingreso al sistema,<br>
+            <strong>Cuando</strong> voto,<br>
+            <strong>Entonces</strong> mi identidad no se asocia con el voto emitido.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US002 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Encriptación del voto</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> elijo una opción,<br>
+            <strong>Cuando</strong> se emite el voto,<br>
+            <strong>Entonces</strong> se almacena encriptado con clave pública.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US003 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Confirmación de voto emitido</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO recibir una confirmación de que mi voto fue recibido PARA asegurarme del proceso.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> termino de votar,<br>
+            <strong>Cuando</strong> se envía el voto,<br>
+            <strong>Entonces</strong> recibo una notificación de éxito.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US004 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Prevención de doble voto</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO que el sistema impida votar más de una vez PARA garantizar la equidad.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> ya he votado,<br>
+            <strong>Cuando</strong> intento votar otra vez,<br>
+            <strong>Entonces</strong> el sistema lo impide.</td>
+    </tr>
+</table>
+
+<!-- HU E03_US005 -->
+<table>
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E03_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E3</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Revisión previa al envío</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO votante QUIERO revisar mi selección antes de enviarla PARA confirmar mi decisión.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> seleccioné una opción,<br>
+            <strong>Cuando</strong> hago clic en "Revisar",<br>
+            <strong>Entonces</strong> veo un resumen antes de confirmar el envío.</td>
+    </tr>
+</table>
+==
+<!-- HU E04_US001 -->
+<table class="blockchain-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E04_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E4</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Guardado en blockchain</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> un voto es emitido,<br>
+            <strong>Cuando</strong> se procesa,<br>
+            <strong>Entonces</strong> se registra en un bloque inmutable.</td>
+    </tr>
+</table>
+
+<!-- HU E04_US002 -->
+<table class="blockchain-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E04_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E4</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Verificación de bloques</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO verificar la integridad de los bloques PARA asegurar consistencia.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> hay bloques almacenados,<br>
+            <strong>Cuando</strong> se revisa su hash,<br>
+            <strong>Entonces</strong> no debe haber alteraciones.</td>
+    </tr>
+</table>
+
+<!-- HU E04_US003 -->
+<table class="blockchain-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E04_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E4</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Tiempos de registro optimizados</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO desarrollador QUIERO que el registro en blockchain sea eficiente PARA no afectar al rendimiento.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> se emite un voto,<br>
+            <strong>Cuando</strong> se guarda,<br>
+            <strong>Entonces</strong> debe demorar menos de 2 segundos en escribirse en el bloque.</td>
+    </tr>
+</table>
+
+<!-- HU E04_US004 -->
+<table class="blockchain-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E04_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E4</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Alerta por inconsistencia</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO administrador QUIERO recibir alertas si hay inconsistencias PARA actuar de inmediato.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> se detecta una alteración,<br>
+            <strong>Cuando</strong> un hash no coincide,<br>
+            <strong>Entonces</strong> se genera una alerta.</td>
+    </tr>
+</table>
+
+<!-- HU E04_US005 -->
+<table class="blockchain-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E04_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E4</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Registro de auditoría</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO desarrollador QUIERO mantener trazabilidad de los bloques PARA fines de auditoría.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> se registra un bloque,<br>
+            <strong>Cuando</strong> se almacena,<br>
+            <strong>Entonces</strong> queda visible su timestamp, hash y autor.</td>
+    </tr>
+</table>
+==
+<!-- HU E05_US001 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US001</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Acceso público a resultados</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO ciudadano QUIERO acceder a los datos de votos en tiempo real PARA auditar la transparencia.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> se emiten votos,<br>
+            <strong>Cuando</strong> accedo al panel público,<br>
+            <strong>Entonces</strong> visualizo el recuento actualizado.</td>
+    </tr>
+</table>
+
+<!-- HU E05_US002 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US002</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Trazabilidad de votos</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO auditor QUIERO ver la trazabilidad de los bloques PARA verificar la validez de los registros.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> accedo a un bloque,<br>
+            <strong>Cuando</strong> lo abro,<br>
+            <strong>Entonces</strong> visualizo su historial de cambios (si los hay).</td>
+    </tr>
+</table>
+
+<!-- HU E05_US003 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US003</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Panel público interactivo</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO ciudadano QUIERO un panel visual PARA entender los resultados sin ser técnico.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> accedo a resultados,<br>
+            <strong>Cuando</strong> entro al panel,<br>
+            <strong>Entonces</strong> veo gráficos y datos entendibles.</td>
+    </tr>
+</table>
+
+<!-- HU E05_US004 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US004</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Acceso a logs de actividad</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO auditor QUIERO ver los logs de actividad del sistema PARA detectar irregularidades.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> entro a la sección de auditoría,<br>
+            <strong>Cuando</strong> consulto logs,<br>
+            <strong>Entonces</strong> puedo filtrar por fechas y acciones.</td>
+    </tr>
+</table>
+
+<!-- HU E05_US005 -->
+<table class="transparency-feature">
+    <tr>
+        <th>HU ID</th>
+        <td class="hu-title">E05_US005</td>
+    </tr>
+    <tr>
+        <th>Epic ID</th>
+        <td>E5</td>
+    </tr>
+    <tr>
+        <th>Título</th>
+        <td>Verificación cruzada</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>COMO auditor QUIERO comparar datos entre nodos blockchain PARA asegurar integridad del sistema.</td>
+    </tr>
+    <tr>
+        <th>Criterios de Aceptación</th>
+        <td><strong>Dado que</strong> consulto un bloque,<br>
+            <strong>Cuando</strong> lo comparo con nodos espejos,<br>
+            <strong>Entonces</strong> deben coincidir sus hashes.</td>
+    </tr>
+</table>
+
 - 3.3. Impact Mapping
+
+<p align="center">
+  <img src="img/impact map.jpg">
+</p>
+
 - 3.4. Product Backlog
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>HU ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>E01_US001</td>
+      <td>Definir parámetros de elección</td>
+      <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>E01_US002</td>
+      <td>Selección de tipo de elección</td>
+      <td>COMO administrador QUIERO elegir entre distintos tipos de votaciones PARA adaptarlas a distintas necesidades.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>E01_US005</td>
+      <td>Validación de parámetros</td>
+      <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>E01_US003</td>
+      <td>Crear estructura de votación</td>
+      <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>E01_US004</td>
+      <td>Guardar configuraciones iniciales</td>
+      <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>E02_US001</td>
+      <td>Registro de votantes</td>
+      <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>E02_US003</td>
+      <td>Validación de identidad</td>
+      <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>E02_US002</td>
+      <td>Envío de credenciales</td>
+      <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>E02_US005</td>
+      <td>Autenticación de dos factores</td>
+      <td>COMO votante QUIERO tener autenticación adicional PARA mayor seguridad en mi acceso.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>E02_US004</td>
+      <td>Recuperación de credenciales</td>
+      <td>COMO votante QUIERO recuperar mis credenciales PARA acceder si las pierdo.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>E03_US001</td>
+      <td>Voto único y anónimo</td>
+      <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>E03_US002</td>
+      <td>Encriptación del voto</td>
+      <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>E03_US004</td>
+      <td>Prevención de doble voto</td>
+      <td>COMO votante QUIERO que el sistema impida votar más de una vez PARA garantizar la equidad.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>E03_US005</td>
+      <td>Revisión previa al envío</td>
+      <td>COMO votante QUIERO revisar mi selección antes de enviarla PARA confirmar mi decisión.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>E03_US003</td>
+      <td>Confirmación de voto emitido</td>
+      <td>COMO votante QUIERO recibir una confirmación de que mi voto fue recibido PARA asegurarme del proceso.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>E04_US001</td>
+      <td>Guardado en blockchain</td>
+      <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>E04_US002</td>
+      <td>Verificación de bloques</td>
+      <td>COMO administrador QUIERO verificar la integridad de los bloques PARA asegurar consistencia.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>E04_US003</td>
+      <td>Tiempos de registro optimizados</td>
+      <td>COMO desarrollador QUIERO que el registro en blockchain sea eficiente PARA no afectar al rendimiento.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>E04_US004</td>
+      <td>Alerta por inconsistencia</td>
+      <td>COMO administrador QUIERO recibir alertas si hay inconsistencias PARA actuar de inmediato.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>E04_US005</td>
+      <td>Registro de auditoría</td>
+      <td>COMO desarrollador QUIERO mantener trazabilidad de los bloques PARA fines de auditoría.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>E05_US001</td>
+      <td>Acceso público a resultados</td>
+      <td>COMO ciudadano QUIERO acceder a los datos de votos en tiempo real PARA auditar la transparencia.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>E05_US003</td>
+      <td>Panel público interactivo</td>
+      <td>COMO ciudadano QUIERO un panel visual PARA entender los resultados sin ser técnico.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>E05_US002</td>
+      <td>Trazabilidad de votos</td>
+      <td>COMO auditor QUIERO ver la trazabilidad de los bloques PARA verificar la validez de los registros.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>E05_US004</td>
+      <td>Acceso a logs de actividad</td>
+      <td>COMO auditor QUIERO ver los logs de actividad del sistema PARA detectar irregularidades.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>E05_US005</td>
+      <td>Verificación cruzada</td>
+      <td>COMO auditor QUIERO comparar datos entre nodos blockchain PARA asegurar integridad del sistema.</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Capítulo IV: Strategic-Level Software Design
 - 4.1. Strategic-Level Attribute-Driven Design
