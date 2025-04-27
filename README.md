@@ -17,7 +17,7 @@ Profesor: Rojas Malasquez, Royer Edelwer
 
 “Informe de Trabajo Final"
 
-Startup: -
+Startup: Kratos-Voto
 
 Producto: VoteChain
 
@@ -160,8 +160,15 @@ Abril 2025
 - Video About-the-Team
 
 ## Bibliografía
-
 ## Anexos
+
+## Student Outcome
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|-------------------------|------------------|
+| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián André**  <br> *TB1*  <br> Presenté el Capítulo I, explicando la visión de la startup, el perfil del equipo y la problemática abordada, destacando la importancia de nuestra solución en un lenguaje accesible para todos los presentes. <br><br> **Ramos Ramirez, Renzo Manuel**  <br> *TB1*  <br> Expuse el Capítulo II, detallando los hallazgos de las entrevistas y el análisis competitivo, haciendo énfasis en cómo estos datos fundamentaron las necesidades del usuario, adaptando la terminología según el público. <br><br> **Bernardo Eusebio, Alessandro Joaquin**  <br> *TB1*  <br> Realicé la exposición del Capítulo III, enfocándome en explicar las User Stories, Product Backlog e Impact Mapping, asegurando la comprensión por parte de públicos técnicos y no técnicos. <br><br> **Castillo Robles, Steve Roger**  <br> *TB1*  <br> Expliqué la primera mitad del Capítulo IV, sobre el diseño estratégico y atributos de calidad, utilizando ejemplos concretos para que todos entendieran la importancia de las decisiones arquitectónicas. <br><br> **Sebastián Tasayco, Javier Martin**  <br> *TB1*  <br> Presenté la segunda mitad del Capítulo IV, abordando la arquitectura de software y diagramas técnicos, simplificando conceptos para que personas de distintas especialidades pudieran seguir la lógica del sistema. | *TB1*  <br> El equipo logró comunicar oralmente los avances del proyecto de forma clara y objetiva, ajustando la terminología según el perfil de la audiencia. Cada miembro dominó su capítulo, facilitando una exposición integral y comprensible, promoviendo la interacción y entendimiento de los aspectos tanto técnicos como conceptuales del proyecto. |
+| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián André**  <br> *TB1*  <br> Redacté el Capítulo I, asegurando que la descripción de la startup, el enfoque Lean UX y la definición de segmentos se presentaran con claridad y accesibilidad para diversos públicos. <br><br> **Ramos Ramirez, Renzo Manuel**  <br> *TB1*  <br> Me encargué de escribir el Capítulo II, presentando entrevistas y análisis de la competencia de manera objetiva, con gráficos que ayudaron a ilustrar las conclusiones para todo tipo de lector. <br><br> **Bernardo Eusebio, Alessandro Joaquin**  <br> *TB1*  <br> Redacté el Capítulo III, enfocándome en expresar las especificaciones de requisitos y user stories de forma estructurada, con lenguaje técnico y explicativo a la vez. <br><br> **Castillo Robles, Steve Roger**  <br> *TB1*  <br> Elaboré la primera mitad del Capítulo IV, escribiendo sobre los atributos de calidad y decisiones arquitectónicas, usando cuadros y diagramas para mejorar la comprensión. <br><br> **Sebastián Tasayco, Javier Martin**  <br> *TB1*  <br> Redacté la segunda mitad del Capítulo IV, incluyendo diagramas de arquitectura y despliegue, cuidando que la documentación fuera entendible para desarrolladores y gestores del proyecto. | *TB1*  <br> El equipo produjo un documento técnico completo y coherente, adaptando el nivel de detalle y lenguaje según la audiencia. La correcta estructuración por capítulos permitió una lectura fluida y comprensible para públicos de distintas especialidades, destacando la objetividad y claridad en la presentación de resultados e ideas. |
+
 
 # Contenido
 ## Capítulo I: Introducción 
