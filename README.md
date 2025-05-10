@@ -5,6 +5,7 @@
 <div align="center">
 
 # <span style="color:red">**Universidad Peruana de Ciencias Aplicadas**</span>
+
 ## Carrera de Ingeniería de Software
 
 Ciclo: 2025 - 10
@@ -23,16 +24,15 @@ Producto: VoteChain
 
 Grupo: 5
 
-|          Integrantes          |      Código      |
-|:-----------------------------:|:-------------------:|
-|  Ramirez Mendez, Sebastian Andre       |    u20191e575    |
-|  Sebastian Tasayco, Javier Martin   |    U20211E429    |
-|  Bernardo Eusebio Alessandro Joaquin   |    u202113640    |
-|  Ramos Ramirez, Renzo Manuel   |    u202113745    |
-|  Castillo Robles, Steve Roger   |    u202121679    |
+|             Integrantes             |   Código   |
+| :---------------------------------: | :--------: |
+|   Ramirez Mendez, Sebastian Andre   | u20191e575 |
+|  Sebastian Tasayco, Javier Martin   | U20211E429 |
+| Bernardo Eusebio Alessandro Joaquin | u202113640 |
+|     Ramos Ramirez, Renzo Manuel     | u202113745 |
+|    Castillo Robles, Steve Roger     | u202121679 |
 
-
-Abril 2025 
+Abril 2025
 
 </div>
 
@@ -44,9 +44,12 @@ Abril 2025
 
 ### **Reporte de colaboración de la entrega del TB1:**
 
-------
+---
+
 ## Tabla de contenidos
+
 ## Capítulo I: Introducción
+
 - 1.1. Startup Profile
   - 1.1.1. Descripción de la Startup
   - 1.1.2. Perfiles de integrantes del equipo
@@ -60,6 +63,7 @@ Abril 2025
 - 1.3. Segmentos objetivo
 
 ## Capítulo II: Requirements Elicitation & Analysis
+
 - 2.1. Competidores
   - 2.1.1. Análisis competitivo
   - 2.1.2. Estrategias y tácticas frente a competidores
@@ -75,13 +79,14 @@ Abril 2025
 - 2.4. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
+
 - 3.1. To-Be Scenario Mapping
 - 3.2. User Stories
 - 3.3. Impact Mapping
 - 3.4. Product Backlog
 
-
 ## Capítulo IV: Strategic-Level Software Design
+
 - 4.1. Strategic-Level Attribute-Driven Design
   - 4.1.1. Design Purpose
   - 4.1.2. Attribute-Driven Design Inputs
@@ -104,6 +109,7 @@ Abril 2025
   - 4.3.4. Software Architecture Deployment Diagrams
 
 ## Capítulo V: Tactical-Level Software Design
+
 - 5.X. Bounded Context: <Bounded Context Name>
   - 5.X.1. Domain Layer
   - 5.X.2. Interface Layer
@@ -115,6 +121,7 @@ Abril 2025
     - 5.X.7.2. Bounded Context Database Design Diagram
 
 ## Capítulo VI: Solution UX Design
+
 - 6.1. Style Guidelines
   - 6.1.1. General Style Guidelines
   - 6.1.2. Web, Mobile & Devices Style Guidelines
@@ -134,6 +141,7 @@ Abril 2025
 - 6.5. Applications Prototyping
 
 ## Capítulo VII: Product Implementation, Validation & Deployment
+
 - 7.1. Software Configuration Management
   - 7.1.1. Software Development Environment Configuration
   - 7.1.2. Source Code Management
@@ -156,22 +164,24 @@ Abril 2025
 - 7.4. Video About-the-Product
 
 ## Conclusiones
+
 - Conclusiones y recomendaciones
 - Video About-the-Team
 
 ## Bibliografía
+
 ## Anexos
 
 ## Student Outcome
 
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|-------------------------|-------------------------|------------------|
-| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián André**  <br> *TB1*  <br> Presenté el Capítulo I, explicando la visión de la startup, el perfil del equipo y la problemática abordada, destacando la importancia de nuestra solución en un lenguaje accesible para todos los presentes. <br><br> **Ramos Ramirez, Renzo Manuel**  <br> *TB1*  <br> Expuse el Capítulo II, detallando los hallazgos de las entrevistas y el análisis competitivo, haciendo énfasis en cómo estos datos fundamentaron las necesidades del usuario, adaptando la terminología según el público. <br><br> **Bernardo Eusebio, Alessandro Joaquin**  <br> *TB1*  <br> Realicé la exposición del Capítulo III, enfocándome en explicar las User Stories, Product Backlog e Impact Mapping, asegurando la comprensión por parte de públicos técnicos y no técnicos. <br><br> **Castillo Robles, Steve Roger**  <br> *TB1*  <br> Expliqué la primera mitad del Capítulo IV, sobre el diseño estratégico y atributos de calidad, utilizando ejemplos concretos para que todos entendieran la importancia de las decisiones arquitectónicas. <br><br> **Sebastián Tasayco, Javier Martin**  <br> *TB1*  <br> Presenté la segunda mitad del Capítulo IV, abordando la arquitectura de software y diagramas técnicos, simplificando conceptos para que personas de distintas especialidades pudieran seguir la lógica del sistema. | *TB1*  <br> El equipo logró comunicar oralmente los avances del proyecto de forma clara y objetiva, ajustando la terminología según el perfil de la audiencia. Cada miembro dominó su capítulo, facilitando una exposición integral y comprensible, promoviendo la interacción y entendimiento de los aspectos tanto técnicos como conceptuales del proyecto. |
-| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián André**  <br> *TB1*  <br> Redacté el Capítulo I, asegurando que la descripción de la startup, el enfoque Lean UX y la definición de segmentos se presentaran con claridad y accesibilidad para diversos públicos. <br><br> **Ramos Ramirez, Renzo Manuel**  <br> *TB1*  <br> Me encargué de escribir el Capítulo II, presentando entrevistas y análisis de la competencia de manera objetiva, con gráficos que ayudaron a ilustrar las conclusiones para todo tipo de lector. <br><br> **Bernardo Eusebio, Alessandro Joaquin**  <br> *TB1*  <br> Redacté el Capítulo III, enfocándome en expresar las especificaciones de requisitos y user stories de forma estructurada, con lenguaje técnico y explicativo a la vez. <br><br> **Castillo Robles, Steve Roger**  <br> *TB1*  <br> Elaboré la primera mitad del Capítulo IV, escribiendo sobre los atributos de calidad y decisiones arquitectónicas, usando cuadros y diagramas para mejorar la comprensión. <br><br> **Sebastián Tasayco, Javier Martin**  <br> *TB1*  <br> Redacté la segunda mitad del Capítulo IV, incluyendo diagramas de arquitectura y despliegue, cuidando que la documentación fuera entendible para desarrolladores y gestores del proyecto. | *TB1*  <br> El equipo produjo un documento técnico completo y coherente, adaptando el nivel de detalle y lenguaje según la audiencia. La correcta estructuración por capítulos permitió una lectura fluida y comprensible para públicos de distintas especialidades, destacando la objetividad y claridad en la presentación de resultados e ideas. |
-
+| **Criterio específico**                                                                                                                                                                   | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | **Conclusiones**                                                                                                                                                                                                                                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.**    | **Ramirez Mendez, Sebastián André** <br> _TB1_ <br> Presenté el Capítulo I, explicando la visión de la startup, el perfil del equipo y la problemática abordada, destacando la importancia de nuestra solución en un lenguaje accesible para todos los presentes. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TB1_ <br> Expuse el Capítulo II, detallando los hallazgos de las entrevistas y el análisis competitivo, haciendo énfasis en cómo estos datos fundamentaron las necesidades del usuario, adaptando la terminología según el público. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TB1_ <br> Realicé la exposición del Capítulo III, enfocándome en explicar las User Stories, Product Backlog e Impact Mapping, asegurando la comprensión por parte de públicos técnicos y no técnicos. <br><br> **Castillo Robles, Steve Roger** <br> _TB1_ <br> Expliqué la primera mitad del Capítulo IV, sobre el diseño estratégico y atributos de calidad, utilizando ejemplos concretos para que todos entendieran la importancia de las decisiones arquitectónicas. <br><br> **Sebastián Tasayco, Javier Martin** <br> _TB1_ <br> Presenté la segunda mitad del Capítulo IV, abordando la arquitectura de software y diagramas técnicos, simplificando conceptos para que personas de distintas especialidades pudieran seguir la lógica del sistema. | _TB1_ <br> El equipo logró comunicar oralmente los avances del proyecto de forma clara y objetiva, ajustando la terminología según el perfil de la audiencia. Cada miembro dominó su capítulo, facilitando una exposición integral y comprensible, promoviendo la interacción y entendimiento de los aspectos tanto técnicos como conceptuales del proyecto. |
+| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián André** <br> _TB1_ <br> Redacté el Capítulo I, asegurando que la descripción de la startup, el enfoque Lean UX y la definición de segmentos se presentaran con claridad y accesibilidad para diversos públicos. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TB1_ <br> Me encargué de escribir el Capítulo II, presentando entrevistas y análisis de la competencia de manera objetiva, con gráficos que ayudaron a ilustrar las conclusiones para todo tipo de lector. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TB1_ <br> Redacté el Capítulo III, enfocándome en expresar las especificaciones de requisitos y user stories de forma estructurada, con lenguaje técnico y explicativo a la vez. <br><br> **Castillo Robles, Steve Roger** <br> _TB1_ <br> Elaboré la primera mitad del Capítulo IV, escribiendo sobre los atributos de calidad y decisiones arquitectónicas, usando cuadros y diagramas para mejorar la comprensión. <br><br> **Sebastián Tasayco, Javier Martin** <br> _TB1_ <br> Redacté la segunda mitad del Capítulo IV, incluyendo diagramas de arquitectura y despliegue, cuidando que la documentación fuera entendible para desarrolladores y gestores del proyecto.                                                                                                                              | _TB1_ <br> El equipo produjo un documento técnico completo y coherente, adaptando el nivel de detalle y lenguaje según la audiencia. La correcta estructuración por capítulos permitió una lectura fluida y comprensible para públicos de distintas especialidades, destacando la objetividad y claridad en la presentación de resultados e ideas.           |
 
 # Contenido
-## Capítulo I: Introducción 
+
+## Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
@@ -261,7 +271,6 @@ Los siguientes integrantes del grupo son presentados con su carrera y sus conoci
   </tr>
 </table>
 
-
 ## 1.2. Solution Profile
 
 Esta sección presenta el perfil de solución propuesto para abordar la problemática identificada. Se estructura en dos partes: los antecedentes y la problemática que justifican la necesidad de nuestra solución, y el proceso Lean UX utilizado para diseñar una plataforma centrada en las necesidades reales de los usuarios.
@@ -317,26 +326,26 @@ El acceso básico a la plataforma será gratuito para comunidades pequeñas. Par
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-***Problem Statement 1***
+**_Problem Statement 1_**
 
-|Nuestro producto tiene como objetivo garantizar procesos de votación seguros, transparentes y anónimos para comunidades mediante tecnología blockchain.|
-| - |
-|Hemos observado que muchas organizaciones comunitarias, universitarias y vecinales aún utilizan métodos tradicionales como votación a mano alzada o papeletas físicas, los cuales carecen de garantías de seguridad, anonimato y transparencia, lo que genera desconfianza y baja participación.|
-|¿Podría nuestra plataforma VoteChain, basada en tecnología blockchain, mejorar la participación ciudadana y la confianza en los resultados electorales al ofrecer un sistema descentralizado, auditable y anónimo?|
+| Nuestro producto tiene como objetivo garantizar procesos de votación seguros, transparentes y anónimos para comunidades mediante tecnología blockchain.                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Hemos observado que muchas organizaciones comunitarias, universitarias y vecinales aún utilizan métodos tradicionales como votación a mano alzada o papeletas físicas, los cuales carecen de garantías de seguridad, anonimato y transparencia, lo que genera desconfianza y baja participación. |
+| ¿Podría nuestra plataforma VoteChain, basada en tecnología blockchain, mejorar la participación ciudadana y la confianza en los resultados electorales al ofrecer un sistema descentralizado, auditable y anónimo?                                                                               |
 
-***Problem Statement 2***
+**_Problem Statement 2_**
 
-|Nuestro producto tiene como objetivo reducir la manipulación, duplicación o pérdida de votos en procesos de toma de decisiones colectivas.|
-| - |
-|Hemos observado que en muchas elecciones locales o votaciones internas no existe una trazabilidad del voto ni un registro público inalterable del proceso, lo que permite la manipulación o invalidez de los resultados.|
-|¿Podría VoteChain, al registrar cada voto como una transacción en la blockchain, garantizar la inmutabilidad y auditabilidad del proceso electoral para generar confianza en los votantes y las autoridades organizadoras?|
+| Nuestro producto tiene como objetivo reducir la manipulación, duplicación o pérdida de votos en procesos de toma de decisiones colectivas.                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hemos observado que en muchas elecciones locales o votaciones internas no existe una trazabilidad del voto ni un registro público inalterable del proceso, lo que permite la manipulación o invalidez de los resultados.   |
+| ¿Podría VoteChain, al registrar cada voto como una transacción en la blockchain, garantizar la inmutabilidad y auditabilidad del proceso electoral para generar confianza en los votantes y las autoridades organizadoras? |
 
-***Problem Statement 3***
+**_Problem Statement 3_**
 
-|Nuestro producto tiene como objetivo democratizar el acceso a procesos de votación seguros mediante una plataforma digital accesible y fácil de usar.|
-| - |
-|Hemos observado que las plataformas digitales de votación existentes suelen ser costosas, centralizadas o poco adaptables a las necesidades locales, lo que limita su adopción por parte de comunidades pequeñas o con bajos recursos tecnológicos.|
-|¿Podría VoteChain, al ofrecer una plataforma descentralizada de código abierto y adaptada a diversos contextos comunitarios, ampliar el acceso a herramientas de votación seguras para poblaciones que históricamente han estado excluidas?|
+| Nuestro producto tiene como objetivo democratizar el acceso a procesos de votación seguros mediante una plataforma digital accesible y fácil de usar.                                                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hemos observado que las plataformas digitales de votación existentes suelen ser costosas, centralizadas o poco adaptables a las necesidades locales, lo que limita su adopción por parte de comunidades pequeñas o con bajos recursos tecnológicos. |
+| ¿Podría VoteChain, al ofrecer una plataforma descentralizada de código abierto y adaptada a diversos contextos comunitarios, ampliar el acceso a herramientas de votación seguras para poblaciones que históricamente han estado excluidas?         |
 
 ---
 
@@ -348,23 +357,25 @@ El acceso básico a la plataforma será gratuito para comunidades pequeñas. Par
 2. **¿Dónde encaja nuestro producto en su trabajo o vida?**  
    VoteChain se integra en momentos clave de participación democrática dentro de comunidades, asociaciones, juntas vecinales o instituciones educativas. Apoya en la organización de procesos como elecciones internas, validación de propuestas, decisiones presupuestales participativas, entre otros.
 
-3. **¿Qué problemas tiene nuestro producto que busca resolver?**  
-   - Falta de transparencia en elecciones comunitarias.  
-   - Desconfianza en los resultados por manipulación o duplicación de votos.  
-   - Falta de anonimato en votaciones presenciales.  
-   - Ausencia de trazabilidad y auditoría pública.  
-   - Baja participación por procesos engorrosos o poco accesibles.  
+3. **¿Qué problemas tiene nuestro producto que busca resolver?**
+
+   - Falta de transparencia en elecciones comunitarias.
+   - Desconfianza en los resultados por manipulación o duplicación de votos.
+   - Falta de anonimato en votaciones presenciales.
+   - Ausencia de trazabilidad y auditoría pública.
+   - Baja participación por procesos engorrosos o poco accesibles.
 
 4. **¿Cuándo y cómo es nuestro producto usado?**  
    VoteChain es utilizado en procesos de votación planificados, donde los organizadores configuran elecciones, inscriben votantes y definen plazos. Los ciudadanos emiten su voto desde cualquier dispositivo con acceso a internet, de manera sencilla y segura. Todo el proceso queda registrado en la blockchain, generando un historial público y auditable.
 
-5. **¿Qué características son importantes?**  
-   - Registro descentralizado de votos (blockchain).  
-   - Interfaz amigable, responsiva y multilingüe.  
-   - Anonimato garantizado en la emisión del voto.  
-   - Auditoría pública en tiempo real.  
-   - Módulo de resultados cifrados y visualizaciones claras.  
-   - Configuración de votaciones con reglas personalizables.  
+5. **¿Qué características son importantes?**
+
+   - Registro descentralizado de votos (blockchain).
+   - Interfaz amigable, responsiva y multilingüe.
+   - Anonimato garantizado en la emisión del voto.
+   - Auditoría pública en tiempo real.
+   - Módulo de resultados cifrados y visualizaciones claras.
+   - Configuración de votaciones con reglas personalizables.
 
 6. **¿Cómo debe verse nuestro producto y cómo comportarse?**  
    VoteChain debe ofrecer una interfaz moderna, accesible y segura. Debe comportarse con rapidez, sin errores ni retrasos, especialmente durante el proceso de votación. El sistema debe transmitir confianza y claridad al usuario, adaptándose tanto a computadoras como a dispositivos móviles. La información debe estar encriptada, protegida y disponible para consulta sin comprometer el anonimato del votante.
@@ -375,26 +386,27 @@ El acceso básico a la plataforma será gratuito para comunidades pequeñas. Par
 
 **Hypothesis Statement 1**
 
-|Creemos que al proporcionar una plataforma blockchain de votación segura, descentralizada y fácil de usar, las comunidades aumentarán su nivel de participación y confianza en los procesos de toma de decisiones colectivas.|
-| - |
-|Sabremos que esto es cierto…|  
-|Cuando al menos el 75% de los usuarios que participen en procesos de votación con VoteChain reporten una experiencia satisfactoria y un incremento en su disposición a participar en futuras votaciones.|
+| Creemos que al proporcionar una plataforma blockchain de votación segura, descentralizada y fácil de usar, las comunidades aumentarán su nivel de participación y confianza en los procesos de toma de decisiones colectivas. |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sabremos que esto es cierto…                                                                                                                                                                                                  |
+| Cuando al menos el 75% de los usuarios que participen en procesos de votación con VoteChain reporten una experiencia satisfactoria y un incremento en su disposición a participar en futuras votaciones.                      |
 
 **Hypothesis Statement 2**
 
-|Creemos que al registrar cada voto como una transacción en la blockchain, los organizadores y votantes podrán auditar los procesos de forma independiente, reduciendo los reclamos por fraude o manipulación.|
-| - |
-|Sabremos que esto es cierto…|  
-|Cuando se reduzcan en al menos 80% los reclamos de irregularidades en comparación con procesos anteriores organizados sin tecnología blockchain, y se verifique el uso del historial de votación por parte de observadores externos.|
+| Creemos que al registrar cada voto como una transacción en la blockchain, los organizadores y votantes podrán auditar los procesos de forma independiente, reduciendo los reclamos por fraude o manipulación.                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Sabremos que esto es cierto…                                                                                                                                                                                                         |
+| Cuando se reduzcan en al menos 80% los reclamos de irregularidades en comparación con procesos anteriores organizados sin tecnología blockchain, y se verifique el uso del historial de votación por parte de observadores externos. |
 
 **Hypothesis Statement 3**
 
-|Creemos que al ofrecer VoteChain como una solución accesible para comunidades sin acceso previo a tecnología electoral avanzada, lograremos democratizar el acceso a procesos de votación seguros.|
-| - |
-|Sabremos que esto es cierto…|  
-|Cuando al menos 50 comunidades u organizaciones pequeñas adopten la plataforma dentro del primer año de operación y reporten una mejora en su capacidad de organización democrática.|
+| Creemos que al ofrecer VoteChain como una solución accesible para comunidades sin acceso previo a tecnología electoral avanzada, lograremos democratizar el acceso a procesos de votación seguros. |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sabremos que esto es cierto…                                                                                                                                                                       |
+| Cuando al menos 50 comunidades u organizaciones pequeñas adopten la plataforma dentro del primer año de operación y reporten una mejora en su capacidad de organización democrática.               |
 
 #### 1.2.2.4. Lean UX Canvas
+
 En esta sección juntamos la información de los procesos UX y los juntamos en este canvas.
 
 ![Lean Ux Canvas](img/leanuxcanvas.png)
@@ -413,13 +425,13 @@ Tienen un conocimiento básico o intermedio de herramientas digitales y buscan s
 
 El rango de edad se ha establecido entre 25 y 65 años, considerando la experiencia mínima necesaria para liderar procesos de votación comunitarios y la diversidad de actores que hoy participan en espacios organizativos en Perú.
 
-| **Segmento objetivo** | Organizadores de votación comunitaria |
-|-----------------------|---------------------------------------|
-| **Edad**              | 25-65 años                           |
-| **Ubicación**         | Perú, especialmente zonas urbanas y periurbanas |
-| **Sexo**              | Masculino y Femenino                 |
-| **Formación educativa**| Secundaria completa, técnica o universitaria |
-| **Poder adquisitivo** | Medio y alto (debido a su rol institucional) |
+| **Segmento objetivo**    | Organizadores de votación comunitaria                                                                                                  |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Edad**                 | 25-65 años                                                                                                                             |
+| **Ubicación**            | Perú, especialmente zonas urbanas y periurbanas                                                                                        |
+| **Sexo**                 | Masculino y Femenino                                                                                                                   |
+| **Formación educativa**  | Secundaria completa, técnica o universitaria                                                                                           |
+| **Poder adquisitivo**    | Medio y alto (debido a su rol institucional)                                                                                           |
 | **Tecnología utilizada** | Plataforma web para crear procesos de votación, panel de administración, monitoreo de resultados en tiempo real y gestión de usuarios. |
 
 ---
@@ -432,19 +444,21 @@ A pesar de que su dominio tecnológico puede ser limitado en algunos casos, esto
 
 Se considera un rango de edad amplio, desde los 18 años en adelante, para incluir a todo ciudadano con capacidad legal de voto. El nivel educativo y poder adquisitivo son variables, ya que el sistema está pensado para ser inclusivo.
 
-| **Segmento objetivo** | Ciudadanos votantes |
-|-----------------------|---------------------|
-| **Edad**              | 18 años a más       |
-| **Ubicación**         | Perú, con proyección a América Latina |
-| **Sexo**              | Masculino y Femenino |
-| **Formación educativa**| Variada (desde educación secundaria a superior) |
-| **Poder adquisitivo** | Bajo, medio y alto |
+| **Segmento objetivo**    | Ciudadanos votantes                                                                                              |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| **Edad**                 | 18 años a más                                                                                                    |
+| **Ubicación**            | Perú, con proyección a América Latina                                                                            |
+| **Sexo**                 | Masculino y Femenino                                                                                             |
+| **Formación educativa**  | Variada (desde educación secundaria a superior)                                                                  |
+| **Poder adquisitivo**    | Bajo, medio y alto                                                                                               |
 | **Tecnología utilizada** | Aplicación web responsiva, votación anónima, visualización de resultados post-electorales, autenticación segura. |
 
-
 ## Capítulo II: Requirements Elicitation & Analysis
+
 ### 2.1. Competidores
+
 #### 2.1.1. Análisis competitivo
+
   <table>
 <!-- Título -->
   <tr>
@@ -576,147 +590,147 @@ Se considera un rango de edad amplio, desde los 18 años en adelante, para inclu
   
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
-  - **Transparencia radical y código abierto**  
+- **Transparencia radical y código abierto**  
   Publicar el repositorio de VoteChain y las auditorías de smart‑contracts para contrastar con soluciones cerradas (Voatz, Polys).
 
-  - **Precios freemium y gas patrocinado**  
-    Plan Comunidad gratuito (≤ 500 votantes) y subsidio del gas en Polygon para romper barreras de entrada frente a licencias cerradas.
+- **Precios freemium y gas patrocinado**  
+  Plan Comunidad gratuito (≤ 500 votantes) y subsidio del gas en Polygon para romper barreras de entrada frente a licencias cerradas.
 
-  - **Alianzas institucionales locales**  
-    Convenios con ONPE, RENIEC y municipios piloto; certificación académica con universidades públicas para legitimidad regulatoria.
+- **Alianzas institucionales locales**  
+  Convenios con ONPE, RENIEC y municipios piloto; certificación académica con universidades públicas para legitimidad regulatoria.
 
-  - **Educación sobre la blockchain**  
-    Webinars, bootcamps y kits de voto blockchain en español para líderes vecinales.
+- **Educación sobre la blockchain**  
+  Webinars, bootcamps y kits de voto blockchain en español para líderes vecinales.
 
-  - **Modo offline y diseño móvil‑first**  
-    Acceso estable en zonas con conectividad limitada, ventaja frente a plataformas solo web o apps cerradas.
+- **Modo offline y diseño móvil‑first**  
+  Acceso estable en zonas con conectividad limitada, ventaja frente a plataformas solo web o apps cerradas.
 
 ### 2.2. Entrevistas
+
 #### 2.2.1. Diseño de entrevistas
 
-  ### 1. Preguntas generales  
-- ¿Cuál es tu nombre?   
-- ¿Cuántos años tienes?   
-- ¿Cuál es tu ocupación o rol dentro de la comunidad o institución?   
+### 1. Preguntas generales
 
-- ¿Con qué frecuencia participas en procesos de votación (organizando o votando)?  
+- ¿Cuál es tu nombre?
+- ¿Cuántos años tienes?
+- ¿Cuál es tu ocupación o rol dentro de la comunidad o institución?
 
----
-
-### 2. Preguntas — **Segmento: Organizadores de votación comunitaria** 
-
-  1. **Proceso actual** 
-  
-  - ¿Cómo gestionas hoy un proceso de votación?  
-  
-  2. **Herramientas y tecnología**  
-  
-  - ¿Qué herramientas estás utilizando y por qué?  
-  
-  - ¿Cuáles de esas herramientas te generan mayor confianza y cuáles menos?  
-  
-  3. **Desafíos principales**  
-  
-  - ¿Qué problemas enfrentas en términos de transparencia, seguridad o logística? 
-  
-  - ¿Cómo impactan el tiempo y el costo en tu capacidad de organizar elecciones?  
-  
-  4. **Transparencia y auditoría**  
-  
-  - ¿Qué tan fácil es para los votantes y observadores auditar los resultados que publicas?  
-  
-  - ¿Has recibido cuestionamientos sobre la legitimidad de una elección?  
-  
-  5. **Participación ciudadana**  
-  
-  - ¿Cómo motivas a que la gente participe?  
-  
-  - ¿Qué obstáculos ves para alcanzar una alta participación?  
-  
-  6. **Anonimato y privacidad**  
-  
-  - ¿En qué medida te preocupa que los votantes mantengan su anonimato?  
-  
-  - ¿Qué prácticas sigues para proteger sus datos personales?  
-  
-  7. **Características ideales**  
-  
-  - Si pudieras diseñar la plataforma perfecta, ¿qué funciones imprescindibles tendría?  
-  
-  - ¿Qué tipo de panel o métricas te ayudarían a supervisar mejor el proceso?  
-  
-  8. **Integración y soporte**  
-  
-  - ¿Necesitas que se integre con sistemas externos (RENIEC o padrones internos)? 
-  
-  - ¿Qué nivel de soporte técnico o capacitación esperarías del proveedor de la plataforma?  
+- ¿Con qué frecuencia participas en procesos de votación (organizando o votando)?
 
 ---
 
-### 3. Preguntas — **Segmento: Ciudadanos votantes** 
+### 2. Preguntas — **Segmento: Organizadores de votación comunitaria**
 
-  1. **Experiencia de voto actual** 
-  
-  - ¿Cómo fue la última vez que votaste en tu comunidad?
-  
-  - ¿Qué tan satisfecho/a quedaste con ese proceso?  
-  
-  2. **Confianza y transparencia**  
-  
-  - ¿Confías en que tu voto se contó correctamente? 
-  
-  - ¿Qué evidencias o garantías necesitas para creer en el resultado final?  
-  
-  3. **Dificultades y barreras**  
-  
-  - ¿Has dejado de votar alguna vez por falta de tiempo, distancia, desconfianza o complejidad tecnológica?  
-  
-  - ¿Cuál es tu dispositivo de preferencia (móvil, computadora o ambos)?  
-  
-  4. **Anonimato y privacidad**  
-  
-  - ¿Qué tan importante es para ti que nadie pueda vincular tu identidad con tu voto?  
-  
-  - ¿Qué preocupaciones tienes sobre la seguridad de tus datos personales?  
-  
-  5. **Accesibilidad y facilidad de uso**  
-  
-  - ¿Prefieres instrucciones paso a paso, vídeos tutoriales u otro formato?  
-  
-  6. **Características deseadas** 
-  
-  - ¿Te gustaría recibir confirmación inmediata de que tu voto fue registrado?  
-  
-  - ¿Valoras poder consultar resultados en tiempo real o prefieres un anuncio oficial posterior?   
-  
-  7. **Percepción de tecnología blockchain**  
-  - ¿Has oído hablar de la votación en blockchain? Y si es así ¿Qué opinas?
-  
-  - ¿Qué información o demostraciones te ayudarían a sentirte cómodo usando VoteChain?  
+1. **Proceso actual**
 
-  #### 2.2.2. Registro de entrevistas
-    
-  ### Segmento 1: Organizadores de votación comunitaria
-    
-  - Nombre: Luis Torres
-       
-  - Edad: 66 años
-       
-  - Ocupación: Lider de junta vecinal
-       
-  - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113640_upc_edu_pe/EULULKQDzrRDjYoEw8v_2ScBYDiAuc8vPjDNKV7qRYOusw?e=Len3sk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-    
+- ¿Cómo gestionas hoy un proceso de votación?
+
+2. **Herramientas y tecnología**
+
+- ¿Qué herramientas estás utilizando y por qué?
+
+- ¿Cuáles de esas herramientas te generan mayor confianza y cuáles menos?
+
+3. **Desafíos principales**
+
+- ¿Qué problemas enfrentas en términos de transparencia, seguridad o logística?
+
+- ¿Cómo impactan el tiempo y el costo en tu capacidad de organizar elecciones?
+
+4. **Transparencia y auditoría**
+
+- ¿Qué tan fácil es para los votantes y observadores auditar los resultados que publicas?
+
+- ¿Has recibido cuestionamientos sobre la legitimidad de una elección?
+
+5. **Participación ciudadana**
+
+- ¿Cómo motivas a que la gente participe?
+
+- ¿Qué obstáculos ves para alcanzar una alta participación?
+
+6. **Anonimato y privacidad**
+
+- ¿En qué medida te preocupa que los votantes mantengan su anonimato?
+
+- ¿Qué prácticas sigues para proteger sus datos personales?
+
+7. **Características ideales**
+
+- Si pudieras diseñar la plataforma perfecta, ¿qué funciones imprescindibles tendría?
+
+- ¿Qué tipo de panel o métricas te ayudarían a supervisar mejor el proceso?
+
+8. **Integración y soporte**
+
+- ¿Necesitas que se integre con sistemas externos (RENIEC o padrones internos)?
+
+- ¿Qué nivel de soporte técnico o capacitación esperarías del proveedor de la plataforma?
+
+---
+
+### 3. Preguntas — **Segmento: Ciudadanos votantes**
+
+1. **Experiencia de voto actual**
+
+- ¿Cómo fue la última vez que votaste en tu comunidad?
+
+- ¿Qué tan satisfecho/a quedaste con ese proceso?
+
+2. **Confianza y transparencia**
+
+- ¿Confías en que tu voto se contó correctamente?
+
+- ¿Qué evidencias o garantías necesitas para creer en el resultado final?
+
+3. **Dificultades y barreras**
+
+- ¿Has dejado de votar alguna vez por falta de tiempo, distancia, desconfianza o complejidad tecnológica?
+
+- ¿Cuál es tu dispositivo de preferencia (móvil, computadora o ambos)?
+
+4. **Anonimato y privacidad**
+
+- ¿Qué tan importante es para ti que nadie pueda vincular tu identidad con tu voto?
+
+- ¿Qué preocupaciones tienes sobre la seguridad de tus datos personales?
+
+5. **Accesibilidad y facilidad de uso**
+
+- ¿Prefieres instrucciones paso a paso, vídeos tutoriales u otro formato?
+
+6. **Características deseadas**
+
+- ¿Te gustaría recibir confirmación inmediata de que tu voto fue registrado?
+
+- ¿Valoras poder consultar resultados en tiempo real o prefieres un anuncio oficial posterior?
+
+7. **Percepción de tecnología blockchain**
+
+- ¿Has oído hablar de la votación en blockchain? Y si es así ¿Qué opinas?
+
+- ¿Qué información o demostraciones te ayudarían a sentirte cómodo usando VoteChain?
+
+#### 2.2.2. Registro de entrevistas
+
+### Segmento 1: Organizadores de votación comunitaria
+
+- Nombre: Luis Torres
+- Edad: 66 años
+- Ocupación: Lider de junta vecinal
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113640_upc_edu_pe/EULULKQDzrRDjYoEw8v_2ScBYDiAuc8vPjDNKV7qRYOusw?e=Len3sk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
   <img src="img/entrevista1.PNG">
 
   <br/>
 
-  - Nombre: Gustavo Zapata
+- Nombre: Gustavo Zapata
 
-  - Edad: 24 años
+- Edad: 24 años
 
-  - Ocupación: Presidente de una junta vecinal
+- Ocupación: Presidente de una junta vecinal
 
-  - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113745_upc_edu_pe/EWsgd1gutK5Os40hXVOUm0cB5ufQNNUl_ISlGoAFJVlyZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NrclhL
+- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113745_upc_edu_pe/EWsgd1gutK5Os40hXVOUm0cB5ufQNNUl_ISlGoAFJVlyZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NrclhL
 
   <img src="img/entrevista2.png">
 
@@ -727,128 +741,132 @@ Se considera un rango de edad amplio, desde los 18 años en adelante, para inclu
 ### 2.2.3. Análisis de entrevistas
 
 ### Segmento 1: Organizadores de votación comunitaria
- 
-   - Nombre: Luis Torres
- 
-   - Entrevistador: Alessandro Bernardo
-     
-      Luis Torres, coordinador electoral de una junta vecinal, gestiona las votaciones de forma semi-digital usando herramientas como Google Forms, Excel y WhatsApp. Los principales problemas incluyen la dificultad para garantizar la seguridad, la transparencia y la auditoría de los resultados. La falta de anonimato, la baja confianza en el proceso y el alto costo en horas voluntarias limitan la participación. Se busca un sistema ideal con autenticación segura, votación anónima pero verificable, conteo transparente y herramientas de supervisión en tiempo real. Estos desafíos generan desconfianza y cuestionamientos sobre la legitimidad de las elecciones.
+
+- Nombre: Luis Torres
+
+- Entrevistador: Alessandro Bernardo
+
+  Luis Torres, coordinador electoral de una junta vecinal, gestiona las votaciones de forma semi-digital usando herramientas como Google Forms, Excel y WhatsApp. Los principales problemas incluyen la dificultad para garantizar la seguridad, la transparencia y la auditoría de los resultados. La falta de anonimato, la baja confianza en el proceso y el alto costo en horas voluntarias limitan la participación. Se busca un sistema ideal con autenticación segura, votación anónima pero verificable, conteo transparente y herramientas de supervisión en tiempo real. Estos desafíos generan desconfianza y cuestionamientos sobre la legitimidad de las elecciones.
 
   <br/>
 
-   - Nombre: Gustavo Zapata
+- Nombre: Gustavo Zapata
 
-   - Entrevistador: Renzo Ramos
+- Entrevistador: Renzo Ramos
 
-      Gustavo Zapata, es el presidente de una junta vecinal de su localidad, quien emplea herramientas tradicionales como la impresión de carteles y cédulas de votación. La única herramientas digital que domina es Word. Realizar estos procesos de votación le cuestan demasiado dinero. Le gustaría que existiera una herramienta donde pueda hacer seguimiento de la cantidad votos en tiempo real y segura.
-
+  Gustavo Zapata, es el presidente de una junta vecinal de su localidad, quien emplea herramientas tradicionales como la impresión de carteles y cédulas de votación. La única herramientas digital que domina es Word. Realizar estos procesos de votación le cuestan demasiado dinero. Le gustaría que existiera una herramienta donde pueda hacer seguimiento de la cantidad votos en tiempo real y segura.
 
 ### Segmento 2: Ciudadanos votantes
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
-  - **Segmento: Organizadores de votación comunitaria**
 
-    <img src="img/Persona 1.png">
+- **Segmento: Organizadores de votación comunitaria**
+
+  <img src="img/Persona 1.png">
 
   <br/>
 
-  - **Segmento: Ciudadanos votantes**
+- **Segmento: Ciudadanos votantes**
 
-    <img src="img/Persona 2.png">
+  <img src="img/Persona 2.png">
 
   <br/>
 
 ### 2.3.2. User Task Matrix
-   **Segmento: Organizadores de votación comunitaria**
 
-  | Tarea | Frecuencia | Importancia |
-  |-------|------------|-------------|
-  | Crear un nuevo proceso de votación | Alta | Alta |
-  | Configurar opciones, fechas y reglas de la elección | Alta | Alta |
-  | Registrar o cargar el padrón electoral | Media | Alta |
-  | Difundir la convocatoria a votación | Alta | Alta |
-  | Supervisar la emisión de votos | Alta | Alta |
-  | Verificar participación | Media | Alta |
-  | Publicar resultados de forma transparente | Alta | Alta |
-  | Generar reportes o actas para auditoría | Media | Alta |
-  | Atender reclamos o disputas del proceso | Baja | Media |
-  | Coordinar con instituciones (municipios, universidades) | Media | Media |
+**Segmento: Organizadores de votación comunitaria**
 
-  - **Segmento: Ciudadanos votantes**
+| Tarea                                                   | Frecuencia | Importancia |
+| ------------------------------------------------------- | ---------- | ----------- |
+| Crear un nuevo proceso de votación                      | Alta       | Alta        |
+| Configurar opciones, fechas y reglas de la elección     | Alta       | Alta        |
+| Registrar o cargar el padrón electoral                  | Media      | Alta        |
+| Difundir la convocatoria a votación                     | Alta       | Alta        |
+| Supervisar la emisión de votos                          | Alta       | Alta        |
+| Verificar participación                                 | Media      | Alta        |
+| Publicar resultados de forma transparente               | Alta       | Alta        |
+| Generar reportes o actas para auditoría                 | Media      | Alta        |
+| Atender reclamos o disputas del proceso                 | Baja       | Media       |
+| Coordinar con instituciones (municipios, universidades) | Media      | Media       |
 
-    | Tarea | Frecuencia | Importancia |
-    |-------|------------|-------------|
-    | Recibir convocatoria o notificación de elección | Alta | Alta |
-    | Validar identidad y autenticarse para votar | Media | Alta |
-    | Emitir voto de manera anónima desde un dispositivo | Alta | Alta |
-    | Confirmar que el voto fue registrado correctamente | Alta | Alta |
-    | Consultar resultados de la votación | Media | Alta |
-    | Acceder a ayuda o tutoriales sobre cómo votar | Media | Media |
-    | Confiar en que su voto será contado sin manipulaciones | Alta | Alta |
-    | Reportar errores o problemas técnicos | Baja | Media |
+- **Segmento: Ciudadanos votantes**
+
+  | Tarea                                                  | Frecuencia | Importancia |
+  | ------------------------------------------------------ | ---------- | ----------- |
+  | Recibir convocatoria o notificación de elección        | Alta       | Alta        |
+  | Validar identidad y autenticarse para votar            | Media      | Alta        |
+  | Emitir voto de manera anónima desde un dispositivo     | Alta       | Alta        |
+  | Confirmar que el voto fue registrado correctamente     | Alta       | Alta        |
+  | Consultar resultados de la votación                    | Media      | Alta        |
+  | Acceder a ayuda o tutoriales sobre cómo votar          | Media      | Media       |
+  | Confiar en que su voto será contado sin manipulaciones | Alta       | Alta        |
+  | Reportar errores o problemas técnicos                  | Baja       | Media       |
 
 ### 2.3.3. Empathy Mapping
-       
-   - **Segmento: Organizadores de votación comunitaria**
+
+- **Segmento: Organizadores de votación comunitaria**
 
    </br>
    <img src="img/empathy-1.png">
 
    </br>
 
-   - **Segmento: Ciudadanos votantes**
-   
+- **Segmento: Ciudadanos votantes**
+
    </br> 
    <img src="img/empathy-2.png">
 
    </br>
 ### 2.3.4. As-is Scenario Mapping
 
-  Este apartado describe el escenario actual de los usuarios antes de utilizar VoteChain, identificando sus acciones, pensamientos y emociones durante los procesos de votación tradicionales.
+Este apartado describe el escenario actual de los usuarios antes de utilizar VoteChain, identificando sus acciones, pensamientos y emociones durante los procesos de votación tradicionales.
 
-  **Segmento objetivo: Organizadores de votación comunitaria**
+**Segmento objetivo: Organizadores de votación comunitaria**
 
   <img src="img/as-is-1.png"/>
 
   </br>
 
-  **Segmento objetivo: Ciudadanos votantes**
+**Segmento objetivo: Ciudadanos votantes**
 
   <img src="img/as-is-2.png"/>
 ### 2.4. Ubiquitous Language
     
   Para el desarrollo de nuestro proyecto, es esencial establecer un lenguaje claro y conciso que refleje las necesidades y expectativas de todos los usuarios. Por esta razón, hemos identificado los siguientes términos clave que serán utilizados de forma consistente por el equipo de negocio y de desarrollo.
 
-  - **Comunidad:** Cualquier barrio, universidad u organización que crea y participa en una elección.  
-  - **Organizador:** Usuario que configura reglas, padrón y calendario de votación.  
-  - **Votante:** Miembro autorizado a emitir un voto único y anónimo.  
-  - **Padrón electoral:** Listado cifrado de votantes, registrado en blockchain como hash verificable.  
-  - **Boleta digital:** Voto firmado criptográficamente que se convierte en transacción.  
-  - **Smart-contract:** Programa autoejecutable desplegado en una red blockchain que contiene reglas definidas por las partes.  
-  - **Transacción:** Registro inmutable de un voto o acción administrativa.  
-  - **Tablero de resultados:** Panel en tiempo real que lee eventos del smart-contract.  
-  - **Auditoría pública:** Verificación independiente descargando la cadena y recomputando votos.  
-  - **Gas patrocinado:** Modelo en el que la plataforma paga las comisiones para que el votante no necesite criptomonedas.
+- **Comunidad:** Cualquier barrio, universidad u organización que crea y participa en una elección.
+- **Organizador:** Usuario que configura reglas, padrón y calendario de votación.
+- **Votante:** Miembro autorizado a emitir un voto único y anónimo.
+- **Padrón electoral:** Listado cifrado de votantes, registrado en blockchain como hash verificable.
+- **Boleta digital:** Voto firmado criptográficamente que se convierte en transacción.
+- **Smart-contract:** Programa autoejecutable desplegado en una red blockchain que contiene reglas definidas por las partes.
+- **Transacción:** Registro inmutable de un voto o acción administrativa.
+- **Tablero de resultados:** Panel en tiempo real que lee eventos del smart-contract.
+- **Auditoría pública:** Verificación independiente descargando la cadena y recomputando votos.
+- **Gas patrocinado:** Modelo en el que la plataforma paga las comisiones para que el votante no necesite criptomonedas.
+
 ## Capítulo III: Requirements Specification
+
 ## 3.1. To-Be Scenario Mapping
 
-  A continuación, se presenta el Mapeo de Escenarios Futuros desarrollado específicamente para este proyecto. Este mapa ofrece una visión estructurada sobre la implementación de mejoras y transformaciones en los procesos y sistemas. Seguidamente, se muestra su       representación gráfica.
-  
-**Segmento: Organizadores de votación comunitaria** 
+A continuación, se presenta el Mapeo de Escenarios Futuros desarrollado específicamente para este proyecto. Este mapa ofrece una visión estructurada sobre la implementación de mejoras y transformaciones en los procesos y sistemas. Seguidamente, se muestra su representación gráfica.
+
+**Segmento: Organizadores de votación comunitaria**
 
 <p align="center">
   <img src="img/to be scenario map.jpg">
 </p>
 
-**Segmento: Ciudadanos votantes** 
+**Segmento: Ciudadanos votantes**
 
 <p align="center">
   <img src="img/to be scenario map 2.jpg">
 </p>
 
 ## 3.2. User Stories
+
   <table border="1">
   <thead>
     <tr>
@@ -2088,6 +2106,7 @@ Se considera un rango de edad amplio, desde los 18 años en adelante, para inclu
     </tr>
   </tbody>
 </table>
+
 ## Capítulo IV: Solution Software Design
 
 ### 4.1. Strategic-Level Attribute-Driven Design.
@@ -2114,13 +2133,13 @@ Los insumos para el diseño arquitectónico se derivan de los capítulos anterio
 
 Las funcionalidades primarias de VoteChain se extraen de las historias de usuario priorizadas en el Product Backlog. Las siguientes historias de usuario son las más críticas para la arquitectura, ya que definen las capacidades centrales del sistema:
 
-| **HU ID** | **Título** | **Descripción** | **Épica** |
-|-----------|------------|-----------------|-----------|
+| **HU ID** | **Título**                     | **Descripción**                                                                                                  | **Épica**                                        |
+| --------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | E01_US001 | Definir parámetros de elección | Como administrador, quiero establecer parámetros básicos (nombre, fechas, tipo) para iniciar una nueva votación. | E1: Configuración de votaciones descentralizadas |
-| E02_US003 | Validación de identidad | Como sistema, quiero validar la identidad del votante para garantizar la autenticidad del registro. | E2: Autenticación segura de votantes |
-| E03_US001 | Voto único y anónimo | Como votante, quiero que mi voto sea único y anónimo para que no puedan asociarlo conmigo. | E3: Emisión de votos anónimos y encriptados |
-| E04_US001 | Guardado en blockchain | Como administrador, quiero registrar los votos emitidos en la blockchain para evitar fraudes. | E4: Registro inmutable en blockchain |
-| E05_US001 | Acceso público a resultados | Como ciudadano, quiero acceder a los datos de votos en tiempo real para auditar la transparencia. | E5: Auditoría pública en tiempo real |
+| E02_US003 | Validación de identidad        | Como sistema, quiero validar la identidad del votante para garantizar la autenticidad del registro.              | E2: Autenticación segura de votantes             |
+| E03_US001 | Voto único y anónimo           | Como votante, quiero que mi voto sea único y anónimo para que no puedan asociarlo conmigo.                       | E3: Emisión de votos anónimos y encriptados      |
+| E04_US001 | Guardado en blockchain         | Como administrador, quiero registrar los votos emitidos en la blockchain para evitar fraudes.                    | E4: Registro inmutable en blockchain             |
+| E05_US001 | Acceso público a resultados    | Como ciudadano, quiero acceder a los datos de votos en tiempo real para auditar la transparencia.                | E5: Auditoría pública en tiempo real             |
 
 Estas historias reflejan las necesidades fundamentales de los segmentos objetivo (organizadores y votantes) y guían las decisiones arquitectónicas para soportar la configuración de votaciones, autenticación segura, votación anónima, registro inmutable y auditoría transparente.
 
@@ -2128,13 +2147,13 @@ Estas historias reflejan las necesidades fundamentales de los segmentos objetivo
 
 Los atributos de calidad son esenciales para garantizar que VoteChain cumpla con las expectativas de los usuarios y las demandas del entorno. A continuación, se presentan los escenarios de atributos de calidad priorizados, siguiendo el formato estándar (estímulo, fuente, respuesta, medida):
 
-| **Atributo** | **Escenario** | **Prioridad** |
-|--------------|---------------|---------------|
-| **Seguridad** | **Escenario**: Un atacante intenta modificar un voto registrado en la blockchain.<br>**Estímulo**: Intento de alterar un bloque.<br>**Fuente**: Atacante externo.<br>**Respuesta**: El sistema detecta la inconsistencia mediante verificación de hashes.<br>**Medida**: 100% de los intentos de alteración son detectados y reportados en menos de 1 segundo. | Alta |
-| **Disponibilidad** | **Escenario**: Un votante intenta emitir su voto durante el período de votación.<br>**Estímulo**: Solicitud de voto desde un dispositivo móvil.<br>**Fuente**: Votante autenticado.<br>**Respuesta**: El sistema procesa la solicitud y registra el voto.<br>**Medida**: 99.9% de disponibilidad durante el período de votación, con un tiempo de respuesta menor a 2 segundos. | Alta |
-| **Usabilidad** | **Escenario**: Un votante con conocimientos técnicos limitados accede a la plataforma para votar.<br>**Estímulo**: Intento de emitir un voto desde un smartphone.<br>**Fuente**: Votante no técnico.<br>**Respuesta**: La interfaz guía al usuario paso a paso, con instrucciones claras.<br>**Medida**: 90% de los usuarios completan el proceso de votación sin asistencia en menos de 3 minutos. | Media |
-| **Escalabilidad** | **Escenario**: Una comunidad grande realiza una votación con 10,000 votantes simultáneos.<br>**Estímulo**: Picos de tráfico durante la votación.<br>**Fuente**: Votantes múltiples.<br>**Respuesta**: El sistema procesa todas las transacciones sin caídas.<br>**Medida**: Soporta hasta 10,000 transacciones por minuto con un tiempo de procesamiento promedio de 1 segundo por voto. | Media |
-| **Auditabilidad** | **Escenario**: Un auditor externo verifica la validez de los resultados electorales.<br>**Estímulo**: Solicitud de auditoría de bloques.<br>**Fuente**: Auditor autorizado.<br>**Respuesta**: El sistema proporciona acceso a los registros inmutables y sus hashes.<br>**Medida**: 100% de los bloques son verificables en menos de 5 minutos. | Alta |
+| **Atributo**       | **Escenario**                                                                                                                                                                                                                                                                                                                                                                                       | **Prioridad** |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| **Seguridad**      | **Escenario**: Un atacante intenta modificar un voto registrado en la blockchain.<br>**Estímulo**: Intento de alterar un bloque.<br>**Fuente**: Atacante externo.<br>**Respuesta**: El sistema detecta la inconsistencia mediante verificación de hashes.<br>**Medida**: 100% de los intentos de alteración son detectados y reportados en menos de 1 segundo.                                      | Alta          |
+| **Disponibilidad** | **Escenario**: Un votante intenta emitir su voto durante el período de votación.<br>**Estímulo**: Solicitud de voto desde un dispositivo móvil.<br>**Fuente**: Votante autenticado.<br>**Respuesta**: El sistema procesa la solicitud y registra el voto.<br>**Medida**: 99.9% de disponibilidad durante el período de votación, con un tiempo de respuesta menor a 2 segundos.                     | Alta          |
+| **Usabilidad**     | **Escenario**: Un votante con conocimientos técnicos limitados accede a la plataforma para votar.<br>**Estímulo**: Intento de emitir un voto desde un smartphone.<br>**Fuente**: Votante no técnico.<br>**Respuesta**: La interfaz guía al usuario paso a paso, con instrucciones claras.<br>**Medida**: 90% de los usuarios completan el proceso de votación sin asistencia en menos de 3 minutos. | Media         |
+| **Escalabilidad**  | **Escenario**: Una comunidad grande realiza una votación con 10,000 votantes simultáneos.<br>**Estímulo**: Picos de tráfico durante la votación.<br>**Fuente**: Votantes múltiples.<br>**Respuesta**: El sistema procesa todas las transacciones sin caídas.<br>**Medida**: Soporta hasta 10,000 transacciones por minuto con un tiempo de procesamiento promedio de 1 segundo por voto.            | Media         |
+| **Auditabilidad**  | **Escenario**: Un auditor externo verifica la validez de los resultados electorales.<br>**Estímulo**: Solicitud de auditoría de bloques.<br>**Fuente**: Auditor autorizado.<br>**Respuesta**: El sistema proporciona acceso a los registros inmutables y sus hashes.<br>**Medida**: 100% de los bloques son verificables en menos de 5 minutos.                                                     | Alta          |
 
 Estos escenarios aseguran que la arquitectura priorice la seguridad, disponibilidad y auditabilidad, que son críticos para generar confianza en los procesos democráticos digitales.
 
@@ -2293,6 +2312,7 @@ A continuación, se presenta el Architectural Drivers Backlog que incluye los Fu
 El proceso de toma de decisiones de diseño arquitectónico se llevó a cabo en varias iteraciones del Attribute-Driven Design (ADD), donde se evaluaron distintos patrones arquitectónicos y tácticas para abordar los Architectural Drivers priorizados. A lo largo de estas iteraciones, el equipo consideró cuidadosamente los pros y contras de cada patrón candidato, tomando decisiones con base en el impacto sobre los atributos de calidad (seguridad, disponibilidad, usabilidad, auditabilidad) y la complejidad técnica de cada controlador.
 
 **Iteración 1: Seguridad y anonimato de votos (FD-001)**
+
 <p>
 Para este driver, se evaluaron patrones y tácticas que garanticen la protección de los votos y el anonimato de los votantes mediante el uso de tecnología blockchain.
 </p>
@@ -2329,6 +2349,7 @@ Para este driver, se evaluaron patrones y tácticas que garanticen la protecció
 </p>
 
 **Iteración 2: Registro inmutable en blockchain (FD-002)**
+
 <p>
 Para este driver, se evaluaron patrones que permitan un registro eficiente e inmutable de los votos en blockchain, optimizando el rendimiento y la escalabilidad.
 </p>
@@ -2365,6 +2386,7 @@ Para este driver, se evaluaron patrones que permitan un registro eficiente e inm
 </p>
 
 **Iteración 3: Auditabilidad pública en tiempo real (FD-003)**
+
 <p>
 Para este driver, se evaluaron patrones que permitan a ciudadanos y auditores verificar los resultados de las votaciones de forma transparente y en tiempo real.
 </p>
@@ -2401,6 +2423,7 @@ Para este driver, se evaluaron patrones que permitan a ciudadanos y auditores ve
 </p>
 
 **Iteración 4: Disponibilidad durante votaciones (FD-004)**
+
 <p>
 Para este driver, se evaluaron patrones que aseguren alta disponibilidad del sistema durante los períodos de votación, incluso bajo picos de tráfico.
 </p>
@@ -2437,6 +2460,7 @@ Para este driver, se evaluaron patrones que aseguren alta disponibilidad del sis
 </p>
 
 **Iteración 5: Validación segura de identidad (FD-005)**
+
 <p>
 Para este driver, se evaluaron patrones que permitan una validación segura y confiable de la identidad de los votantes, cumpliendo con regulaciones locales.
 </p>
@@ -2477,6 +2501,7 @@ Para este driver, se evaluaron patrones que permitan una validación segura y co
 Se realizó una priorización de los escenarios de atributos de calidad que guían las decisiones arquitectónicas. Estos escenarios se refinaron según su impacto en los Business Goals de VoteChain, con el objetivo de garantizar una solución robusta y eficiente que cumpla con las expectativas de los stakeholders (organizadores y votantes) y las regulaciones locales.
 
 **Scenario Refinement for Scenario 1: Seguridad (FD-001)**
+
 <table border="1">
   <tr>
     <td><b>Scenario(s):</b></td>
@@ -2520,6 +2545,7 @@ Se realizó una priorización de los escenarios de atributos de calidad que guí
 </table>
 
 **Scenario Refinement for Scenario 2: Auditabilidad (FD-003)**
+
 <table border="1">
   <tr>
     <td><b>Scenario(s):</b></td>
@@ -2563,6 +2589,7 @@ Se realizó una priorización de los escenarios de atributos de calidad que guí
 </table>
 
 **Scenario Refinement for Scenario 3: Disponibilidad (FD-004)**
+
 <table border="1">
   <tr>
     <td><b>Scenario(s):</b></td>
@@ -2606,6 +2633,7 @@ Se realizó una priorización de los escenarios de atributos de calidad que guí
 </table>
 
 **Scenario Refinement for Scenario 4: Usabilidad (FD-006)**
+
 <table border="1">
   <tr>
     <td><b>Scenario(s):</b></td>
@@ -2649,6 +2677,7 @@ Se realizó una priorización de los escenarios de atributos de calidad que guí
 </table>
 
 **Scenario Refinement for Scenario 5: Escalabilidad (FD-007)**
+
 <table border="1">
   <tr>
     <td><b>Scenario(s):</b></td>
@@ -2693,7 +2722,7 @@ Se realizó una priorización de los escenarios de atributos de calidad que guí
 
 ### 4.2. Strategic-Level Domain-Driven Design.
 
-El equipo VoteChain decidió utilizar una estrategia basada Domain-Driven Design (DDD) para poder comprender y estructurar el dominio del problema.  Esta manera de trabajar nos ayudó a que el diseño del sistema se adaptara mejor a lo que realmente necesitaban los usuarios, lo que a su vez hizo más fácil llevar a cabo votaciones que tuvieran sentido y aportaran valor al negocio.
+El equipo VoteChain decidió utilizar una estrategia basada Domain-Driven Design (DDD) para poder comprender y estructurar el dominio del problema. Esta manera de trabajar nos ayudó a que el diseño del sistema se adaptara mejor a lo que realmente necesitaban los usuarios, lo que a su vez hizo más fácil llevar a cabo votaciones que tuvieran sentido y aportaran valor al negocio.
 
 Para lograr esto, nos concentramos en identificar los momentos importantes dentro del sistema, definir claramente los diferentes entornos o bounded contexts que eran relevantes, diseñar cómo se comunicarían esos entornos entre sí y establecer con exactitud dónde empezaba y terminaba cada parte del sistema. Esta forma de abordar el problema no solo nos permitió entender mejor cómo funcionaba internamente todo el sistema de votación para la comunidad, sino que también nos ayudó a crear una arquitectura que fuera lógica, que pudiera crecer sin problemas y que realmente respondiera a las necesidades de los usuarios.
 
@@ -2701,7 +2730,7 @@ A continuación, se detallará paso a paso las actividades realizadas en cada et
 
 #### 4.2.1. EventStorming.
 
-Para empezar a comprender el funcionamiento de VoteChain, llevamos a cabo una reunión llamada EventStorming, la cual nos sirvió para tener una visión clara de los sucesos más relevantes dentro del sistema. En esta actividad donde todos participamos, pudimos identificar sin confusiones qué pasa desde el momento en que se planea una votación hasta que se dan a conocer los resultados.  Esta dinámica nos permitió encontrar los aspectos cruciales del proceso y establecer el punto de partida para diseñar el sistema de una manera más exacta.
+Para empezar a comprender el funcionamiento de VoteChain, llevamos a cabo una reunión llamada EventStorming, la cual nos sirvió para tener una visión clara de los sucesos más relevantes dentro del sistema. En esta actividad donde todos participamos, pudimos identificar sin confusiones qué pasa desde el momento en que se planea una votación hasta que se dan a conocer los resultados. Esta dinámica nos permitió encontrar los aspectos cruciales del proceso y establecer el punto de partida para diseñar el sistema de una manera más exacta.
 
 **Unstructured Exploration**
 En la fase de Unstructured Exploration, el equipo identificó libremente los eventos y acciones clave relacionados con el proceso de votación, sin seguir aún una estructura definida. Esto permitió una comprensión inicial más abierta del dominio.
@@ -2809,7 +2838,7 @@ Ahora, se identifican posibles límites dentro del dominio del problema. A parti
 
 #### 4.2.3. Domain Message Flows Modeling.
 
-En VoteChain, nos permite entender cómo se comunican las diferentes partes del sistema (bounded contexts) para llevar a cabo acciones importantes como registrar a un votante, verificar su identidad y permitir que emita su voto.  Utilizando diagramas de "Narración del Dominio", representamos de forma sencilla cómo viajan los mensajes, las órdenes y los eventos entre los usuarios, los sistemas y los servicios. Esto nos asegura que toda la lógica detrás del proceso funcione de manera coordinada y de acuerdo con las reglas del negocio.
+En VoteChain, nos permite entender cómo se comunican las diferentes partes del sistema (bounded contexts) para llevar a cabo acciones importantes como registrar a un votante, verificar su identidad y permitir que emita su voto. Utilizando diagramas de "Narración del Dominio", representamos de forma sencilla cómo viajan los mensajes, las órdenes y los eventos entre los usuarios, los sistemas y los servicios. Esto nos asegura que toda la lógica detrás del proceso funcione de manera coordinada y de acuerdo con las reglas del negocio.
 
 **Voter Register**
 
@@ -2864,6 +2893,7 @@ En esta sección se representa gráficamente la forma en la que los distintos Bo
 </p>
 
 ### 4.3. Software Architecture.
+
 #### 4.3.1. Software Architecture System Landscape Diagram.
 
 Esta vista representa el panorama general del sistema VoteChain en relación con su ecosistema. Permite identificar los principales actores externos, ya sean personas o sistemas, y muestra cómo interactúan con la plataforma.
@@ -2874,7 +2904,7 @@ Esta vista representa el panorama general del sistema VoteChain en relación con
 
 #### 4.3.2. Software Architecture Context Level Diagrams.
 
-En esta sección, se ubica al sistema como el núcleo del diagrama. 
+En esta sección, se ubica al sistema como el núcleo del diagrama.
 
 <p align="center">
   <img src="img/SoftwareArchitectureContextLevelDiagrams..png" alt="Context Level Diagram" width="600"/>
@@ -2894,5 +2924,96 @@ El diagrama de contenedores descompone a VoteChain en sus elementos de alto nive
   <img src="img/SoftwareArchitectureDeploymentDiagrams.png" alt="Deployment Diagram" width="600"/>
 </p>
 
-## Anexos y Bibliografía 
+## Capítulo VI: Solution UX Design
+
+### 6.1. Style Guidelines
+
+#### 6.1.1. General Style Guidelines
+
+Las Style Guidelines son un conjunto de reglas de diseño que deben aplicarse en la creación de contenido visual. Estas reglas incluyen los colores, la tipografía, los tamaños y otros elementos estéticos que deben seguirse de forma estricta a lo largo del proyecto para asegurar coherencia, identidad visual y una experiencia de usuario uniforme. 
+
+A continuación, se describen las Style Guidelines aplicadas en el desarrollo de VoteChain:
+
+**Branding**
+
+El nombre de nuestra solución es VoteChain. Este nombre refleja el objetivo principal del sistema: permitir procesos de votación seguros, auditables y descentralizados mediante tecnología blockchain. Con ello, buscamos fortalecer la confianza ciudadana en procesos electorales digitales.
+
+El logotipo está diseñado para transmitir confianza, innovación y soberanía digital. El escudo representa seguridad y protección; el check anaranjado simboliza la validación de votos; y los nodos laterales evocan la estructura descentralizada del blockchain, resaltando integridad y trazabilidad.
+
+<img src="img/logo.png">
+
+<br>
+
+**Typography**
+
+Para asegurar una comunicación clara, moderna y coherente en toda la plataforma VoteChain, se ha seleccionado la tipografía Poppins, una fuente sans-serif de Google Fonts que ofrece excelente legibilidad en pantallas digitales y aporta una apariencia profesional y accesible.
+
+<img src="img/Typography.png">
+
+<img src="img/Typography2.png">
+
+<br>
+
+**Colors**
+
+El sistema de colores de VoteChain ha sido cuidadosamente seleccionado para transmitir confianza, seguridad y dinamismo. La paleta se divide en colores de marca y colores de estado, garantizando consistencia visual y claridad en la comunicación dentro de toda la plataforma.
+
+
+
+<img src="img/Colors.png">
+
+#### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+Esta sección describe los guidelines que definen el diseño de la plataforma web de VoteChain. El objetivo es ofrecer una experiencia coherente, accesible y confiable, reforzando los valores de transparencia, seguridad y participación digital.
+
+#### Principios Generales
+
+VoteChain se construye sobre un enfoque mobile-first y diseño limpio, utilizando una cuadrícula flexible que permite adaptarse a distintos tamaños de pantalla. Se prioriza la legibilidad, jerarquía visual clara y componentes reutilizables para mantener consistencia en toda la interfaz.
+
+#### Estructura y Diseño
+
+- **Grid System:** Se emplea una cuadrícula de 12 columnas con márgenes y espaciados fluidos, facilitando una distribución balanceada de los contenidos.
+
+- **Diseño Responsivo:** Gracias al uso de media queries, el sitio web se adapta perfectamente a diferentes resoluciones, asegurando una experiencia óptima en monitores de escritorio, laptops y dispositivos móviles.
+
+- **Patrón Visual:** Se sigue un patrón en Z para dirigir la atención hacia los elementos clave como botones de acción, formularios de votación y resultados.
+
+#### Componentes Clave
+
+- **Cards:** Utilizadas para organizar procesos electorales activos, candidatos y resultados. Ayudan a presentar la información de forma compacta y ordenada, especialmente útil en vistas responsivas.
+
+- **Buttons:** Los botones de acciones principales como “Emitir voto”, “Ver resultados” o “Confirmar identidad” utilizan colores de marca contrastantes (`#F16C18` y `#043553`). Incluyen estados de hover y focus para mejorar la experiencia de usuario.
+
+- **Tables:** Usadas en vistas administrativas o de auditoría para visualizar estadísticas, históricos de votación o monitoreo de participación. Se integran con filtros y paginación para facilitar su uso.
+
+### 6.2. Information Architecture
+
+#### 6.2.1. Labeling Systems
+
+#### 6.2.2. Searching Systems
+
+#### 6.2.3. SEO Tags and Meta Tags
+
+#### 6.2.4. Navigation Sytems
+
+### 6.3 Landing Page UI Design
+
+#### 6.3.1. Landing Page Wireframe
+
+#### 6.3.2. Landing Page Mock-up
+
+### 6.4. Applications UX/UI Design
+
+#### 6.4.1. Applications Wireframes
+
+#### 6.4.2. Applications Wireflow Diagrams
+
+#### 6.4.3. Applications Mock-ups
+
+#### 6.4.4. Applications User Flow Diagrams
+
+### 6.5. Applications Prototyping
+
+## Anexos y Bibliografía
+
 ## Student Outcome
