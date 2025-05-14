@@ -2990,11 +2990,66 @@ VoteChain se construye sobre un enfoque mobile-first y diseño limpio, utilizand
 
 #### 6.2.1. Labeling Systems
 
+Para la interfaz de Votechain se han elegido etiquetas cortas  directas que permiten a los usuarios identificar el contenido o acción deseada.
+
+**En el header**
+- **Inicio**: Dirige al visitante al contenido principal de la plataforma, donde se presenta el propósito general.
+- **Ciudadanos**: Agrupa toda la información y funciones propias del votante.
+- **Organizadores**: Concentra las funcionalidades para quienes crean y administran elecciones.
+- **Iniciar Sesión**: Asociación clara con autenticación.
+- **Regístrate**: Denota acción directa para crar una cuenta.
+
+**Hero Section**
+- **Más información**: Etiqueta en forma de botón esta asociada al deseo de profundizar en la propuesta de valor que ofrece VoteChain.
+
 #### 6.2.2. Searching Systems
+
+El sistema de búsqueda ha sido diseñado para ofrecer una experiencia sencilla, guiada y rápida, con el objetivo de evitar que los usuarios se sientan perdidos frente al volumen de información disponible, especialmente durante procesos electorales 
+
+**Filtros disponibles por tipo de usuario**
+
+**Para organizadores**
+- Por tipo de elección
+- Por estado
+- Por fecha de creación o cierre
+
+**Para ciudadanos**
+- Por elecciones disponibles según su acceso
+- Por fecha límite de votación
+- Por institución u organización que realiza la votación
 
 #### 6.2.3. SEO Tags and Meta Tags
 
+**Landing Page**
+- **Title**: VoteChain | Democracia digital segura y transparente.
+- **Meta Description**: Plataforma descentralizada de votación basada en blockchain. Transparencia, seguridad y confiana para elecciones digitales sin papeleo ni manipulaciones.
+- **Meta Keywords**: Voto digital, blockchain, elecciones seguras, plataforma electoral, votar online.
+- **Meta Author**: VoteChain
+
+**Web Application**
+- **Title**: VoteChain | Gestiona y participa en elecciones digitales seguras.
+- **Meta Description**: Accede con tu identidad digital, organiza elecciones y vota desde cualquier lugar con seguridad y trazabilidad garantizadas.
+- **Meta Keywords**: Votaciones descentralizadas, elecciones online, organizador electoral, identidad digital, blockchain voto
+- **Meta Author**: VoteChain
+
+**Mobile App ASO Elements**
+- **App Title**: VoteChain | Gestiona y participa en elecciones digitales seguras.
+- **App Subtitle**: Vota desde tu celular con confianza y rapidez.
+- **App Description**: VoteChain es la app de votación digital que te permite emitir tu voto en segundos desde tu celular, con total seguridad, transparencia y privacidad. Ideal para elecciones internas o comunitarias. No más colas ni papeleos, empieza ahora.
+- **App Keywords**: votar, app de votación, participación, voto seguro, elecciones digitales.
+
 #### 6.2.4. Navigation Sytems
+
+En VoteChain, el sistema de navegación esta diseñado para ser claro, directo y fácil de usar, guiando a los usuarios sin distracciones para que puedan cumplir sus objetivos rápidamente.
+
+- Se utiliza una navegación principal horizontal en la parte superior con enlaces simples:
+**Inicio**
+**Ciudadanos**
+**Organizadores**
+- Dos botones de acción rápida ("Iniciar sesión" y "Regístrate") están siempre visibles para facilitar el acceso o registro.
+- Secciones como “¿Por qué VoteChain?” o “Para ciudadanos / organizadores” están organizadas en bloques verticales con scroll suave, permitiendo una navegación natural.
+- El botón "Más información" en la parte principal lleva a contenido explicativo adicional.
+- El footer actúa como guía secundaria con enlaces rápidos a navegación, contacto y correo.
 
 ### 6.3 Landing Page UI Design
 
