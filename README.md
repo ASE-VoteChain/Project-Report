@@ -3000,7 +3000,11 @@ VoteChain se construye sobre un enfoque mobile-first y diseño limpio, utilizand
 
 #### 6.3.1. Landing Page Wireframe
 
+<img src="img/landingpage-wireframe.png">
+
 #### 6.3.2. Landing Page Mock-up
+
+<img src="img/landingpage-mockup.png">
 
 ### 6.4. Applications UX/UI Design
 
