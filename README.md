@@ -2802,6 +2802,8 @@ En esta útima etapa, los Bounded Contexts, nos permitieron dividir el sistema e
   <img src="img/BoundedContextsVoteChain.jpg" alt="Bounded Contexts Diagram" width="600"/>
 </p>
 
+[Enlace al tablero en Miro](https://miro.com/app/board/o9J_lwdYqsw=/?share_link_id=779741196366)
+
 #### 4.2.2. Candidate Context Discovery.
 
 Ahora, se identifican posibles límites dentro del dominio del problema. A partir de lo aprendido en el Event Storming, el equipo propone agrupaciones lógicas que podrían convertirse en Bounded Contexts, ayudando a organizar mejor las responsabilidades y facilitar futuras decisiones técnicas.
