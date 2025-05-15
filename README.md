@@ -3241,9 +3241,85 @@ Esta sección presenta los wireframes desarrollados para la plataforma **VoteCha
 
 ---
 
+
+
 #### 6.4.2. Applications Wireflow Diagrams
 
+Los siguientes diagramas de flujo de navegación representan las rutas principales que los distintos tipos de usuarios pueden seguir en la aplicación VoteChain. Cada flujo ha sido diseñado considerando los **Wireframes implementados** y las **User Stories (US)** priorizadas en la solución. Se organizan en **flujos temáticos** que reflejan la arquitectura de información y la experiencia del usuario final.
 
+---
+
+### 🔐 Flujo de Autenticación (E2)
+
+Este flujo representa el acceso de los usuarios a la plataforma, incluyendo inicio de sesión, panel de usuario y ajustes personales.
+
+
+
+- **Pantallas relacionadas:**
+  - `index_wireframe_app.png`
+  - `login_wireframe_app.png`
+  - `resumen_de_actividades_wireframe_app.png`
+  - `perfil_de_usuario_wireframe_app.png`
+  - `configuracion_wireframe_app.png`
+
+---
+
+![alt text](./img/wireflow_1.png)
+
+### 🗳️ Flujo de Votación (E3)
+
+Permite a los usuarios consultar votaciones activas, emitir su voto, validar su hash, y visualizar el historial de participación.
+
+![alt text](./img/wireflow_2.png)
+
+- **Pantallas relacionadas:**
+  - `votaciones_disponible_wireframe_app.png`
+  - `votacion_wireframe_app.png`
+  - `voto_confirmado_wireframe_app.png`
+  - `validacion_de_voto_wireframe_app.png`
+  - `historial_votacion_wireframe_app.png`
+
+---
+
+### 🛠️ Flujo de Administración / Creación (E1, E4)
+
+Diseñado para usuarios con rol administrativo que gestionan y crean nuevas votaciones.
+
+![alt text](./img/wireflow_3.png)
+
+- **Pantallas relacionadas:**
+  - `gestion_voto_wireframe_app.png`
+  - `crear_votacion_wireframe_app.png`
+
+---
+
+### 🌐 Flujo de Transparencia Pública (E5)
+
+Orienta al acceso público de resultados y registros auditables para fomentar la transparencia electoral.
+
+![alt text](./img/wireflow_4.png)
+
+- **Pantallas relacionadas:**
+  - `transparencia_wireframe_app.png`
+  - `resultados_wireframe_app.png`
+  - `logs_votacion_wireframe_app.png`
+
+---
+
+### ⚠️ Flujos Alternativos / De error
+
+Pantallas que brindan retroalimentación adecuada en caso de errores o rutas inválidas.
+
+![alt text](./img/wireflow_5.png)
+
+- **Pantallas relacionadas:**
+  - `votacion_no_encontrada_wireframe_app.png`
+
+---
+
+### ✅ Conclusión
+
+Estos flujos cubren **todas las User Stories implementadas** y están completamente respaldados por los **wireframes** diseñados. La organización por flujos permite visualizar la lógica de navegación de la solución y respeta principios clave de **diseño accesible**, **seguridad**, y **arquitectura de información coherente**.
 
 #### 6.4.3. Applications Mock-ups
 
