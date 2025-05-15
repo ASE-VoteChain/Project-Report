@@ -102,6 +102,37 @@ Abril 2025
   - 4.3.4. Software Architecture Deployment Diagrams
 
 ## Capítulo V: Tactical-Level Software Design
+- 5.1. Bounded Context: Voting Management
+  - 5.1.1. Domain Layer
+<h1>Voting Management Bounded Context</h1>
+  <p>El Domain Layer contiene las entidades centrales que representan los conceptos principales del dominio de gestión de votaciones:</p>
+
+  <ul>
+    <li>
+      <strong>VotingProcess:</strong> Define el proceso completo de votación, incluyendo su configuración, estado actual y reglas de operación. 
+      Encapsula toda la información necesaria para gestionar un proceso electoral desde su creación hasta su finalización.
+    </li>
+    <li>
+      <strong>VotingSession:</strong> Representa una sesión de votación activa dentro de un proceso electoral. 
+      Contiene información sobre el período de tiempo en que las votaciones están habilitadas, controla el inicio y cierre de la sesión.
+    </li>
+    <li>
+      <strong>Ballot:</strong> Define la papeleta o boleta electoral que contiene las opciones disponibles para votar. 
+      Incluye la estructura de la papeleta y las opciones que pueden ser seleccionadas por los votantes.
+    </li>
+    <li>
+      <strong>Vote:</strong> Encapsula el voto emitido por un votante. 
+      Contiene la selección realizada y mantiene la integridad del voto sin comprometer el anonimato del votante.
+    </li>
+  </ul>
+  - 5.1.2. Interface Layer
+  - 5.1.3. Application Layer
+  - 5.1.4. Infrastructure Layer
+  - 5.1.6. Bounded Context Software Architecture Component Level Diagrams
+  - 5.1.7. Bounded Context Software Architecture Code Level Diagrams
+    - 5.1.7.1. Bounded Context Domain Layer Class Diagrams
+    - 5.1.7.2. Bounded Context Database Design Diagram
+
 - 5.X. Bounded Context: <Bounded Context Name>
   - 5.X.1. Domain Layer
   - 5.X.2. Interface Layer
