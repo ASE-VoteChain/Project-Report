@@ -3067,7 +3067,183 @@ En VoteChain, el sistema de navegación esta diseñado para ser claro, directo y
 
 #### 6.4.1. Applications Wireframes
 
+Esta sección presenta los wireframes desarrollados para la plataforma **VoteChain**, diseñados bajo principios de **UX/UI centrado en el usuario**, con enfoque en accesibilidad, jerarquía visual y arquitectura clara de la información.
+
+---
+
+#### 1. Página principal – `index_wireframe_app.png`
+
+![index_wireframe_app](./img/index_wireframe_app.png)
+
+- **Función:** Bienvenida e introducción a la plataforma.
+- **Elementos clave:** Resumen de ventajas, votaciones abiertas, botones de acción.
+- **Principios UX/UI aplicados:** Jerarquía visual clara, lenguaje inclusivo, enfoque responsivo.
+
+---
+
+#### 2. Ingreso de usuario – `login_wireframe_app.png`
+
+![login_wireframe_app](./img/login_wireframe_app.png)
+
+- **Función:** Formulario de acceso a la plataforma.
+- **Elementos clave:** Inputs, botón destacado, enlace a registro.
+- **Accesibilidad:** Contraste suficiente, flujo guiado.
+
+---
+
+#### 3. Registro de nuevo usuario – `registro_wireframe_app.png`
+
+![registro_wireframe_app](./img/registro_wireframe_app.png)
+
+- **Función:** Registro con verificación segura y campos obligatorios.
+- **Elementos clave:** DNI, correo, contraseña segura, código de verificación.
+- **Diseño inclusivo:** Campos con placeholders, pasos lógicos y seguros.
+
+---
+
+#### 4. Perfil del usuario – `perfil_de_usuario_wireframe_app.png`
+
+![perfil_de_usuario_wireframe_app](./img/perfil_de_usuario_wireframe_app.png)
+
+- **Función:** Visualización de información personal e historial de votaciones.
+- **Elementos clave:** Nombre, correo, historial, botones de editar y cerrar sesión.
+- **Organización:** Uso de secciones diferenciadas y texto claro.
+
+---
+
+#### 5. Configuración de cuenta – `configuracion_wireframe_app.png`
+
+![configuracion_wireframe_app](./img/configuracion_wireframe_app.png)
+
+- **Función:** Cambiar contraseña, activar verificación en dos pasos y administrar notificaciones.
+- **Elementos clave:** Inputs, select, checkboxes.
+- **Arquitectura UX:** Formularios segmentados en bloques funcionales.
+
+---
+
+#### 6. Crear nueva votación – `crear_votacion_wireframe_app.png`
+
+![crear_votacion_wireframe_app](./img/crear_votacion_wireframe_app.png)
+
+- **Función:** Configuración inicial de una elección.
+- **Elementos clave:** Campos de título, descripción, fecha, opciones y tipo.
+- **Principios de diseño:** Claridad en la acción y organización visual.
+
+---
+
+#### 7. Administración de votaciones – `gestion_voto_wireframe_app.png`
+
+![gestion_voto_wireframe_app](./img/gestion_voto_wireframe_app.png)
+
+- **Función:** Panel para gestionar el estado y resultados de las votaciones.
+- **Elementos clave:** Tabla con opciones de editar, cerrar y ver resultados.
+- **UX:** Flujo optimizado para administradores.
+
+---
+
+#### 8. Historial de votaciones – `historial_votacion_wireframe_app.png`
+
+![historial_votacion_wireframe_app](./img/historial_votacion_wireframe_app.png)
+
+- **Función:** Mostrar participación pasada del usuario y validar con hash.
+- **Elementos clave:** Fechas, estado, hash de validación.
+- **Confiabilidad:** Refuerza la trazabilidad blockchain.
+
+---
+
+#### 9. Resultados de votación – `resultados_wireframe_app.png`
+
+![resultados_wireframe_app](./img/resultados_wireframe_app.png)
+
+- **Función:** Mostrar gráficamente el resultado final de una elección.
+- **Elementos clave:** Barras de progreso por candidato u opción.
+- **Diseño accesible:** Visual limpio y de fácil interpretación.
+
+---
+
+#### 10. Logs del sistema – `logs_votacion_wireframe_app.png`
+
+![logs_votacion_wireframe_app](./img/logs_votacion_wireframe_app.png)
+
+- **Función:** Mostrar registro detallado de acciones del sistema (auditoría).
+- **Elementos clave:** Tabla con fecha, usuario, acción y resultado.
+- **Auditoría pública:** Transparencia alineada a blockchain y seguridad.
+
+---
+
+#### 11. Resumen de actividades – `resumen_de_actividades_wireframe_app.png`
+
+![resumen_de_actividades_wireframe_app](./img/resumen_de_actividades_wireframe_app.png)
+
+- **Función:** Mostrar vista central del usuario autenticado con acceso rápido a votaciones, resultados y perfil.
+- **Elementos clave:** Secciones de votaciones activas, resultados recientes y perfil personal.
+- **Diseño inclusivo:** Accesibilidad y navegación simplificada desde el dashboard.
+
+---
+
+#### 12. Panel de transparencia – `transparencia_wireframe_app.png`
+
+![transparencia_wireframe_app](./img/transparencia_wireframe_app.png)
+
+- **Función:** Brindar a la ciudadanía información pública sobre el estado de la elección.
+- **Elementos clave:** Estado de la votación, cantidad de votos emitidos y gráfico de distribución.
+- **Transparencia electoral:** Fomenta la confianza pública mediante datos en tiempo real.
+
+---
+
+#### 13. Validación de voto – `validacion_de_voto_wireframe_app.png`
+
+![validacion_de_voto_wireframe_app](./img/validacion_de_voto_wireframe_app.png)
+
+- **Función:** Confirmar la integridad del voto emitido a través de un hash en blockchain.
+- **Elementos clave:** Detalles de la votación, hash de validación, enlace al explorador de bloques.
+- **Seguridad y trazabilidad:** Garantiza transparencia e inalterabilidad del voto.
+
+---
+
+#### 14. Votación no encontrada – `votacion_no_encontrada_wireframe_app.png`
+
+![votacion_no_encontrada_wireframe_app](./img/votacion_no_encontrada_wireframe_app.png)
+
+- **Función:** Mostrar mensaje de error cuando la votación ya no está disponible.
+- **Elementos clave:** Alerta visual, explicación clara y botón de retorno.
+- **Usabilidad:** Retroalimentación efectiva ante enlaces rotos o vencidos.
+
+---
+
+#### 15. Emitir voto – `votacion_wireframe_app.png`
+
+![votacion_wireframe_app](./img/votacion_wireframe_app.png)
+
+- **Función:** Permitir al usuario seleccionar una opción y emitir su voto.
+- **Elementos clave:** Título, descripción, fecha límite, opciones y botón de confirmación.
+- **Diseño centrado en la acción:** Interfaz simple y accesible para todos los usuarios.
+
+---
+
+#### 16. Votaciones disponibles – `votaciones_disponible_wireframe_app.png`
+
+![votaciones_disponible_wireframe_app](./img/votaciones_disponible_wireframe_app.png)
+
+- **Función:** Listar todas las votaciones activas y cerradas con acciones rápidas.
+- **Elementos clave:** Estado, fecha de cierre, botones de detalles y emisión de voto.
+- **Navegabilidad:** Centraliza opciones de participación de forma clara.
+
+---
+
+#### 17. Voto confirmado – `voto_confirmado_wireframe_app.png`
+
+![voto_confirmado_wireframe_app](./img/voto_confirmado_wireframe_app.png)
+
+- **Función:** Confirmar que el voto ha sido registrado correctamente.
+- **Elementos clave:** Detalles del voto, hash de validación y opciones de navegación.
+- **Confianza del usuario:** Refuerza la transparencia y el respaldo mediante blockchain.
+
+---
+
 #### 6.4.2. Applications Wireflow Diagrams
+
+
 
 #### 6.4.3. Applications Mock-ups
 
