@@ -32,7 +32,7 @@ Grupo: 5
 |     Ramos Ramirez, Renzo Manuel     | u202113745 |
 |    Castillo Robles, Steve Roger     | u202121679 |
 
-Abril 2025
+Mayo 2025
 
 </div>
 
@@ -3317,16 +3317,16 @@ Pantallas que brindan retroalimentación adecuada en caso de errores o rutas inv
 
 ---
 
-### ✅ Conclusión
 
 Estos flujos cubren **todas las User Stories implementadas** y están completamente respaldados por los **wireframes** diseñados. La organización por flujos permite visualizar la lógica de navegación de la solución y respeta principios clave de **diseño accesible**, **seguridad**, y **arquitectura de información coherente**.
 
-#### 6.4.3. Applications Mock-ups
 
-#### 6.4.4. Applications User Flow Diagrams
 
-### 6.5. Applications Prototyping
+## Conclusiones
 
-## Anexos y Bibliografía
+- Conclusiones y recomendaciones
+- Video About-the-Team
 
-## Student Outcome
+## Bibliografía
+
+## Anexos
