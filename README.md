@@ -189,15 +189,20 @@ Abril 2025
   </ul>
 
   ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+  
   <p>El diagrama ilustra la estructura en capas del bounded context de Voting Management, mostrando cómo se organizan los componentes desde la interfaz hasta la infraestructura. 
     Presenta claramente la separación entre controladores, servicios, entidades de dominio y repositorios, con flechas que indican el flujo de dependencias entre cada capa.</p>
   <img src="img/boundedDiagram1.png">
+  
   ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
   #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+  
   <p>Muestra las principales clases del dominio de gestión de votaciones (VotingProcess, VotingSession, Ballot y Vote) con sus propiedades y métodos más relevantes. 
     Incluye las relaciones entre estas clases, donde un VotingProcess puede tener múltiples VotingSessions, cada sesión puede tener múltiples Votes, y cada Ballot está asociado con varios Votes.</p>
   <img src="img/boundedDiagram2.png">
+  
   #### 5.1.6.2. Bounded Context Database Design Diagram
+  
   <p>Representa el esquema de base de datos para el bounded context de Voting Management, mostrando las tablas principales (voting_processes, voting_sessions, ballots, votes y ballot_options) con sus columnas clave. 
     Las relaciones entre tablas están indicadas con líneas y flechas, ilustrando las conexiones lógicas como claves foráneas.</p>
   <img src="img/boundedDiagram3.png">
@@ -288,18 +293,21 @@ Abril 2025
   </ul>
 
   ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
+  
   <p>Muestra la arquitectura en capas del bounded context de autenticación y acceso de votantes, donde se pueden ver los controladores en la capa de interfaz, los servicios en la capa de aplicación, las entidades centrales en la capa de dominio, y los repositorios en la capa de infraestructura, con flechas que indican la dirección de dependencia.</p>
   <img src="img/boundedDiagram4.png">
+  
   ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
   #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
+  
   <p>Ilustra las principales clases del dominio de autenticación de votantes (Voter, IdentityCredential, AuthenticationSession y ElectoralRegistry) con sus atributos y métodos esenciales. 
     El diagrama muestra las relaciones clave, como un Voter que puede tener múltiples IdentityCredentials y AuthenticationSessions, y cómo el ElectoralRegistry mantiene referencias a los votantes registrados.</p>
   <img src="img/boundedDiagram5.png">
+  
   #### 5.2.6.2. Bounded Context Database Design Diagram
   <p>Representa la estructura de almacenamiento de datos para el bounded context de autenticación, mostrando las tablas principales (voters, identity_credentials, authentication_sessions) con sus columnas clave y relaciones. Las conexiones entre tablas representan las relaciones de clave foránea que mantienen la integridad referencial del sistema..</p>
   <img src="img/boundedDiagram6.png">
   
-
 - 5.X. Bounded Context: <Bounded Context Name>
   - 5.X.1. Domain Layer
   - 5.X.2. Interface Layer
