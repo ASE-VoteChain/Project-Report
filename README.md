@@ -104,9 +104,7 @@ Abril 2025
 ## Capítulo V: Tactical-Level Software Design
 - 5.1. Bounded Context: Voting Management
   - 5.1.1. Domain Layer
-<h1>Voting Management Bounded Context</h1>
   <p>El Domain Layer contiene las entidades centrales que representan los conceptos principales del dominio de gestión de votaciones:</p>
-
   <ul>
     <li>
       <strong>VotingProcess:</strong> Define el proceso completo de votación, incluyendo su configuración, estado actual y reglas de operación. 
