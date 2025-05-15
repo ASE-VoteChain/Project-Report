@@ -104,7 +104,7 @@ Abril 2025
 ## Capítulo V: Tactical-Level Software Design
 - 5.1. Bounded Context: Voting Management
   - 5.1.1. Domain Layer
-  <p>El Domain Layer contiene las entidades centrales que representan los conceptos principales del dominio de gestión de votaciones:</p>
+    
   <ul>
     <li>
       <strong>VotingProcess:</strong> Define el proceso completo de votación, incluyendo su configuración, estado actual y reglas de operación. 
@@ -123,9 +123,71 @@ Abril 2025
       Contiene la selección realizada y mantiene la integridad del voto sin comprometer el anonimato del votante.
     </li>
   </ul>
+  
   - 5.1.2. Interface Layer
+ 
+    <ul>
+    <li>
+      <strong>VotingProcessController:</strong> Se encarga de gestionar las solicitudes HTTP relacionadas con la creación, configuración y administración de procesos de votación.
+      Proporciona endpoints para definir nuevos procesos electorales y consultar su estado.
+    </li>
+    <li>
+      <strong>VotingSessionController:</strong> Maneja las operaciones de apertura, monitoreo y cierre de sesiones de votación. 
+      Expone endpoints para controlar el ciclo de vida de una sesión electoral.
+    </li>
+    <li>
+      <strong>BallotController:</strong> Gestiona las solicitudes relacionadas con la definición y consulta de papeletas electorales. 
+      Proporciona interfaces para configurar las opciones de voto disponibles para los electores.
+    </li>
+    <li>
+      <strong>VoteController:</strong> Procesa las solicitudes de emisión de votos y consulta de resultados agregados. 
+      Asegura que los votos se registren correctamente mientras mantiene el anonimato del votante.
+    </li>
+  </ul>
+    
   - 5.1.3. Application Layer
+
+<ul>
+    <li>
+      <strong>VotingProcessService:</strong> Implementa la lógica de negocio para la creación y gestión de procesos de votación. 
+      Coordina las operaciones necesarias para definir, configurar y monitorear procesos electorales completos.
+    </li>
+    <li>
+      <strong>VotingSessionService:</strong> Maneja la lógica relacionada con la apertura, operación y cierre de sesiones de votación. 
+      Garantiza que las sesiones se ejecuten según las reglas definidas para el proceso electoral.
+    </li>
+    <li>
+      <strong>BallotManagementService:</strong> Implementa la lógica para la creación y administración de papeletas electorales. 
+      Asegura que las papeletas cumplan con los requisitos establecidos para cada tipo de elección.
+    </li>
+    <li>
+      <strong>VoteProcessingService:</strong> Gestiona el registro seguro de los votos emitidos y el cálculo de resultados. 
+      Implementa los algoritmos necesarios para procesar los votos manteniendo la integridad del proceso electoral.
+    </li>
+  </ul>
+
   - 5.1.4. Infrastructure Layer
+    
+  <ul>
+    <li>
+      <strong>VotingProcessRepository:</strong> Se encarga de la persistencia y recuperación de datos relacionados con los procesos de votación. 
+      Implementa operaciones CRUD para los procesos electorales en la base de datos.
+    </li>
+    <li>
+      <strong>VotingSessionRepository:</strong> Gestiona el almacenamiento y acceso a datos de las sesiones de votación. 
+      Proporciona métodos para persistir el estado de las sesiones electorales activas.
+    </li>
+    <li>
+      <strong>BallotRepository:</strong>Maneja la persistencia de las definiciones de papeletas electorales. 
+      Implementa operaciones para almacenar y recuperar la estructura y opciones de las papeletas.
+    </li>
+    <li>
+      <strong>VoteRepository:</strong> Se encarga del almacenamiento seguro y anónimo de los votos emitidos. 
+      Implementa mecanismos para registrar votos manteniendo su integridad y confidencialidad.
+    </li>
+  </ul>
+
+
   - 5.1.6. Bounded Context Software Architecture Component Level Diagrams
   - 5.1.7. Bounded Context Software Architecture Code Level Diagrams
     - 5.1.7.1. Bounded Context Domain Layer Class Diagrams
