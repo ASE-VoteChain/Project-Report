@@ -103,8 +103,9 @@ Abril 2025
 
 ## Capítulo V: Tactical-Level Software Design
 - 5.1. Bounded Context: Voting Management
-  - 5.1.1. Domain Layer
-    
+  
+  ### 5.1.1. Domain Layer
+  
   <ul>
     <li>
       <strong>VotingProcess:</strong> Define el proceso completo de votación, incluyendo su configuración, estado actual y reglas de operación. 
@@ -124,9 +125,9 @@ Abril 2025
     </li>
   </ul>
   
-  - 5.1.2. Interface Layer
+  ### 5.1.2. Interface Layer
  
-    <ul>
+  <ul>
     <li>
       <strong>VotingProcessController:</strong> Se encarga de gestionar las solicitudes HTTP relacionadas con la creación, configuración y administración de procesos de votación.
       Proporciona endpoints para definir nuevos procesos electorales y consultar su estado.
@@ -145,9 +146,9 @@ Abril 2025
     </li>
   </ul>
     
-  - 5.1.3. Application Layer
+  ### 5.1.3. Application Layer
 
-<ul>
+  <ul>
     <li>
       <strong>VotingProcessService:</strong> Implementa la lógica de negocio para la creación y gestión de procesos de votación. 
       Coordina las operaciones necesarias para definir, configurar y monitorear procesos electorales completos.
@@ -166,7 +167,7 @@ Abril 2025
     </li>
   </ul>
 
-  - 5.1.4. Infrastructure Layer
+  ### 5.1.4. Infrastructure Layer
     
   <ul>
     <li>
@@ -186,7 +187,6 @@ Abril 2025
       Implementa mecanismos para registrar votos manteniendo su integridad y confidencialidad.
     </li>
   </ul>
-
 
   - 5.1.6. Bounded Context Software Architecture Component Level Diagrams
   - 5.1.7. Bounded Context Software Architecture Code Level Diagrams
