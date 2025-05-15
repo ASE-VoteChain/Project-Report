@@ -102,7 +102,7 @@ Abril 2025
   - 4.3.4. Software Architecture Deployment Diagrams
 
 ## Capítulo V: Tactical-Level Software Design
-- 5.1. Bounded Context: Voting Management
+## 5.1. Bounded Context: Voting Management
   
   ### 5.1.1. Domain Layer
   
@@ -185,6 +185,91 @@ Abril 2025
     <li>
       <strong>VoteRepository:</strong> Se encarga del almacenamiento seguro y anónimo de los votos emitidos. 
       Implementa mecanismos para registrar votos manteniendo su integridad y confidencialidad.
+    </li>
+  </ul>
+
+  ## 5.2. Bounded Context: Voter Access & Authentication Bounded Context
+  ### 5.1.1. Domain Layer
+
+<ul>
+    <li>
+      <strong>Voter:</strong> Representa a una persona registrada que tiene derecho a votar. 
+      Contiene la información necesaria para identificar al votante sin comprometer datos personales sensibles.
+    </li>
+    <li>
+      <strong>IdentityCredential:</strong> Define las credenciales utilizadas para verificar la identidad de un votante. 
+      Encapsula los mecanismos de autenticación manteniendo la seguridad de la información personal.
+    </li>
+    <li>
+      <strong>AuthenticationSession:</strong> Representa una sesión de autenticación activa para un votante. 
+      Gestiona el estado de la sesión, desde su inicio hasta su finalización.
+    </li>
+    <li>
+      <strong>ElectoralRegistry:</strong> Mantiene el registro centralizado de todos los votantes elegibles. 
+      Proporciona mecanismos para validar la elegibilidad de los votantes durante el proceso electoral.
+    </li>
+  </ul>
+  
+  ### 5.1.2. Interface Layer
+
+<ul>
+    <li>
+      <strong>VoterRegistrationController:</strong> Gestiona las solicitudes relacionadas con el registro de nuevos votantes en el sistema. 
+      Proporciona endpoints para la creación y actualización de registros de votantes.
+    </li>
+    <li>
+      <strong>AuthenticationController:</strong> Maneja el proceso de autenticación de votantes. 
+      Expone endpoints para la verificación de identidad y emisión de tokens de autenticación.
+    </li>
+    <li>
+      <strong>IdentityVerificationController:</strong> Procesa las solicitudes de verificación de identidad de los votantes. 
+      Proporciona interfaces para validar credenciales y documentos de identificación.
+    </li>
+    <li>
+      <strong>SessionManagementController:</strong> Gestiona las sesiones de autenticación de los votantes. 
+      Expone endpoints para iniciar, renovar y cerrar sesiones seguras.
+    </li>
+  </ul>
+  
+  ### 5.1.3. Application Layer
+
+  <ul>
+    <li>
+      <strong>VoterRegistrationService:</strong> Implementa la lógica de negocio para el registro y validación de votantes. 
+      Coordina el proceso de verificación de elegibilidad y creación de nuevos registros de votantes.
+    </li>
+    <li>
+      <strong>AuthenticationService:</strong> Maneja la autenticación segura de los votantes. 
+      Implementa los mecanismos necesarios para verificar la identidad de los votantes antes de permitir el acceso al sistema.
+    </li>
+    <li>
+      <strong>IdentityVerificationService:</strong>  Implementa la lógica para validar la identidad de los votantes utilizando múltiples factores. 
+      Coordina la verificación de credenciales y documentos de identificación.
+    </li>
+    <li>
+      <strong>SessionManagementService:</strong> Gestiona el ciclo de vida de las sesiones de autenticación. 
+      Implementa los mecanismos para crear, mantener y cerrar sesiones seguras para los votantes autenticados.
+    </li>
+  </ul>
+  
+  ### 5.1.4. Infrastructure Layer
+
+  <ul>
+    <li>
+      <strong>VoterRepository:</strong> Gestiona la persistencia y recuperación de datos de los votantes registrados. 
+      Implementa operaciones CRUD para los registros de votantes en la base de datos.
+    </li>
+    <li>
+      <strong>CredentialRepository:</strong> Maneja el almacenamiento seguro de las credenciales de autenticación. 
+      Proporciona métodos para persistir y verificar las credenciales de identidad de forma segura.
+    </li>
+    <li>
+      <strong>AuthenticationSessionRepository:</strong> Se encarga del almacenamiento y gestión de datos relacionados con las sesiones de autenticación. 
+      Implementa operaciones para mantener el estado de las sesiones activas.
+    </li>
+    <li>
+      <strong>ElectoralRegistryRepository:</strong> Gestiona el acceso a los datos del registro electoral centralizado. 
+      Proporciona métodos para consultar y validar la elegibilidad de los votantes durante el proceso electoral.
     </li>
   </ul>
 
