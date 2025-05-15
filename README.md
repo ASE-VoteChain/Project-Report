@@ -307,16 +307,6 @@ Abril 2025
   #### 5.2.6.2. Bounded Context Database Design Diagram
   <p>Representa la estructura de almacenamiento de datos para el bounded context de autenticación, mostrando las tablas principales (voters, identity_credentials, authentication_sessions) con sus columnas clave y relaciones. Las conexiones entre tablas representan las relaciones de clave foránea que mantienen la integridad referencial del sistema..</p>
   <img src="img/boundedDiagram6.png">
-  
-- 5.X. Bounded Context: <Bounded Context Name>
-  - 5.X.1. Domain Layer
-  - 5.X.2. Interface Layer
-  - 5.X.3. Application Layer
-  - 5.X.4. Infrastructure Layer
-  - 5.X.6. Bounded Context Software Architecture Component Level Diagrams
-  - 5.X.7. Bounded Context Software Architecture Code Level Diagrams
-    - 5.X.7.1. Bounded Context Domain Layer Class Diagrams
-    - 5.X.7.2. Bounded Context Database Design Diagram
 
 ## Capítulo VI: Solution UX Design
 - 6.1. Style Guidelines
