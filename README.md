@@ -189,10 +189,10 @@ Mayo 2025
   - [6.1.1. General](#611-general-style-guidelines)
   - [6.1.2. Web, Mobile & Devices](#612-web-mobile--devices-style-guidelines)
 - [6.2. Information Architecture](#62-information-architecture)
-  - [6.2.2. Labeling Systems](#622-labeling-systems)
-  - [6.2.3. Searching Systems](#623-searching-systems)
-  - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)
-  - [6.2.5. Navigation Systems](#625-navigation-systems)
+  - [6.2.1. Labeling Systems](#621-labeling-systems)
+  - [6.2.2. Searching Systems](#622-searching-systems)
+  - [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+  - [6.2.4. Navigation Systems](#624-navigation-systems)
 - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
   - [6.3.1. Wireframe](#631-landing-page-wireframe)
   - [6.3.2. Mock-up](#632-landing-page-mock-up)
@@ -901,6 +901,7 @@ Este apartado describe el escenario actual de los usuarios antes de utilizar Vot
 **Segmento objetivo: Ciudadanos votantes**
 
   <img src="img/as-is-2.png"/>
+
 ### 2.4. Ubiquitous Language
     
   Para el desarrollo de nuestro proyecto, es esencial establecer un lenguaje claro y conciso que refleje las necesidades y expectativas de todos los usuarios. Por esta razón, hemos identificado los siguientes términos clave que serán utilizados de forma consistente por el equipo de negocio y de desarrollo.
@@ -1979,13 +1980,13 @@ A continuación, se presenta el Mapeo de Escenarios Futuros desarrollado especí
     </tr>
 </table>
 
-- 3.3. Impact Mapping
+## 3.3. Impact Mapping
 
 <p align="center">
   <img src="img/impact map.jpg">
 </p>
 
-- 3.4. Product Backlog
+## 3.4. Product Backlog
 
 <table border="1">
   <thead>
@@ -3241,7 +3242,7 @@ El diagrama de contenedores descompone a VoteChain en sus elementos de alto nive
     </li>
   </ul>
 
-### 5.3.3. Application
+### 5.3.3. Application Layer
 
   <ul>
     <li>
@@ -3298,7 +3299,7 @@ El diagrama de contenedores descompone a VoteChain en sus elementos de alto nive
 
 <img src="img/Context-Domain_Vote-Submission-Management.png">
 
-#### Bounded Context Database Design Diagram
+#### 5.3.6.2. Bounded Context Database Design Diagram
 
 El diagrama entidad-relación (ER) representa el diseño de la base de datos para el Vote Submission Management, mostrando las entidades, atributos y relaciones que soportan el flujo de votación desde la renderización de opciones hasta el almacenamiento en blockchain.
 
@@ -3327,7 +3328,7 @@ Las relaciones, todas 1:1, son:
 - VotingReportController: Maneja las solicitudes HTTP para generar y consultar informes de votación. Proporciona endpoints para crear y recuperar reportes.
 - PublishedResultController: Gestiona las solicitudes HTTP para publicar y visualizar resultados finales. Expone endpoints para acceso público a los resultados.
 
-### 5.4.3. Application
+### 5.4.3. Application Layer
 
 - VotingReportService: Implementa la lógica de negocio para generar informes de votación. Coordina la creación y almacenamiento de reportes.
 - TallyResultService: Maneja el conteo de votos encriptados y la validación de resultados. Asegura la precisión del proceso de tallado.
@@ -3609,7 +3610,7 @@ El sistema de búsqueda ha sido diseñado para ofrecer una experiencia sencilla,
 - **App Description**: VoteChain es la app de votación digital que te permite emitir tu voto en segundos desde tu celular, con total seguridad, transparencia y privacidad. Ideal para elecciones internas o comunitarias. No más colas ni papeleos, empieza ahora.
 - **App Keywords**: votar, app de votación, participación, voto seguro, elecciones digitales.
 
-#### 6.2.4. Navigation Sytems
+#### 6.2.4. Navigation Systems
 
 En VoteChain, el sistema de navegación esta diseñado para ser claro, directo y fácil de usar, guiando a los usuarios sin distracciones para que puedan cumplir sus objetivos rápidamente.
 
