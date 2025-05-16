@@ -23,13 +23,13 @@ Producto: VoteChain
 
 Grupo: 5
 
-|          Integrantes          |      Código      |
-|:-----------------------------:|:-------------------:|
-|   -  |    -    |
-|   -  |    -    |
-|  Ramos Ramirez, Renzo Manuel           |    u202113745    |
-|  Bernardo Eusebio Alessandro Joaquin   |    u202113640    |
-|  Ramirez Mendez, Sebastian Andre       |    u20191e575    |
+|             Integrantes             |   Código   |
+| :---------------------------------: | :--------: |
+|                  -                  |     -      |
+|                  -                  |     -      |
+|     Ramos Ramirez, Renzo Manuel     | u202113745 |
+| Bernardo Eusebio Alessandro Joaquin | u202113640 |
+|   Ramirez Mendez, Sebastian Andre   | u20191e575 |
 
 Abril 2025 
 
@@ -307,6 +307,114 @@ Abril 2025
   #### 5.2.6.2. Bounded Context Database Design Diagram
   <p>Representa la estructura de almacenamiento de datos para el bounded context de autenticación, mostrando las tablas principales (voters, identity_credentials, authentication_sessions) con sus columnas clave y relaciones. Las conexiones entre tablas representan las relaciones de clave foránea que mantienen la integridad referencial del sistema..</p>
   <img src="img/boundedDiagram6.png">
+
+
+  ## 5.3. Bounded Context: Vote Submission Management
+  ### 5.3.1. Domain Layer
+
+  <ul>
+    <li>
+      <strong>VoteSubmission:</strong> Representa el proceso completo de envío de un voto, desde la visualización de opciones hasta la confirmación final. 
+      Asegura que el flujo de votación sea seguro y trazable.
+    </li>
+    <li>
+      <strong>VoteSubmissionScreen:</strong> Define la interfaz de usuario que muestra las opciones de votación y captura la selección del votante. 
+      Gestiona la renderización de las opciones de manera clara y accesible.
+    </li>
+    <li>
+      <strong>EncryptedVote:</strong> Encapsula el voto encriptado generado a partir de la selección del votante. 
+      Garantiza la seguridad y anonimato del voto antes de su envío.
+    </li>
+    <li>
+      <strong>BlockchainVote:</strong> Representa el voto almacenado de forma inmutable en la blockchain. 
+      Gestiona la transmisión y verificación del voto en la cadena de bloques.
+    </li>
+  </ul>
+
+  ### 5.3.2. Interface Layer
+  <ul>
+    <li>
+      <strong>VoteSubmissionController:</strong> Maneja las solicitudes HTTP relacionadas con el proceso de envío de votos. 
+      Proporciona endpoints para mostrar opciones, emitir y confirmar votos.
+    </li>
+    <li>
+      <strong>EncryptedVoteController:</strong> Gestiona las solicitudes para encriptar y enviar votos a la blockchain. 
+      Expone endpoints para asegurar la integridad y confidencialidad del proceso.
+    </li>
+  </ul>
+
+  ### 5.3.3. Application 
+
+  <ul>
+    <li>
+      <strong>VoteSubmissionService:</strong> Implementa la lógica de negocio para renderizar opciones de votación y gestionar el envío. 
+      Coordina las etapas de visualización, emisión y confirmación del voto.
+    </li>
+    <li>
+      <strong>EncryptedVoteService:</strong> Maneja la encriptación de los votos y su preparación para el envío. 
+      Asegura que el proceso de encriptación cumpla con los estándares de seguridad.
+    </li>
+    <li>
+      <strong>BlockchainVoteService:</strong> Gestiona la lógica para enviar votos encriptados a la blockchain. 
+      Garantiza que la transmisión sea exitosa y verificable.
+    </li>
+
+  ### 5.3.4. Infrastructure Layer
+
+  <ul>
+    <li>
+      <strong>VoteSubmissionRepository:</strong> Responsable de la persistencia y recuperación de datos del proceso de envío de votos. 
+      Implementa operaciones CRUD para rastrear el estado de las submissions.
+    </li>
+    <li>
+      <strong>EncryptedVoteRepository:</strong> Gestiona el almacenamiento seguro de los votos encriptados. 
+      Proporciona métodos para persistir y consultar datos encriptados.
+    </li>
+    <li>
+      <strong>BlockchainVoteRepository:</strong> Maneja la interacción con la blockchain para el almacenamiento de votos. 
+      Implementa métodos para enviar y verificar votos en la cadena.
+    </li>
+  </ul>
+
+  ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+  
+  <p>
+    El diagrama muestra la arquitectura en capas del bounded context de Vote Submission Management, ilustrando la organización e interacción de sus componentes desde la interfaz hasta la infraestructura. Se destaca la separación de responsabilidades entre las capas Interface Layer, Application Layer, Domain Layer e Infrastructure Layer, con flechas que indican el flujo de dependencias y el proceso de envío de votos.
+  </p>
+  
+- La Interface Layer incluye los componentes VoteSubmissionController y EncryptedVoteController, que gestionan las solicitudes HTTP provenientes del usuario (un ciudadano votante que interactúa a través de una interfaz web o móvil). Estos controladores invocan los servicios correspondientes en la capa de aplicación para procesar las solicitudes.
+- La Application Layer está formada por VoteSubmissionService, EncryptedVoteService y BlockchainVoteService, que coordinan la lógica de negocio. El VoteSubmissionService se encarga de renderizar y confirmar las opciones de votación, el EncryptedVoteService gestiona la encriptación de los votos, y el BlockchainVoteService asegura el almacenamiento seguro en la blockchain, con interacciones coordinadas entre ellos.
+- La Domain Layer contiene las entidades VoteSubmissionScreen, VoteSubmission, EncryptedVote y BlockchainVote. El diagrama representa el flujo del proceso de votación: VoteSubmissionScreen renderiza las opciones de votación, VoteSubmission las muestra y emite el voto encriptado, EncryptedVote confirma el envío, y BlockchainVote almacena el voto en la blockchain.
+- La Infrastructure Layer incluye VoteSubmissionRepository, EncryptedVoteRepository y BlockchainVoteRepository, que persisten los datos en una Database e interactúan con la Blockchain. Los repositorios gestionan las operaciones de almacenamiento y recuperación, garantizando la integridad y la inmutabilidad de los datos.
+
+<img src="img/Architecture-Component_Vote-Submission-Management.png">
+  
+  ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
+  #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
+  El diagrama muestra las clases principales de la capa de dominio del bounded context de Vote Submission Management, representando las entidades clave que encapsulan la lógica central del proceso de envío de votos. Este diagrama de clases detalla las propiedades, métodos y relaciones con cardinalidad entre las entidades VoteSubmission, VoteSubmissionScreen, EncryptedVote, y BlockchainVote, que son esenciales para gestionar el flujo de votación desde la visualización hasta el almacenamiento en la blockchain.
+
+  - La clase VoteSubmission representa el proceso completo de envío de un voto, con propiedades como submissionId (identificador único), status (estado de la submission), y selectedOption (opción seleccionada). Incluye métodos como displayVotingOptions() (mostrar opciones de votación) y castEncryptedVote() (emitir voto encriptado). Esta clase tiene una relación de composición de uno a uno (1:1) con VoteSubmissionScreen y genera un EncryptedVote mediante composición.
+  - La clase VoteSubmissionScreen modela la interfaz de usuario que muestra las opciones de votación, con propiedades como screenId (identificador único) y renderStatus (estado de renderización). Su método principal es renderOptions() (renderizar opciones). Está asociada a VoteSubmission mediante una relación de composición.
+  - La clase EncryptedVote encapsula el voto encriptado, con propiedades como voteId (identificador único), encryptedData (datos encriptados), y submissionStatus (estado de la submission). Incluye métodos como encryptVote() (encriptar voto) y submitEncryptedVote() (enviar voto encriptado). Tiene una relación de composición de uno a uno (1:1) con VoteSubmission y genera un BlockchainVote mediante agregación.
+  - La clase BlockchainVote representa el voto almacenado en la blockchain, con propiedades como blockchainId (identificador único), transactionHash (hash de la transacción), y confirmationStatus (estado de confirmación). Sus métodos incluyen storeOnBlockchain() (almacenar en blockchain) y sendVoteToBlockchain() (enviar voto a blockchain). Está asociada a EncryptedVote mediante una relación de agregación de uno a uno (1:1).
+
+  <img src="img/Context-Domain_Vote-Submission-Management.png">
+
+
+  #### Bounded Context Database Design Diagram
+  El diagrama entidad-relación (ER) representa el diseño de la base de datos para el Vote Submission Management, mostrando las entidades, atributos y relaciones que soportan el flujo de votación desde la renderización de opciones hasta el almacenamiento en blockchain.
+
+  Las entidades son VoteSubmission (submission_id PK, status, selected_option nullable), VoteSubmissionScreen (screen_id PK, render_status nullable, submission_id FK), EncryptedVote (vote_id PK, encrypted_data, submission_status nullable, submission_id FK), y BlockchainVote (blockchain_id PK, transaction_hash, confirmation_status nullable, vote_id FK).
+
+  Las relaciones, todas 1:1, son:
+
+  - VoteSubmission compone VoteSubmissionScreen (1:1), asociando una pantalla por submission.
+  - VoteSubmission compone EncryptedVote (1:1), generando un voto encriptado por submission.
+  - EncryptedVote agrega BlockchainVote (1:1), almacenando un registro en blockchain por voto encriptado.
+  - Este diseño asegura unicidad y trazabilidad en el proceso de votación, alineándose con los requisitos del sistema.
+
+  <img src="img/Context-database_Vote-Submission-Management.png">
+
 
 ## Capítulo VI: Solution UX Design
 - 6.1. Style Guidelines
