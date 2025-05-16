@@ -77,97 +77,131 @@ Mayo 2025
 
 ## Tabla de contenidos
 
-## Capítulo I: Introducción
+### Capítulo I: Introducción
+- [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-- 1.1. Startup Profile
-  - 1.1.1. Descripción de la Startup
-  - 1.1.2. Perfiles de integrantes del equipo
-- 1.2. Solution Profile
-  - 1.2.1. Antecedentes y problemática
-  - 1.2.2. Lean UX Process
-    - 1.2.2.1. Lean UX Problem Statements
-    - 1.2.2.2. Lean UX Assumptions
-    - 1.2.2.3. Lean UX Hypothesis Statements
-    - 1.2.2.4. Lean UX Canvas
-- 1.3. Segmentos objetivo
+### Capítulo II: Requirements Elicitation & Analysis
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+  - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-## Capítulo II: Requirements Elicitation & Analysis
+### Capítulo III: Requirements Specification
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
 
-- 2.1. Competidores
-  - 2.1.1. Análisis competitivo
-  - 2.1.2. Estrategias y tácticas frente a competidores
-- 2.2. Entrevistas
-  - 2.2.1. Diseño de entrevistas
-  - 2.2.2. Registro de entrevistas
-  - 2.2.3. Análisis de entrevistas
-- 2.3. Needfinding
-  - 2.3.1. User Personas
-  - 2.3.2. User Task Matrix
-  - 2.3.3. Empathy Mapping
-  - 2.3.4. As-is Scenario Mapping
-- 2.4. Ubiquitous Language
+### Capítulo IV: Strategic-Level Software Design
+- [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+  - [4.1.1. Design Purpose](#411-design-purpose)
+  - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+    - [4.1.2.1. Primary Functionality](#4121-primary-functionality-primary-user-stories)
+    - [4.1.2.2. Quality Attribute Scenarios](#4122-quality-attribute-scenarios)
+    - [4.1.2.3. Constraints](#4123-constraints)
+  - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+  - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+  - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+- [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+  - [4.2.1. EventStorming](#421-eventstorming)
+  - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+  - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+  - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+  - [4.2.5. Context Mapping](#425-context-mapping)
+- [4.3. Software Architecture](#43-software-architecture)
+  - [4.3.1. System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+  - [4.3.2. Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+  - [4.3.3. Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+  - [4.3.4. Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
-## Capítulo III: Requirements Specification
+### Capítulo V: Tactical-Level Software Design
+- [5.1. Bounded Context: Voting Management](#51-bounded-context-voting-management)
+  - [5.1.1. Domain Layer](#511-domain-layer)
+  - [5.1.2. Interface Layer](#512-interface-layer)
+  - [5.1.3. Application Layer](#513-application-layer)
+  - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+  - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+  - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+    - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+    - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
 
-- 3.1. To-Be Scenario Mapping
-- 3.2. User Stories
-- 3.3. Impact Mapping
-- 3.4. Product Backlog
+- [5.2. Bounded Context: Voter Access & Authentication Bounded Context](#52-bounded-context-voter-access--authentication-bounded-context)
+  - [5.2.1. Domain Layer](#521-domain-layer)
+  - [5.2.2. Interface Layer](#522-interface-layer)
+  - [5.2.3. Application Layer](#523-application-layer)
+  - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+  - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+  - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
+    - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
+    - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
 
-## Capítulo IV: Strategic-Level Software Design
+- [5.3. Bounded Context: Vote Submission Management](#53-bounded-context-vote-submission-management)
+  - [5.3.1. Domain Layer](#531-domain-layer)
+  - [5.3.2. Interface Layer](#532-interface-layer)
+  - [5.3.3. Application Layer](#533-application-layer)
+  - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+  - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+  - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+    - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+    - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
 
-- 4.1. Strategic-Level Attribute-Driven Design
-  - 4.1.1. Design Purpose
-  - 4.1.2. Attribute-Driven Design Inputs
-    - 4.1.2.1. Primary Functionality (Primary User Stories)
-    - 4.1.2.2. Quality Attribute Scenarios
-    - 4.1.2.3. Constraints
-  - 4.1.3. Architectural Drivers Backlog
-  - 4.1.4. Architectural Design Decisions
-  - 4.1.5. Quality Attribute Scenario Refinements
-- 4.2. Strategic-Level Domain-Driven Design
-  - 4.2.1. EventStorming
-  - 4.2.2. Candidate Context Discovery
-  - 4.2.3. Domain Message Flows Modeling
-  - 4.2.4. Bounded Context Canvases
-  - 4.2.5. Context Mapping
-- 4.3. Software Architecture
-  - 4.3.1. Software Architecture System Landscape Diagram
-  - 4.3.2. Software Architecture Context Level Diagrams
-  - 4.3.3. Software Architecture Container Level Diagrams
-  - 4.3.4. Software Architecture Deployment Diagrams
+- [5.4. Bounded Context: Vote Results Management](#54-bounded-context-vote-results-management)
+  - [5.4.1. Domain Layer](#541-domain-layer)
+  - [5.4.2. Interface Layer](#542-interface-layer)
+  - [5.4.3. Application Layer](#543-application-layer)
+  - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+  - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+  - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+    - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+    - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
 
-## Capítulo V: Tactical-Level Software Design
+- [5.5. Bounded Context: Vote Notification Management](#55-bounded-context-vote-notification-management)
+  - [5.5.1. Domain Layer](#551-domain-layer)
+  - [5.5.2. Interface Layer](#552-interface-layer)
+  - [5.5.3. Application Layer](#553-application-layer)
+  - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)
+  - [5.5.5. Bounded Context Software Architecture Component Level Diagrams](#555-bounded-context-software-architecture-component-level-diagrams)
+  - [5.5.6. Bounded Context Software Architecture Code Level Diagrams](#556-bounded-context-software-architecture-code-level-diagrams)
+    - [5.5.6.1. Bounded Context Domain Layer Class Diagrams](#5561-bounded-context-domain-layer-class-diagrams)
+    - [5.5.6.2. Bounded Context Database Design Diagram](#5562-bounded-context-database-design-diagram)
 
-- 5.X. Bounded Context: <Bounded Context Name>
-  - 5.X.1. Domain Layer
-  - 5.X.2. Interface Layer
-  - 5.X.3. Application Layer
-  - 5.X.4. Infrastructure Layer
-  - 5.X.6. Bounded Context Software Architecture Component Level Diagrams
-  - 5.X.7. Bounded Context Software Architecture Code Level Diagrams
-    - 5.X.7.1. Bounded Context Domain Layer Class Diagrams
-    - 5.X.7.2. Bounded Context Database Design Diagram
-
-## Capítulo VI: Solution UX Design
-
-- 6.1. Style Guidelines
-  - 6.1.1. General Style Guidelines
-  - 6.1.2. Web, Mobile & Devices Style Guidelines
-- 6.2. Information Architecture
-  - 6.2.2. Labeling Systems
-  - 6.2.3. Searching Systems
-  - 6.2.4. SEO Tags and Meta Tags
-  - 6.2.5. Navigation Systems
-- 6.3. Landing Page UI Design
-  - 6.3.1. Landing Page Wireframe
-  - 6.3.2. Landing Page Mock-up
-- 6.4. Applications UX/UI Design
-  - 6.4.1. Applications Wireframes
-  - 6.4.2. Applications Wireflow Diagrams
-  - 6.4.3. Applications Mock-ups
-  - 6.4.4. Applications User Flow Diagrams
-- 6.5. Applications Prototyping
+### Capítulo VI: Solution UX Design
+- [6.1. Style Guidelines](#61-style-guidelines)
+  - [6.1.1. General](#611-general-style-guidelines)
+  - [6.1.2. Web, Mobile & Devices](#612-web-mobile--devices-style-guidelines)
+- [6.2. Information Architecture](#62-information-architecture)
+  - [6.2.2. Labeling Systems](#622-labeling-systems)
+  - [6.2.3. Searching Systems](#623-searching-systems)
+  - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)
+  - [6.2.5. Navigation Systems](#625-navigation-systems)
+- [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+  - [6.3.1. Wireframe](#631-landing-page-wireframe)
+  - [6.3.2. Mock-up](#632-landing-page-mock-up)
+- [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+  - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+  - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+  - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+  - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+- [6.5. Applications Prototyping](#65-applications-prototyping)
 
 ## Capítulo VII: Product Implementation, Validation & Deployment
 
@@ -244,7 +278,7 @@ Ser la plataforma líder en votaciones descentralizadas a nivel nacional e inter
 
 ![logo](img/logo.png)
 
-### 1.1.2. Perfiles de integrantes de grupo
+### 1.1.2. Perfiles de integrantes del equipo
 
 Los siguientes integrantes del grupo son presentados con su carrera y sus conocimientos relevantes al desarrollo de este proyecto.
 
@@ -3461,7 +3495,6 @@ Este diagrama muestra el modelo de base de datos diseñado para el contexto de `
 Este diseño asegura trazabilidad y soporte para auditoría de envíos, permitiendo análisis de efectividad y errores del sistema de notificaciones.
 
 
-
 ## Capítulo VI: Solution UX Design
 
 ### 6.1. Style Guidelines
@@ -3860,11 +3893,32 @@ Estos flujos cubren **todas las User Stories implementadas** y están completame
 
 ## Conclusiones
 
-- Conclusiones y recomendaciones
+El desarrollo de VoteChain ha demostrado ser una solución tecnológica viable y de alto impacto para resolver las problemáticas asociadas a los procesos de votación tradicionales en comunidades peruanas. A través de un enfoque basado en diseño centrado en el usuario, arquitectura impulsada por atributos de calidad y principios de Domain-Driven Design, se logró construir una plataforma robusta, transparente y escalable que promueve la confianza y participación ciudadana.
 
+Las principales conclusiones del proyecto son:
 
+- **Validación de la problemática:** Se evidenció una necesidad crítica de herramientas digitales confiables para procesos electorales comunitarios, dada la baja transparencia, falta de anonimato y escasa trazabilidad de métodos tradicionales.
 
-- Video About-the-Team
+- **Viabilidad de la solución:** VoteChain demostró que una arquitectura basada en blockchain (Polygon), junto con diseño mobile-first, autenticación segura y auditoría pública, permite resolver los desafíos clave identificados en la etapa de descubrimiento del problema.
+
+- **Diseño técnico bien fundamentado:** La aplicación de Attribute-Driven Design y Bounded Contexts permitió una separación clara de responsabilidades, optimizando la mantenibilidad, escalabilidad y seguridad del sistema.
+
+- **Adopción centrada en el usuario:** Mediante entrevistas, personas y flujos, se comprobó que tanto organizadores como ciudadanos valoran una solución intuitiva, segura y verificable, lo que facilitó diseñar una experiencia de usuario clara y efectiva.
+
+- **Impacto potencial:** El enfoque modular y el uso de tecnologías de bajo costo permite escalar VoteChain a distintos contextos locales, con posibilidades de adopción nacional e internacional, especialmente en regiones con baja confianza institucional.
+
+## Recomendaciones
+
+- **Escalar pilotos en entornos reales**, como universidades o juntas vecinales, para validar la solución con usuarios reales en situaciones de votación activa.
+
+- **Fortalecer la integración con entidades nacionales** como RENIEC y ONPE, para validar identidad y alinearse con normativas peruanas.
+
+- **Ampliar el sistema de notificaciones** con recordatorios multicanal (SMS, WhatsApp, correo) para mejorar tasas de participación.
+
+- **Optimizar la experiencia en dispositivos móviles** con mayor soporte offline y tiempos de carga reducidos, priorizando comunidades con conectividad limitada.
+
+- **Continuar con auditorías externas** del código y contratos inteligentes para garantizar seguridad e integridad del sistema ante escenarios de producción.
+
 
 ## Bibliografía
 
