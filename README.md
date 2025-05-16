@@ -492,6 +492,121 @@ Las relaciones son:
 
 <img src="img/Context-database_Vote_Results_Management.png">
 
+
+## 5.5. Bounded Context: Vote Notification Management
+
+### 5.5.1. Domain Layer
+
+#### Aggregate
+
+| Entidad      | Atributos Clave                   | Value Objects Asociados | Métodos / Reglas                                                                 |
+|--------------|------------------------------------|--------------------------|----------------------------------------------------------------------------------|
+| Notificación | id, idVotación, listaDestinatarios | Correo, Mensaje          | generarNotificación()<br>validarEmail()<br>enviarMensaje()                      |
+
+---
+
+#### Value Objects
+
+| VO       | Atributos        | Descripción                                                   |
+|----------|------------------|---------------------------------------------------------------|
+| Correo   | direccionEmail   | Representa un correo electrónico válido del votante          |
+| Mensaje  | asunto, cuerpo   | Contenido personalizado enviado al votante vía email         |
+
+---
+
+#### Domain Services
+
+| Servicio                 | Métodos                                                                  | Responsabilidad                                      |
+|--------------------------|--------------------------------------------------------------------------|------------------------------------------------------|
+| VoteNotificationService  | notificarParticipantes()<br>validarListaCorreos()<br>generarMensaje()    | Orquestar el envío de notificaciones por email      |
+
+---
+
+#### Repositories
+
+| Repositorio             | Métodos                                                                 | Entidad       |
+|-------------------------|------------------------------------------------------------------------|---------------|
+| NotificacionRepository  | findById()<br>save()<br>findByVotacionId()<br>deleteById()              | Notificación  |
+
+---
+
+
+### 5.5.2. Interface Layer
+
+En esta capa se encuentra el controlador principal `NotificationController`, que expone las rutas necesarias para disparar el envío de notificaciones, así como para consultar su historial o resultados.
+
+#### Controladores
+
+| NotificationController                                 |
+|--------------------------------------------------------|
+| + triggerNotification(votacionId): ResponseEntity      |
+| + getNotificationStatus(id): NotificacionDto           |
+| + resendNotification(id): ResponseEntity               |
+
+---
+
+### 5.5.3. Application Layer
+
+La Capa de Aplicación contiene handlers que conectan las peticiones externas con la lógica del dominio. Gestiona la generación y envío de correos, incluyendo validaciones de formato.
+
+#### Handlers
+
+| TriggerNotificationCommandHandler            | ResendNotificationCommandHandler             |
+|---------------------------------------------|---------------------------------------------|
+| + handle(TriggerNotificationCommand): void  | + handle(ResendNotificationCommand): void   |
+
+---
+
+### 5.5.4. Infrastructure Layer
+
+
+Esta capa conecta con un servicio de correo electrónico externo como EmailJS, Mailgun o SendGrid.
+
+#### Infraestructura y Adaptadores
+
+| Servicio de Infraestructura     | Métodos Implementados                              | Tecnología     |
+|---------------------------------|-----------------------------------------------------|----------------|
+| EmailServiceAdapter             | sendEmail(destinatario, asunto, cuerpo): boolean    | EmailJS / API  |
+| NotificationPersistenceAdapter  | saveNotificationData(): void                        | MongoDB / SQL  |
+
+---
+
+
+### 5.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Vote Notification Component Diagram](img\boundedDiagram7.png)
+
+> Este diagrama resume cómo se dispara y procesa una notificación desde la capa de aplicación hasta llegar al servicio de correo electrónico. El módulo `Notification` centraliza la lógica, y `Email Service` es el componente externo que finaliza el proceso.
+
+### 5.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Vote Notification Class Diagrams](img\classdiagramvote.png)
+
+Este diagrama representa las clases principales del **Domain Layer** del contexto `Vote Notification Management`. En él se modelan los elementos fundamentales que participan en la gestión de notificaciones dentro del sistema VoteChain, aplicando conceptos de diseño orientado al dominio como Agregados, Objetos de Valor y Entidades.
+
+- `Notificacion` actúa como **Agregado raíz**, representando la entidad principal que encapsula toda la información relevante a una notificación enviada al votante.
+- `Email`, `CorreoContenido` y `EstadoNotificacion` son modelados como **Value Objects**, ya que representan conceptos con reglas de validación pero sin identidad propia.
+- `Votante` representa una entidad relacionada, identificada por un `UUID`, asociada directamente a la notificación.
+- Las relaciones muestran una estructura cohesionada y expresiva que permite mantener la **invariancia del dominio** dentro del contexto de notificaciones.
+
+Este modelo favorece la trazabilidad, consistencia y reutilización en toda la lógica de negocio relacionada a las notificaciones de votación enviadas por correo electrónico.
+
+#### 5.5.6.2. Bounded Context Database Design Diagram
+
+![Vote Notification Database Diagram](./img/databasediagramavote.png)
+
+Este diagrama muestra el modelo de base de datos diseñado para el contexto de `Vote Notification Management`. La estructura refleja cómo se persiste la información de notificaciones generadas, votantes y el estado de los correos enviados.
+
+- **Tabla `notificaciones`**: almacena los datos principales de cada notificación enviada, incluyendo el asunto, contenido, estado, y fechas de creación y envío.
+- **Tabla `votantes`**: contiene información básica del destinatario, como nombre y correo electrónico.
+- **Tabla `estados_notificacion`**: sirve como catálogo para registrar si una notificación fue enviada, está pendiente o falló.
+- Las relaciones están normalizadas para mantener la integridad referencial entre notificaciones y votantes, y evitar la duplicación de datos.
+
+Este diseño asegura trazabilidad y soporte para auditoría de envíos, permitiendo análisis de efectividad y errores del sistema de notificaciones.
+
+
 ## Capítulo VI: Solution UX Design
 
 - 6.1. Style Guidelines
