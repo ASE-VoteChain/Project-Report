@@ -5,6 +5,7 @@
 <div align="center">
 
 # <span style="color:red">**Universidad Peruana de Ciencias Aplicadas**</span>
+
 ## Carrera de Ingeniería de Software
 
 Ciclo: 2025 - 10
@@ -31,7 +32,7 @@ Grupo: 5
 | Bernardo Eusebio Alessandro Joaquin | u202113640 |
 |   Ramirez Mendez, Sebastian Andre   | u20191e575 |
 
-Abril 2025 
+Abril 2025
 
 </div>
 
@@ -43,9 +44,12 @@ Abril 2025
 
 ### **Reporte de colaboración de la entrega del TB1:**
 
-------
+---
+
 ## Tabla de contenidos
+
 ## Capítulo I: Introducción
+
 - 1.1. Startup Profile
   - 1.1.1. Descripción de la Startup
   - 1.1.2. Perfiles de integrantes del equipo
@@ -59,6 +63,7 @@ Abril 2025
 - 1.3. Segmentos objetivo
 
 ## Capítulo II: Requirements Elicitation & Analysis
+
 - 2.1. Competidores
   - 2.1.1. Análisis competitivo
   - 2.1.2. Estrategias y tácticas frente a competidores
@@ -74,12 +79,14 @@ Abril 2025
 - 2.4. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
+
 - 3.1. To-Be Scenario Mapping
 - 3.2. User Stories
 - 3.3. Impact Mapping
 - 3.4. Product Backlog
 
 ## Capítulo IV: Strategic-Level Software Design
+
 - 4.1. Strategic-Level Attribute-Driven Design
   - 4.1.1. Design Purpose
   - 4.1.2. Attribute-Driven Design Inputs
@@ -102,10 +109,11 @@ Abril 2025
   - 4.3.4. Software Architecture Deployment Diagrams
 
 ## Capítulo V: Tactical-Level Software Design
+
 ## 5.1. Bounded Context: Voting Management
-  
-  ### 5.1.1. Domain Layer
-  
+
+### 5.1.1. Domain Layer
+
   <ul>
     <li>
       <strong>VotingProcess:</strong> Define el proceso completo de votación, incluyendo su configuración, estado actual y reglas de operación. 
@@ -167,8 +175,8 @@ Abril 2025
     </li>
   </ul>
 
-  ### 5.1.4. Infrastructure Layer
-    
+### 5.1.4. Infrastructure Layer
+
   <ul>
     <li>
       <strong>VotingProcessRepository:</strong> Se encarga de la persistencia y recuperación de datos relacionados con los procesos de votación. 
@@ -188,8 +196,8 @@ Abril 2025
     </li>
   </ul>
 
-  ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
-  
+### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+
   <p>El diagrama ilustra la estructura en capas del bounded context de Voting Management, mostrando cómo se organizan los componentes desde la interfaz hasta la infraestructura. 
     Presenta claramente la separación entre controladores, servicios, entidades de dominio y repositorios, con flechas que indican el flujo de dependencias entre cada capa.</p>
   <img src="img/boundedDiagram1.png">
@@ -207,8 +215,9 @@ Abril 2025
     Las relaciones entre tablas están indicadas con líneas y flechas, ilustrando las conexiones lógicas como claves foráneas.</p>
   <img src="img/boundedDiagram3.png">
 
-  ## 5.2. Bounded Context: Voter Access & Authentication Bounded Context
-  ### 5.2.1. Domain Layer
+## 5.2. Bounded Context: Voter Access & Authentication Bounded Context
+
+### 5.2.1. Domain Layer
 
 <ul>
     <li>
@@ -292,8 +301,8 @@ Abril 2025
     </li>
   </ul>
 
-  ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
-  
+### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
+
   <p>Muestra la arquitectura en capas del bounded context de autenticación y acceso de votantes, donde se pueden ver los controladores en la capa de interfaz, los servicios en la capa de aplicación, las entidades centrales en la capa de dominio, y los repositorios en la capa de infraestructura, con flechas que indican la dirección de dependencia.</p>
   <img src="img/boundedDiagram4.png">
   
@@ -308,9 +317,9 @@ Abril 2025
   <p>Representa la estructura de almacenamiento de datos para el bounded context de autenticación, mostrando las tablas principales (voters, identity_credentials, authentication_sessions) con sus columnas clave y relaciones. Las conexiones entre tablas representan las relaciones de clave foránea que mantienen la integridad referencial del sistema..</p>
   <img src="img/boundedDiagram6.png">
 
+## 5.3. Bounded Context: Vote Submission Management
 
-  ## 5.3. Bounded Context: Vote Submission Management
-  ### 5.3.1. Domain Layer
+### 5.3.1. Domain Layer
 
   <ul>
     <li>
@@ -331,7 +340,8 @@ Abril 2025
     </li>
   </ul>
 
-  ### 5.3.2. Interface Layer
+### 5.3.2. Interface Layer
+
   <ul>
     <li>
       <strong>VoteSubmissionController:</strong> Maneja las solicitudes HTTP relacionadas con el proceso de envío de votos. 
@@ -343,7 +353,7 @@ Abril 2025
     </li>
   </ul>
 
-  ### 5.3.3. Application 
+### 5.3.3. Application
 
   <ul>
     <li>
@@ -359,7 +369,7 @@ Abril 2025
       Garantiza que la transmisión sea exitosa y verificable.
     </li>
 
-  ### 5.3.4. Infrastructure Layer
+### 5.3.4. Infrastructure Layer
 
   <ul>
     <li>
@@ -376,8 +386,8 @@ Abril 2025
     </li>
   </ul>
 
-  ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
-  
+### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+
   <p>
     El diagrama muestra la arquitectura en capas del bounded context de Vote Submission Management, ilustrando la organización e interacción de sus componentes desde la interfaz hasta la infraestructura. Se destaca la separación de responsabilidades entre las capas Interface Layer, Application Layer, Domain Layer e Infrastructure Layer, con flechas que indican el flujo de dependencias y el proceso de envío de votos.
   </p>
@@ -393,30 +403,97 @@ Abril 2025
   #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
   El diagrama muestra las clases principales de la capa de dominio del bounded context de Vote Submission Management, representando las entidades clave que encapsulan la lógica central del proceso de envío de votos. Este diagrama de clases detalla las propiedades, métodos y relaciones con cardinalidad entre las entidades VoteSubmission, VoteSubmissionScreen, EncryptedVote, y BlockchainVote, que son esenciales para gestionar el flujo de votación desde la visualización hasta el almacenamiento en la blockchain.
 
-  - La clase VoteSubmission representa el proceso completo de envío de un voto, con propiedades como submissionId (identificador único), status (estado de la submission), y selectedOption (opción seleccionada). Incluye métodos como displayVotingOptions() (mostrar opciones de votación) y castEncryptedVote() (emitir voto encriptado). Esta clase tiene una relación de composición de uno a uno (1:1) con VoteSubmissionScreen y genera un EncryptedVote mediante composición.
-  - La clase VoteSubmissionScreen modela la interfaz de usuario que muestra las opciones de votación, con propiedades como screenId (identificador único) y renderStatus (estado de renderización). Su método principal es renderOptions() (renderizar opciones). Está asociada a VoteSubmission mediante una relación de composición.
-  - La clase EncryptedVote encapsula el voto encriptado, con propiedades como voteId (identificador único), encryptedData (datos encriptados), y submissionStatus (estado de la submission). Incluye métodos como encryptVote() (encriptar voto) y submitEncryptedVote() (enviar voto encriptado). Tiene una relación de composición de uno a uno (1:1) con VoteSubmission y genera un BlockchainVote mediante agregación.
-  - La clase BlockchainVote representa el voto almacenado en la blockchain, con propiedades como blockchainId (identificador único), transactionHash (hash de la transacción), y confirmationStatus (estado de confirmación). Sus métodos incluyen storeOnBlockchain() (almacenar en blockchain) y sendVoteToBlockchain() (enviar voto a blockchain). Está asociada a EncryptedVote mediante una relación de agregación de uno a uno (1:1).
+- La clase VoteSubmission representa el proceso completo de envío de un voto, con propiedades como submissionId (identificador único), status (estado de la submission), y selectedOption (opción seleccionada). Incluye métodos como displayVotingOptions() (mostrar opciones de votación) y castEncryptedVote() (emitir voto encriptado). Esta clase tiene una relación de composición de uno a uno (1:1) con VoteSubmissionScreen y genera un EncryptedVote mediante composición.
+- La clase VoteSubmissionScreen modela la interfaz de usuario que muestra las opciones de votación, con propiedades como screenId (identificador único) y renderStatus (estado de renderización). Su método principal es renderOptions() (renderizar opciones). Está asociada a VoteSubmission mediante una relación de composición.
+- La clase EncryptedVote encapsula el voto encriptado, con propiedades como voteId (identificador único), encryptedData (datos encriptados), y submissionStatus (estado de la submission). Incluye métodos como encryptVote() (encriptar voto) y submitEncryptedVote() (enviar voto encriptado). Tiene una relación de composición de uno a uno (1:1) con VoteSubmission y genera un BlockchainVote mediante agregación.
+- La clase BlockchainVote representa el voto almacenado en la blockchain, con propiedades como blockchainId (identificador único), transactionHash (hash de la transacción), y confirmationStatus (estado de confirmación). Sus métodos incluyen storeOnBlockchain() (almacenar en blockchain) y sendVoteToBlockchain() (enviar voto a blockchain). Está asociada a EncryptedVote mediante una relación de agregación de uno a uno (1:1).
 
-  <img src="img/Context-Domain_Vote-Submission-Management.png">
+<img src="img/Context-Domain_Vote-Submission-Management.png">
 
+#### Bounded Context Database Design Diagram
 
-  #### Bounded Context Database Design Diagram
-  El diagrama entidad-relación (ER) representa el diseño de la base de datos para el Vote Submission Management, mostrando las entidades, atributos y relaciones que soportan el flujo de votación desde la renderización de opciones hasta el almacenamiento en blockchain.
+El diagrama entidad-relación (ER) representa el diseño de la base de datos para el Vote Submission Management, mostrando las entidades, atributos y relaciones que soportan el flujo de votación desde la renderización de opciones hasta el almacenamiento en blockchain.
 
-  Las entidades son VoteSubmission (submission_id PK, status, selected_option nullable), VoteSubmissionScreen (screen_id PK, render_status nullable, submission_id FK), EncryptedVote (vote_id PK, encrypted_data, submission_status nullable, submission_id FK), y BlockchainVote (blockchain_id PK, transaction_hash, confirmation_status nullable, vote_id FK).
+Las entidades son VoteSubmission (submission_id PK, status, selected_option nullable), VoteSubmissionScreen (screen_id PK, render_status nullable, submission_id FK), EncryptedVote (vote_id PK, encrypted_data, submission_status nullable, submission_id FK), y BlockchainVote (blockchain_id PK, transaction_hash, confirmation_status nullable, vote_id FK).
 
-  Las relaciones, todas 1:1, son:
+Las relaciones, todas 1:1, son:
 
-  - VoteSubmission compone VoteSubmissionScreen (1:1), asociando una pantalla por submission.
-  - VoteSubmission compone EncryptedVote (1:1), generando un voto encriptado por submission.
-  - EncryptedVote agrega BlockchainVote (1:1), almacenando un registro en blockchain por voto encriptado.
-  - Este diseño asegura unicidad y trazabilidad en el proceso de votación, alineándose con los requisitos del sistema.
+- VoteSubmission compone VoteSubmissionScreen (1:1), asociando una pantalla por submission.
+- VoteSubmission compone EncryptedVote (1:1), generando un voto encriptado por submission.
+- EncryptedVote agrega BlockchainVote (1:1), almacenando un registro en blockchain por voto encriptado.
+- Este diseño asegura unicidad y trazabilidad en el proceso de votación, alineándose con los requisitos del sistema.
 
-  <img src="img/Context-database_Vote-Submission-Management.png">
+    <img src="img/Context-database_Vote-Submission-Management.png">
 
+## 5.4. Bounded Context: Vote Results Management
+
+### 5.4.1. Domain Layer
+
+- VoteResult: Representa el resultado agregado de la votación, encapsulando el total de votos y su estado. Asegura la integridad y trazabilidad de los resultados finales.
+- VotingReport: Define el informe generado sobre la votación, incluyendo datos analíticos y estadísticas. Facilita la generación y visualización de reportes.
+- TallyResult: Encapsula el proceso de conteo de votos encriptados, garantizando precisión y seguridad en el cálculo de resultados.
+- PublishedResult: Representa el resultado final publicado, incluyendo la fecha de publicación y datos verificables. Gestiona la difusión de resultados.
+
+### 5.4.2. Interface Layer
+
+- VotingReportController: Maneja las solicitudes HTTP para generar y consultar informes de votación. Proporciona endpoints para crear y recuperar reportes.
+- PublishedResultController: Gestiona las solicitudes HTTP para publicar y visualizar resultados finales. Expone endpoints para acceso público a los resultados.
+
+### 5.4.3. Application
+
+- VotingReportService: Implementa la lógica de negocio para generar informes de votación. Coordina la creación y almacenamiento de reportes.
+- TallyResultService: Maneja el conteo de votos encriptados y la validación de resultados. Asegura la precisión del proceso de tallado.
+- PublishedResultService: Gestiona la publicación de resultados finales y su distribución. Verifica la integridad antes de publicar.
+
+### 5.4.4. Infrastructure Layer
+
+- VotingReportRepository: Responsable de la persistencia y recuperación de informes de votación. Implementa operaciones CRUD para reportes.
+- TallyResultRepository: Gestiona el almacenamiento de los resultados contados. Proporciona métodos para consultar y actualizar datos.
+- PublishedResultRepository: Maneja la interacción con el almacenamiento de resultados publicados. Asegura la accesibilidad y verificación.
+
+### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama muestra la arquitectura en capas del bounded context de Vote Results Management, ilustrando la interacción entre sus componentes desde la interfaz hasta la infraestructura. Se destaca la separación de responsabilidades entre las capas Interface Layer, Application Layer, Domain Layer e Infrastructure Layer, con flechas que indican el flujo de dependencias y el proceso de gestión de resultados.
+
+- La Interface Layer incluye los componentes VotingReportController y PublishedResultController, que gestionan solicitudes HTTP de usuarios (e.g., administradores o ciudadanos) para generar reportes y acceder a resultados, invocando servicios de la capa de aplicación.
+- La Application Layer consta de VotingReportService, TallyResultService, y PublishedResultService, que coordinan la lógica de negocio. VotingReportService genera informes, TallyResultService procesa el conteo de votos, y PublishedResultService publica los resultados, con interacciones secuenciales.
+- La Domain Layer contiene las entidades VoteResult, VotingReport, TallyResult, y PublishedResult. El flujo es: VoteResult inicia el proceso, VotingReport genera informes, TallyResult calcula resultados, y PublishedResult los publica.
+- La Infrastructure Layer incluye VotingReportRepository, TallyResultRepository, y PublishedResultRepository, que persisten datos en una base de datos y aseguran la distribución de resultados.
+
+<img src="img/Architecture-Component_Vote_Results_Management.png">
+
+### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama muestra las clases principales de la capa de dominio del bounded context de Vote Results Management, representando las entidades clave que gestionan el procesamiento y publicación de resultados. Detalla propiedades, métodos y relaciones con cardinalidad 1:1.
+
+- La clase VoteResult representa el resultado general, con propiedades como result_id (UUID), total_votes (Integer), y status (String). Incluye métodos generateReport() y initiateTally(). Tiene relaciones de composición 1:1 con VotingReport y TallyResult.
+- La clase VotingReport gestiona informes, con propiedades como report_id (UUID), report_data (String), y generated_date (DateTime). Su método es createReport(). Está compuesta por VoteResult.
+- La clase TallyResult procesa el conteo, con propiedades como tally_id (UUID) y encrypted_votes (String). Incluye métodos processVotes() y finalizeTally(). Tiene una relación de composición 1:1 con VoteResult y agregación 1:1 con PublishedResult.
+- La clase PublishedResult maneja la publicación, con propiedades como publish_id (UUID), final_result (String), y publish_date (DateTime). Su método es publishResults(). Está agregada por TallyResult.
+
+<img src="img/Context-Domain_Vote_Results_Management.png">
+
+#### 5.4.6.2. Bounded Context Database Design Diagram
+
+El diagrama ER presenta el diseño de la base de datos para Vote Results Management, mostrando entidades, atributos y relaciones 1:1 que soportan el flujo de resultados.
+
+- **VoteResult**: result_id (PK), total_votes, status.
+- **VotingReport**: report_id (PK), report_data, generated_date, result_id (FK).
+- **TallyResult**: tally_id (PK), encrypted_votes, result_id (FK).
+- **PublishedResult**: publish_id (PK), final_result, publish_date, tally_id (FK).
+
+Las relaciones son:
+
+- **VoteResult** compone **VotingReport** (1:1), generando un informe por resultado.
+- **VoteResult** compone **TallyResult** (1:1), procesando un conteo por resultado.
+- **TallyResult** agrega **PublishedResult** (1:1), publicando un resultado por conteo.
+
+<img src="img/Context-database_Vote_Results_Management.png">
 
 ## Capítulo VI: Solution UX Design
+
 - 6.1. Style Guidelines
   - 6.1.1. General Style Guidelines
   - 6.1.2. Web, Mobile & Devices Style Guidelines
@@ -436,6 +513,7 @@ Abril 2025
 - 6.5. Applications Prototyping
 
 ## Capítulo VII: Product Implementation, Validation & Deployment
+
 - 7.1. Software Configuration Management
   - 7.1.1. Software Development Environment Configuration
   - 7.1.2. Source Code Management
@@ -458,6 +536,7 @@ Abril 2025
 - 7.4. Video About-the-Product
 
 ## Conclusiones
+
 - Conclusiones y recomendaciones
 - Video About-the-Team
 
@@ -466,9 +545,15 @@ Abril 2025
 ## Anexos
 
 # Contenido
-## Capítulo I: Introducción 
+
+## Capítulo I: Introducción
+
 ## Capítulo II: Requirements Elicitation & Analysis
+
 ## Capítulo III: Requirements Specification
+
 ## Capítulo IV: Solution Software Design
-## Anexos y Bibliografía 
+
+## Anexos y Bibliografía
+
 ## Student Outcome
