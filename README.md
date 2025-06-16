@@ -3891,6 +3891,55 @@ Pantallas que brindan retroalimentación adecuada en caso de errores o rutas inv
 Estos flujos cubren **todas las User Stories implementadas** y están completamente respaldados por los **wireframes** diseñados. La organización por flujos permite visualizar la lógica de navegación de la solución y respeta principios clave de **diseño accesible**, **seguridad**, y **arquitectura de información coherente**.
 
 
+## Capítulo VII: Product Implementation, Validation & Deployment
+
+### 7.1. Software Configuration Management
+
+#### 7.1.1. Software Development Environment Configuration
+
+Para el desarrollo de VoteChain, se configuró un entorno de trabajo colaborativo basado en herramientas digitales que abarcan todas las etapas del ciclo de vida de la solución: desde la planificación del proyecto hasta el despliegue y documentación del software.
+
+**Project Management**
+
+- Trello: Utilizado para la gestión de tareas, asignación de responsabilidades y seguimiento del progreso del equipo mediante tableros organizados por sprints y prioridades.
+- Discord: Medio principal de comunicación sincrónica y asincrónica del equipo, con canales por área de trabajo y coordinación diaria.
+
+**Requirements Management**
+
+- Miro: Herramienta visual utilizada para organizar el User Persona, User Journey, Empathy Maps e Impact Maps de los actores clave del sistema. Del mismo modo, realizar los procesos del EventStorming.
+
+**Product UX/UI Design**
+
+- Figma: Principal herramienta para diseñar wireframes, mockups y prototipos la plataforma VoteChain. Se trabajó colaborativamente con componentes reutilizables y navegación entre pantallas.
+
+**Software Development**
+
+- Node.js: Utilizado para la creación de la lógica del servidor y comunicación con contratos inteligentes.
+- React.js: Framework elegido para el desarrollo del frontend de la aplicación por su enfoque declarativo y capacidad de construir interfaces reactivas.
+
+**Software Testing**
+
+- Testing Library: Utilizada para validar la funcionalidad del frontend y asegurar la usabilidad de los componentes clave.
+
+**Software Deployment**
+
+- Netlify: Utilizado para desplegar la interfaz del usuario de forma gratuita y accesible desde cualquier navegador.
+
+**Software Documentation**
+
+- README.md en GitHub: Se desarrolló la redacción del informe de manera detallada destacando la estructura del proyecto y tecnologías empleadas.
+- Markdown: Formato empleado para la creación de documentación técnica estructurada dentro del repositorio.
+
+#### 7.1.2. Source Code Management
+
+
+#### 7.1.3. Source Code Style Guide & Conventions
+
+
+#### 7.1.4. Software Deployment Configuration.
+
+
+
 
 ## Conclusiones
 
