@@ -4026,10 +4026,12 @@ Durante este Sprint se logró implementar la estructura inicial de la interfaz d
 URL: [https://votechain-landingpage.netlify.app](https://votechain-landingpage.netlify.app)
 
 **Figura 2.** Página principal de la aplicación de votación – Vercel  
+
 ![Figura 2](img/frontend-deployed.png)  
 URL: [https://vote-chain-delta.vercel.app/public](https://vote-chain-delta.vercel.app/public)
 
-**Figura 3.** Vista de votaciones abiertas – Con opciones de votar, ver detalles y seguimiento de participación  
+**Figura 3.** Vista de votaciones abiertas – Con opciones de votar, ver detalles y seguimiento de participación 
+ 
 ![Figura 3](img/frontend-deployed-2.png)
 
 ---
