@@ -3932,6 +3932,27 @@ Para el desarrollo de VoteChain, se configuró un entorno de trabajo colaborativ
 
 #### 7.1.2. Source Code Management
 
+Para la gestión del código fuente del proyecto VoteChain, se utilizó GitHub como plataforma central para el almacenamiento, seguimiento y colaboración del desarrollo del software. Todo el equipo trabaja dentro de una misma organización, aplicando una estrategia de ramificación basada en el modelo GitFlow.
+
+Organización de VoteChain: https://github.com/ASE-VoteChain
+
+**Estructura de raas bajo GitFlow**
+- main: Rama principal que contiene el código listo para producción. Solo se actualiza mediante merge desde release o hotfix.
+- develop: Rama de integración donde se consolidan todas las funcionalidades nuevas antes de pasar a producción. Contiene el código en estado estable, pero aún en fase de desarrollo.
+
+*Informe de proyecto*
+- chapter-n: Rama dedicada a la construcción de un capítulo específico.
+
+**Conventional Commits**
+Para mantener la claridad y consistencia en el historial del repositorio, se aplican las reglas de Conventional Commits. Los mensajes de cada commit comienzan con un tipo de acción:
+
+- feat: para nuevas funcionalidades
+- fix: para corrección de errores
+- doc: para cambios en la documentación
+- style: para cambios de formato (espacios, comas, etc.)
+- refactor: para reestructuración sin cambio de funcionalidad
+- test: para añadir o modificar pruebas
+- chore: para tareas internas (actualización de dependencias, configuración)
 
 #### 7.1.3. Source Code Style Guide & Conventions
 
