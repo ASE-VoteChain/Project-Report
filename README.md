@@ -3971,7 +3971,24 @@ Finalmente el lenguaje Gherkin se utiliza para describir escenarios de prueba ba
 
 #### 7.1.4. Software Deployment Configuration.
 
+La siguiente tabla presenta los commits de los repositorios en GitHub:
 
+**VoteChain Landing Page:**
+
+| Id del commit       | Commit       |
+|-----------------|-----------------|
+| 751aad028a7948f7834e7bc2f6a41973f70fac6a   | Initial commit from Create Next App   |
+| 6c1918159f7d6188c5e28cd105d5bded240a6a74   | first commit   |
+| d68afc0547847cff8094c88e4048b9e5f013757a   | favicon changed   |
+
+**VoteChain FrontEnd**
+
+| Id del commit       | Commit       |
+|-----------------|-----------------|
+| 3b02e7471990fa794c791e027014aa35abdb9350   | Initial commit from Create Next App   |
+| 3fdc1e1156aa480e8843122758f597ad230f1730   | first commit   |
+| d07d608273370500256ef4093f2c1357f2eb15f9   | feat: add user voting page with filtering and participation tracking   |
+| f72468787e5c06db7f78a19614fff0e2e984c69b   | Merge pull request #1 from ASE-VoteChain/develop   |
 
 
 ## Conclusiones
