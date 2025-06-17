@@ -4016,6 +4016,24 @@ Durante este Sprint se implementó la base del proyecto VoteChain en Next.js, in
 
 ##### 7.2.1.5. Execution Evidence for Sprint Review
 
+Durante este Sprint se logró implementar la estructura inicial de la interfaz de usuario para VoteChain. Se desarrollaró la landing page del proyecto y la pantalla principal de votación para el usuario. Estas vistas permiten visualizar candidatos y simular la interacción básica del usuario en un proceso electoral. 
+
+--- 
+
+**Figura 1.** Landing Page de VoteChain – Sección inicial del sitio público desplegado en Netlify  
+
+![Figura 1](img/landingpage-deployed.png)  
+URL: [https://votechain-landingpage.netlify.app](https://votechain-landingpage.netlify.app)
+
+**Figura 2.** Página principal de la aplicación de votación – Vercel  
+![Figura 2](img/frontend-deployed.png)  
+URL: [https://vote-chain-delta.vercel.app/public](https://vote-chain-delta.vercel.app/public)
+
+**Figura 3.** Vista de votaciones abiertas – Con opciones de votar, ver detalles y seguimiento de participación  
+![Figura 3](img/frontend-deployed-2.png)
+
+---
+
 ##### 7.2.1.6. Services Documentation Evidence for Sprint Review
 
 Durante este Sprint no fue contemplada la elaboración ni documentación de servicios web (endpoints REST) como parte de los entregables. La documentación de funciones on-chain y una la integración con un backend RESTful será implementada en el siguiente Sprint.
