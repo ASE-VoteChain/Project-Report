@@ -3941,6 +3941,7 @@ Organización de VoteChain: https://github.com/ASE-VoteChain
 - develop: Rama de integración donde se consolidan todas las funcionalidades nuevas antes de pasar a producción. Contiene el código en estado estable, pero aún en fase de desarrollo.
 
 *Informe de proyecto*
+
 - chapter-n: Rama dedicada a la construcción de un capítulo específico.
 
 **Conventional Commits**
@@ -3956,6 +3957,17 @@ Para mantener la claridad y consistencia en el historial del repositorio, se apl
 
 #### 7.1.3. Source Code Style Guide & Conventions
 
+Para asegurar la claridad, legibilidad y estandarización del código fuente del proyecto VoteChain, el equipo ha adoptado guías de estilo y convenciones reconocidas internacionalmente para cada uno de los lenguajes utilizados en la solución. Todas las variables, funciones, clases, archivos y componentes son nombrados exclusivamente en inglés, siguiendo convenciones claras por tecnología.
+
+Para el desarrollo del frontend principal de la plataforma, basado en Next.js con TypeScript, se seguirá la guía oficial de Google: https://google.github.io/styleguide/tsguide.html
+
+El landing page de VoteChain está construido con Next.js y JavaScript, por lo que se siguen convenciones básicas para mantener consistencia con el frontend principal: https://www.w3schools.com/js/js_conventions.asp
+
+Para el marcado semántico y la estructura visual de la solución, se aplican las siguientes convenciones:
+- HTML: https://www.w3schools.com/html/html5_syntax.asp
+- CSS: https://google.github.io/styleguide/htmlcssguide.html
+
+Finalmente el lenguaje Gherkin se utiliza para describir escenarios de prueba bajo el enfoque BDD (Behavior Driven Development). Se sigue la guía oficial para especificaciones legibles en Gherkin: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
 
 #### 7.1.4. Software Deployment Configuration.
 
