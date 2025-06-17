@@ -3990,6 +3990,37 @@ La siguiente tabla presenta los commits de los repositorios en GitHub:
 | d07d608273370500256ef4093f2c1357f2eb15f9   | feat: add user voting page with filtering and participation tracking   |
 | f72468787e5c06db7f78a19614fff0e2e984c69b   | Merge pull request #1 from ASE-VoteChain/develop   |
 
+### 7.2. Solution Implementation
+
+#### 7.2.1 Sprint 1
+
+##### 7.2.1.1. Sprint Planning 1
+
+##### 7.2.1.2. Sprint Backlog 1
+
+##### 7.2.1.3. Development Evidence for Sprint Review
+
+Durante este Sprint se implementó la base del proyecto VoteChain en Next.js, incluyendo la integración de una interfaz de votación para el usuario y ajustes iniciales en la estructura del frontend.
+
+| Repository                               | Branch   | Commit Id | Commit Message                                     | Commit Message Body                                                               | Committed on (Date) |
+|------------------------------------------|----------|------------|---------------------------------------------------|------------------------------------------------------------------------------------|----------------------|
+| ASE-VoteChain/votechain-frontend         | develop  | 91cd457    | Remove unused CSS files and HTML pages            | Se eliminaron archivos CSS y HTML innecesarios relacionados con el sistema de votación. | 13/06/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | d07d608    | feat: add user voting page with filtering...      | Se añadió una página de votación para el usuario con filtrado y seguimiento de participación. | 13/06/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | 3fdc1e1    | first commit                                       | Estructura básica inicial del repositorio.                                         | 11/06/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | 3b02e74    | Initial commit from Create Next App               | Proyecto generado a partir de plantilla de Next.js.                               | 11/06/2025           |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | d68afce    | favicon changed                                   | Se actualizó el favicon de la landing page.                                       | 13/06/2025           |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | 6c19181    | first commit                                      | Commit inicial del repositorio con base del diseño.                               | 13/06/2025           |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | 751aad6    | Initial commit from Create Next App               | Proyecto generado con Next.js como base para la landing.                          | 16/05/2025           |
+
+##### 7.2.1.4. Testing Suite Evidence for Sprint Review
+
+##### 7.2.1.5. Execution Evidence for Sprint Review
+
+##### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint no fue contemplada la elaboración ni documentación de servicios web (endpoints REST) como parte de los entregables. La documentación de funciones on-chain y una la integración con un backend RESTful será implementada en el siguiente Sprint.
+
+##### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
 ## Conclusiones
 
