@@ -3914,16 +3914,15 @@ Para el desarrollo de VoteChain, se configuró un entorno de trabajo colaborativ
 
 **Software Development**
 
-- Node.js: Utilizado para la creación de la lógica del servidor y comunicación con contratos inteligentes.
-- React.js: Framework elegido para el desarrollo del frontend de la aplicación por su enfoque declarativo y capacidad de construir interfaces reactivas.
-
-**Software Testing**
-
-- Testing Library: Utilizada para validar la funcionalidad del frontend y asegurar la usabilidad de los componentes clave.
+Node.js: Se emplea como entorno de ejecución para gestionar la lógica del servidor y facilitar la integración con los contratos inteligentes que forman parte de la plataforma.
+Next.js: Framework de desarrollo web que extiende las capacidades de React y se utilizó tanto en el frontend principal (con TypeScript) como en el landing page (con JavaScript), facilitando la organización del proyecto y la generación de rutas automáticas.
+TypeScript: Adoptado en el desarrollo del frontend principal para mejorar la calidad del código mediante tipado estático, ayudando a reducir errores y mejorar la mantenibilidad.
+JavaScript: Utilizado en el desarrollo del landing page para mantener una implementación más ligera y rápida de prototipado.
 
 **Software Deployment**
 
 - Netlify: Utilizado para desplegar la interfaz del usuario de forma gratuita y accesible desde cualquier navegador.
+- Vercel: Es una plataforma que permite desplegar aplicaciones web de forma rápida y sencilla. Está optimizada para proyectos con Next.js, pero también soporta otros frameworks.
 
 **Software Documentation**
 
