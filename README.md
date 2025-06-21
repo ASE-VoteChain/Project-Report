@@ -226,60 +226,118 @@ Abril 2025
   </tr>
 </table>
 
-<br>
-
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
-    <th>Historia de Usuario</th>
-    <th>Módulo</th>
-    <th>Story Points</th>
+    <th>ID</th>
+    <th>Title (Module)</th>
+    <th>Title</th>
+    <th>Descripción</th>
+    <th>Horas estimadas</th>
+    <th>Asignado a</th>
+    <th>Status</th>
   </tr>
+
+  <!-- 1 -->
   <tr>
+    <td>E01_US001</td>
+    <td>Voting Setup</td>
+    <td>Establecer parámetros básicos</td>
     <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
-    <td>Módulo de votación</td>
-    <td>5</td>
+    <td>20 h</td>
+    <td>Backend Developer</td>
+    <td>In Production</td>
   </tr>
+
+  <!-- 2 -->
   <tr>
+    <td>E01_US002</td>
+    <td>Voting Validation</td>
+    <td>Validar parámetros&nbsp;de votación</td>
     <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
-    <td>Módulo de votación</td>
-    <td>3</td>
+    <td>12 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
   </tr>
+
+  <!-- 3 -->
   <tr>
+    <td>E01_US003</td>
+    <td>Voting Setup</td>
+    <td>Definir estructura de cargos/preguntas</td>
     <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
-    <td>Módulo de votación</td>
-    <td>3</td>
+    <td>12 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
   </tr>
+
+  <!-- 4 -->
   <tr>
+    <td>E01_US004</td>
+    <td>Voting Setup</td>
+    <td>Guardar configuración</td>
     <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
-    <td>Módulo de votación</td>
-    <td>2</td>
+    <td> 8 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
   </tr>
+
+  <!-- 5 -->
   <tr>
+    <td>E01_US005</td>
+    <td>Login / Registration</td>
+    <td>Registro de votante</td>
     <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
-    <td>Login / Registro</td>
-    <td>3</td>
+    <td>12 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
   </tr>
+
+  <!-- 6 -->
   <tr>
+    <td>E01_US006</td>
+    <td>Login / Security</td>
+    <td>Validar identidad del votante</td>
     <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
-    <td>Login / Seguridad</td>
-    <td>3</td>
+    <td>12 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
   </tr>
+
+  <!-- 7 -->
   <tr>
+    <td>E01_US007</td>
+    <td>Login / Registration</td>
+    <td>Emitir credenciales únicas</td>
     <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
-    <td>Login / Registro</td>
-    <td>2</td>
+    <td> 8 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
   </tr>
+
+  <!-- 8 -->
   <tr>
+    <td>E01_US008</td>
+    <td>Encryption / Security</td>
+    <td>Encriptar voto</td>
     <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
-    <td>Encriptación / Seguridad</td>
-    <td>4</td>
+    <td>16 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
   </tr>
+
+  <!-- 9 -->
   <tr>
+    <td>E01_US009</td>
+    <td>Blockchain Core</td>
+    <td>Registrar voto en blockchain</td>
     <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
-    <td>Blockchain básico</td>
-    <td>4</td>
+    <td>16 h</td>
+    <td>Blockchain Developer</td>
+    <td>In Production</td>
   </tr>
 </table>
+
+
 
 ## Anexos y Bibliografía 
 ## Student Outcome
