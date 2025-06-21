@@ -166,5 +166,8 @@ Abril 2025
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Solution Software Design
+## Capítulo VII: Product Implementation, Validation & Deployment
+
+
 ## Anexos y Bibliografía 
 ## Student Outcome
