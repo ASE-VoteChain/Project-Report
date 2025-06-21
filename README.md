@@ -170,6 +170,7 @@ Abril 2025
 
 <h2>7.2 Product Implementation & Deployment</h2>
 <h3>7.2.1 Sprint 1</h3>
+<h3>7.2.1.1 Sprint Planning 1</h3>
 
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
@@ -225,6 +226,8 @@ Abril 2025
     <td>29 story points (seleccionados)</td>
   </tr>
 </table>
+
+<h3>7.2.1.2 Sprint Backlog 1</h3>
 
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
@@ -336,6 +339,7 @@ Abril 2025
     <td>In Production</td>
   </tr>
 </table>
+
 
 
 
