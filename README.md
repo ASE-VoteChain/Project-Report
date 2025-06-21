@@ -4041,6 +4041,319 @@ Durante este Sprint no fue contemplada la elaboración ni documentación de serv
 
 ##### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
+
+
+### 7.3. Validation Interviews
+#### 7.3.1. Diseño de entrevistas
+
+El propósito fundamental de estas entrevistas es validar las soluciones y funcionalidades propuestas en el proyecto VoteChain, asegurando que la plataforma realmente responda a las necesidades y expectativas de sus usuarios finales y stakeholders clave. Para ello, se diseñaron entrevistas estructuradas que permiten obtener retroalimentación cualitativa y específica, basada en la experiencia directa con la aplicación.
+
+Estas entrevistas se enfocan en dos segmentos principales: los organizadores de votación comunitaria, quienes gestionan y coordinan los procesos electorales, y los ciudadanos votantes, quienes participan activamente en las votaciones. La información recabada es esencial para identificar fortalezas, áreas de mejora y posibles barreras para la adopción, con el fin de iterar y optimizar la solución antes de su despliegue masivo.
+
+Se aplicaron preguntas generales para contextualizar a cada entrevistado, seguidas de preguntas específicas para cada segmento, abordando aspectos clave como funcionalidad, usabilidad, impacto en tiempo y costos, seguridad, confianza, y experiencia de usuario.
+
+**Preguntas Generales (para todos los entrevistados)**
+
+- Nombre completo
+- Lugar de residencia (ciudad/país)
+- Ocupación/Profesión
+
+---
+
+**Preguntas — Segmento: Organizadores de votación comunitaria**
+
+**Funcionalidad y Características:**
+
+- ¿Qué te parece lo que hace VoteChain?
+- ¿Crees que VoteChain ayuda a que las votaciones sean más claras, seguras y fáciles?
+- ¿Sería útil conectar VoteChain con otros sistemas que ya usas?
+
+**Usabilidad y Adopción:**
+
+- ¿Sería fácil para tu equipo empezar a usar VoteChain?
+- ¿Qué tipo de ayuda o guía necesitarían?
+- ¿Te parece fácil de entender cómo funciona la app?
+
+**Impacto en Tiempo y Costo:**
+
+- ¿Cómo crees que VoteChain cambiaría el tiempo y el costo de organizar votaciones?
+- ¿En qué tareas específicas se ahorraría tiempo?
+- ¿Qué gastos se podrían reducir?
+
+**Seguridad y Confianza:**
+
+- ¿Qué te hace sentir más seguro al usar VoteChain?
+- ¿Qué te preocupa sobre la seguridad y el anonimato en las votaciones?
+- ¿Qué tipo de revisiones o comprobaciones serían necesarias?
+
+**Panel de Control y Métricas:**
+
+- ¿Qué te parece el panel de control que muestra los resultados?
+- ¿Qué más te gustaría ver en ese panel?
+- ¿Cómo usarías esa información para mejorar las votaciones?
+
+---
+
+**Preguntas — Segmento: Ciudadanos votantes**
+
+**Experiencia de Usuario:**
+
+- ¿Te parece fácil de usar VoteChain?
+- ¿Sería fácil votar con VoteChain en tu celular o computadora?
+- ¿Cómo harías la app más fácil de usar para todos?
+
+**Confianza y Transparencia:**
+
+- ¿Te sentirías seguro votando con VoteChain?
+- ¿Qué más necesitarías para confiar en los resultados?
+- ¿Cómo te gustaría que se mostraran los resultados para que confíes en ellos?
+
+**Anonimato y Privacidad:**
+
+- ¿Crees que VoteChain protege tu voto y tu información personal?
+- ¿Qué te preocupa sobre la seguridad de tus datos?
+- ¿Qué información personal te sentirías cómodo dando al usar VoteChain?
+
+**Claridad y Utilidad de la Información:**
+
+- ¿Qué más te gustaría saber para sentirte cómodo usando VoteChain?
+- ¿Qué tipo de información te gustaría ver sobre los candidatos o las opciones de votación?
+- ¿Cómo te gustaría que te explicaran por qué VoteChain es una buena opción?
+
+#### 7.3.2. Registro de entrevistas
+
+A continuación se presentan los registros de las entrevistas realizadas a los usuarios finales de VoteChain, tanto organizadores de votaciones comunitarias como ciudadanos votantes. Cada registro incluye el nombre del entrevistado, su ocupación, y un resumen de sus respuestas a las preguntas planteadas.
+
+###### **Segmento: Organizadores de votación comunitaria**
+
+**Diego Defilippi**
+
+<img src="img/entrevista1.PNG">
+
+
+- Perfil del entrevistado:
+  - Diego Defilippi, estudiante y organizador de votaciones comunitarias en Surquillo.
+
+- Percepción general sobre VoteChain:
+  - Considera que VoteChain es una solución innovadora que aporta transparencia y seguridad a las votaciones comunitarias, aspectos fundamentales para generar confianza.
+
+- Opinión sobre la tecnología blockchain:
+  - Valora que el uso de blockchain permite registrar cada voto de forma inmutable y facilita auditorías públicas, lo que hace el proceso más claro y seguro.
+
+- Usabilidad y adopción:
+  - Encuentra la plataforma intuitiva y fácil de comprender, aunque señala la necesidad de contar con guías claras, tutoriales paso a paso y soporte técnico para asegurar una correcta configuración y uso, especialmente en las primeras votaciones.
+
+- Impacto en tiempo y costos:
+  - Considera que VoteChain reduciría significativamente el tiempo dedicado al conteo y verificación de votos, además de disminuir costos relacionados con impresión, logística y personal.
+
+- Confianza y seguridad:
+  - Se siente más seguro usando VoteChain debido a su transparencia y capacidad de auditoría pública. Sugiere implementar auditorías externas periódicas y mecanismos robustos de validación de identidad para fortalecer la confianza.
+
+- Panel de control y métricas:
+  - Valora positivamente el panel de control que muestra resultados y recomienda enfocarse en ofrecer datos estadísticos en tiempo real, análisis de participación por grupos, comparativas históricas y alertas sobre posibles irregularidades para mejorar la supervisión.
+
+- Recomendaciones finales:
+  - Sugiere incluir análisis avanzados y alertas en el panel de control para aportar mayor valor a la gestión de las votaciones.
+
+
+###### **Segmento: Ciudadanos votantes**
+**Luis Alejo**
+
+<img src="img/entrevista1.PNG">
+
+- Perfil del entrevistado:
+  - Luis Alejo, 23 años, practicante de analista programador, residente en San Martín de Porres.
+
+- Percepción general sobre VoteChain:
+  - Luis considera que la aplicación tiene un nivel de dificultad intermedio para usarla, debido a la cantidad de secciones que contiene. Sin embargo, reconoce que el flujo para votar es lógico y secuencial, lo que facilita el proceso paso a paso.
+
+- Sugerencias para mejorar la usabilidad:
+  - Propone incluir mensajes más descriptivos y títulos claros en cada sección para que los usuarios comprendan mejor el propósito de cada apartado, facilitando así la navegación y el uso.
+
+- Confianza y seguridad:
+  - Luis se siente seguro votando en VoteChain, principalmente porque entiende que la tecnología blockchain aporta un nivel alto de seguridad. No tiene sugerencias adicionales para mejorar la confianza en este momento.
+
+- Preocupaciones:
+  - Su principal preocupación está en el manejo y almacenamiento de sus datos personales, ya que entiende que la votación se realiza en blockchain, pero los datos podrían estar en bases externas.
+
+- Datos personales que estaría dispuesto a compartir:
+  - Luis mencionó que estaría cómodo proporcionando su correo electrónico para posibles comunicaciones o reclamaciones.
+
+- Información adicional para aumentar la confianza:
+  - Sugiere que en la página web de VoteChain se incluya un apartado que explique claramente las medidas de seguridad implementadas, tanto para la votación como para la protección de los datos de los usuarios.
+
+- Comentarios finales:
+  - En general, Luis considera que la aplicación es bastante buena, aunque reconoce que al inicio le costó un poco acostumbrarse a la interfaz.
+
+
+**Sharon Barrial**
+
+<img src="img/entrevista2.PNG">
+
+- Perfil del entrevistado:
+  - Sharon Barrial, 22 años, estudiante, residente en Carabayllo, Perú.
+
+- Percepción general sobre VoteChain:
+  - Sharon encontró la aplicación fácil de usar durante el breve tiempo que la probó. Destaca la utilidad de la plataforma para facilitar la votación desde casa, evitando desplazamientos tediosos.
+
+- Sugerencias para mejorar la usabilidad:
+  - Propone incluir una sección de preguntas frecuentes (FAQ) y pequeños tutoriales o guías emergentes (modales) para ayudar a los usuarios nuevos a familiarizarse con la aplicación.
+
+- Confianza y seguridad:
+  - Se siente segura usando VoteChain, especialmente por el código de verificación que considera un elemento que aporta seriedad y confianza al proceso.
+
+- Recomendaciones para aumentar la confianza:
+  - Sugiere realizar pruebas piloto con usuarios reales para demostrar la seguridad y funcionamiento correcto de la aplicación, lo que ayudaría a generar mayor confianza en los resultados.
+
+- Preferencias sobre la presentación de resultados:
+  - Le gustaría que los resultados se validen mediante pruebas con diferentes personas, asegurando que el voto se registre sin comprometer credenciales o datos personales, usando elementos como códigos hash.
+
+- Percepción sobre la protección de datos:
+  - Considera que VoteChain tiene varias capas de seguridad y protege adecuadamente los datos sensibles de los usuarios.
+
+- Datos personales que estaría dispuesta a compartir:
+  - Mencionó que estaría cómoda proporcionando su DNI y contraseña para el uso de la aplicación.
+
+- Comentarios sobre la adopción y crecimiento de la plataforma:
+  - Cree que la adopción por parte del gobierno o entidades oficiales sería clave para aumentar la confianza y el uso masivo de VoteChain, comparándolo con plataformas peruanas consolidadas que cuentan con respaldo institucional.
+
+- Feedback adicional:
+  - Le gustaría que la aplicación incluya un modo oscuro (dark mode), ya que prefiere interfaces con esta característica.
+
+#### 7.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
+*Usability – Inclusive Design – Information Architecture*
+
+Carrera: Ingeniería de Software
+
+Auditor: VoteChain Validation Team
+
+---
+
+**SITE O APP A EVALUAR:**
+
+VoteChain
+
+---
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas principales:
+
+- Registro y autenticación de usuarios
+- Proceso de emisión de voto
+- Visualización de confirmación de voto
+- Consulta de resultados
+- Navegación general en la aplicación
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Integración con sistemas externos
+- Funcionalidades administrativas avanzadas
+- Soporte técnico y ayuda en línea
+
+---
+
+**ESCALA DE SEVERIDAD:**
+
+Los problemas detectados serán puntuados según la siguiente escala:
+
+| Nivel | Descripción |
+| --- | --- |
+| 1 | Problema superficial: Fácil de superar o poco frecuente. No requiere corrección inmediata. |
+| 2 | Problema menor: Ocurre con cierta frecuencia o es algo difícil de superar. Prioridad baja. |
+| 3 | Problema mayor: Ocurre frecuentemente o bloquea al usuario. Prioridad alta para corregir. |
+| 4 | Problema crítico: Impide el uso o causa errores graves. Corrección urgente antes del lanzamiento. |
+
+---
+
+**TABLA DE RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violado(a) |
+| --- | --- | --- | --- |
+| 1 | Falta de confirmación clara tras emitir el voto | 4 | Usabilidad: Visibilidad del estado del sistema |
+| 2 | Dificultad para entender el proceso de votación | 3 | Diseño inclusivo: Consistencia y estándares |
+| 3 | Información sobre privacidad y anonimato poco clara | 3 | Arquitectura de información: Claridad y transparencia |
+| 4 | Navegación confusa entre secciones principales | 2 | Usabilidad: Reconocimiento antes que recuerdo |
+| 5 | Mensajes de error poco explicativos al ingresar datos | 2 | Usabilidad: Prevención de errores |
+| 6 | Diseño no adaptado para dispositivos móviles pequeños | 3 | Diseño inclusivo: Flexibilidad y eficiencia de uso |
+
+---
+
+**DESCRIPCIÓN DE LOS PROBLEMAS:**
+
+**PROBLEMA #1: Falta de confirmación clara tras emitir el voto**
+
+*Severidad:* 4
+
+*Heurística violada:* Usabilidad: Visibilidad del estado del sistema
+
+*Problema:* Después de votar, el usuario no recibe una confirmación visual o mensaje claro que indique que su voto fue registrado correctamente, generando incertidumbre.
+
+*Recomendación:* Implementar un mensaje o pantalla de confirmación clara e inmediata tras la emisión del voto.
+
+---
+
+**PROBLEMA #2: Dificultad para entender el proceso de votación**
+
+*Severidad:* 3
+
+*Heurística violada:* Diseño inclusivo: Consistencia y estándares
+
+*Problema:* Algunos usuarios encuentran confuso el flujo para emitir su voto, especialmente quienes tienen poca experiencia con aplicaciones digitales.
+
+*Recomendación:* Simplificar y estandarizar el flujo de votación, usando instrucciones claras y consistentes en cada paso.
+
+---
+
+**PROBLEMA #3: Información sobre privacidad y anonimato poco clara**
+
+*Severidad:* 3
+
+*Heurística violada:* Arquitectura de información: Claridad y transparencia
+
+*Problema:* La aplicación no comunica de forma clara cómo se protege la privacidad y el anonimato del votante, lo que genera dudas.
+
+*Recomendación:* Añadir secciones o mensajes explicativos sobre las medidas de privacidad y seguridad implementadas.
+
+---
+
+**PROBLEMA #4: Navegación confusa entre secciones principales**
+
+*Severidad:* 2
+
+*Heurística violada:* Usabilidad: Reconocimiento antes que recuerdo
+
+*Problema:* Algunos usuarios tienen dificultades para encontrar ciertas funciones o regresar a pantallas anteriores.
+
+*Recomendación:* Mejorar la navegación con menús visibles y opciones claras para volver o avanzar.
+
+---
+
+**PROBLEMA #5: Mensajes de error poco explicativos al ingresar datos**
+
+*Severidad:* 2
+
+*Heurística violada:* Usabilidad: Prevención de errores
+
+*Problema:* Cuando los usuarios cometen errores al ingresar datos, los mensajes no explican claramente qué corregir.
+
+*Recomendación:* Implementar mensajes de error específicos y sugerencias para corregirlos.
+
+---
+
+**PROBLEMA #6: Diseño no adaptado para dispositivos móviles pequeños**
+
+*Severidad:* 3
+
+*Heurística violada:* Diseño inclusivo: Flexibilidad y eficiencia de uso
+
+*Problema:* La aplicación presenta dificultades de visualización y uso en pantallas pequeñas, afectando la experiencia.
+
+*Recomendación:* Optimizar el diseño para diferentes tamaños de pantalla, asegurando una experiencia fluida en móviles.
+
 ## Conclusiones
 
 El desarrollo de VoteChain ha demostrado ser una solución tecnológica viable y de alto impacto para resolver las problemáticas asociadas a los procesos de votación tradicionales en comunidades peruanas. A través de un enfoque basado en diseño centrado en el usuario, arquitectura impulsada por atributos de calidad y principios de Domain-Driven Design, se logró construir una plataforma robusta, transparente y escalable que promueve la confianza y participación ciudadana.
