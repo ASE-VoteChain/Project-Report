@@ -168,6 +168,118 @@ Abril 2025
 ## Capítulo IV: Solution Software Design
 ## Capítulo VII: Product Implementation, Validation & Deployment
 
+<h2>7.2 Product Implementation & Deployment</h2>
+<h3>7.2.1 Sprint 1</h3>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Sprint #</th>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>Sprint Planning Background</th>
+    <td>Inicio de desarrollo de VoteChain, una plataforma de votación digital segura basada en blockchain. Este sprint establece los fundamentos técnicos y funcionales clave del sistema.</td>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-06-21</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>10:00 a.m. - 12:00 p.m.</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Sala de reuniones virtual - Microsoft Teams</td>
+  </tr>
+  <tr>
+    <th>Prepared by</th>
+    <td>Equipo de desarrollo VoteChain</td>
+  </tr>
+  <tr>
+    <th>Attendess (to planning meeting)</th>
+    <td>Product Owner, Scrum Master, Backend Developers, Frontend Developers, QA Tester, Blockchain Specialist</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Review Summary</th>
+    <td>N/A – Este es el Sprint 1</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Retrospective Summary</th>
+    <td>N/A – Este es el Sprint 1</td>
+  </tr>
+  <tr>
+    <th>Sprint Goal & User Stories</th>
+    <td>Desarrollar el MVP básico: configuración de votación, módulo de autenticación y primer bloque de votación cifrada. Se prioriza la seguridad, identidad y estructura técnica inicial.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>Construir el flujo básico de configuración de votación, autenticación de votantes, encriptación de votos y registro en la blockchain.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>30 story points (capacidad estimada del equipo)</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Point</th>
+    <td>29 story points (seleccionados)</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Historia de Usuario</th>
+    <th>Módulo</th>
+    <th>Story Points</th>
+  </tr>
+  <tr>
+    <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+    <td>Módulo de votación</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+    <td>Módulo de votación</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+    <td>Módulo de votación</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+    <td>Módulo de votación</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+    <td>Login / Registro</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
+    <td>Login / Seguridad</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+    <td>Login / Registro</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+    <td>Encriptación / Seguridad</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
+    <td>Blockchain básico</td>
+    <td>4</td>
+  </tr>
+</table>
 
 ## Anexos y Bibliografía 
 ## Student Outcome
