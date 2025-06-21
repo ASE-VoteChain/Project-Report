@@ -4395,6 +4395,19 @@ Las principales conclusiones del proyecto son:
 - **Adopción centrada en el usuario:** Mediante entrevistas, personas y flujos, se comprobó que tanto organizadores como ciudadanos valoran una solución intuitiva, segura y verificable, lo que facilitó diseñar una experiencia de usuario clara y efectiva.
 
 - **Impacto potencial:** El enfoque modular y el uso de tecnologías de bajo costo permite escalar VoteChain a distintos contextos locales, con posibilidades de adopción nacional e internacional, especialmente en regiones con baja confianza institucional.
+- **Usabilidad con margen de mejora:** Aunque los usuarios valoran positivamente la lógica y el flujo de la aplicación, se identificó que la curva de aprendizaje puede ser un poco alta para usuarios con menos experiencia. La interfaz es percibida como funcional pero podría beneficiarse de mensajes más descriptivos y guías integradas para facilitar la navegación.
+
+- **Confianza en la seguridad basada en blockchain:** Los entrevistados reconocen la tecnología blockchain como un factor clave para la seguridad y transparencia del voto, lo que genera confianza. Sin embargo, persisten dudas sobre el manejo y protección de datos personales fuera de la cadena, lo que indica la necesidad de comunicar mejor estas garantías.
+
+- **Importancia de la transparencia y auditoría:** La posibilidad de auditorías públicas y revisiones externas es valorada como un elemento fundamental para legitimar el proceso electoral y aumentar la confianza tanto de organizadores como de votantes.
+
+- **Impacto positivo en eficiencia operativa:** VoteChain tiene el potencial de reducir significativamente el tiempo y costo en la organización y conteo de votos, eliminando errores humanos y optimizando recursos logísticos y humanos.
+
+- **Necesidad de soporte y capacitación:** Aunque la plataforma es intuitiva, los organizadores requieren tutoriales paso a paso, soporte técnico y capacitación inicial para asegurar un uso correcto y seguro, especialmente en las primeras elecciones.
+
+- **Accesibilidad y personalización:** Se identificó interés en funcionalidades que mejoren la accesibilidad, como modos de visualización (ej. modo oscuro) y ayudas para usuarios nuevos, lo que puede ampliar la adopción y satisfacción.
+
+---
 
 ## Recomendaciones
 
@@ -4408,6 +4421,19 @@ Las principales conclusiones del proyecto son:
 
 - **Continuar con auditorías externas** del código y contratos inteligentes para garantizar seguridad e integridad del sistema ante escenarios de producción.
 
+- **Incorporar guías y mensajes descriptivos** dentro de la aplicación, incluyendo tutoriales breves, FAQs y mensajes contextuales que expliquen claramente cada paso y sección, para facilitar la experiencia de usuarios con distintos niveles de habilidad.
+
+- **Mejorar la comunicación sobre privacidad y seguridad** mediante un apartado visible en la aplicación o página web que detalle las medidas de protección de datos personales y el funcionamiento seguro de la blockchain, para disipar dudas y aumentar la confianza.
+
+- **Desarrollar mecanismos de auditoría y transparencia** que permitan auditorías externas y revisiones periódicas, así como mostrar indicadores claros y en tiempo real sobre el estado de la votación y resultados.
+
+- **Optimizar el panel de control para organizadores** agregando análisis avanzados como participación por grupos, comparativas históricas y alertas de irregularidades para facilitar la supervisión y toma de decisiones.
+
+- **Ofrecer soporte técnico y capacitación estructurada** con tutoriales, soporte en línea y atención personalizada para los organizadores, especialmente en las primeras implementaciones.
+
+- **Adaptar la interfaz para dispositivos móviles y accesibilidad**, optimizando el diseño para diferentes tamaños de pantalla y considerando opciones de personalización visual (modo oscuro, tamaños de letra) para mejorar la experiencia de todos los usuarios.
+
+- **Fomentar alianzas institucionales** buscando respaldo y adopción por parte de entidades oficiales o gubernamentales para aumentar la legitimidad y alcance de VoteChain.
 
 ## Bibliografía
 
