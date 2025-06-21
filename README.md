@@ -4020,6 +4020,13 @@ Durante este Sprint se implementó la base del proyecto VoteChain en Next.js, in
 
 ##### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
+En este sprint se realizaron los siguientes tests enfocados en la validación de datos del frontend de la aplicación web VoteChain. Se hizo uso de la biblioteca de javascript llamado Jest.
+
+| Repository          | Branch | Commit Id | Commit Message                 | Commit Message Body                                                  | Commited on (Date) |
+|---------------------|--------|-----------|--------------------------------|------------------------------------------------------------------------|---------------------|
+| votechain-frontend  | main   | 723d082   | test: DNI validation test added   | Se agregó una prueba unitaria para validar el formato del DNI ingresado.   | 21/06/2025          |
+| votechain-frontend  | main   | 1130bc4   | test: Email validation test added | Se agregó una prueba unitaria para validar la estructura de correos electrónicos. | 21/06/2025          |
+
 ##### 7.2.1.5. Execution Evidence for Sprint Review
 
 Durante este Sprint se logró implementar la estructura inicial de la interfaz de usuario para VoteChain. Se desarrollaró la landing page del proyecto y la pantalla principal de votación para el usuario. Estas vistas permiten visualizar candidatos y simular la interacción básica del usuario en un proceso electoral. 
@@ -4047,6 +4054,11 @@ URL: [https://vote-chain-delta.vercel.app/public](https://vote-chain-delta.verce
 Durante este Sprint no fue contemplada la elaboración ni documentación de servicios web (endpoints REST) como parte de los entregables. La documentación de funciones on-chain y una la integración con un backend RESTful será implementada en el siguiente Sprint.
 
 ##### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el proceso de despliegue del frontend de VoteChain y de la landing page. El objetivo fue poner en producción ambos productos digitales para que sean accesibles públicamente. Para ello hemos optado por las herramientas Vercel y Netlify.
+
+![Figura Netflify](img/Netlify_landingpage.png)  
+
 
 ## Conclusiones
 
