@@ -340,8 +340,9 @@ Abril 2025
   </tr>
 </table>
 
-
-
+<h3>7.2.1.8. Team Collaboration Insights during Sprint</h3>
+<img src="./img/ins 1.PNG" >
+<img src="./img/ins 2.PNG">
 
 ## Anexos y Bibliografía 
 ## Student Outcome
