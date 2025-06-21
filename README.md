@@ -3890,6 +3890,158 @@ Pantallas que brindan retroalimentación adecuada en caso de errores o rutas inv
 
 Estos flujos cubren **todas las User Stories implementadas** y están completamente respaldados por los **wireframes** diseñados. La organización por flujos permite visualizar la lógica de navegación de la solución y respeta principios clave de **diseño accesible**, **seguridad**, y **arquitectura de información coherente**.
 
+### 6.4.3. Applications Mock-ups
+
+Esta sección presenta los **mock-ups de alta fidelidad** para la aplicación web de **VoteChain**, desarrollados con base en los wireframes previos. Estos diseños integran estilo visual, identidad gráfica, componentes funcionales y principios de accesibilidad para garantizar una experiencia de usuario fluida y confiable.
+
+---
+
+#### 1. Dashboard del usuario
+
+![mockup-dashboard.png](img/mockup-dashboard.png)  
+![mockup-dashboard_2.png](img/mockup-dashboard_2.png)
+
+- **Función:** Panel principal al iniciar sesión con vista rápida de votaciones activas, resultados recientes y perfil.
+- **Elementos clave:** Tarjetas, panel lateral, navegación rápida y estadísticas clave.
+
+---
+
+#### 2. Inicio de sesión
+
+![mockup-login.png](img/mockup-login.png)
+
+- **Función:** Ingreso de usuario con validación de credenciales.
+- **Características:** Campos de correo y contraseña, botón de ingreso y enlace a registro.
+
+---
+
+#### 3. Registro de nuevo usuario
+
+![mockup-register.png](img/mockup-register.png)
+
+- **Función:** Creación de cuenta para votantes y organizadores.
+- **Elementos clave:** Formulario limpio con pasos guiados y validación.
+
+---
+
+#### 4. Panel del organizador
+
+![mockup-panel.png](img/mockup-panel.png)  
+![mockup-panel_2.png](img/mockup-panel_2.png)  
+![mockup-panel_3.png](img/mockup-panel_3.png)
+
+- **Función:** Gestión de votaciones, creación, edición y monitoreo de procesos.
+- **Destacados:** Tablas interactivas, acceso a resultados y panel de control.
+
+---
+
+#### 5. Página pública de resultados
+
+![mockup-public.png](img/mockup-public.png)  
+![mockup-public_2.png](img/mockup-public_2.png)
+
+- **Función:** Visualización abierta de resultados para transparencia ciudadana.
+- **Componentes:** Gráficos y datos auditables en tiempo real.
+
+---
+
+#### 6. Configuración de cuenta
+
+![mockup-user-configuracion.png](img/mockup-user-configuracion.png)  
+![mockup-user-configuracion_2.png](img/mockup-user-configuracion_2.png)  
+![mockup-user-configuracion_3.png](img/mockup-user-configuracion_3.png)  
+![mockup-user-configuracion_4.png](img/mockup-user-configuracion_4.png)
+
+- **Función:** Ajustes de seguridad, autenticación y preferencias del usuario.
+
+---
+
+#### 7. Perfil del usuario
+
+![mockup-user-perfil.png](img/mockup-user-perfil.png)  
+![mockup-user-perfil_2.png](img/mockup-user-perfil_2.png)
+
+- **Función:** Visualización de datos personales, credenciales y accesos previos.
+
+---
+
+#### 8. Historial del usuario
+
+![mockup-user-historial.png](img/mockup-user-historial.png)  
+![mockup-user-historial_2.png](img/mockup-user-historial_2.png)
+
+- **Función:** Seguimiento de procesos en los que ha participado.
+
+---
+
+#### 9. Votaciones disponibles
+
+![mockup-user-votaciones.png](img/mockup-user-votaciones.png)  
+![mockup-user-votaciones_2.png](img/mockup-user-votaciones_2.png)  
+![mockup-user-votaciones_3.png](img/mockup-user-votaciones_3.png)
+
+- **Función:** Listado de elecciones activas con opción de emitir voto.
+
+---
+
+#### 10. Resultados del usuario
+
+![mockup-user-resultados.png](img/mockup-user-resultados.png)  
+![mockup-user-resultados_2.png](img/mockup-user-resultados_2.png)
+
+- **Función:** Vista de resultados de votaciones finalizadas.
+
+---
+
+#### 11. Resultados globales
+
+![mockup-resultados.png](img/mockup-resultados.png)  
+![mockup-resultados_2.png](img/mockup-resultados_2.png)
+
+- **Función:** Reportes y visualización gráfica de resultados en tiempo real.
+
+---
+
+#### 12. Validación del voto
+
+![mockup-validar.png](img/mockup-validar.png)  
+![mockup-validar_2.png](img/mockup-validar_2.png)
+
+- **Función:** Confirmación de integridad del voto mediante hash en blockchain.
+
+---
+
+#### 13. Emitir voto
+
+![mockup-votar.png](img/mockup-votar.png)  
+![mockup-votar_2.png](img/mockup-votar_2.png)  
+![mockup-votar_3.png](img/mockup-votar_3.png)  
+![mockup-votar_4.png](img/mockup-votar_4.png)
+
+- **Función:** Selección de opción, revisión y emisión final del voto.
+
+---
+
+#### 14. Votaciones activas
+
+![mockup-votaciones.png](img/mockup-votaciones.png)  
+![mockup-votaciones_2.png](img/mockup-votaciones_2.png)  
+![mockup-votaciones_3.png](img/mockup-votaciones_3.png)
+
+- **Función:** Panel de gestión de votaciones en curso y próximas.
+
+---
+
+> Cada uno de estos mock-ups busca representar de manera visual y realista la experiencia del usuario dentro de VoteChain, validando los flujos definidos en la etapa de diseño UX y alineándose con los requerimientos del sistema y las User Stories priorizadas.
+
+
+
+#### 6.4.4. Applications User Flow Diagrams
+
+
+
+### 6.5. Applications Prototyping
+
 
 
 ## Conclusiones
