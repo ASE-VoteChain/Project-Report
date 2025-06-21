@@ -4057,7 +4057,14 @@ Durante este Sprint no fue contemplada la elaboración ni documentación de serv
 
 Durante este Sprint se realizó el proceso de despliegue del frontend de VoteChain y de la landing page. El objetivo fue poner en producción ambos productos digitales para que sean accesibles públicamente. Para ello hemos optado por las herramientas Vercel y Netlify.
 
+
+**Figura 4.** Dashboard de Netlify con la landing page desplegada.
+
 ![Figura Netflify](img/Netlify_landingpage.png)  
+
+**Figura 5.** Dashboard de Vercel con la primera versión del frontend desplegada.
+
+![Figura Vercel](img/vercel_frontend.jpeg)  
 
 
 
