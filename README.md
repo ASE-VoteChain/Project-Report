@@ -4038,6 +4038,123 @@ Esta sección presenta los **mock-ups de alta fidelidad** para la aplicación we
 
 #### 6.4.4. Applications User Flow Diagrams
 
+Esta sección describe los **diagramas de flujo de usuario (User Flow Diagrams)** desarrollados para representar gráficamente los caminos que sigue un usuario dentro de la plataforma **VoteChain**. Estos flujos permiten identificar la lógica de interacción y validar el cumplimiento de los objetivos de cada tipo de usuario (votante, administrador, público).
+
+A continuación se presenta el **User Flow 1: Inicio de sesión**, correspondiente al escenario básico de acceso de un usuario autenticado.
+
+---
+
+#### 🧭 User Flow 1: Inicio de sesión
+
+**User goal:**  
+> Como usuario quiero iniciar sesión en la página para poder utilizar el sistema.
+
+**Descripción:**  
+Este flujo describe el proceso que sigue un usuario al intentar iniciar sesión en VoteChain. Incluye validaciones por errores en las credenciales y bloqueo temporal de la cuenta por múltiples intentos fallidos.
+
+**Flujo principal:**
+1. El usuario accede a la página de inicio de sesión.
+2. Completa los campos de correo y contraseña.
+3. Al hacer clic en "Iniciar sesión", el sistema valida las credenciales.
+4. Si son correctas, se redirige al panel de usuario.
+5. Si son incorrectas, se notifica el error con advertencia del número de intentos restantes.
+6. Si los intentos fallan más de 3 veces, la cuenta se bloquea temporalmente por 5 minutos.
+
+**Resultado esperado:**  
+El usuario debe acceder exitosamente al sistema o recibir retroalimentación clara del error y el tiempo de espera, en caso de bloqueo.
+
+**Diagrama:**
+
+![User Flow 1 - Inicio de sesión](img/userflow1.png)
+
+
+---
+
+#### 🧭 User Flow 2: Recuperar y cambiar contraseña
+
+**User goal:**  
+> Como usuario quiero cambiar mi contraseña para poder utilizar el sistema.
+
+**Descripción:**  
+Este flujo describe el proceso completo que realiza un usuario que ha olvidado su contraseña y desea recuperarla mediante verificación por correo electrónico. El sistema le permite solicitar un código de verificación, validar su identidad y finalmente establecer una nueva contraseña.
+
+**Flujo principal:**
+1. En la pantalla de inicio de sesión, el usuario hace clic en **¿Olvidaste tu contraseña?**
+2. Se le solicita ingresar su **correo electrónico** para enviarle un código de verificación.
+3. El usuario recibe y **digita el código de 6 dígitos** enviado por correo.
+4. Si el código es válido, se habilita un formulario para establecer una **nueva contraseña segura**.
+5. El usuario la escribe dos veces y hace clic en **Actualizar contraseña**.
+
+**Resultado esperado:**  
+El sistema debe restablecer correctamente la contraseña y permitir al usuario iniciar sesión con sus nuevas credenciales.
+
+**Diagrama:**
+
+![User Flow 2 - Recuperar contraseña](img/userflow2.png)
+
+---
+
+
+#### 🧭 User Flow 3: Emitir voto
+
+**User goal:**  
+> Como usuario quiero votar en la página para poder elegir un representante.
+
+**Descripción:**  
+Este flujo representa el recorrido del usuario desde la sección de votaciones hasta la emisión y confirmación de su voto dentro del sistema **VoteChain**. Abarca tanto la visualización de opciones como el registro del voto y su validación mediante tecnología blockchain.
+
+**Flujo principal:**
+1. El usuario accede a la sección **Votaciones** desde su dashboard.
+2. Visualiza las elecciones disponibles y selecciona una en la que desea participar.
+3. Ingresa a los detalles de la elección, revisa los requisitos y candidatos.
+4. Selecciona su opción preferida y da clic en **Continuar a votar**.
+5. El sistema muestra una pantalla de **confirmación del voto** con advertencia de que no podrá ser modificado.
+6. El usuario confirma su voto y lo registra.
+7. Se muestra una pantalla de éxito donde se detallan:
+   - Información de la votación.
+   - Candidato elegido.
+   - Hash de transacción en blockchain.
+   - Opciones para compartir, descargar constancia o ver resultados.
+
+**Resultado esperado:**  
+El sistema registra correctamente el voto del usuario, muestra una confirmación visual y asegura transparencia a través de una transacción blockchain visible y verificable.
+
+**Diagramas:**
+
+📌 *Vista general del proceso de participación*  
+![User Flow 3 - Parte 1](img/userflow3.png)
+
+📌 *Confirmación y éxito del voto registrado*  
+![User Flow 3 - Parte 2](img/userflow3_1.png)
+
+---
+
+#### 🧭 User Flow 4: Visualización de resultados de votación
+
+**User goal:**  
+> Como usuario quiero ver los resultados en vivo de las votaciones de mis representantes.
+
+**Descripción:**  
+Este flujo representa cómo un usuario accede a los resultados de las votaciones en curso o finalizadas dentro de **VoteChain**, permitiendo visualizar el detalle de votos por opción, porcentajes y participación ciudadana.
+
+**Flujo principal:**
+1. El usuario accede al **dashboard** de su cuenta.
+2. Hace clic en la sección **Votaciones** desde el panel lateral o el acceso directo.
+3. Dentro del listado, ubica la elección de interés y selecciona **Ver detalles**.
+4. El sistema muestra una pantalla con los **resultados detallados**:
+   - Nombre de cada opción/candidato.
+   - Cantidad total de votos.
+   - Porcentaje sobre el total.
+   - Cantidad de participantes.
+
+**Resultado esperado:**  
+El usuario puede consultar en tiempo real los resultados de cualquier votación pública en la que haya participado o que sea de libre acceso, con visualización clara y auditable.
+
+**Diagrama:**
+
+![User Flow 4 - Resultados](img/userflow4.png)
+
+---
 
 
 ### 6.5. Applications Prototyping
