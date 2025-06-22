@@ -4325,6 +4325,7 @@ A continuación se presentan los registros de las entrevistas realizadas a los u
 
 <img src="img/entrevista_diego.png">
 
+Tiempo en video: desde 0:09 hasta 5:27 (duración: 5 minutos 18 segundos)
 
 - Perfil del entrevistado:
   - Diego Defilippi, estudiante y organizador de votaciones comunitarias en Surquillo.
@@ -4356,6 +4357,8 @@ A continuación se presentan los registros de las entrevistas realizadas a los u
 
 <img src="img/entrevista_luis.png">
 
+Tiempo en video: desde 5:28 hasta 9:45 (duración: 4 minutos 17 segundos)
+
 - Perfil del entrevistado:
   - Luis Alejo, 23 años, practicante de analista programador, residente en San Martín de Porres.
 
@@ -4384,6 +4387,8 @@ A continuación se presentan los registros de las entrevistas realizadas a los u
 **Sharon Barrial**
 
 <img src="img/entrevista_sharon.png">
+
+Tiempo en video: desde 9:46 hasta 14:43 (duración: 4 minutos 57 segundos)
 
 - Perfil del entrevistado:
   - Sharon Barrial, 22 años, estudiante, residente en Carabayllo, Perú.
