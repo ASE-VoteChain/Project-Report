@@ -782,50 +782,149 @@ Se considera un rango de edad amplio, desde los 18 años en adelante, para inclu
 
 #### 2.2.2. Registro de entrevistas
 
+A continuación se presentan los registros de entrevistas realizadas a usuarios representativos de dos segmentos clave: **organizadores de votación comunitaria** y **ciudadanos votantes**. Las entrevistas tuvieron como propósito identificar sus necesidades, frustraciones y expectativas en relación con los procesos de votación vecinal.
+
+---
+
 ### Segmento 1: Organizadores de votación comunitaria
 
-- Nombre: Luis Torres
-- Edad: 66 años
-- Ocupación: Lider de junta vecinal
-- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113640_upc_edu_pe/EULULKQDzrRDjYoEw8v_2ScBYDiAuc8vPjDNKV7qRYOusw?e=Len3sk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+🔗 **Enlace a grabación completa:**  
+[Ver entrevista en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e575_upc_edu_pe/EXhHBoQ96etLuyf4HJu5yMIB7eWf2rZVD-s5WFvhj4pVTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TwFC5I)
 
-  <img src="img/entrevista1.PNG">
+---
 
-  <br/>
+#### Entrevista 1: Presidente de Junta Vecinal
 
-- Nombre: Gustavo Zapata
+- **Entrevistador:** Renzo Ramos  
+- **Entrevistado:** Gustavo Zapata  
+- **Edad:** 24 años  
+- **Duración:** [00:00:09 – 00:07:42]
 
-- Edad: 24 años
+<img src="img/entrevista2.png" width="400"/>
 
-- Ocupación: Presidente de una junta vecinal
+Gustavo Zapata es presidente de una junta vecinal y actualmente gestiona las votaciones utilizando métodos tradicionales como impresiones en papel y cédulas físicas. La única herramienta digital que domina es Microsoft Word. Señala que llevar a cabo estos procesos le resulta muy costoso en términos logísticos y económicos. Expresó interés en contar con una solución digital que permita hacer seguimiento de votos en tiempo real, de manera segura y transparente.
 
-- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113745_upc_edu_pe/EWsgd1gutK5Os40hXVOUm0cB5ufQNNUl_ISlGoAFJVlyZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NrclhL
+---
 
-  <img src="img/entrevista2.png">
+#### Entrevista 2: Coordinador electoral vecinal
 
-  <br/>
-    
+- **Entrevistador:** Alessandro Bernardo  
+- **Entrevistado:** Luis Torres  
+- **Edad:** 66 años  
+- **Duración:** [00:07:42 – 00:16:41]
+
+<img src="img/entrevista1.PNG" width="400"/>
+
+Luis Torres es coordinador electoral de una junta vecinal y utiliza herramientas semi-digitales como Google Forms, Excel y WhatsApp para organizar los procesos. Identifica varias limitaciones: dificultad para asegurar la confidencialidad del voto, falta de transparencia en los resultados y la imposibilidad de auditoría en tiempo real. También destaca la desconfianza que generan los resultados debido a la percepción de manipulabilidad del sistema. Sugiere una solución ideal que incluya autenticación segura, voto anónimo pero verificable, y visualización del conteo en tiempo real para fortalecer la legitimidad del proceso.
+
+---
+
 ### Segmento 2: Ciudadanos votantes
-    
+
+#### Entrevista 3: Votante comunitaria
+
+- **Entrevistador:** Sebastián Ramírez  
+- **Entrevistada:** Milagros Medina  
+- **Edad:** 22 años  
+- **Duración:** [00:16:41 – 00:22:00]
+
+<img src="img/entrevista3.png" width="400"/>
+
+Milagros Medina es una joven votante habitual en procesos de elección vecinal. Comentó que las votaciones se realizan generalmente en papel o mediante papeles sueltos ("papelitos"), lo que permite duplicar votos y hace imposible comprobar si los resultados son fidedignos. Indicó que le gustaría utilizar una plataforma simple, intuitiva y segura que permita visualizar los votos en tiempo real, brinde transparencia total y garantice la trazabilidad de los resultados mediante auditoría digital.
+
+---
+
+> Estos testimonios validan la necesidad de una plataforma digital de votación comunitaria segura, verificable y transparente como **VoteChain**.
+
 ### 2.2.3. Análisis de entrevistas
 
-### Segmento 1: Organizadores de votación comunitaria
+En esta sección se sistematizan los hallazgos obtenidos a partir de las entrevistas realizadas a representantes de dos segmentos objetivos: **organizadores de votación comunitaria** y **ciudadanos votantes**. El análisis se ha estructurado en base a patrones emergentes, barreras identificadas, necesidades latentes y propuestas de mejora.
 
-- Nombre: Luis Torres
+---
 
-- Entrevistador: Alessandro Bernardo
+#### Tabla 1. Datos generales de los entrevistados
 
-  Luis Torres, coordinador electoral de una junta vecinal, gestiona las votaciones de forma semi-digital usando herramientas como Google Forms, Excel y WhatsApp. Los principales problemas incluyen la dificultad para garantizar la seguridad, la transparencia y la auditoría de los resultados. La falta de anonimato, la baja confianza en el proceso y el alto costo en horas voluntarias limitan la participación. Se busca un sistema ideal con autenticación segura, votación anónima pero verificable, conteo transparente y herramientas de supervisión en tiempo real. Estos desafíos generan desconfianza y cuestionamientos sobre la legitimidad de las elecciones.
+| # | Nombre            | Rol / Segmento                        | Edad | Herramientas que usa actualmente     | Nivel digital | Duración entrevista |
+|---|-------------------|----------------------------------------|------|--------------------------------------|---------------|---------------------|
+| 1 | Gustavo Zapata    | Presidente de Junta Vecinal           | 24   | Word, impresiones, cédulas físicas   | Bajo          | 7m 33s              |
+| 2 | Luis Torres       | Coordinador electoral vecinal         | 66   | Google Forms, Excel, WhatsApp        | Medio         | 8m 59s              |
+| 3 | Milagros Medina   | Votante vecinal                       | 22   | Ninguna especificada (proceso manual)| Bajo          | 5m 19s              |
 
-  <br/>
+---
 
-- Nombre: Gustavo Zapata
+#### Tabla 2. Hallazgos clave por categoría
 
-- Entrevistador: Renzo Ramos
+| Categoría                    | Gustavo Zapata               | Luis Torres                                    | Milagros Medina                                  | % de mención |
+|-----------------------------|------------------------------|------------------------------------------------|--------------------------------------------------|--------------|
+| Problemas de seguridad    | No hay verificación confiable | Menciona falta de anonimato y riesgo de fraude | Duda del conteo correcto                         | 100%         |
+| Desconfianza en el proceso | Sí, por papel físico         | Sí, falta de trazabilidad                     | Sí, por duplicidad de votos                      | 100%         |
+| Herramientas actuales     | Manuales (papel)              | Semi-digitales (Forms, Excel)                 | Manuales (papeletas)                             | 100%         |
+| Alto costo/tiempo         | Costoso en logística          | Costoso en horas voluntarias                  | No mencionado                                   | 66.7%        |
+| Nivel de alfabetización digital | Bajo                    | Medio                                          | Bajo                                             | 100%         |
+| Deseo de sistema seguro   | Sí                            | Sí                                             | Sí                                               | 100%         |
+| Deseo de visualización en tiempo real | Sí               | Sí                                             | Sí                                               | 100%         |
+| Deseo de trazabilidad / auditoría | No explícito         | Sí                                             | Sí                                               | 66.7%        |
+| Sugerencias              | Seguimiento en tiempo real     | Autenticación segura, voto anónimo, trazable | Sistema simple, transparente y visual            | 100%         |
 
-  Gustavo Zapata, es el presidente de una junta vecinal de su localidad, quien emplea herramientas tradicionales como la impresión de carteles y cédulas de votación. La única herramientas digital que domina es Word. Realizar estos procesos de votación le cuestan demasiado dinero. Le gustaría que existiera una herramienta donde pueda hacer seguimiento de la cantidad votos en tiempo real y segura.
+---
 
-### Segmento 2: Ciudadanos votantes
+#### Insights principales
+
+1. **Universalidad del problema de confianza:** Todos los entrevistados desconfían de los procesos actuales, sea por falta de transparencia o duplicidad de votos.
+2. **Baja alfabetización digital:** A pesar de la diferencia generacional, tanto jóvenes como adultos tienen dificultades o un uso limitado de herramientas tecnológicas.
+3. **Uso de soluciones improvisadas:** Mientras los organizadores usan soluciones digitales no especializadas (Forms, Excel), los votantes enfrentan procesos 100% manuales.
+4. **Deseo claro de digitalización:** Existe apertura total a una plataforma que garantice **seguridad, simplicidad y auditoría**.
+5. **El tiempo y los recursos voluntarios son cuellos de botella** en la organización de procesos vecinales.
+
+---
+
+#### Visualización de patrones emergentes
+
+| Necesidad                         | Nivel de recurrencia | Segmentos afectados        |
+|----------------------------------|----------------------|----------------------------|
+| Plataforma fácil de usar         | Alta (3/3)           | Ambos                      |
+| Seguridad y autenticación        | Alta (3/3)           | Ambos                      |
+| Voto anónimo, pero verificable   | Media (2/3)          | Organizadores              |
+| Visualización en tiempo real     | Alta (3/3)           | Ambos                      |
+| Eliminar costos logísticos       | Media (2/3)          | Organizadores              |
+| Trazabilidad / auditoría         | Media (2/3)          | Ambos                      |
+| Formación o guía digital         | Alta (2/3 explícito) | Votantes principalmente    |
+
+---
+
+#### Propuesta de solución alineada a insights
+
+| Funcionalidad propuesta                     | Justificación directa                                     |
+|--------------------------------------------|-----------------------------------------------------------|
+| Dashboard de resultados en tiempo real     | Requieren seguimiento inmediato del conteo               |
+| Registro con autenticación segura          | Alta desconfianza en el proceso manual                   |
+| Voto anónimo con trazabilidad vía blockchain| Necesidad de verificación sin perder privacidad          |
+| Interfaz intuitiva y responsiva            | Bajo nivel digital en todos los segmentos                |
+| Reducción de pasos en el proceso de votación| Minimizar complejidad y errores del usuario              |
+| Historial y auditoría accesible            | Validación posterior y transparencia para organizadores  |
+
+---
+
+#### Conclusión cuantitativa
+
+- Total de entrevistados: **3**
+- Segmentos: **2** (Organizadores de votación, Ciudadanos votantes)
+- Porcentaje de entrevistados que solicitan:
+  - Seguridad y transparencia: **100%**
+  - Visualización en tiempo real: **100%**
+  - Interfaz simple y usable: **100%**
+  - Voto verificable/auditable: **66.7%**
+  - Reducción de costos operativos: **66.7%**
+
+
+ **Visualización de necesidades prioritarias**
+
+![Necesidades expresadas por los entrevistados](img/analisis_entrevistas_profesional.png)
+
+---
+
+> Este análisis refuerza que la solución **VoteChain** debe responder a un triple eje: **seguridad confiable**, **usabilidad universal** y **transparencia verificable**.
+
 
 ## 2.3. Needfinding
 
