@@ -782,50 +782,149 @@ Se considera un rango de edad amplio, desde los 18 años en adelante, para inclu
 
 #### 2.2.2. Registro de entrevistas
 
+A continuación se presentan los registros de entrevistas realizadas a usuarios representativos de dos segmentos clave: **organizadores de votación comunitaria** y **ciudadanos votantes**. Las entrevistas tuvieron como propósito identificar sus necesidades, frustraciones y expectativas en relación con los procesos de votación vecinal.
+
+---
+
 ### Segmento 1: Organizadores de votación comunitaria
 
-- Nombre: Luis Torres
-- Edad: 66 años
-- Ocupación: Lider de junta vecinal
-- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113640_upc_edu_pe/EULULKQDzrRDjYoEw8v_2ScBYDiAuc8vPjDNKV7qRYOusw?e=Len3sk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+🔗 **Enlace a grabación completa:**  
+[Ver entrevista en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e575_upc_edu_pe/EXhHBoQ96etLuyf4HJu5yMIB7eWf2rZVD-s5WFvhj4pVTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TwFC5I)
 
-  <img src="img/entrevista1.PNG">
+---
 
-  <br/>
+#### Entrevista 1: Presidente de Junta Vecinal
 
-- Nombre: Gustavo Zapata
+- **Entrevistador:** Renzo Ramos  
+- **Entrevistado:** Gustavo Zapata  
+- **Edad:** 24 años  
+- **Duración:** [00:00:09 – 00:07:42]
 
-- Edad: 24 años
+<img src="img/entrevista2.png" width="400"/>
 
-- Ocupación: Presidente de una junta vecinal
+Gustavo Zapata es presidente de una junta vecinal y actualmente gestiona las votaciones utilizando métodos tradicionales como impresiones en papel y cédulas físicas. La única herramienta digital que domina es Microsoft Word. Señala que llevar a cabo estos procesos le resulta muy costoso en términos logísticos y económicos. Expresó interés en contar con una solución digital que permita hacer seguimiento de votos en tiempo real, de manera segura y transparente.
 
-- Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113745_upc_edu_pe/EWsgd1gutK5Os40hXVOUm0cB5ufQNNUl_ISlGoAFJVlyZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NrclhL
+---
 
-  <img src="img/entrevista2.png">
+#### Entrevista 2: Coordinador electoral vecinal
 
-  <br/>
-    
+- **Entrevistador:** Alessandro Bernardo  
+- **Entrevistado:** Luis Torres  
+- **Edad:** 66 años  
+- **Duración:** [00:07:42 – 00:16:41]
+
+<img src="img/entrevista1.PNG" width="400"/>
+
+Luis Torres es coordinador electoral de una junta vecinal y utiliza herramientas semi-digitales como Google Forms, Excel y WhatsApp para organizar los procesos. Identifica varias limitaciones: dificultad para asegurar la confidencialidad del voto, falta de transparencia en los resultados y la imposibilidad de auditoría en tiempo real. También destaca la desconfianza que generan los resultados debido a la percepción de manipulabilidad del sistema. Sugiere una solución ideal que incluya autenticación segura, voto anónimo pero verificable, y visualización del conteo en tiempo real para fortalecer la legitimidad del proceso.
+
+---
+
 ### Segmento 2: Ciudadanos votantes
-    
+
+#### Entrevista 3: Votante comunitaria
+
+- **Entrevistador:** Sebastián Ramírez  
+- **Entrevistada:** Milagros Medina  
+- **Edad:** 22 años  
+- **Duración:** [00:16:41 – 00:22:00]
+
+<img src="img/entrevista3.png" width="400"/>
+
+Milagros Medina es una joven votante habitual en procesos de elección vecinal. Comentó que las votaciones se realizan generalmente en papel o mediante papeles sueltos ("papelitos"), lo que permite duplicar votos y hace imposible comprobar si los resultados son fidedignos. Indicó que le gustaría utilizar una plataforma simple, intuitiva y segura que permita visualizar los votos en tiempo real, brinde transparencia total y garantice la trazabilidad de los resultados mediante auditoría digital.
+
+---
+
+> Estos testimonios validan la necesidad de una plataforma digital de votación comunitaria segura, verificable y transparente como **VoteChain**.
+
 ### 2.2.3. Análisis de entrevistas
 
-### Segmento 1: Organizadores de votación comunitaria
+En esta sección se sistematizan los hallazgos obtenidos a partir de las entrevistas realizadas a representantes de dos segmentos objetivos: **organizadores de votación comunitaria** y **ciudadanos votantes**. El análisis se ha estructurado en base a patrones emergentes, barreras identificadas, necesidades latentes y propuestas de mejora.
 
-- Nombre: Luis Torres
+---
 
-- Entrevistador: Alessandro Bernardo
+#### Tabla 1. Datos generales de los entrevistados
 
-  Luis Torres, coordinador electoral de una junta vecinal, gestiona las votaciones de forma semi-digital usando herramientas como Google Forms, Excel y WhatsApp. Los principales problemas incluyen la dificultad para garantizar la seguridad, la transparencia y la auditoría de los resultados. La falta de anonimato, la baja confianza en el proceso y el alto costo en horas voluntarias limitan la participación. Se busca un sistema ideal con autenticación segura, votación anónima pero verificable, conteo transparente y herramientas de supervisión en tiempo real. Estos desafíos generan desconfianza y cuestionamientos sobre la legitimidad de las elecciones.
+| # | Nombre            | Rol / Segmento                        | Edad | Herramientas que usa actualmente     | Nivel digital | Duración entrevista |
+|---|-------------------|----------------------------------------|------|--------------------------------------|---------------|---------------------|
+| 1 | Gustavo Zapata    | Presidente de Junta Vecinal           | 24   | Word, impresiones, cédulas físicas   | Bajo          | 7m 33s              |
+| 2 | Luis Torres       | Coordinador electoral vecinal         | 66   | Google Forms, Excel, WhatsApp        | Medio         | 8m 59s              |
+| 3 | Milagros Medina   | Votante vecinal                       | 22   | Ninguna especificada (proceso manual)| Bajo          | 5m 19s              |
 
-  <br/>
+---
 
-- Nombre: Gustavo Zapata
+#### Tabla 2. Hallazgos clave por categoría
 
-- Entrevistador: Renzo Ramos
+| Categoría                    | Gustavo Zapata               | Luis Torres                                    | Milagros Medina                                  | % de mención |
+|-----------------------------|------------------------------|------------------------------------------------|--------------------------------------------------|--------------|
+| Problemas de seguridad    | No hay verificación confiable | Menciona falta de anonimato y riesgo de fraude | Duda del conteo correcto                         | 100%         |
+| Desconfianza en el proceso | Sí, por papel físico         | Sí, falta de trazabilidad                     | Sí, por duplicidad de votos                      | 100%         |
+| Herramientas actuales     | Manuales (papel)              | Semi-digitales (Forms, Excel)                 | Manuales (papeletas)                             | 100%         |
+| Alto costo/tiempo         | Costoso en logística          | Costoso en horas voluntarias                  | No mencionado                                   | 66.7%        |
+| Nivel de alfabetización digital | Bajo                    | Medio                                          | Bajo                                             | 100%         |
+| Deseo de sistema seguro   | Sí                            | Sí                                             | Sí                                               | 100%         |
+| Deseo de visualización en tiempo real | Sí               | Sí                                             | Sí                                               | 100%         |
+| Deseo de trazabilidad / auditoría | No explícito         | Sí                                             | Sí                                               | 66.7%        |
+| Sugerencias              | Seguimiento en tiempo real     | Autenticación segura, voto anónimo, trazable | Sistema simple, transparente y visual            | 100%         |
 
-  Gustavo Zapata, es el presidente de una junta vecinal de su localidad, quien emplea herramientas tradicionales como la impresión de carteles y cédulas de votación. La única herramientas digital que domina es Word. Realizar estos procesos de votación le cuestan demasiado dinero. Le gustaría que existiera una herramienta donde pueda hacer seguimiento de la cantidad votos en tiempo real y segura.
+---
 
-### Segmento 2: Ciudadanos votantes
+#### Insights principales
+
+1. **Universalidad del problema de confianza:** Todos los entrevistados desconfían de los procesos actuales, sea por falta de transparencia o duplicidad de votos.
+2. **Baja alfabetización digital:** A pesar de la diferencia generacional, tanto jóvenes como adultos tienen dificultades o un uso limitado de herramientas tecnológicas.
+3. **Uso de soluciones improvisadas:** Mientras los organizadores usan soluciones digitales no especializadas (Forms, Excel), los votantes enfrentan procesos 100% manuales.
+4. **Deseo claro de digitalización:** Existe apertura total a una plataforma que garantice **seguridad, simplicidad y auditoría**.
+5. **El tiempo y los recursos voluntarios son cuellos de botella** en la organización de procesos vecinales.
+
+---
+
+#### Visualización de patrones emergentes
+
+| Necesidad                         | Nivel de recurrencia | Segmentos afectados        |
+|----------------------------------|----------------------|----------------------------|
+| Plataforma fácil de usar         | Alta (3/3)           | Ambos                      |
+| Seguridad y autenticación        | Alta (3/3)           | Ambos                      |
+| Voto anónimo, pero verificable   | Media (2/3)          | Organizadores              |
+| Visualización en tiempo real     | Alta (3/3)           | Ambos                      |
+| Eliminar costos logísticos       | Media (2/3)          | Organizadores              |
+| Trazabilidad / auditoría         | Media (2/3)          | Ambos                      |
+| Formación o guía digital         | Alta (2/3 explícito) | Votantes principalmente    |
+
+---
+
+#### Propuesta de solución alineada a insights
+
+| Funcionalidad propuesta                     | Justificación directa                                     |
+|--------------------------------------------|-----------------------------------------------------------|
+| Dashboard de resultados en tiempo real     | Requieren seguimiento inmediato del conteo               |
+| Registro con autenticación segura          | Alta desconfianza en el proceso manual                   |
+| Voto anónimo con trazabilidad vía blockchain| Necesidad de verificación sin perder privacidad          |
+| Interfaz intuitiva y responsiva            | Bajo nivel digital en todos los segmentos                |
+| Reducción de pasos en el proceso de votación| Minimizar complejidad y errores del usuario              |
+| Historial y auditoría accesible            | Validación posterior y transparencia para organizadores  |
+
+---
+
+#### Conclusión cuantitativa
+
+- Total de entrevistados: **3**
+- Segmentos: **2** (Organizadores de votación, Ciudadanos votantes)
+- Porcentaje de entrevistados que solicitan:
+  - Seguridad y transparencia: **100%**
+  - Visualización en tiempo real: **100%**
+  - Interfaz simple y usable: **100%**
+  - Voto verificable/auditable: **66.7%**
+  - Reducción de costos operativos: **66.7%**
+
+
+ **Visualización de necesidades prioritarias**
+
+![Necesidades expresadas por los entrevistados](img/analisis_entrevistas_profesional.png)
+
+---
+
+> Este análisis refuerza que la solución **VoteChain** debe responder a un triple eje: **seguridad confiable**, **usabilidad universal** y **transparencia verificable**.
+
 
 ## 2.3. Needfinding
 
@@ -3889,6 +3988,275 @@ Pantallas que brindan retroalimentación adecuada en caso de errores o rutas inv
 
 
 Estos flujos cubren **todas las User Stories implementadas** y están completamente respaldados por los **wireframes** diseñados. La organización por flujos permite visualizar la lógica de navegación de la solución y respeta principios clave de **diseño accesible**, **seguridad**, y **arquitectura de información coherente**.
+
+### 6.4.3. Applications Mock-ups
+
+Esta sección presenta los **mock-ups de alta fidelidad** para la aplicación web de **VoteChain**, desarrollados con base en los wireframes previos. Estos diseños integran estilo visual, identidad gráfica, componentes funcionales y principios de accesibilidad para garantizar una experiencia de usuario fluida y confiable.
+
+---
+
+#### 1. Dashboard del usuario
+
+![mockup-dashboard.png](img/mockup-dashboard.png)  
+![mockup-dashboard_2.png](img/mockup-dashboard_2.png)
+
+- **Función:** Panel principal al iniciar sesión con vista rápida de votaciones activas, resultados recientes y perfil.
+- **Elementos clave:** Tarjetas, panel lateral, navegación rápida y estadísticas clave.
+
+---
+
+#### 2. Inicio de sesión
+
+![mockup-login.png](img/mockup-login.png)
+
+- **Función:** Ingreso de usuario con validación de credenciales.
+- **Características:** Campos de correo y contraseña, botón de ingreso y enlace a registro.
+
+---
+
+#### 3. Registro de nuevo usuario
+
+![mockup-register.png](img/mockup-register.png)
+
+- **Función:** Creación de cuenta para votantes y organizadores.
+- **Elementos clave:** Formulario limpio con pasos guiados y validación.
+
+---
+
+#### 4. Panel del organizador
+
+![mockup-panel.png](img/mockup-panel.png)  
+![mockup-panel_2.png](img/mockup-panel_2.png)  
+![mockup-panel_3.png](img/mockup-panel_3.png)
+
+- **Función:** Gestión de votaciones, creación, edición y monitoreo de procesos.
+- **Destacados:** Tablas interactivas, acceso a resultados y panel de control.
+
+---
+
+#### 5. Página pública de resultados
+
+![mockup-public.png](img/mockup-public.png)  
+![mockup-public_2.png](img/mockup-public_2.png)
+
+- **Función:** Visualización abierta de resultados para transparencia ciudadana.
+- **Componentes:** Gráficos y datos auditables en tiempo real.
+
+---
+
+#### 6. Configuración de cuenta
+
+![mockup-user-configuracion.png](img/mockup-user-configuracion.png)  
+![mockup-user-configuracion_2.png](img/mockup-user-configuracion_2.png)  
+![mockup-user-configuracion_3.png](img/mockup-user-configuracion_3.png)  
+![mockup-user-configuracion_4.png](img/mockup-user-configuracion_4.png)
+
+- **Función:** Ajustes de seguridad, autenticación y preferencias del usuario.
+
+---
+
+#### 7. Perfil del usuario
+
+![mockup-user-perfil.png](img/mockup-user-perfil.png)  
+![mockup-user-perfil_2.png](img/mockup-user-perfil_2.png)
+
+- **Función:** Visualización de datos personales, credenciales y accesos previos.
+
+---
+
+#### 8. Historial del usuario
+
+![mockup-user-historial.png](img/mockup-user-historial.png)  
+![mockup-user-historial_2.png](img/mockup-user-historial_2.png)
+
+- **Función:** Seguimiento de procesos en los que ha participado.
+
+---
+
+#### 9. Votaciones disponibles
+
+![mockup-user-votaciones.png](img/mockup-user-votaciones.png)  
+![mockup-user-votaciones_2.png](img/mockup-user-votaciones_2.png)  
+![mockup-user-votaciones_3.png](img/mockup-user-votaciones_3.png)
+
+- **Función:** Listado de elecciones activas con opción de emitir voto.
+
+---
+
+#### 10. Resultados del usuario
+
+![mockup-user-resultados.png](img/mockup-user-resultados.png)  
+![mockup-user-resultados_2.png](img/mockup-user-resultados_2.png)
+
+- **Función:** Vista de resultados de votaciones finalizadas.
+
+---
+
+#### 11. Resultados globales
+
+![mockup-resultados.png](img/mockup-resultados.png)  
+![mockup-resultados_2.png](img/mockup-resultados_2.png)
+
+- **Función:** Reportes y visualización gráfica de resultados en tiempo real.
+
+---
+
+#### 12. Validación del voto
+
+![mockup-validar.png](img/mockup-validar.png)  
+![mockup-validar_2.png](img/mockup-validar_2.png)
+
+- **Función:** Confirmación de integridad del voto mediante hash en blockchain.
+
+---
+
+#### 13. Emitir voto
+
+![mockup-votar.png](img/mockup-votar.png)  
+![mockup-votar_2.png](img/mockup-votar_2.png)  
+![mockup-votar_3.png](img/mockup-votar_3.png)  
+![mockup-votar_4.png](img/mockup-votar_4.png)
+
+- **Función:** Selección de opción, revisión y emisión final del voto.
+
+---
+
+#### 14. Votaciones activas
+
+![mockup-votaciones.png](img/mockup-votaciones.png)  
+![mockup-votaciones_2.png](img/mockup-votaciones_2.png)  
+![mockup-votaciones_3.png](img/mockup-votaciones_3.png)
+
+- **Función:** Panel de gestión de votaciones en curso y próximas.
+
+---
+
+> Cada uno de estos mock-ups busca representar de manera visual y realista la experiencia del usuario dentro de VoteChain, validando los flujos definidos en la etapa de diseño UX y alineándose con los requerimientos del sistema y las User Stories priorizadas.
+
+
+
+#### 6.4.4. Applications User Flow Diagrams
+
+Esta sección describe los **diagramas de flujo de usuario (User Flow Diagrams)** desarrollados para representar gráficamente los caminos que sigue un usuario dentro de la plataforma **VoteChain**. Estos flujos permiten identificar la lógica de interacción y validar el cumplimiento de los objetivos de cada tipo de usuario (votante, administrador, público).
+
+A continuación se presenta el **User Flow 1: Inicio de sesión**, correspondiente al escenario básico de acceso de un usuario autenticado.
+
+---
+
+#### 🧭 User Flow 1: Inicio de sesión
+
+**User goal:**  
+> Como usuario quiero iniciar sesión en la página para poder utilizar el sistema.
+
+**Descripción:**  
+Este flujo describe el proceso que sigue un usuario al intentar iniciar sesión en VoteChain. Incluye validaciones por errores en las credenciales y bloqueo temporal de la cuenta por múltiples intentos fallidos.
+
+**Flujo principal:**
+1. El usuario accede a la página de inicio de sesión.
+2. Completa los campos de correo y contraseña.
+3. Al hacer clic en "Iniciar sesión", el sistema valida las credenciales.
+4. Si son correctas, se redirige al panel de usuario.
+5. Si son incorrectas, se notifica el error con advertencia del número de intentos restantes.
+6. Si los intentos fallan más de 3 veces, la cuenta se bloquea temporalmente por 5 minutos.
+
+**Resultado esperado:**  
+El usuario debe acceder exitosamente al sistema o recibir retroalimentación clara del error y el tiempo de espera, en caso de bloqueo.
+
+**Diagrama:**
+
+![User Flow 1 - Inicio de sesión](img/userflow1.png)
+
+
+---
+
+#### 🧭 User Flow 2: Recuperar y cambiar contraseña
+
+**User goal:**  
+> Como usuario quiero cambiar mi contraseña para poder utilizar el sistema.
+
+**Descripción:**  
+Este flujo describe el proceso completo que realiza un usuario que ha olvidado su contraseña y desea recuperarla mediante verificación por correo electrónico. El sistema le permite solicitar un código de verificación, validar su identidad y finalmente establecer una nueva contraseña.
+
+**Flujo principal:**
+1. En la pantalla de inicio de sesión, el usuario hace clic en **¿Olvidaste tu contraseña?**
+2. Se le solicita ingresar su **correo electrónico** para enviarle un código de verificación.
+3. El usuario recibe y **digita el código de 6 dígitos** enviado por correo.
+4. Si el código es válido, se habilita un formulario para establecer una **nueva contraseña segura**.
+5. El usuario la escribe dos veces y hace clic en **Actualizar contraseña**.
+
+**Resultado esperado:**  
+El sistema debe restablecer correctamente la contraseña y permitir al usuario iniciar sesión con sus nuevas credenciales.
+
+**Diagrama:**
+
+![User Flow 2 - Recuperar contraseña](img/userflow2.png)
+
+---
+
+
+#### 🧭 User Flow 3: Emitir voto
+
+**User goal:**  
+> Como usuario quiero votar en la página para poder elegir un representante.
+
+**Descripción:**  
+Este flujo representa el recorrido del usuario desde la sección de votaciones hasta la emisión y confirmación de su voto dentro del sistema **VoteChain**. Abarca tanto la visualización de opciones como el registro del voto y su validación mediante tecnología blockchain.
+
+**Flujo principal:**
+1. El usuario accede a la sección **Votaciones** desde su dashboard.
+2. Visualiza las elecciones disponibles y selecciona una en la que desea participar.
+3. Ingresa a los detalles de la elección, revisa los requisitos y candidatos.
+4. Selecciona su opción preferida y da clic en **Continuar a votar**.
+5. El sistema muestra una pantalla de **confirmación del voto** con advertencia de que no podrá ser modificado.
+6. El usuario confirma su voto y lo registra.
+7. Se muestra una pantalla de éxito donde se detallan:
+   - Información de la votación.
+   - Candidato elegido.
+   - Hash de transacción en blockchain.
+   - Opciones para compartir, descargar constancia o ver resultados.
+
+**Resultado esperado:**  
+El sistema registra correctamente el voto del usuario, muestra una confirmación visual y asegura transparencia a través de una transacción blockchain visible y verificable.
+
+**Diagramas:**
+
+📌 *Vista general del proceso de participación*  
+![User Flow 3 - Parte 1](img/userflow3.png)
+
+📌 *Confirmación y éxito del voto registrado*  
+![User Flow 3 - Parte 2](img/userflow3_1.png)
+
+---
+
+#### 🧭 User Flow 4: Visualización de resultados de votación
+
+**User goal:**  
+> Como usuario quiero ver los resultados en vivo de las votaciones de mis representantes.
+
+**Descripción:**  
+Este flujo representa cómo un usuario accede a los resultados de las votaciones en curso o finalizadas dentro de **VoteChain**, permitiendo visualizar el detalle de votos por opción, porcentajes y participación ciudadana.
+
+**Flujo principal:**
+1. El usuario accede al **dashboard** de su cuenta.
+2. Hace clic en la sección **Votaciones** desde el panel lateral o el acceso directo.
+3. Dentro del listado, ubica la elección de interés y selecciona **Ver detalles**.
+4. El sistema muestra una pantalla con los **resultados detallados**:
+   - Nombre de cada opción/candidato.
+   - Cantidad total de votos.
+   - Porcentaje sobre el total.
+   - Cantidad de participantes.
+
+**Resultado esperado:**  
+El usuario puede consultar en tiempo real los resultados de cualquier votación pública en la que haya participado o que sea de libre acceso, con visualización clara y auditable.
+
+**Diagrama:**
+
+![User Flow 4 - Resultados](img/userflow4.png)
+
+---
+
+
+### 6.5. Applications Prototyping
 
 
 
