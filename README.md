@@ -4002,7 +4002,173 @@ La siguiente tabla presenta los commits de los repositorios en GitHub:
 
 ##### 7.2.1.1. Sprint Planning 1
 
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Sprint #</th>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>Sprint Planning Background</th>
+    <td>Inicio de desarrollo de VoteChain, una plataforma de votación digital segura basada en blockchain. Este sprint establece los fundamentos técnicos y funcionales clave del sistema.</td>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-06-21</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>10:00 a.m. - 12:00 p.m.</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Sala de reuniones virtual - Microsoft Teams</td>
+  </tr>
+  <tr>
+    <th>Prepared by</th>
+    <td>Equipo de desarrollo VoteChain</td>
+  </tr>
+  <tr>
+    <th>Attendess (to planning meeting)</th>
+    <td>Product Owner, Scrum Master, Backend Developers, Frontend Developers, QA Tester, Blockchain Specialist</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Review Summary</th>
+    <td>N/A – Este es el Sprint 1</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Retrospective Summary</th>
+    <td>N/A – Este es el Sprint 1</td>
+  </tr>
+  <tr>
+    <th>Sprint Goal & User Stories</th>
+    <td>Desarrollar el MVP básico: configuración de votación, módulo de autenticación y primer bloque de votación cifrada. Se prioriza la seguridad, identidad y estructura técnica inicial.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>Construir el flujo básico de configuración de votación, autenticación de votantes, encriptación de votos y registro en la blockchain.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>30 story points (capacidad estimada del equipo)</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Point</th>
+    <td>29 story points (seleccionados)</td>
+  </tr>
+</table>
+
 ##### 7.2.1.2. Sprint Backlog 1
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>ID</th>
+    <th>Title (Module)</th>
+    <th>Title</th>
+    <th>Descripción</th>
+    <th>Horas estimadas</th>
+    <th>Asignado a</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- 1 -->
+  <tr>
+    <td>E01_US001</td>
+    <td>Voting Setup</td>
+    <td>Establecer parámetros básicos</td>
+    <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+    <td>20 h</td>
+    <td>Backend Developer</td>
+    <td>In Production</td>
+  </tr>
+
+  <!-- 2 -->
+  <tr>
+    <td>E01_US002</td>
+    <td>Voting Validation</td>
+    <td>Validar parámetros&nbsp;de votación</td>
+    <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+    <td>12 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
+  </tr>
+
+  <!-- 3 -->
+  <tr>
+    <td>E01_US003</td>
+    <td>Voting Setup</td>
+    <td>Definir estructura de cargos/preguntas</td>
+    <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+    <td>12 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
+  </tr>
+
+  <!-- 4 -->
+  <tr>
+    <td>E01_US004</td>
+    <td>Voting Setup</td>
+    <td>Guardar configuración</td>
+    <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+    <td> 8 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
+  </tr>
+
+  <!-- 5 -->
+  <tr>
+    <td>E01_US005</td>
+    <td>Login / Registration</td>
+    <td>Registro de votante</td>
+    <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+    <td>12 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
+  </tr>
+
+  <!-- 6 -->
+  <tr>
+    <td>E01_US006</td>
+    <td>Login / Security</td>
+    <td>Validar identidad del votante</td>
+    <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
+    <td>12 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
+  </tr>
+
+  <!-- 7 -->
+  <tr>
+    <td>E01_US007</td>
+    <td>Login / Registration</td>
+    <td>Emitir credenciales únicas</td>
+    <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+    <td> 8 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
+  </tr>
+
+  <!-- 8 -->
+  <tr>
+    <td>E01_US008</td>
+    <td>Encryption / Security</td>
+    <td>Encriptar voto</td>
+    <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+    <td>16 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
+  </tr>
+
+  <!-- 9 -->
+  <tr>
+    <td>E01_US009</td>
+    <td>Blockchain Core</td>
+    <td>Registrar voto en blockchain</td>
+    <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
+    <td>16 h</td>
+    <td>Blockchain Developer</td>
+    <td>In Production</td>
+  </tr>
+</table>
 
 ##### 7.2.1.3. Development Evidence for Sprint Review
 
@@ -4066,7 +4232,10 @@ Durante este Sprint se realizó el proceso de despliegue del frontend de VoteCha
 
 ![Figura Vercel](img/vercel_frontend.jpeg)  
 
+##### 7.2.1.8. Team Collaboration Insights during Sprint
 
+<img src="img/ins 1.PNG" >
+<img src="img/ins 2.PNG">
 
 
 ### 7.3. Validation Interviews
