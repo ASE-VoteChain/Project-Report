@@ -32,7 +32,7 @@ Grupo: 5
 |     Ramos Ramirez, Renzo Manuel     | u202113745 |
 |    Castillo Robles, Steve Roger     | u202121679 |
 
-Mayo 2025
+Junio 2025
 
 </div>
 
@@ -59,6 +59,7 @@ Mayo 2025
 | TP1     | 12/05/2025  | Ramos Ramirez, Renzo Manuel                     | Revisión de los apartados 6.1 y 6.3 del Capítulo VI.                                                                       |
 | TP1     | 12/05/2025  | Sebastian Tasayco, Javier Martin                | Revisión del apartado 6.2 del Capítulo VI.                                                                                 |
 | TP1     | 13/05/2025  | Ramirez Mendez, Sebastian Andre                 | Revisión del apartado 6.4 del Capítulo VI (user flow diagram elaborado a partir del mockup).                              |
+| TB2     | 20/06/2025  | Sebastian Tasayco, Javier Martin                | Revisión del apartado 7.1 del Capítulo VII.                                                                                 |
 
 
 
@@ -72,6 +73,25 @@ Mayo 2025
 
 
 ### **Reporte de colaboración de la entrega del TB1:**
+
+## Student Outcome
+
+| **Criterio específico**                                                                                                                                                                   | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | **Conclusiones**                                                                                                                                                                                                                                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.**    | **Ramirez Mendez, Sebastián André** <br> _TB1_ <br> Presenté el Capítulo I, explicando la visión de la startup, el perfil del equipo y la problemática abordada, destacando la importancia de nuestra solución en un lenguaje accesible para todos los presentes. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TB1_ <br> Expuse el Capítulo II, detallando los hallazgos de las entrevistas y el análisis competitivo, haciendo énfasis en cómo estos datos fundamentaron las necesidades del usuario, adaptando la terminología según el público. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TB1_ <br> Realicé la exposición del Capítulo III, enfocándome en explicar las User Stories, Product Backlog e Impact Mapping, asegurando la comprensión por parte de públicos técnicos y no técnicos. <br><br> **Castillo Robles, Steve Roger** <br> _TB1_ <br> Expliqué la primera mitad del Capítulo IV, sobre el diseño estratégico y atributos de calidad, utilizando ejemplos concretos para que todos entendieran la importancia de las decisiones arquitectónicas. <br><br> **Sebastián Tasayco, Javier Martin** <br> _TB1_ <br> Presenté la segunda mitad del Capítulo IV, abordando la arquitectura de software y diagramas técnicos, simplificando conceptos para que personas de distintas especialidades pudieran seguir la lógica del sistema. | _TB1_ <br> El equipo logró comunicar oralmente los avances del proyecto de forma clara y objetiva, ajustando la terminología según el perfil de la audiencia. Cada miembro dominó su capítulo, facilitando una exposición integral y comprensible, promoviendo la interacción y entendimiento de los aspectos tanto técnicos como conceptuales del proyecto. |
+| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián André** <br> _TB1_ <br> Redacté el Capítulo I, asegurando que la descripción de la startup, el enfoque Lean UX y la definición de segmentos se presentaran con claridad y accesibilidad para diversos públicos. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TB1_ <br> Me encargué de escribir el Capítulo II, presentando entrevistas y análisis de la competencia de manera objetiva, con gráficos que ayudaron a ilustrar las conclusiones para todo tipo de lector. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TB1_ <br> Redacté el Capítulo III, enfocándome en expresar las especificaciones de requisitos y user stories de forma estructurada, con lenguaje técnico y explicativo a la vez. <br><br> **Castillo Robles, Steve Roger** <br> _TB1_ <br> Elaboré la primera mitad del Capítulo IV, escribiendo sobre los atributos de calidad y decisiones arquitectónicas, usando cuadros y diagramas para mejorar la comprensión. <br><br> **Sebastián Tasayco, Javier Martin** <br> _TB1_ <br> Redacté la segunda mitad del Capítulo IV, incluyendo diagramas de arquitectura y despliegue, cuidando que la documentación fuera entendible para desarrolladores y gestores del proyecto.                                                                                                                              | _TB1_ <br> El equipo produjo un documento técnico completo y coherente, adaptando el nivel de detalle y lenguaje según la audiencia. La correcta estructuración por capítulos permitió una lectura fluida y comprensible para públicos de distintas especialidades, destacando la objetividad y claridad en la presentación de resultados e ideas.           |
+
+
+| **Criterio específico**                                                                                                                                                                   | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.**    | **Ramirez Mendez, Sebastián Andre** <br> _TP1_ <br> Expuse el apartado 6.4 del Capítulo VI, desarrollando el user flow diagram a partir del mockup del sistema. Expliqué con claridad los recorridos principales de los usuarios y la lógica de navegación, facilitando su comprensión ante públicos con distintos niveles técnicos. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TP1_ <br> Presenté los apartados 6.1 y 6.3, abordando la configuración del entorno de desarrollo y el marco conceptual financiero, articulando los conceptos con un lenguaje técnico pero accesible. <br><br> **Sebastian Tasayco, Javier Martin** <br> _TP1_ <br> Expliqué el apartado 6.2 del Capítulo VI, detallando el proceso de validación del sistema, sus criterios y resultados, adaptando la exposición para áreas de control de calidad y gestión. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TP1_ <br> Presenté los bounded context asignados, explicando su delimitación funcional y relevancia dentro del diseño de dominio, con un enfoque didáctico para facilitar el entendimiento transversal. <br><br> **Castillo Robles, Steve Roger** <br> _TP1_ <br> Expuse los bounded context asignados, destacando sus responsabilidades dentro del sistema e ilustrando su integración con otros módulos, orientando la exposición a una audiencia mixta. | _TP1_ <br> El equipo demostró una comunicación efectiva de los avances del proyecto, utilizando recursos visuales y terminología adecuada según el público. La claridad conceptual, el dominio del contenido y la capacidad de síntesis permitieron una exposición comprensible y profesional ante distintos niveles jerárquicos y especialidades.                 |
+| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián Andre** <br> _TP1_ <br> Redacté el apartado 6.4 del Capítulo VI, desarrollando el user flow diagram y su justificación funcional con base en el mockup, empleando un lenguaje claro, estructurado y enfocado en la experiencia del usuario. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TP1_ <br> Documenté los apartados 6.1 y 6.3, presentando la configuración del entorno de desarrollo y el marco conceptual financiero con precisión técnica y redacción accesible. <br><br> **Sebastian Tasayco, Javier Martin** <br> _TP1_ <br> Redacté el apartado 6.2 del Capítulo VI, describiendo el proceso de validación y pruebas del sistema, estructurando el contenido para facilitar su interpretación por equipos técnicos y de gestión. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TP1_ <br> Redacté los bounded context asignados, explicando su lógica de negocio, sus límites funcionales y su papel dentro de la arquitectura del sistema. <br><br> **Castillo Robles, Steve Roger** <br> _TP1_ <br> Documenté los bounded context correspondientes, detallando sus responsabilidades, interfaces y relación con el dominio general del sistema, complementando con diagramas ilustrativos. | _TP1_ <br> La redacción técnica fue precisa, clara y bien estructurada, permitiendo transmitir adecuadamente los resultados y decisiones del proyecto a públicos técnicos y no técnicos. La documentación final refleja el compromiso del equipo por una comunicación efectiva, objetiva y profesional en todas las secciones entregadas.             |
+
+
+| **Criterio específico**                                                                                                                                                                   | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.**    | **Ramirez Mendez, Sebastián Andre** <br> _TB2_ <br> Describir tarea. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TB2_ <br> Describir tarea. <br><br> **Sebastian Tasayco, Javier Martin** <br> _TB2_ <br> Expliqué el apartado 7.1 del Capítulo VII, detallando el software configuration management, sus criterios y especificaciones conforme a los links de las guías por cada tecnología. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TB2_ <br> Durante el periodo evaluado, llevé a cabo la planificación del sprint (Sprint Planning), asignando de manera estructurada las historias de usuario desde el backlog general hacia el sprint backlog, según las prioridades del proyecto. Además, gestioné los insights y aportes del equipo dentro del entorno de desarrollo del repositorio, facilitando una mejor organización colaborativa y seguimiento de las tareas asignadas. <br><br> **Castillo Robles, Steve Roger** <br> _TB2_ <br> Describir tarea. | _TB2_ <br> El equipo demostró una comunicación efectiva de los avances del proyecto, utilizando recursos visuales y terminología adecuada según el público. La claridad conceptual, el dominio del contenido y la capacidad de síntesis permitieron una exposición comprensible y profesional ante distintos niveles jerárquicos y especialidades.                 |
+| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián Andre** <br> _TB2_ <br> Describir tarea. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TB2_ <br> Describir tarea. <br><br> **Sebastian Tasayco, Javier Martin** <br> _TB2_ <br> Redacté el apartado 7.1 del Capítulo VII, describiendo el proceso de software system configuration, detallando las tecnología empleadas para la construcción de los productos. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TB2_ <br> En este periodo, participé en la organización del Sprint Planning, donde se realizó la selección y asignación de las historias de usuario desde el backlog al sprint backlog, de acuerdo con los objetivos del sprint. Asimismo, me encargué de administrar los comentarios e ideas del equipo dentro del entorno de desarrollo del repositorio, contribuyendo a una coordinación más eficiente del trabajo colaborativo. <br><br> **Castillo Robles, Steve Roger** <br> _TB2_ <br> Describir tarea. | _TB2_ <br> La redacción técnica fue precisa, clara y bien estructurada, permitiendo transmitir adecuadamente los resultados y decisiones del proyecto a públicos técnicos y no técnicos. La documentación final refleja el compromiso del equipo por una comunicación efectiva, objetiva y profesional en todas las secciones entregadas.             |
 
 ---
 
@@ -203,28 +223,27 @@ Mayo 2025
   - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
 - [6.5. Applications Prototyping](#65-applications-prototyping)
 
-## Capítulo VII: Product Implementation, Validation & Deployment
-
-- 7.1. Software Configuration Management
-  - 7.1.1. Software Development Environment Configuration
-  - 7.1.2. Source Code Management
-  - 7.1.3. Source Code Style Guide & Conventions
-  - 7.1.4. Software Deployment Configuration
-- 7.2. Solution Implementation
-  - 7.2.X. Sprint n
-    - 7.2.X.1. Sprint Planning n
-    - 7.2.X.2. Sprint Backlog n
-    - 7.2.X.3. Development Evidence for Sprint Review
-    - 7.2.X.4. Testing Suite Evidence for Sprint Review
-    - 7.2.X.5. Execution Evidence for Sprint Review
-    - 7.2.X.6. Services Documentation Evidence for Sprint Review
-    - 7.2.X.7. Software Deployment Evidence for Sprint Review
-    - 7.2.X.8. Team Collaboration Insights during Sprint
-- 7.3. Validation Interviews
-  - 7.3.1. Diseño de entrevistas
-  - 7.3.2. Registro de entrevistas
-  - 7.3.3. Evaluaciones según heurísticas
-- 7.4. Video About-the-Product
+### Capítulo VII: Product Implementation, Validation & Deployment
+- [7.1. Software Configuration Management](#71-software-configuration-management)
+  - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+  - [7.1.2. Source Code Management](#712-source-code-management)
+  - [7.1.3. Source Code Style Guide & Conventions](#713-source-code-style-guide--conventions)
+  - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+- [7.2. Solution Implementation](#72-solution-implementation)
+  - [7.2.1. Sprint 1](#721-sprint-1)
+    - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+    - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+    - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+    - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+    - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+    - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+    - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+    - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+- [7.3. Validation Interviews](#73-validation-interviews)
+  - [7.3.1. Diseño de entrevistas](#731-diseño-de-entrevistas)
+  - [7.3.2. Registro de entrevistas](#732-registro-de-entrevistas)
+  - [7.3.3. Evaluaciones según heurísticas](#733-evaluaciones-segun-heuristicas)
+- [7.4. Video About-the-Product](#74-video-about-the-product)
 
 ## Conclusiones
 
@@ -235,18 +254,6 @@ Mayo 2025
 
 ## Anexos
 
-## Student Outcome
-
-| **Criterio específico**                                                                                                                                                                   | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | **Conclusiones**                                                                                                                                                                                                                                                                                                                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.**    | **Ramirez Mendez, Sebastián André** <br> _TB1_ <br> Presenté el Capítulo I, explicando la visión de la startup, el perfil del equipo y la problemática abordada, destacando la importancia de nuestra solución en un lenguaje accesible para todos los presentes. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TB1_ <br> Expuse el Capítulo II, detallando los hallazgos de las entrevistas y el análisis competitivo, haciendo énfasis en cómo estos datos fundamentaron las necesidades del usuario, adaptando la terminología según el público. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TB1_ <br> Realicé la exposición del Capítulo III, enfocándome en explicar las User Stories, Product Backlog e Impact Mapping, asegurando la comprensión por parte de públicos técnicos y no técnicos. <br><br> **Castillo Robles, Steve Roger** <br> _TB1_ <br> Expliqué la primera mitad del Capítulo IV, sobre el diseño estratégico y atributos de calidad, utilizando ejemplos concretos para que todos entendieran la importancia de las decisiones arquitectónicas. <br><br> **Sebastián Tasayco, Javier Martin** <br> _TB1_ <br> Presenté la segunda mitad del Capítulo IV, abordando la arquitectura de software y diagramas técnicos, simplificando conceptos para que personas de distintas especialidades pudieran seguir la lógica del sistema. | _TB1_ <br> El equipo logró comunicar oralmente los avances del proyecto de forma clara y objetiva, ajustando la terminología según el perfil de la audiencia. Cada miembro dominó su capítulo, facilitando una exposición integral y comprensible, promoviendo la interacción y entendimiento de los aspectos tanto técnicos como conceptuales del proyecto. |
-| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián André** <br> _TB1_ <br> Redacté el Capítulo I, asegurando que la descripción de la startup, el enfoque Lean UX y la definición de segmentos se presentaran con claridad y accesibilidad para diversos públicos. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TB1_ <br> Me encargué de escribir el Capítulo II, presentando entrevistas y análisis de la competencia de manera objetiva, con gráficos que ayudaron a ilustrar las conclusiones para todo tipo de lector. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TB1_ <br> Redacté el Capítulo III, enfocándome en expresar las especificaciones de requisitos y user stories de forma estructurada, con lenguaje técnico y explicativo a la vez. <br><br> **Castillo Robles, Steve Roger** <br> _TB1_ <br> Elaboré la primera mitad del Capítulo IV, escribiendo sobre los atributos de calidad y decisiones arquitectónicas, usando cuadros y diagramas para mejorar la comprensión. <br><br> **Sebastián Tasayco, Javier Martin** <br> _TB1_ <br> Redacté la segunda mitad del Capítulo IV, incluyendo diagramas de arquitectura y despliegue, cuidando que la documentación fuera entendible para desarrolladores y gestores del proyecto.                                                                                                                              | _TB1_ <br> El equipo produjo un documento técnico completo y coherente, adaptando el nivel de detalle y lenguaje según la audiencia. La correcta estructuración por capítulos permitió una lectura fluida y comprensible para públicos de distintas especialidades, destacando la objetividad y claridad en la presentación de resultados e ideas.           |
-
-
-| **Criterio específico**                                                                                                                                                                   | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                        |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.**    | **Ramirez Mendez, Sebastián Andre** <br> _TP1_ <br> Expuse el apartado 6.4 del Capítulo VI, desarrollando el user flow diagram a partir del mockup del sistema. Expliqué con claridad los recorridos principales de los usuarios y la lógica de navegación, facilitando su comprensión ante públicos con distintos niveles técnicos. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TP1_ <br> Presenté los apartados 6.1 y 6.3, abordando la configuración del entorno de desarrollo y el marco conceptual financiero, articulando los conceptos con un lenguaje técnico pero accesible. <br><br> **Sebastian Tasayco, Javier Martin** <br> _TP1_ <br> Expliqué el apartado 6.2 del Capítulo VI, detallando el proceso de validación del sistema, sus criterios y resultados, adaptando la exposición para áreas de control de calidad y gestión. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TP1_ <br> Presenté los bounded context asignados, explicando su delimitación funcional y relevancia dentro del diseño de dominio, con un enfoque didáctico para facilitar el entendimiento transversal. <br><br> **Castillo Robles, Steve Roger** <br> _TP1_ <br> Expuse los bounded context asignados, destacando sus responsabilidades dentro del sistema e ilustrando su integración con otros módulos, orientando la exposición a una audiencia mixta. | _TP1_ <br> El equipo demostró una comunicación efectiva de los avances del proyecto, utilizando recursos visuales y terminología adecuada según el público. La claridad conceptual, el dominio del contenido y la capacidad de síntesis permitieron una exposición comprensible y profesional ante distintos niveles jerárquicos y especialidades.                 |
-| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Ramirez Mendez, Sebastián Andre** <br> _TP1_ <br> Redacté el apartado 6.4 del Capítulo VI, desarrollando el user flow diagram y su justificación funcional con base en el mockup, empleando un lenguaje claro, estructurado y enfocado en la experiencia del usuario. <br><br> **Ramos Ramirez, Renzo Manuel** <br> _TP1_ <br> Documenté los apartados 6.1 y 6.3, presentando la configuración del entorno de desarrollo y el marco conceptual financiero con precisión técnica y redacción accesible. <br><br> **Sebastian Tasayco, Javier Martin** <br> _TP1_ <br> Redacté el apartado 6.2 del Capítulo VI, describiendo el proceso de validación y pruebas del sistema, estructurando el contenido para facilitar su interpretación por equipos técnicos y de gestión. <br><br> **Bernardo Eusebio, Alessandro Joaquin** <br> _TP1_ <br> Redacté los bounded context asignados, explicando su lógica de negocio, sus límites funcionales y su papel dentro de la arquitectura del sistema. <br><br> **Castillo Robles, Steve Roger** <br> _TP1_ <br> Documenté los bounded context correspondientes, detallando sus responsabilidades, interfaces y relación con el dominio general del sistema, complementando con diagramas ilustrativos. | _TP1_ <br> La redacción técnica fue precisa, clara y bien estructurada, permitiendo transmitir adecuadamente los resultados y decisiones del proyecto a públicos técnicos y no técnicos. La documentación final refleja el compromiso del equipo por una comunicación efectiva, objetiva y profesional en todas las secciones entregadas.             |
 
 # Contenido
 
@@ -4259,6 +4266,663 @@ El usuario puede consultar en tiempo real los resultados de cualquier votación 
 ### 6.5. Applications Prototyping
 
 
+## Capítulo VII: Product Implementation, Validation & Deployment
+
+### 7.1. Software Configuration Management
+
+#### 7.1.1. Software Development Environment Configuration
+
+Para el desarrollo de VoteChain, se configuró un entorno de trabajo colaborativo basado en herramientas digitales que abarcan todas las etapas del ciclo de vida de la solución: desde la planificación del proyecto hasta el despliegue y documentación del software.
+
+**Project Management**
+
+- Trello: Utilizado para la gestión de tareas, asignación de responsabilidades y seguimiento del progreso del equipo mediante tableros organizados por sprints y prioridades.
+- Discord: Medio principal de comunicación sincrónica y asincrónica del equipo, con canales por área de trabajo y coordinación diaria.
+
+**Requirements Management**
+
+- Miro: Herramienta visual utilizada para organizar el User Persona, User Journey, Empathy Maps e Impact Maps de los actores clave del sistema. Del mismo modo, realizar los procesos del EventStorming.
+
+**Product UX/UI Design**
+
+- Figma: Principal herramienta para diseñar wireframes, mockups y prototipos la plataforma VoteChain. Se trabajó colaborativamente con componentes reutilizables y navegación entre pantallas.
+
+**Software Development**
+
+Node.js: Se emplea como entorno de ejecución para gestionar la lógica del servidor y facilitar la integración con los contratos inteligentes que forman parte de la plataforma.
+Next.js: Framework de desarrollo web que extiende las capacidades de React y se utilizó tanto en el frontend principal (con TypeScript) como en el landing page (con JavaScript), facilitando la organización del proyecto y la generación de rutas automáticas.
+TypeScript: Adoptado en el desarrollo del frontend principal para mejorar la calidad del código mediante tipado estático, ayudando a reducir errores y mejorar la mantenibilidad.
+JavaScript: Utilizado en el desarrollo del landing page para mantener una implementación más ligera y rápida de prototipado.
+
+**Software Deployment**
+
+- Netlify: Utilizado para desplegar la interfaz del usuario de forma gratuita y accesible desde cualquier navegador.
+- Vercel: Es una plataforma que permite desplegar aplicaciones web de forma rápida y sencilla. Está optimizada para proyectos con Next.js, pero también soporta otros frameworks.
+
+**Software Documentation**
+
+- README.md en GitHub: Se desarrolló la redacción del informe de manera detallada destacando la estructura del proyecto y tecnologías empleadas.
+- Markdown: Formato empleado para la creación de documentación técnica estructurada dentro del repositorio.
+
+#### 7.1.2. Source Code Management
+
+Para la gestión del código fuente del proyecto VoteChain, se utilizó GitHub como plataforma central para el almacenamiento, seguimiento y colaboración del desarrollo del software. Todo el equipo trabaja dentro de una misma organización, aplicando una estrategia de ramificación basada en el modelo GitFlow.
+
+Organización de VoteChain: https://github.com/ASE-VoteChain
+
+**Estructura de raas bajo GitFlow**
+- main: Rama principal que contiene el código listo para producción. Solo se actualiza mediante merge desde release o hotfix.
+- develop: Rama de integración donde se consolidan todas las funcionalidades nuevas antes de pasar a producción. Contiene el código en estado estable, pero aún en fase de desarrollo.
+
+*Informe de proyecto*
+
+- chapter-n: Rama dedicada a la construcción de un capítulo específico.
+
+**Conventional Commits**
+Para mantener la claridad y consistencia en el historial del repositorio, se aplican las reglas de Conventional Commits. Los mensajes de cada commit comienzan con un tipo de acción:
+
+- feat: para nuevas funcionalidades
+- fix: para corrección de errores
+- doc: para cambios en la documentación
+- style: para cambios de formato (espacios, comas, etc.)
+- refactor: para reestructuración sin cambio de funcionalidad
+- test: para añadir o modificar pruebas
+- chore: para tareas internas (actualización de dependencias, configuración)
+
+#### 7.1.3. Source Code Style Guide & Conventions
+
+Para asegurar la claridad, legibilidad y estandarización del código fuente del proyecto VoteChain, el equipo ha adoptado guías de estilo y convenciones reconocidas internacionalmente para cada uno de los lenguajes utilizados en la solución. Todas las variables, funciones, clases, archivos y componentes son nombrados exclusivamente en inglés, siguiendo convenciones claras por tecnología.
+
+Para el desarrollo del frontend principal de la plataforma, basado en Next.js con TypeScript, se seguirá la guía oficial de Google: https://google.github.io/styleguide/tsguide.html
+
+El landing page de VoteChain está construido con Next.js y JavaScript, por lo que se siguen convenciones básicas para mantener consistencia con el frontend principal: https://www.w3schools.com/js/js_conventions.asp
+
+Para el marcado semántico y la estructura visual de la solución, se aplican las siguientes convenciones:
+- HTML: https://www.w3schools.com/html/html5_syntax.asp
+- CSS: https://google.github.io/styleguide/htmlcssguide.html
+
+Finalmente el lenguaje Gherkin se utiliza para describir escenarios de prueba bajo el enfoque BDD (Behavior Driven Development). Se sigue la guía oficial para especificaciones legibles en Gherkin: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
+
+#### 7.1.4. Software Deployment Configuration.
+
+La siguiente tabla presenta los commits de los repositorios en GitHub:
+
+**VoteChain Landing Page:**
+
+| Id del commit       | Commit       |
+|-----------------|-----------------|
+| 751aad028a7948f7834e7bc2f6a41973f70fac6a   | Initial commit from Create Next App   |
+| 6c1918159f7d6188c5e28cd105d5bded240a6a74   | first commit   |
+| d68afc0547847cff8094c88e4048b9e5f013757a   | favicon changed   |
+
+**VoteChain FrontEnd**
+
+| Id del commit       | Commit       |
+|-----------------|-----------------|
+| 3b02e7471990fa794c791e027014aa35abdb9350   | Initial commit from Create Next App   |
+| 3fdc1e1156aa480e8843122758f597ad230f1730   | first commit   |
+| d07d608273370500256ef4093f2c1357f2eb15f9   | feat: add user voting page with filtering and participation tracking   |
+| f72468787e5c06db7f78a19614fff0e2e984c69b   | Merge pull request #1 from ASE-VoteChain/develop   |
+
+### 7.2. Solution Implementation
+
+#### 7.2.1 Sprint 1
+
+##### 7.2.1.1. Sprint Planning 1
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Sprint #</th>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>Sprint Planning Background</th>
+    <td>Inicio de desarrollo de VoteChain, una plataforma de votación digital segura basada en blockchain. Este sprint establece los fundamentos técnicos y funcionales clave del sistema.</td>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-06-21</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>10:00 a.m. - 12:00 p.m.</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Sala de reuniones virtual - Microsoft Teams</td>
+  </tr>
+  <tr>
+    <th>Prepared by</th>
+    <td>Equipo de desarrollo VoteChain</td>
+  </tr>
+  <tr>
+    <th>Attendess (to planning meeting)</th>
+    <td>Product Owner, Scrum Master, Backend Developers, Frontend Developers, QA Tester, Blockchain Specialist</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Review Summary</th>
+    <td>N/A – Este es el Sprint 1</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Retrospective Summary</th>
+    <td>N/A – Este es el Sprint 1</td>
+  </tr>
+  <tr>
+    <th>Sprint Goal & User Stories</th>
+    <td>Desarrollar el MVP básico: configuración de votación, módulo de autenticación y primer bloque de votación cifrada. Se prioriza la seguridad, identidad y estructura técnica inicial.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>Construir el flujo básico de configuración de votación, autenticación de votantes, encriptación de votos y registro en la blockchain.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>30 story points (capacidad estimada del equipo)</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Point</th>
+    <td>29 story points (seleccionados)</td>
+  </tr>
+</table>
+
+##### 7.2.1.2. Sprint Backlog 1
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>ID</th>
+    <th>Title (Module)</th>
+    <th>Title</th>
+    <th>Descripción</th>
+    <th>Horas estimadas</th>
+    <th>Asignado a</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- 1 -->
+  <tr>
+    <td>E01_US001</td>
+    <td>Voting Setup</td>
+    <td>Establecer parámetros básicos</td>
+    <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+    <td>20 h</td>
+    <td>Backend Developer</td>
+    <td>In Production</td>
+  </tr>
+
+  <!-- 2 -->
+  <tr>
+    <td>E01_US002</td>
+    <td>Voting Validation</td>
+    <td>Validar parámetros&nbsp;de votación</td>
+    <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
+    <td>12 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
+  </tr>
+
+  <!-- 3 -->
+  <tr>
+    <td>E01_US003</td>
+    <td>Voting Setup</td>
+    <td>Definir estructura de cargos/preguntas</td>
+    <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+    <td>12 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
+  </tr>
+
+  <!-- 4 -->
+  <tr>
+    <td>E01_US004</td>
+    <td>Voting Setup</td>
+    <td>Guardar configuración</td>
+    <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
+    <td> 8 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
+  </tr>
+
+  <!-- 5 -->
+  <tr>
+    <td>E01_US005</td>
+    <td>Login / Registration</td>
+    <td>Registro de votante</td>
+    <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+    <td>12 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
+  </tr>
+
+  <!-- 6 -->
+  <tr>
+    <td>E01_US006</td>
+    <td>Login / Security</td>
+    <td>Validar identidad del votante</td>
+    <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
+    <td>12 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
+  </tr>
+
+  <!-- 7 -->
+  <tr>
+    <td>E01_US007</td>
+    <td>Login / Registration</td>
+    <td>Emitir credenciales únicas</td>
+    <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+    <td> 8 h</td>
+    <td>Front-End Developer</td>
+    <td>In Production</td>
+  </tr>
+
+  <!-- 8 -->
+  <tr>
+    <td>E01_US008</td>
+    <td>Encryption / Security</td>
+    <td>Encriptar voto</td>
+    <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+    <td>16 h</td>
+    <td>Backend Developer</td>
+    <td>In Review</td>
+  </tr>
+
+  <!-- 9 -->
+  <tr>
+    <td>E01_US009</td>
+    <td>Blockchain Core</td>
+    <td>Registrar voto en blockchain</td>
+    <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
+    <td>16 h</td>
+    <td>Blockchain Developer</td>
+    <td>In Production</td>
+  </tr>
+</table>
+
+##### 7.2.1.3. Development Evidence for Sprint Review
+
+Durante este Sprint se implementó la base del proyecto VoteChain en Next.js, incluyendo la integración de una interfaz de votación para el usuario y ajustes iniciales en la estructura del frontend.
+
+| Repository                               | Branch   | Commit Id | Commit Message                                     | Commit Message Body                                                               | Committed on (Date) |
+|------------------------------------------|----------|------------|---------------------------------------------------|------------------------------------------------------------------------------------|----------------------|
+| ASE-VoteChain/votechain-frontend         | develop  | 91cd457    | Remove unused CSS files and HTML pages            | Se eliminaron archivos CSS y HTML innecesarios relacionados con el sistema de votación. | 13/06/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | d07d608    | feat: add user voting page with filtering...      | Se añadió una página de votación para el usuario con filtrado y seguimiento de participación. | 13/06/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | 3fdc1e1    | first commit                                       | Estructura básica inicial del repositorio.                                         | 11/06/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | 3b02e74    | Initial commit from Create Next App               | Proyecto generado a partir de plantilla de Next.js.                               | 11/06/2025           |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | d68afce    | favicon changed                                   | Se actualizó el favicon de la landing page.                                       | 13/06/2025           |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | 6c19181    | first commit                                      | Commit inicial del repositorio con base del diseño.                               | 13/06/2025           |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | 751aad6    | Initial commit from Create Next App               | Proyecto generado con Next.js como base para la landing.                          | 16/05/2025           |
+
+##### 7.2.1.4. Testing Suite Evidence for Sprint Review
+
+En este sprint se realizaron los siguientes tests enfocados en la validación de datos del frontend de la aplicación web VoteChain. Se hizo uso de la biblioteca de javascript llamado Jest.
+
+| Repository          | Branch | Commit Id | Commit Message                 | Commit Message Body                                                  | Commited on (Date) |
+|---------------------|--------|-----------|--------------------------------|------------------------------------------------------------------------|---------------------|
+| votechain-frontend  | main   | 723d082   | test: DNI validation test added   | Se agregó una prueba unitaria para validar el formato del DNI ingresado.   | 21/06/2025          |
+| votechain-frontend  | main   | 1130bc4   | test: Email validation test added | Se agregó una prueba unitaria para validar la estructura de correos electrónicos. | 21/06/2025          |
+
+##### 7.2.1.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se logró implementar la estructura inicial de la interfaz de usuario para VoteChain. Se desarrollaró la landing page del proyecto y la pantalla principal de votación para el usuario. Estas vistas permiten visualizar candidatos y simular la interacción básica del usuario en un proceso electoral. 
+
+--- 
+
+**Figura 1.** Landing Page de VoteChain – Sección inicial del sitio público desplegado en Netlify  
+
+![Figura 1](img/landingpage-deployed.png)  
+URL: [https://votechain-landingpage.netlify.app](https://votechain-landingpage.netlify.app)
+
+**Figura 2.** Página principal de la aplicación de votación – Vercel  
+
+![Figura 2](img/frontend-deployed.png)  
+URL: [https://vote-chain-delta.vercel.app/public](https://vote-chain-delta.vercel.app/public)
+
+**Figura 3.** Vista de votaciones abiertas – Con opciones de votar, ver detalles y seguimiento de participación 
+ 
+![Figura 3](img/frontend-deployed-2.png)
+
+---
+
+##### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint no fue contemplada la elaboración ni documentación de servicios web (endpoints REST) como parte de los entregables. La documentación de funciones on-chain y una la integración con un backend RESTful será implementada en el siguiente Sprint.
+
+##### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el proceso de despliegue del frontend de VoteChain y de la landing page. El objetivo fue poner en producción ambos productos digitales para que sean accesibles públicamente. Para ello hemos optado por las herramientas Vercel y Netlify.
+
+
+**Figura 4.** Dashboard de Netlify con la landing page desplegada.
+
+![Figura Netflify](img/Netlify_landingpage.png)  
+
+**Figura 5.** Dashboard de Vercel con la primera versión del frontend desplegada.
+
+![Figura Vercel](img/vercel_frontend.jpeg)  
+
+##### 7.2.1.8. Team Collaboration Insights during Sprint
+
+<img src="img/ins 1.PNG" >
+<img src="img/ins 2.PNG">
+
+
+### 7.3. Validation Interviews
+#### 7.3.1. Diseño de entrevistas
+
+El propósito fundamental de estas entrevistas es validar las soluciones y funcionalidades propuestas en el proyecto VoteChain, asegurando que la plataforma realmente responda a las necesidades y expectativas de sus usuarios finales y stakeholders clave. Para ello, se diseñaron entrevistas estructuradas que permiten obtener retroalimentación cualitativa y específica, basada en la experiencia directa con la aplicación.
+
+Estas entrevistas se enfocan en dos segmentos principales: los organizadores de votación comunitaria, quienes gestionan y coordinan los procesos electorales, y los ciudadanos votantes, quienes participan activamente en las votaciones. La información recabada es esencial para identificar fortalezas, áreas de mejora y posibles barreras para la adopción, con el fin de iterar y optimizar la solución antes de su despliegue masivo.
+
+Se aplicaron preguntas generales para contextualizar a cada entrevistado, seguidas de preguntas específicas para cada segmento, abordando aspectos clave como funcionalidad, usabilidad, impacto en tiempo y costos, seguridad, confianza, y experiencia de usuario.
+
+**Preguntas Generales (para todos los entrevistados)**
+
+- Nombre completo
+- Lugar de residencia (ciudad/país)
+- Ocupación/Profesión
+
+---
+
+**Preguntas — Segmento: Organizadores de votación comunitaria**
+
+**Funcionalidad y Características:**
+
+- ¿Qué te parece lo que hace VoteChain?
+- ¿Crees que VoteChain ayuda a que las votaciones sean más claras, seguras y fáciles?
+- ¿Sería útil conectar VoteChain con otros sistemas que ya usas?
+
+**Usabilidad y Adopción:**
+
+- ¿Sería fácil para tu equipo empezar a usar VoteChain?
+- ¿Qué tipo de ayuda o guía necesitarían?
+- ¿Te parece fácil de entender cómo funciona la app?
+
+**Impacto en Tiempo y Costo:**
+
+- ¿Cómo crees que VoteChain cambiaría el tiempo y el costo de organizar votaciones?
+- ¿En qué tareas específicas se ahorraría tiempo?
+- ¿Qué gastos se podrían reducir?
+
+**Seguridad y Confianza:**
+
+- ¿Qué te hace sentir más seguro al usar VoteChain?
+- ¿Qué te preocupa sobre la seguridad y el anonimato en las votaciones?
+- ¿Qué tipo de revisiones o comprobaciones serían necesarias?
+
+**Panel de Control y Métricas:**
+
+- ¿Qué te parece el panel de control que muestra los resultados?
+- ¿Qué más te gustaría ver en ese panel?
+- ¿Cómo usarías esa información para mejorar las votaciones?
+
+---
+
+**Preguntas — Segmento: Ciudadanos votantes**
+
+**Experiencia de Usuario:**
+
+- ¿Te parece fácil de usar VoteChain?
+- ¿Sería fácil votar con VoteChain en tu celular o computadora?
+- ¿Cómo harías la app más fácil de usar para todos?
+
+**Confianza y Transparencia:**
+
+- ¿Te sentirías seguro votando con VoteChain?
+- ¿Qué más necesitarías para confiar en los resultados?
+- ¿Cómo te gustaría que se mostraran los resultados para que confíes en ellos?
+
+**Anonimato y Privacidad:**
+
+- ¿Crees que VoteChain protege tu voto y tu información personal?
+- ¿Qué te preocupa sobre la seguridad de tus datos?
+- ¿Qué información personal te sentirías cómodo dando al usar VoteChain?
+
+**Claridad y Utilidad de la Información:**
+
+- ¿Qué más te gustaría saber para sentirte cómodo usando VoteChain?
+- ¿Qué tipo de información te gustaría ver sobre los candidatos o las opciones de votación?
+- ¿Cómo te gustaría que te explicaran por qué VoteChain es una buena opción?
+
+#### 7.3.2. Registro de entrevistas
+
+A continuación se presentan los registros de las entrevistas realizadas a los usuarios finales de VoteChain, tanto organizadores de votaciones comunitarias como ciudadanos votantes. Cada registro incluye el nombre del entrevistado, su ocupación, y un resumen de sus respuestas a las preguntas planteadas.
+
+Link de la entrevista: [Video de entrevistas](https://www.youtube.com/watch?v=bRDhp0-sxfE)
+
+###### **Segmento: Organizadores de votación comunitaria**
+
+**Diego Defilippi**
+
+<img src="img/entrevista_diego.png">
+
+Tiempo en video: desde 0:09 hasta 5:27 (duración: 5 minutos 18 segundos)
+
+- Perfil del entrevistado:
+  - Diego Defilippi, estudiante y organizador de votaciones comunitarias en Surquillo.
+
+- Percepción general sobre VoteChain:
+  - Considera que VoteChain es una solución innovadora que aporta transparencia y seguridad a las votaciones comunitarias, aspectos fundamentales para generar confianza.
+
+- Opinión sobre la tecnología blockchain:
+  - Valora que el uso de blockchain permite registrar cada voto de forma inmutable y facilita auditorías públicas, lo que hace el proceso más claro y seguro.
+
+- Usabilidad y adopción:
+  - Encuentra la plataforma intuitiva y fácil de comprender, aunque señala la necesidad de contar con guías claras, tutoriales paso a paso y soporte técnico para asegurar una correcta configuración y uso, especialmente en las primeras votaciones.
+
+- Impacto en tiempo y costos:
+  - Considera que VoteChain reduciría significativamente el tiempo dedicado al conteo y verificación de votos, además de disminuir costos relacionados con impresión, logística y personal.
+
+- Confianza y seguridad:
+  - Se siente más seguro usando VoteChain debido a su transparencia y capacidad de auditoría pública. Sugiere implementar auditorías externas periódicas y mecanismos robustos de validación de identidad para fortalecer la confianza.
+
+- Panel de control y métricas:
+  - Valora positivamente el panel de control que muestra resultados y recomienda enfocarse en ofrecer datos estadísticos en tiempo real, análisis de participación por grupos, comparativas históricas y alertas sobre posibles irregularidades para mejorar la supervisión.
+
+- Recomendaciones finales:
+  - Sugiere incluir análisis avanzados y alertas en el panel de control para aportar mayor valor a la gestión de las votaciones.
+
+
+###### **Segmento: Ciudadanos votantes**
+**Luis Alejo**
+
+<img src="img/entrevista_luis.png">
+
+Tiempo en video: desde 5:28 hasta 9:45 (duración: 4 minutos 17 segundos)
+
+- Perfil del entrevistado:
+  - Luis Alejo, 23 años, practicante de analista programador, residente en San Martín de Porres.
+
+- Percepción general sobre VoteChain:
+  - Luis considera que la aplicación tiene un nivel de dificultad intermedio para usarla, debido a la cantidad de secciones que contiene. Sin embargo, reconoce que el flujo para votar es lógico y secuencial, lo que facilita el proceso paso a paso.
+
+- Sugerencias para mejorar la usabilidad:
+  - Propone incluir mensajes más descriptivos y títulos claros en cada sección para que los usuarios comprendan mejor el propósito de cada apartado, facilitando así la navegación y el uso.
+
+- Confianza y seguridad:
+  - Luis se siente seguro votando en VoteChain, principalmente porque entiende que la tecnología blockchain aporta un nivel alto de seguridad. No tiene sugerencias adicionales para mejorar la confianza en este momento.
+
+- Preocupaciones:
+  - Su principal preocupación está en el manejo y almacenamiento de sus datos personales, ya que entiende que la votación se realiza en blockchain, pero los datos podrían estar en bases externas.
+
+- Datos personales que estaría dispuesto a compartir:
+  - Luis mencionó que estaría cómodo proporcionando su correo electrónico para posibles comunicaciones o reclamaciones.
+
+- Información adicional para aumentar la confianza:
+  - Sugiere que en la página web de VoteChain se incluya un apartado que explique claramente las medidas de seguridad implementadas, tanto para la votación como para la protección de los datos de los usuarios.
+
+- Comentarios finales:
+  - En general, Luis considera que la aplicación es bastante buena, aunque reconoce que al inicio le costó un poco acostumbrarse a la interfaz.
+
+
+**Sharon Barrial**
+
+<img src="img/entrevista_sharon.png">
+
+Tiempo en video: desde 9:46 hasta 14:43 (duración: 4 minutos 57 segundos)
+
+- Perfil del entrevistado:
+  - Sharon Barrial, 22 años, estudiante, residente en Carabayllo, Perú.
+
+- Percepción general sobre VoteChain:
+  - Sharon encontró la aplicación fácil de usar durante el breve tiempo que la probó. Destaca la utilidad de la plataforma para facilitar la votación desde casa, evitando desplazamientos tediosos.
+
+- Sugerencias para mejorar la usabilidad:
+  - Propone incluir una sección de preguntas frecuentes (FAQ) y pequeños tutoriales o guías emergentes (modales) para ayudar a los usuarios nuevos a familiarizarse con la aplicación.
+
+- Confianza y seguridad:
+  - Se siente segura usando VoteChain, especialmente por el código de verificación que considera un elemento que aporta seriedad y confianza al proceso.
+
+- Recomendaciones para aumentar la confianza:
+  - Sugiere realizar pruebas piloto con usuarios reales para demostrar la seguridad y funcionamiento correcto de la aplicación, lo que ayudaría a generar mayor confianza en los resultados.
+
+- Preferencias sobre la presentación de resultados:
+  - Le gustaría que los resultados se validen mediante pruebas con diferentes personas, asegurando que el voto se registre sin comprometer credenciales o datos personales, usando elementos como códigos hash.
+
+- Percepción sobre la protección de datos:
+  - Considera que VoteChain tiene varias capas de seguridad y protege adecuadamente los datos sensibles de los usuarios.
+
+- Datos personales que estaría dispuesta a compartir:
+  - Mencionó que estaría cómoda proporcionando su DNI y contraseña para el uso de la aplicación.
+
+- Comentarios sobre la adopción y crecimiento de la plataforma:
+  - Cree que la adopción por parte del gobierno o entidades oficiales sería clave para aumentar la confianza y el uso masivo de VoteChain, comparándolo con plataformas peruanas consolidadas que cuentan con respaldo institucional.
+
+- Feedback adicional:
+  - Le gustaría que la aplicación incluya un modo oscuro (dark mode), ya que prefiere interfaces con esta característica.
+
+#### 7.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
+*Usability – Inclusive Design – Information Architecture*
+
+Carrera: Ingeniería de Software
+
+Auditor: VoteChain Validation Team
+
+---
+
+**SITE O APP A EVALUAR:**
+
+VoteChain
+
+---
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas principales:
+
+- Registro y autenticación de usuarios
+- Proceso de emisión de voto
+- Visualización de confirmación de voto
+- Consulta de resultados
+- Navegación general en la aplicación
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Integración con sistemas externos
+- Funcionalidades administrativas avanzadas
+- Soporte técnico y ayuda en línea
+
+---
+
+**ESCALA DE SEVERIDAD:**
+
+Los problemas detectados serán puntuados según la siguiente escala:
+
+| Nivel | Descripción |
+| --- | --- |
+| 1 | Problema superficial: Fácil de superar o poco frecuente. No requiere corrección inmediata. |
+| 2 | Problema menor: Ocurre con cierta frecuencia o es algo difícil de superar. Prioridad baja. |
+| 3 | Problema mayor: Ocurre frecuentemente o bloquea al usuario. Prioridad alta para corregir. |
+| 4 | Problema crítico: Impide el uso o causa errores graves. Corrección urgente antes del lanzamiento. |
+
+---
+
+**TABLA DE RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violado(a) |
+| --- | --- | --- | --- |
+| 1 | Falta de confirmación clara tras emitir el voto | 4 | Usabilidad: Visibilidad del estado del sistema |
+| 2 | Dificultad para entender el proceso de votación | 3 | Diseño inclusivo: Consistencia y estándares |
+| 3 | Información sobre privacidad y anonimato poco clara | 3 | Arquitectura de información: Claridad y transparencia |
+| 4 | Navegación confusa entre secciones principales | 2 | Usabilidad: Reconocimiento antes que recuerdo |
+| 5 | Mensajes de error poco explicativos al ingresar datos | 2 | Usabilidad: Prevención de errores |
+| 6 | Diseño no adaptado para dispositivos móviles pequeños | 3 | Diseño inclusivo: Flexibilidad y eficiencia de uso |
+
+---
+
+**DESCRIPCIÓN DE LOS PROBLEMAS:**
+
+**PROBLEMA #1: Falta de confirmación clara tras emitir el voto**
+
+*Severidad:* 4
+
+*Heurística violada:* Usabilidad: Visibilidad del estado del sistema
+
+*Problema:* Después de votar, el usuario no recibe una confirmación visual o mensaje claro que indique que su voto fue registrado correctamente, generando incertidumbre.
+
+*Recomendación:* Implementar un mensaje o pantalla de confirmación clara e inmediata tras la emisión del voto.
+
+---
+
+**PROBLEMA #2: Dificultad para entender el proceso de votación**
+
+*Severidad:* 3
+
+*Heurística violada:* Diseño inclusivo: Consistencia y estándares
+
+*Problema:* Algunos usuarios encuentran confuso el flujo para emitir su voto, especialmente quienes tienen poca experiencia con aplicaciones digitales.
+
+*Recomendación:* Simplificar y estandarizar el flujo de votación, usando instrucciones claras y consistentes en cada paso.
+
+---
+
+**PROBLEMA #3: Información sobre privacidad y anonimato poco clara**
+
+*Severidad:* 3
+
+*Heurística violada:* Arquitectura de información: Claridad y transparencia
+
+*Problema:* La aplicación no comunica de forma clara cómo se protege la privacidad y el anonimato del votante, lo que genera dudas.
+
+*Recomendación:* Añadir secciones o mensajes explicativos sobre las medidas de privacidad y seguridad implementadas.
+
+---
+
+**PROBLEMA #4: Navegación confusa entre secciones principales**
+
+*Severidad:* 2
+
+*Heurística violada:* Usabilidad: Reconocimiento antes que recuerdo
+
+*Problema:* Algunos usuarios tienen dificultades para encontrar ciertas funciones o regresar a pantallas anteriores.
+
+*Recomendación:* Mejorar la navegación con menús visibles y opciones claras para volver o avanzar.
+
+---
+
+**PROBLEMA #5: Mensajes de error poco explicativos al ingresar datos**
+
+*Severidad:* 2
+
+*Heurística violada:* Usabilidad: Prevención de errores
+
+*Problema:* Cuando los usuarios cometen errores al ingresar datos, los mensajes no explican claramente qué corregir.
+
+*Recomendación:* Implementar mensajes de error específicos y sugerencias para corregirlos.
+
+---
+
+**PROBLEMA #6: Diseño no adaptado para dispositivos móviles pequeños**
+
+*Severidad:* 3
+
+*Heurística violada:* Diseño inclusivo: Flexibilidad y eficiencia de uso
+
+*Problema:* La aplicación presenta dificultades de visualización y uso en pantallas pequeñas, afectando la experiencia.
+
+*Recomendación:* Optimizar el diseño para diferentes tamaños de pantalla, asegurando una experiencia fluida en móviles.
 
 ## Conclusiones
 
@@ -4275,6 +4939,19 @@ Las principales conclusiones del proyecto son:
 - **Adopción centrada en el usuario:** Mediante entrevistas, personas y flujos, se comprobó que tanto organizadores como ciudadanos valoran una solución intuitiva, segura y verificable, lo que facilitó diseñar una experiencia de usuario clara y efectiva.
 
 - **Impacto potencial:** El enfoque modular y el uso de tecnologías de bajo costo permite escalar VoteChain a distintos contextos locales, con posibilidades de adopción nacional e internacional, especialmente en regiones con baja confianza institucional.
+- **Usabilidad con margen de mejora:** Aunque los usuarios valoran positivamente la lógica y el flujo de la aplicación, se identificó que la curva de aprendizaje puede ser un poco alta para usuarios con menos experiencia. La interfaz es percibida como funcional pero podría beneficiarse de mensajes más descriptivos y guías integradas para facilitar la navegación.
+
+- **Confianza en la seguridad basada en blockchain:** Los entrevistados reconocen la tecnología blockchain como un factor clave para la seguridad y transparencia del voto, lo que genera confianza. Sin embargo, persisten dudas sobre el manejo y protección de datos personales fuera de la cadena, lo que indica la necesidad de comunicar mejor estas garantías.
+
+- **Importancia de la transparencia y auditoría:** La posibilidad de auditorías públicas y revisiones externas es valorada como un elemento fundamental para legitimar el proceso electoral y aumentar la confianza tanto de organizadores como de votantes.
+
+- **Impacto positivo en eficiencia operativa:** VoteChain tiene el potencial de reducir significativamente el tiempo y costo en la organización y conteo de votos, eliminando errores humanos y optimizando recursos logísticos y humanos.
+
+- **Necesidad de soporte y capacitación:** Aunque la plataforma es intuitiva, los organizadores requieren tutoriales paso a paso, soporte técnico y capacitación inicial para asegurar un uso correcto y seguro, especialmente en las primeras elecciones.
+
+- **Accesibilidad y personalización:** Se identificó interés en funcionalidades que mejoren la accesibilidad, como modos de visualización (ej. modo oscuro) y ayudas para usuarios nuevos, lo que puede ampliar la adopción y satisfacción.
+
+---
 
 ## Recomendaciones
 
@@ -4288,7 +4965,134 @@ Las principales conclusiones del proyecto son:
 
 - **Continuar con auditorías externas** del código y contratos inteligentes para garantizar seguridad e integridad del sistema ante escenarios de producción.
 
+- **Incorporar guías y mensajes descriptivos** dentro de la aplicación, incluyendo tutoriales breves, FAQs y mensajes contextuales que expliquen claramente cada paso y sección, para facilitar la experiencia de usuarios con distintos niveles de habilidad.
 
-## Bibliografía
+- **Mejorar la comunicación sobre privacidad y seguridad** mediante un apartado visible en la aplicación o página web que detalle las medidas de protección de datos personales y el funcionamiento seguro de la blockchain, para disipar dudas y aumentar la confianza.
+
+- **Desarrollar mecanismos de auditoría y transparencia** que permitan auditorías externas y revisiones periódicas, así como mostrar indicadores claros y en tiempo real sobre el estado de la votación y resultados.
+
+- **Optimizar el panel de control para organizadores** agregando análisis avanzados como participación por grupos, comparativas históricas y alertas de irregularidades para facilitar la supervisión y toma de decisiones.
+
+- **Ofrecer soporte técnico y capacitación estructurada** con tutoriales, soporte en línea y atención personalizada para los organizadores, especialmente en las primeras implementaciones.
+
+- **Adaptar la interfaz para dispositivos móviles y accesibilidad**, optimizando el diseño para diferentes tamaños de pantalla y considerando opciones de personalización visual (modo oscuro, tamaños de letra) para mejorar la experiencia de todos los usuarios.
+
+- **Fomentar alianzas institucionales** buscando respaldo y adopción por parte de entidades oficiales o gubernamentales para aumentar la legitimidad y alcance de VoteChain.
+
+## 📚 Bibliografía
+
+#### UX Design & Metodología Lean
+
+
+1. ISO 9241-210:2019. *Human-centred design for interactive systems*. International Organization for Standardization.  
+   [https://www.iso.org/standard/77520.html](https://www.iso.org/standard/77520.html)
+
+2. Nielsen, J. (1994). *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group.  
+   [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
+#### Arquitectura de Software y Desarrollo Ágil
+
+3. Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.  
+   [https://martinfowler.com/books/eaa.html](https://martinfowler.com/books/eaa.html)
+
+4. Scrum Guide™ (2020). *The Definitive Guide to Scrum: The Rules of the Game*.  
+   [https://scrumguides.org/scrum-guide.html](https://scrumguides.org/scrum-guide.html)
+
+5. Design Sprint – Google Ventures.  
+   [https://www.gv.com/sprint/](https://www.gv.com/sprint/)
+
+#### Prototipado y Herramientas
+
+6. Figma – The Collaborative Interface Design Tool  
+   [https://www.figma.com/](https://www.figma.com/)
+
+7. Miro – Visual Collaboration Platform  
+   [https://miro.com/](https://miro.com/)
+
+#### Blockchain y Transparencia en Sistemas
+
+8. Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*.  
+   [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+
+9. Zyskind, G., Nathan, O., & Pentland, A. (2015). *Decentralizing Privacy: Using Blockchain to Protect Personal Data*. IEEE Security & Privacy.  
+    [https://ieeexplore.ieee.org/document/7163223](https://ieeexplore.ieee.org/document/7163223)
+
+#### Participación ciudadana digital
+
+10. OECD (2020). *Innovative Citizen Participation and New Democratic Institutions*.  
+    [https://www.oecd.org/governance/innovative-citizen-participation-and-new-democratic-institutions-339306da-en.htm](https://www.oecd.org/governance/innovative-citizen-participation-and-new-democratic-institutions-339306da-en.htm)
+
+11. World Bank (2015). *ICT & Citizen Engagement*.  
+    [https://documents.worldbank.org/en/publication/documents-reports/documentdetail/449071468185370343/ict-and-citizen-engagement](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/449071468185370343/ict-and-citizen-engagement)
+
 
 ## Anexos
+
+A continuación se presenta el material complementario que respalda el desarrollo del proyecto **VoteChain**. Este incluye evidencias de entrevistas, diagramas de flujo de usuario, mock-ups de alta fidelidad, análisis visual y recursos técnicos utilizados durante el proceso.
+
+---
+
+### A. Evidencia de entrevistas y validación
+
+- Enlace a grabación de entrevistas (segmento organizadores):  
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e575_upc_edu_pe/EXhHBoQ96etLuyf4HJu5yMIB7eWf2rZVD-s5WFvhj4pVTA](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e575_upc_edu_pe/EXhHBoQ96etLuyf4HJu5yMIB7eWf2rZVD-s5WFvhj4pVTA)
+
+- Capturas de entrevistas realizadas:
+
+  ![Entrevista 1](img/entrevista1.PNG)  
+  ![Entrevista 2](img/entrevista2.png)  
+  ![Entrevista 3](img/entrevista3.png)
+
+---
+
+### B. Diagramas de flujo de usuario (User Flows)
+
+- User Flow 1 – Inicio de sesión  
+  ![](img/userflow1.png)
+
+- User Flow 2 – Recuperar contraseña  
+  ![](img/userflow2.png)
+
+- User Flow 3 – Emitir voto  
+  ![](img/userflow3_1.png)  
+  ![](img/userflow3.png)
+
+- User Flow 4 – Visualización de resultados  
+  ![](img/userflow4.png)
+
+---
+
+### C. Mock-ups de aplicación
+
+Capturas representativas de pantallas de alta fidelidad desarrolladas en Figma. Para ver el listado completo y descripción de cada una, consultar la sección [6.4.3. Applications Mock-ups](#643-applications-mock-ups).
+
+Ejemplos:
+
+- Dashboard del usuario  
+  ![](img/mockup-dashboard.png)
+
+- Panel del organizador  
+  ![](img/mockup-panel_2.png)
+
+- Formulario de votación  
+  ![](img/mockup-votar_4.png)
+
+- Página pública de resultados  
+  ![](img/mockup-resultados.png)
+
+---
+
+### D. Gráficos y análisis de entrevistas
+
+- Visualización gráfica de necesidades expresadas por los entrevistados:  
+  ![](img/analisis_entrevistas_profesional.png)
+
+---
+
+### E. Recursos técnicos utilizados
+
+- Framework de desarrollo web: Vue 3, Vite, Pinia, Axios  
+- Diseño de interfaces: Figma (UI), Miro (User Flows)  
+- Control de versiones: Git y GitHub  
+- Metodologías aplicadas: Lean UX, Design Sprint, Scrum  
+- Herramientas de validación: entrevistas semiestructuradas, análisis heurístico, flujos de usuario y mock-ups de alta fidelidad
