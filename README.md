@@ -4611,7 +4611,120 @@ Las principales conclusiones del proyecto son:
 
 - **Fomentar alianzas institucionales** buscando respaldo y adopción por parte de entidades oficiales o gubernamentales para aumentar la legitimidad y alcance de VoteChain.
 
-## Bibliografía
+## 📚 Bibliografía
+
+#### UX Design & Metodología Lean
+
+
+1. ISO 9241-210:2019. *Human-centred design for interactive systems*. International Organization for Standardization.  
+   [https://www.iso.org/standard/77520.html](https://www.iso.org/standard/77520.html)
+
+2. Nielsen, J. (1994). *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group.  
+   [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
+#### Arquitectura de Software y Desarrollo Ágil
+
+3. Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.  
+   [https://martinfowler.com/books/eaa.html](https://martinfowler.com/books/eaa.html)
+
+4. Scrum Guide™ (2020). *The Definitive Guide to Scrum: The Rules of the Game*.  
+   [https://scrumguides.org/scrum-guide.html](https://scrumguides.org/scrum-guide.html)
+
+5. Design Sprint – Google Ventures.  
+   [https://www.gv.com/sprint/](https://www.gv.com/sprint/)
+
+#### Prototipado y Herramientas
+
+6. Figma – The Collaborative Interface Design Tool  
+   [https://www.figma.com/](https://www.figma.com/)
+
+7. Miro – Visual Collaboration Platform  
+   [https://miro.com/](https://miro.com/)
+
+#### Blockchain y Transparencia en Sistemas
+
+8. Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*.  
+   [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+
+9. Zyskind, G., Nathan, O., & Pentland, A. (2015). *Decentralizing Privacy: Using Blockchain to Protect Personal Data*. IEEE Security & Privacy.  
+    [https://ieeexplore.ieee.org/document/7163223](https://ieeexplore.ieee.org/document/7163223)
+
+#### Participación ciudadana digital
+
+10. OECD (2020). *Innovative Citizen Participation and New Democratic Institutions*.  
+    [https://www.oecd.org/governance/innovative-citizen-participation-and-new-democratic-institutions-339306da-en.htm](https://www.oecd.org/governance/innovative-citizen-participation-and-new-democratic-institutions-339306da-en.htm)
+
+11. World Bank (2015). *ICT & Citizen Engagement*.  
+    [https://documents.worldbank.org/en/publication/documents-reports/documentdetail/449071468185370343/ict-and-citizen-engagement](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/449071468185370343/ict-and-citizen-engagement)
 
 
 ## Anexos
+
+A continuación se presenta el material complementario que respalda el desarrollo del proyecto **VoteChain**. Este incluye evidencias de entrevistas, diagramas de flujo de usuario, mock-ups de alta fidelidad, análisis visual y recursos técnicos utilizados durante el proceso.
+
+---
+
+### A. Evidencia de entrevistas y validación
+
+- Enlace a grabación de entrevistas (segmento organizadores):  
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e575_upc_edu_pe/EXhHBoQ96etLuyf4HJu5yMIB7eWf2rZVD-s5WFvhj4pVTA](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e575_upc_edu_pe/EXhHBoQ96etLuyf4HJu5yMIB7eWf2rZVD-s5WFvhj4pVTA)
+
+- Capturas de entrevistas realizadas:
+
+  ![Entrevista 1](img/entrevista1.PNG)  
+  ![Entrevista 2](img/entrevista2.png)  
+  ![Entrevista 3](img/entrevista3.png)
+
+---
+
+### B. Diagramas de flujo de usuario (User Flows)
+
+- User Flow 1 – Inicio de sesión  
+  ![](img/userflow1.png)
+
+- User Flow 2 – Recuperar contraseña  
+  ![](img/userflow2.png)
+
+- User Flow 3 – Emitir voto  
+  ![](img/userflow3_1.png)  
+  ![](img/userflow3.png)
+
+- User Flow 4 – Visualización de resultados  
+  ![](img/userflow4.png)
+
+---
+
+### C. Mock-ups de aplicación
+
+Capturas representativas de pantallas de alta fidelidad desarrolladas en Figma. Para ver el listado completo y descripción de cada una, consultar la sección [6.4.3. Applications Mock-ups](#643-applications-mock-ups).
+
+Ejemplos:
+
+- Dashboard del usuario  
+  ![](img/mockup-dashboard.png)
+
+- Panel del organizador  
+  ![](img/mockup-panel_2.png)
+
+- Formulario de votación  
+  ![](img/mockup-votar_4.png)
+
+- Página pública de resultados  
+  ![](img/mockup-resultados.png)
+
+---
+
+### D. Gráficos y análisis de entrevistas
+
+- Visualización gráfica de necesidades expresadas por los entrevistados:  
+  ![](img/analisis_entrevistas_profesional.png)
+
+---
+
+### E. Recursos técnicos utilizados
+
+- Framework de desarrollo web: Vue 3, Vite, Pinia, Axios  
+- Diseño de interfaces: Figma (UI), Miro (User Flows)  
+- Control de versiones: Git y GitHub  
+- Metodologías aplicadas: Lean UX, Design Sprint, Scrum  
+- Herramientas de validación: entrevistas semiestructuradas, análisis heurístico, flujos de usuario y mock-ups de alta fidelidad
