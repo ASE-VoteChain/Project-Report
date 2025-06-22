@@ -4319,6 +4319,8 @@ Se aplicaron preguntas generales para contextualizar a cada entrevistado, seguid
 
 A continuación se presentan los registros de las entrevistas realizadas a los usuarios finales de VoteChain, tanto organizadores de votaciones comunitarias como ciudadanos votantes. Cada registro incluye el nombre del entrevistado, su ocupación, y un resumen de sus respuestas a las preguntas planteadas.
 
+Link de la entrevista: [Video de entrevistas](https://www.youtube.com/watch?v=bRDhp0-sxfE)
+
 ###### **Segmento: Organizadores de votación comunitaria**
 
 **Diego Defilippi**
