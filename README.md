@@ -4237,6 +4237,78 @@ Durante este Sprint se realizó el proceso de despliegue del frontend de VoteCha
 <img src="img/ins 1.PNG" >
 <img src="img/ins 2.PNG">
 
+#### 7.2.2 Sprint 2
+
+##### 7.2.2.1. Sprint Planning 2
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Sprint #</th>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th>Sprint Planning Background</th>
+    <td>Desarrollo de frontend y conexión con backend VoteChain como también refactorización de código , una plataforma de votación digital segura basada en blockchain.</td>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-07-06</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>09:00 p.m. - 11:00 p.m.</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Sala de reuniones virtual - Microsoft Teams</td>
+  </tr>
+  <tr>
+    <th>Prepared by</th>
+    <td>Equipo de desarrollo VoteChain</td>
+  </tr>
+  <tr>
+    <th>Attendess (to planning meeting)</th>
+    <td>Product Owner, Scrum Master, Backend Developers, Frontend Developers, QA Tester, Blockchain Specialist</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Review Summary</th>
+    <td>Se desarrollaron las tareas propuestas en el tiempo especificado.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Retrospective Summary</th>
+    <td>Se tuvo una buena organización y comunicación inicial. Se acordó mejorar el avance en simultáneo revisión de tareas.</td>
+  </tr>
+  <tr>
+    <th>Sprint Goal & User Stories</th>
+    <td>Desarrollar la estructura base del frontend, implementar interfaz de login y registro, conectar el frontend con la API del backend, verificar comunicación entre frontend y backend con pruebas básicas.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>Desarrollar el frontend inicial de la plataforma y establecer la conexión con el backend de VoteChain.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>26 story points (capacidad estimada del equipo)</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Point</th>
+    <td>24 story points (seleccionados)</td>
+  </tr>
+</table>
+
+##### 7.2.2.2. Sprint Backlog 2
+
+##### 7.2.2.3. Development Evidence for Sprint Review
+
+##### 7.2.2.4. Testing Suite Evidence for Sprint Review
+
+##### 7.2.2.5. Execution Evidence for Sprint Review
+
+##### 7.2.2.6. Services Documentation Evidence for Sprint Review
+
+##### 7.2.2.7. Software Deployment Evidence for Sprint Review
+
+##### 7.2.2.8. Team Collaboration Insights during Sprint
 
 ### 7.3. Validation Interviews
 #### 7.3.1. Diseño de entrevistas
