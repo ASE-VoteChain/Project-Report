@@ -4002,196 +4002,84 @@ La siguiente tabla presenta los commits de los repositorios en GitHub:
 
 ##### 7.2.1.1. Sprint Planning 1
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <th>Sprint #</th>
-    <td>1</td>
-  </tr>
-  <tr>
-    <th>Sprint Planning Background</th>
-    <td>Inicio de desarrollo de VoteChain, una plataforma de votación digital segura basada en blockchain. Este sprint establece los fundamentos técnicos y funcionales clave del sistema.</td>
-  </tr>
-  <tr>
-    <th>Date</th>
-    <td>2025-06-21</td>
-  </tr>
-  <tr>
-    <th>Time</th>
-    <td>10:00 a.m. - 12:00 p.m.</td>
-  </tr>
-  <tr>
-    <th>Location</th>
-    <td>Sala de reuniones virtual - Microsoft Teams</td>
-  </tr>
-  <tr>
-    <th>Prepared by</th>
-    <td>Equipo de desarrollo VoteChain</td>
-  </tr>
-  <tr>
-    <th>Attendess (to planning meeting)</th>
-    <td>Product Owner, Scrum Master, Backend Developers, Frontend Developers, QA Tester, Blockchain Specialist</td>
-  </tr>
-  <tr>
-    <th>Sprint 0 Review Summary</th>
-    <td>N/A – Este es el Sprint 1</td>
-  </tr>
-  <tr>
-    <th>Sprint 0 Retrospective Summary</th>
-    <td>N/A – Este es el Sprint 1</td>
-  </tr>
-  <tr>
-    <th>Sprint Goal & User Stories</th>
-    <td>Desarrollar el MVP básico: configuración de votación, módulo de autenticación y primer bloque de votación cifrada. Se prioriza la seguridad, identidad y estructura técnica inicial.</td>
-  </tr>
-  <tr>
-    <th>Sprint 1 Goal</th>
-    <td>Construir el flujo básico de configuración de votación, autenticación de votantes, encriptación de votos y registro en la blockchain.</td>
-  </tr>
-  <tr>
-    <th>Sprint 1 Velocity</th>
-    <td>30 story points (capacidad estimada del equipo)</td>
-  </tr>
-  <tr>
-    <th>Sum of Story Point</th>
-    <td>29 story points (seleccionados)</td>
-  </tr>
-</table>
+La planificación del primer sprint se llevó a cabo mediante una reunión virtual a través de Microsoft Teams. Durante esta sesión, el equipo acordó los objetivos del sprint, estimó las historias de usuario y definió la capacidad de trabajo (*velocity*) para el periodo. La siguiente tabla resume la información discutida y registrada durante dicha sesión.
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | Inicio de desarrollo de VoteChain, una plataforma de votación digital segura basada en blockchain. Este sprint establece los fundamentos técnicos y funcionales clave del sistema. |
+| **Fecha** | 2025-06-21 |
+| **Hora** | 10:00 a.m. – 12:00 p.m. |
+| **Lugar** | Virtual (Microsoft Teams) |
+| **Preparado por** | Ramírez Méndez, Sebastián André |
+| **Participantes de la reunión de planificación** | - Tasayco, Sebastián Javier Martín<br> - Eusebio, Bernardo Alessandro Joaquín<br> - Ramos Ramírez, Renzo Manuel<br> - Castillo Robles, Steve Roger<br> - Ramírez Méndez, Sebastián André |
+| **Resumen del Sprint n–1 (Review)** | No aplica — este es el primer sprint del proyecto. |
+| **Resumen del Sprint n–1 (Retrospectiva)** | No aplica — este es el primer sprint del proyecto. |
+| **Sprint Goal & User Stories** | Nuestro objetivo para este Sprint 1 es desarrollar la **versión mínima viable (MVP)** de VoteChain, centrada en habilitar una experiencia de votación digital segura, funcional y transparente desde el inicio. Se prioriza la implementación del **flujo básico de configuración de votaciones**, el **módulo de autenticación de usuarios** y el **registro cifrado de votos en la blockchain**. Esto sentará las bases técnicas de la plataforma y permitirá validar su arquitectura descentralizada. El éxito del sprint se evaluará mediante pruebas unitarias, validación del flujo de votación, revisión del contrato desplegado y cumplimiento de los criterios de aceptación definidos para cada historia de usuario. |
+| **Velocidad del Sprint (Story Points esperados)** | 40 |
+| **Suma total de Story Points asignados** | 40 |
 
 ##### 7.2.1.2. Sprint Backlog 1
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <th>ID</th>
-    <th>Title (Module)</th>
-    <th>Title</th>
-    <th>Descripción</th>
-    <th>Horas estimadas</th>
-    <th>Asignado a</th>
-    <th>Status</th>
-  </tr>
 
-  <!-- 1 -->
-  <tr>
-    <td>E01_US001</td>
-    <td>Voting Setup</td>
-    <td>Establecer parámetros básicos</td>
-    <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
-    <td>20 h</td>
-    <td>Backend Developer</td>
-    <td>In Production</td>
-  </tr>
+A continuación, se presenta la tabla estructurada del Sprint Backlog 1, que detalla las **User Stories**, sus respectivos **Tasks**, estimaciones y responsables:
 
-  <!-- 2 -->
-  <tr>
-    <td>E01_US002</td>
-    <td>Voting Validation</td>
-    <td>Validar parámetros&nbsp;de votación</td>
-    <td>COMO administrador QUIERO que el sistema valide los parámetros ingresados PARA evitar errores.</td>
-    <td>12 h</td>
-    <td>Backend Developer</td>
-    <td>In Review</td>
-  </tr>
+| Sprint # | Sprint 1 |
+|----------|----------|
 
-  <!-- 3 -->
-  <tr>
-    <td>E01_US003</td>
-    <td>Voting Setup</td>
-    <td>Definir estructura de cargos/preguntas</td>
-    <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
-    <td>12 h</td>
-    <td>Front-End Developer</td>
-    <td>In Production</td>
-  </tr>
+| **User Story** | | **Work-Item / Task** | | | | | |
+|---------------|--|----------------------|--|--|--|--|--|
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation** | **Assigned To** | **Status (To-Do / In-Process / Review / Done)** |
+| E01_US001 | Definir parámetros de elección | TS01 | Backend de parámetros | Implementa endpoint para definir nombre, fechas, tipo de elección. | 3 | Ramírez Méndez, Sebastián André | Done |
+|  |  | TS02 | Formulario de parámetros | Crea formulario inicial en landing para configurar votación. | 2 | Ramos Ramírez, Renzo Manuel | Done |
+| E01_US002 | Selección de tipo de elección | TS03 | Selector tipo de elección | Permite seleccionar tipo de elección desde UI y actualizar campos. | 2 | Castillo Robles, Steve Roger | Done |
+| E01_US003 | Crear estructura de votación | TS04 | Backend de estructura | Crea endpoint y lógica para cargos y preguntas. | 3 | Eusebio, Bernardo Alessandro Joaquín | Done |
+|  |  | TS05 | Vista previa de estructura | Permite al admin revisar la estructura creada. | 2 | Tasayco, Sebastián Javier Martín | Done |
+| E01_US004 | Guardar configuración | TS06 | Funcionalidad guardar configuración | Guarda en BD toda la configuración de votación. | 3 | Ramírez Méndez, Sebastián André | Done |
+| E01_US005 | Validación de parámetros | TS07 | Validación de campos y fechas | Valida reglas de negocio antes de guardar elección. | 2 | Tasayco, Sebastián Javier Martín | Done |
+| E02_US001 | Registro de votantes | TS08 | API de registro | Endpoint para registrar votantes con correo y datos. | 3 | Castillo Robles, Steve Roger | Done |
+|  |  | TS09 | Formulario de registro | Componente básico de formulario para landing. | 2 | Ramos Ramírez, Renzo Manuel | Done |
+| E02_US002 | Envío de credenciales | TS10 | Generar token único | Backend genera credencial de acceso por votante. | 2 | Eusebio, Bernardo Alessandro Joaquín | Done |
+|  |  | TS11 | Enviar token al votante | Envío seguro de token simulado vía consola/log. | 2 | Tasayco, Sebastián Javier Martín | Done |
+| E04_US001 | Guardado en blockchain | TS12 | Conexión con contrato | Integración con contrato desplegado en Sepolia. | 4 | Ramírez Méndez, Sebastián André | Done |
+|  |  | TS13 | Validación de hash | Confirma que el hash del voto fue registrado correctamente. | 2 | Tasayco, Sebastián Javier Martín | Done |
+| E04_US002 | Verificación de bloques | TS14 | Endpoint de verificación de integridad | Permite revisar el hash y consistencia de bloques. | 3 | Castillo Robles, Steve Roger | Done |
 
-  <!-- 4 -->
-  <tr>
-    <td>E01_US004</td>
-    <td>Voting Setup</td>
-    <td>Guardar configuración</td>
-    <td>COMO administrador QUIERO guardar toda la configuración PARA reutilizarla en el futuro.</td>
-    <td> 8 h</td>
-    <td>Backend Developer</td>
-    <td>In Review</td>
-  </tr>
-
-  <!-- 5 -->
-  <tr>
-    <td>E01_US005</td>
-    <td>Login / Registration</td>
-    <td>Registro de votante</td>
-    <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
-    <td>12 h</td>
-    <td>Front-End Developer</td>
-    <td>In Production</td>
-  </tr>
-
-  <!-- 6 -->
-  <tr>
-    <td>E01_US006</td>
-    <td>Login / Security</td>
-    <td>Validar identidad del votante</td>
-    <td>COMO sistema QUIERO validar la identidad del votante PARA garantizar la autenticidad del registro.</td>
-    <td>12 h</td>
-    <td>Backend Developer</td>
-    <td>In Review</td>
-  </tr>
-
-  <!-- 7 -->
-  <tr>
-    <td>E01_US007</td>
-    <td>Login / Registration</td>
-    <td>Emitir credenciales únicas</td>
-    <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
-    <td> 8 h</td>
-    <td>Front-End Developer</td>
-    <td>In Production</td>
-  </tr>
-
-  <!-- 8 -->
-  <tr>
-    <td>E01_US008</td>
-    <td>Encryption / Security</td>
-    <td>Encriptar voto</td>
-    <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
-    <td>16 h</td>
-    <td>Backend Developer</td>
-    <td>In Review</td>
-  </tr>
-
-  <!-- 9 -->
-  <tr>
-    <td>E01_US009</td>
-    <td>Blockchain Core</td>
-    <td>Registrar voto en blockchain</td>
-    <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
-    <td>16 h</td>
-    <td>Blockchain Developer</td>
-    <td>In Production</td>
-  </tr>
-</table>
+**Total de Story Points:** 40  
+**Estado del Sprint:** Completado con éxito  
+**Entregables:** Landing funcional, API REST básica, integración blockchain y flujo de registro de votantes.
 
 ##### 7.2.1.3. Development Evidence for Sprint Review
 
-Durante este Sprint se implementó la base del proyecto VoteChain en Next.js, incluyendo la integración de una interfaz de votación para el usuario y ajustes iniciales en la estructura del frontend.
+Durante este Sprint se implementó la base del proyecto **VoteChain** utilizando **Next.js**, incluyendo la estructura inicial del frontend, una interfaz funcional de votación para el usuario y la configuración de una landing page informativa. Se eliminaron archivos innecesarios y se introdujeron funcionalidades clave para el flujo de votación.
 
-| Repository                               | Branch   | Commit Id | Commit Message                                     | Commit Message Body                                                               | Committed on (Date) |
-|------------------------------------------|----------|------------|---------------------------------------------------|------------------------------------------------------------------------------------|----------------------|
-| ASE-VoteChain/votechain-frontend         | develop  | 91cd457    | Remove unused CSS files and HTML pages            | Se eliminaron archivos CSS y HTML innecesarios relacionados con el sistema de votación. | 13/06/2025           |
-| ASE-VoteChain/votechain-frontend         | develop  | d07d608    | feat: add user voting page with filtering...      | Se añadió una página de votación para el usuario con filtrado y seguimiento de participación. | 13/06/2025           |
-| ASE-VoteChain/votechain-frontend         | develop  | 3fdc1e1    | first commit                                       | Estructura básica inicial del repositorio.                                         | 11/06/2025           |
-| ASE-VoteChain/votechain-frontend         | develop  | 3b02e74    | Initial commit from Create Next App               | Proyecto generado a partir de plantilla de Next.js.                               | 11/06/2025           |
-| ASE-VoteChain/Landing-Page-VoteChain     | main     | d68afce    | favicon changed                                   | Se actualizó el favicon de la landing page.                                       | 13/06/2025           |
-| ASE-VoteChain/Landing-Page-VoteChain     | main     | 6c19181    | first commit                                      | Commit inicial del repositorio con base del diseño.                               | 13/06/2025           |
-| ASE-VoteChain/Landing-Page-VoteChain     | main     | 751aad6    | Initial commit from Create Next App               | Proyecto generado con Next.js como base para la landing.                          | 16/05/2025           |
+#### Repositorios involucrados
+
+- **Landing page institucional:** [`Landing-Page-VoteChain`](https://github.com/ASE-VoteChain/Landing-Page-VoteChain)
+
+#### Tabla de commits relevantes
+
+| Repositorio                              | Rama     | Commit ID | Mensaje de Commit                                | Descripción del Cambio                                                                 | Fecha         |
+|------------------------------------------|----------|-----------|--------------------------------------------------|----------------------------------------------------------------------------------------|---------------|
+| ASE-VoteChain/votechain-frontend         | develop  | `91cd457` | Remove unused CSS files and HTML pages           | Se eliminaron archivos CSS y HTML innecesarios relacionados con el sistema de votación. | 13/06/2025    |
+| ASE-VoteChain/votechain-frontend         | develop  | `d07d608` | feat: add user voting page with filtering...     | Se añadió una página de votación para el usuario con filtrado y seguimiento de participación. | 13/06/2025    |
+| ASE-VoteChain/votechain-frontend         | develop  | `3fdc1e1` | first commit                                     | Estructura básica inicial del repositorio.                                             | 11/06/2025    |
+| ASE-VoteChain/votechain-frontend         | develop  | `3b02e74` | Initial commit from Create Next App              | Proyecto generado a partir de plantilla de Next.js.                                   | 11/06/2025    |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | `d68afce` | favicon changed                                  | Se actualizó el favicon de la landing page.                                           | 13/06/2025    |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | `6c19181` | first commit                                     | Commit inicial del repositorio con base del diseño.                                   | 13/06/2025    |
+| ASE-VoteChain/Landing-Page-VoteChain     | main     | `751aad6` | Initial commit from Create Next App              | Proyecto generado con Next.js como base para la landing.                              | 16/05/2025    |
 
 ##### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
-En este sprint se realizaron los siguientes tests enfocados en la validación de datos del frontend de la aplicación web VoteChain. Se hizo uso de la biblioteca de javascript llamado Jest.
+Durante este sprint se implementaron pruebas unitarias centradas en la **validación de datos en los formularios de la landing page de VoteChain**, los cuales forman parte del flujo de configuración y registro de votaciones. Se utilizó la biblioteca **Jest** para asegurar que los datos ingresados por los usuarios cumplan con los formatos esperados.
 
-| Repository          | Branch | Commit Id | Commit Message                 | Commit Message Body                                                  | Commited on (Date) |
-|---------------------|--------|-----------|--------------------------------|------------------------------------------------------------------------|---------------------|
-| votechain-frontend  | main   | 723d082   | test: DNI validation test added   | Se agregó una prueba unitaria para validar el formato del DNI ingresado.   | 21/06/2025          |
-| votechain-frontend  | main   | 1130bc4   | test: Email validation test added | Se agregó una prueba unitaria para validar la estructura de correos electrónicos. | 21/06/2025          |
+
+#### Tabla de commits de testing
+
+| Repositorio         | Rama  | Commit ID | Mensaje de Commit                    | Descripción del Cambio                                                                 | Fecha        |
+|---------------------|-------|-----------|--------------------------------------|----------------------------------------------------------------------------------------|--------------|
+| votechain-frontend  | main  | `723d082` | test: DNI validation test added      | Se agregó una prueba unitaria para validar el formato del DNI ingresado en el formulario de la landing page.     | 21/06/2025   |
+| votechain-frontend  | main  | `1130bc4` | test: Email validation test added    | Se agregó una prueba unitaria para validar la estructura del correo electrónico proporcionado en el registro de votantes. | 21/06/2025   |
 
 ##### 7.2.1.5. Execution Evidence for Sprint Review
 
@@ -4221,21 +4109,58 @@ Durante este Sprint no fue contemplada la elaboración ni documentación de serv
 
 ##### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint se realizó el proceso de despliegue del frontend de VoteChain y de la landing page. El objetivo fue poner en producción ambos productos digitales para que sean accesibles públicamente. Para ello hemos optado por las herramientas Vercel y Netlify.
+Durante el Sprint 1 se ejecutó el proceso de despliegue de los componentes iniciales del sistema VoteChain, correspondientes a la **landing page informativa** y a la **primera versión funcional del frontend web**. El objetivo principal fue asegurar la disponibilidad pública de ambos entornos, habilitando así su visualización y validación en contextos reales de uso.
 
+Para la publicación de estas aplicaciones, se emplearon dos plataformas de despliegue modernas y ampliamente utilizadas:
 
-**Figura 4.** Dashboard de Netlify con la landing page desplegada.
+- **Netlify** para la landing page de presentación y registro de votantes.
+- **Vercel** para la interfaz web inicial del sistema de votación, desarrollada con Next.js.
 
-![Figura Netflify](img/Netlify_landingpage.png)  
+Estos entornos permiten integraciones automáticas con GitHub, despliegue continuo y pruebas previas a producción, asegurando así un flujo de entrega ágil y trazable.
 
-**Figura 5.** Dashboard de Vercel con la primera versión del frontend desplegada.
+#### Evidencias visuales de despliegue
 
-![Figura Vercel](img/vercel_frontend.jpeg)  
+**Figura 4.** Dashboard de Netlify con la landing page desplegada.  
+![Figura Netlify](img/Netlify_landingpage.png)
+
+**Figura 5.** Dashboard de Vercel con la primera versión del frontend desplegada.  
+![Figura Vercel](img/vercel_frontend.jpeg)
 
 ##### 7.2.1.8. Team Collaboration Insights during Sprint
 
-<img src="img/ins 1.PNG" >
-<img src="img/ins 2.PNG">
+Durante el Sprint 1 del proyecto **VoteChain**, el equipo evidenció un alto grado de compromiso y actividad constante en el repositorio GitHub, centrando su trabajo en el desarrollo de la **landing page** y en los módulos fundamentales del backend para la configuración y gestión de votaciones, registro de votantes, y almacenamiento en blockchain.
+
+Entre el **1 y el 17 de junio**, los cinco integrantes realizaron múltiples commits que se alinean directamente con las tareas completadas del Sprint Backlog. Esto incluyó:
+
+- Implementación de endpoints para configuración de parámetros de votación.
+- Construcción de formularios funcionales para el registro y configuración en la landing page.
+- Validaciones de campos clave como fechas, correo y DNI.
+- Generación y envío de credenciales únicas a votantes simulados.
+- Conexión con contrato inteligente desplegado en la red de prueba Sepolia.
+- Registro de votos cifrados en blockchain y verificación de integridad.
+
+#### Contribuciones por miembro (según GitHub Insights)
+
+| Integrante   | Total de Contribuciones |
+|--------------|--------------------------|
+| Alessandro   | 37                       |
+| Steve        | 32                       |
+| Sebastián    | 32                       |
+| Renzo        | 35                       |
+| Martín       | 35                       |
+
+**Racha activa destacada:** Alessandro mantuvo **7 días consecutivos** de contribuciones durante el periodo evaluado.
+
+#### Evidencias visuales
+
+**Figura 6.** Actividad general de contribuciones del equipo del 1 al 17 de junio  
+![Figura 6 - Insights del equipo](img/ins1.png)
+
+**Figura 7.** Resumen individual de contribuciones por integrante  
+![Figura 7 - Resumen por integrante](img/ins2.png)
+
+Esta actividad distribuida y constante fue clave para alcanzar el **100% de cumplimiento** del Sprint 1, logrando tener todas las tareas en estado **"Done"** y habilitando los entregables comprometidos: landing funcional, backend inicial operativo y conexión blockchain exitosa.
+
 
 #### 7.2.2 Sprint 2
 
