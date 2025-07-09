@@ -4298,6 +4298,106 @@ Durante este Sprint se realizó el proceso de despliegue del frontend de VoteCha
 
 ##### 7.2.2.2. Sprint Backlog 2
 
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>ID</th>
+    <th>Title (Module)</th>
+    <th>Title</th>
+    <th>Descripción</th>
+    <th>Horas estimadas</th>
+    <th>Asignado a</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- 1 -->
+  <tr>
+    <td>E02_US001</td>
+    <td>API Integration</td>
+    <td>Conectar registro de votantes</td>
+    <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
+    <td>10 h</td>
+    <td>Frontend Developer</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- 2 -->
+  <tr>
+    <td>E02_US002</td>
+    <td>API Integration</td>
+    <td>Conectar envío de credenciales</td>
+    <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
+    <td>8 h</td>
+    <td>Backend Developer</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- 3 -->
+  <tr>
+    <td>E01_US001</td>
+    <td>Voting Setup</td>
+    <td>Sincronizar estructura de votación</td>
+    <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
+    <td>10 h</td>
+    <td>Front-End Developer</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- 4 -->
+  <tr>
+    <td>E01_US003</td>
+    <td>Voting Setup</td>
+    <td>Sincronizar estructura de votación</td>
+    <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
+    <td> 8 h</td>
+    <td>Front-End Developer</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- 5 -->
+  <tr>
+    <td>E03_US001</td>
+    <td>Voting Flow</td>
+    <td>Conectar emisión de voto desde frontend</td>
+    <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
+    <td>12 h</td>
+    <td>Front-End Developer</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- 6 -->
+  <tr>
+    <td>E03_US002</td>
+    <td>Encryotion / Security</td>
+    <td>Probar encriptación de voto completa</td>
+    <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
+    <td>8 h</td>
+    <td>Backend Developer</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- 7 -->
+  <tr>
+    <td>E04_US001</td>
+    <td>Blockchain Core</td>
+    <td>Confirmar registro blockchain desde UI</td>
+    <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
+    <td> 8 h</td>
+    <td>Front-End Developer</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- 8 -->
+  <tr>
+    <td>E05_US001</td>
+    <td>Result Panel</td>
+    <td>Ver recuento de votos desde frontend</td>
+    <td>COMO ciudadano QUIERO acceder a los datos de votos en tiempo real PARA auditar la transparencia.</td>
+    <td>10 h</td>
+    <td>Front-End Developer</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 ##### 7.2.2.3. Development Evidence for Sprint Review
 
 ##### 7.2.2.4. Testing Suite Evidence for Sprint Review
