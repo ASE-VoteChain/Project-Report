@@ -4418,6 +4418,41 @@ Durante este Sprint se implementó la comunicación entre el Back-end y Front-En
 
 ##### 7.2.2.6. Services Documentation Evidence for Sprint Review
 
+En esta sección se mostrará la documentación de los endpoints que se implementaron a lo largo del desarrollo del Sprint 2.
+
+
+| **Endpoint**                                           | **Details** |
+|--------------------------------------------------------|-------------|
+| `POST /votaciones`                                     | Permite crear una nueva votación ingresando título, descripción, fechas, opciones y configuraciones. El estado inicial es `CREADA`. |
+| `GET /votaciones/mis-votaciones`                       | Devuelve un listado de todas las votaciones creadas por el usuario autenticado, útil para gestionar y monitorear el progreso individual. |
+| `GET /votaciones/user/votaciones`                      | Lista todas las votaciones vinculadas al usuario autenticado, sean públicas o privadas. |
+| `GET /votaciones/user/votaciones/{id}`                 | Proporciona el detalle completo de una votación específica del usuario autenticado, accediendo mediante su ID. |
+| `POST /votaciones/votaciones/{id}/activar`             | Permite a un administrador activar una votación en estado `CREADA`, cambiando su estado a `ABIERTA` para que pueda recibir votos. |
+| `POST /votaciones/votaciones/{id}/cancelar`            | Cancela una votación existente, marcándola como `CANCELADA` e impidiendo que continúe el proceso de votación. |
+| `GET /votaciones/votaciones/{id}/estadisticas`         | Obtiene estadísticas completas de una votación, incluyendo totales de votos, porcentaje por opción y participación de usuarios. |
+| `POST /votaciones/votaciones/{id}/finalizar`           | Finaliza una votación activa, estableciendo su estado como `CERRADA` y bloqueando futuras participaciones. |
+| `POST /votaciones/votaciones/{id}/reanudar`            | Reanuda una votación que ha sido suspendida previamente, regresando su estado a `ABIERTA` o el anterior. |
+| `POST /votaciones/votaciones/{id}/suspender`           | Suspende temporalmente una votación en curso, deteniendo el proceso de votación hasta que sea reanudada. |
+
+---
+
+
+
+| **Endpoint**                        | **Details** |
+|------------------------------------|-------------|
+| `GET /dashboard/mis-stats`         | Obtiene estadísticas personalizadas del usuario autenticado, incluyendo cantidad de votos emitidos, participación, y votaciones creadas. |
+| `GET /dashboard/stats`             | Devuelve métricas generales del sistema, como el total de votaciones creadas, número de usuarios activos y participación global. |
+
+---
+
+
+
+| **Endpoint**     | **Details** |
+|------------------|-------------|
+| `POST /votes`    | Permite emitir un voto en una votación activa, registrando la participación en la blockchain para asegurar la trazabilidad y la integridad del voto. |
+
+
+
 ##### 7.2.2.7. Software Deployment Evidence for Sprint Review
 
 ##### 7.2.2.8. Team Collaboration Insights during Sprint
