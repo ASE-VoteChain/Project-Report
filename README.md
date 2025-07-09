@@ -4255,6 +4255,66 @@ Estas pruebas garantizan un mayor control de calidad en el ciclo de desarrollo, 
 ##### 7.2.2.5. Execution Evidence for Sprint Review
 
 
+Durante este Sprint, se completó la implementación funcional de los principales flujos de autenticación, votación y visualización dentro de la plataforma VoteChain. A continuación se presenta la evidencia de ejecución correspondiente a cada vista funcional desarrollada:
+
+---
+
+**Login**  
+Se validó el flujo de inicio de sesión con credenciales correctas, incluyendo bloqueo por intentos fallidos.  
+![execution_login](img/execution_login.png)
+
+---
+
+**Registro de votantes**  
+La plataforma permite el registro exitoso de nuevos votantes con validación de DNI y correo electrónico.  
+![execution_register](img/execution_register.png)
+
+---
+
+**Creación de votaciones (Admin)**  
+Se validó el formulario para crear una nueva votación, con campos obligatorios y verificación de fechas.  
+![execution_crear_votacion](img/execution_crear_votacion.png)
+
+---
+
+**Dashboard administrativo**  
+El administrador puede visualizar el estado de cada votación: activa, suspendida o finalizada.  
+![execution_dashboard](img/execution_dashboard.png)
+
+---
+
+**Vista pública de la votación**  
+Los usuarios pueden acceder a la votación activa, visualizar las opciones y emitir su voto.  
+![execution_public](img/execution_public.png)
+
+---
+
+**Proceso de votación individual**  
+El votante puede emitir su voto en la interfaz y recibe confirmación de su envío exitoso.  
+![execution_votacion](img/execution_votacion.png)
+
+---
+
+**Vista de 'Mi Votación'**  
+Cada usuario puede ver su participación registrada y si ya ha votado.  
+![execution_mi_votacion](img/execution_mi_votacion.png)
+
+---
+
+**Historial de votaciones**  
+Se muestra una lista de todas las votaciones anteriores en las que el usuario participó, con fecha y estado.  
+![execution_historial](img/execution_historial.png)
+
+---
+
+**Detalles completos de una votación**  
+Desde el historial o el dashboard, se puede consultar información detallada sobre cada votación, sus opciones y resultados.  
+![execution_details_votation](img/execution_details_votation.png)
+
+---
+
+Estas capturas confirman que la ejecución del sistema cumple con los requerimientos definidos para el Sprint, garantizando trazabilidad desde las historias de usuario hasta la experiencia funcional completa.
+
 
 ##### 7.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -4294,6 +4354,8 @@ En esta sección se mostrará la documentación de los endpoints que se implemen
 
 
 ##### 7.2.2.7. Software Deployment Evidence for Sprint Review
+
+
 
 ##### 7.2.2.8. Team Collaboration Insights during Sprint
 
