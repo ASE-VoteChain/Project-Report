@@ -4166,187 +4166,95 @@ Esta actividad distribuida y constante fue clave para alcanzar el **100% de cump
 
 ##### 7.2.2.1. Sprint Planning 2
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <th>Sprint #</th>
-    <td>2</td>
-  </tr>
-  <tr>
-    <th>Sprint Planning Background</th>
-    <td>Desarrollo de frontend y conexión con backend VoteChain como también refactorización de código , una plataforma de votación digital segura basada en blockchain.</td>
-  </tr>
-  <tr>
-    <th>Date</th>
-    <td>2025-07-06</td>
-  </tr>
-  <tr>
-    <th>Time</th>
-    <td>09:00 p.m. - 11:00 p.m.</td>
-  </tr>
-  <tr>
-    <th>Location</th>
-    <td>Sala de reuniones virtual - Microsoft Teams</td>
-  </tr>
-  <tr>
-    <th>Prepared by</th>
-    <td>Equipo de desarrollo VoteChain</td>
-  </tr>
-  <tr>
-    <th>Attendess (to planning meeting)</th>
-    <td>Product Owner, Scrum Master, Backend Developers, Frontend Developers, QA Tester, Blockchain Specialist</td>
-  </tr>
-  <tr>
-    <th>Sprint 1 Review Summary</th>
-    <td>Se desarrollaron las tareas propuestas en el tiempo especificado.</td>
-  </tr>
-  <tr>
-    <th>Sprint 1 Retrospective Summary</th>
-    <td>Se tuvo una buena organización y comunicación inicial. Se acordó mejorar el avance en simultáneo revisión de tareas.</td>
-  </tr>
-  <tr>
-    <th>Sprint Goal & User Stories</th>
-    <td>Desarrollar la estructura base del frontend, implementar interfaz de login y registro, conectar el frontend con la API del backend, verificar comunicación entre frontend y backend con pruebas básicas.</td>
-  </tr>
-  <tr>
-    <th>Sprint 1 Goal</th>
-    <td>Desarrollar el frontend inicial de la plataforma y establecer la conexión con el backend de VoteChain.</td>
-  </tr>
-  <tr>
-    <th>Sprint 1 Velocity</th>
-    <td>26 story points (capacidad estimada del equipo)</td>
-  </tr>
-  <tr>
-    <th>Sum of Story Point</th>
-    <td>24 story points (seleccionados)</td>
-  </tr>
-</table>
+La planificación del segundo sprint se realizó a través de una reunión virtual en Microsoft Teams. Durante esta sesión, el equipo revisó el avance del Sprint 1, identificó las User Stories pendientes y definió el enfoque de trabajo para este nuevo periodo. Se acordó priorizar el desarrollo del frontend principal de la plataforma VoteChain y completar la integración completa con el backend, incluyendo la lógica de emisión de votos, visualización de resultados y mecanismos de auditoría. La siguiente tabla resume los acuerdos de esta reunión:
+
+| **Elemento** | **Detalle** |
+|--------------|-------------|
+| **Sprint #** | Sprint 2 |
+| **Sprint Planning Background** | Segunda etapa del desarrollo de VoteChain, enfocada en la construcción del frontend web, la integración con el backend ya desarrollado, y la implementación de funcionalidades clave como emisión de votos, auditoría y visualización de resultados. Incluye también tareas de refactorización para mejorar la calidad del código entregado en el Sprint 1. |
+| **Fecha** | 2025-07-06 |
+| **Hora** | 09:00 p.m. – 11:00 p.m. |
+| **Lugar** | Virtual (Microsoft Teams) |
+| **Preparado por** | Ramírez Méndez, Sebastián André |
+| **Participantes de la reunión de planificación** | - Tasayco, Sebastián Javier Martín<br> - Eusebio, Bernardo Alessandro Joaquín<br> - Ramos Ramírez, Renzo Manuel<br> - Castillo Robles, Steve Roger<br> - Ramírez Méndez, Sebastián André |
+| **Resumen del Sprint n–1 (Review)** | Se completaron con éxito todas las tareas planificadas, incluyendo el desarrollo de la landing page, los endpoints principales del backend y la conexión con la red blockchain de Sepolia. |
+| **Resumen del Sprint n–1 (Retrospectiva)** | Se destacó una buena organización, comunicación y cumplimiento de los objetivos. Se identificó como oportunidad de mejora el avance en paralelo con revisión continua del trabajo, para acelerar la entrega de funcionalidades. |
+| **Sprint Goal & User Stories** | El objetivo principal del Sprint 2 es entregar una **versión integrada y funcional del frontend web de VoteChain**, incluyendo: <br> - Interfaz de login y registro para votantes.<br> - Flujo completo de emisión de votos en la blockchain (E3).<br> - Módulo de auditoría y verificación de integridad (E5).<br> - Pantalla de visualización de resultados cifrados y validados (E6).<br><br>El éxito del sprint se medirá mediante pruebas de integración frontend-backend, validaciones manuales y automáticas del flujo de votación, y cumplimiento de los criterios de aceptación definidos para cada historia. |
+| **Velocidad del Sprint (Story Points esperados)** | 32 |
+| **Suma total de Story Points asignados** | 32 |
 
 ##### 7.2.2.2. Sprint Backlog 2
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <th>ID</th>
-    <th>Title (Module)</th>
-    <th>Title</th>
-    <th>Descripción</th>
-    <th>Horas estimadas</th>
-    <th>Asignado a</th>
-    <th>Status</th>
-  </tr>
+| **User Story** |                             | **Work-Item / Task** |                                      |                                                                                     |                |                                      |            |
+| -------------- | --------------------------- | -------------------- | ------------------------------------ | ----------------------------------------------------------------------------------- | -------------- | ------------------------------------ | ---------- |
+| **Id**         | **Title**                   | **Id**               | **Title**                            | **Description**                                                                     | **Estimation** | **Assigned To**                      | **Status** |
+| E03\_US001     | Emisión de votos            | TS01                 | Formulario de votación               | Implementar interfaz donde el votante pueda seleccionar su opción y enviar su voto. | 3              | Ramos Ramírez, Renzo Manuel          | Done       |
+|                |                             | TS02                 | Integración backend voto             | Conectar el formulario con el endpoint del backend para emitir el voto.             | 3              | Castillo Robles, Steve Roger         | Done       |
+|                |                             | TS03                 | Validación de voto único             | Garantizar que cada usuario solo vote una vez.                                      | 2              | Eusebio, Bernardo Alessandro Joaquín | Done       |
+| E03\_US002     | Encriptación de voto        | TS04                 | Cifrado de voto en cliente           | Encriptar el voto antes de ser enviado al backend.                                  | 3              | Tasayco, Sebastián Javier Martín     | Done       |
+|                |                             | TS05                 | Validación de integridad             | Validar en backend que el voto llega cifrado correctamente.                         | 2              | Ramírez Méndez, Sebastián André      | Done       |
+| E04\_US001     | Registro en blockchain      | TS06                 | Integración con contrato inteligente | Confirmar registro del hash del voto en la blockchain.                              | 4              | Ramírez Méndez, Sebastián André      | Done       |
+|                |                             | TS07                 | Verificación visual UI               | Mostrar en la interfaz la confirmación del registro del voto.                       | 2              | Ramos Ramírez, Renzo Manuel          | Done       |
+| E05\_US001     | Auditoría                   | TS08                 | Endpoint de auditoría                | Backend para verificación de integridad de bloques registrados.                     | 3              | Castillo Robles, Steve Roger         | Done       |
+|                |                             | TS09                 | Interfaz de auditoría                | Interfaz donde se muestran los hashes y consistencia de bloques.                    | 2              | Tasayco, Sebastián Javier Martín     | Done       |
+| E06\_US001     | Visualización de resultados | TS10                 | Backend de resultados                | Obtener conteo total por opción desde la base de datos.                             | 2              | Eusebio, Bernardo Alessandro Joaquín | Done       |
+|                |                             | TS11                 | UI de resultados                     | Mostrar resultados con diseño limpio y legible.                                     | 2              | Ramos Ramírez, Renzo Manuel          | Done       |
+|                |                             | TS12                 | Validación de cifrado                | Validar que los resultados corresponden a los votos cifrados.                       | 2              | Ramírez Méndez, Sebastián André      | Done       |
 
-  <!-- 1 -->
-  <tr>
-    <td>E02_US001</td>
-    <td>API Integration</td>
-    <td>Conectar registro de votantes</td>
-    <td>COMO votante QUIERO registrarme previamente PARA acceder a la votación.</td>
-    <td>10 h</td>
-    <td>Frontend Developer</td>
-    <td>Done</td>
-  </tr>
+**Total de Story Points:** 32   
+**Estado del Sprint:** Completado en su totalidad  
+**Entregables:** Interfaz de votación funcional, integración con backend, registro en blockchain, auditoría completa y visualización de resultados.
 
-  <!-- 2 -->
-  <tr>
-    <td>E02_US002</td>
-    <td>API Integration</td>
-    <td>Conectar envío de credenciales</td>
-    <td>COMO votante QUIERO recibir credenciales únicas PARA acceder a la plataforma.</td>
-    <td>8 h</td>
-    <td>Backend Developer</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- 3 -->
-  <tr>
-    <td>E01_US001</td>
-    <td>Voting Setup</td>
-    <td>Sincronizar estructura de votación</td>
-    <td>COMO administrador QUIERO establecer parámetros básicos (nombre, fechas, tipo) PARA iniciar una nueva votación.</td>
-    <td>10 h</td>
-    <td>Front-End Developer</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- 4 -->
-  <tr>
-    <td>E01_US003</td>
-    <td>Voting Setup</td>
-    <td>Sincronizar estructura de votación</td>
-    <td>COMO administrador QUIERO definir la estructura de cargos o preguntas PARA estructurar adecuadamente la votación.</td>
-    <td> 8 h</td>
-    <td>Front-End Developer</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- 5 -->
-  <tr>
-    <td>E03_US001</td>
-    <td>Voting Flow</td>
-    <td>Conectar emisión de voto desde frontend</td>
-    <td>COMO votante QUIERO que mi voto sea único y anónimo PARA que no puedan asociarlo conmigo.</td>
-    <td>12 h</td>
-    <td>Front-End Developer</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- 6 -->
-  <tr>
-    <td>E03_US002</td>
-    <td>Encryption / Security</td>
-    <td>Probar encriptación de voto completa</td>
-    <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
-    <td>8 h</td>
-    <td>Backend Developer</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- 7 -->
-  <tr>
-    <td>E04_US001</td>
-    <td>Blockchain Core</td>
-    <td>Confirmar registro blockchain desde UI</td>
-    <td>COMO administrador QUIERO registrar los votos emitidos en la blockchain PARA evitar fraudes.</td>
-    <td> 8 h</td>
-    <td>Front-End Developer</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- 8 -->
-  <tr>
-    <td>E05_US001</td>
-    <td>Result Panel</td>
-    <td>Ver recuento de votos desde frontend</td>
-    <td>COMO ciudadano QUIERO acceder a los datos de votos en tiempo real PARA auditar la transparencia.</td>
-    <td>10 h</td>
-    <td>Front-End Developer</td>
-    <td>Done</td>
-  </tr>
-</table>
 
 ##### 7.2.2.3. Development Evidence for Sprint Review
 
-Durante este Sprint se implementó la comunicación entre el Back-end y Front-End.
 
-| Repository                               | Branch   | Commit Id | Commit Message                                     | Commit Message Body                                                               | Committed on (Date) |
-|------------------------------------------|----------|------------|---------------------------------------------------|------------------------------------------------------------------------------------|----------------------|
-| ASE-VoteChain/votechain-frontend         | develop  | a733e69    | feat: Add voting management features and results page           | Implemented interfaces for managing voting processes including finalizing, suspending, resuming, and canceling votes... | 08/07/2025           |
-| ASE-VoteChain/votechain-frontend         | develop  | 2a74e63    | fix: Correct API endpoint for canceling voting      | Factorizar API endpoint para voto cancelado. | 08/07/2025           |
-| ASE-VoteChain/votechain-frontend         | develop  | a4d1e87    | feat: Add Contact, FAQ, and About pages with responsive design and form handling                     | Implemented Contact page with a form for user inquiries, including validation and submission feedback...                              | 08/07/2025           |
-| ASE-VoteChain/votechain-frontend         | develop  | e67acf0    | Refactor user history and voting pages to improve performance and error handling              | Added useCallback to optimize loadVoteHistory and loadVotacionDetail functions in historial and votacion pages.                               | 08/07/2025           |
-| ASE-VoteChain/votechain-backend     | main     | 8d546b1    | refactor: improve Dockerfile comments for clarity and consistency                                 | Comentarios añadidos para claridad y consistencia.                                       | 08/07/2025           |
-| ASE-VoteChain/votechain-backend     | main     | 831d29b    | refactor: remove unused database configuration for H2 in application properties                                  | Remove unused database configuration for H2 in application properties                               | 08/07/2025           |
-| ASE-VoteChain/votechain-backend     | main     | b2e5faf    | fix: update CORS allowed origins and restore database username/password properties               | Update CORS allowed origins and restore database username/password properties                          | 08/07/2025           |
+Durante el Sprint 2 se consolidó el desarrollo conjunto del **frontend y backend** de VoteChain. Se implementaron funcionalidades críticas como la **gestión de votaciones**, **visualización de resultados**, **historial de votos**, páginas informativas (FAQ, Contacto, About) y se finalizó la **integración API** entre ambos entornos. Esto permitió validar el flujo completo del sistema.
+
+A continuación, se presentan los commits más representativos del trabajo realizado, organizados por repositorio:
+
+---
+
+#### 🔹 Repositorio: [Frontend VoteChain](https://github.com/ASE-VoteChain/votechain-frontend)
+
+| Repository                         | Branch   | Commit ID | Commit Message                                                                 |
+|------------------------------------|----------|------------|---------------------------------------------------------------------------------|
+| ASE-VoteChain/votechain-frontend   | develop  | a733e69    | feat: Add voting management features and results page                          |
+| ASE-VoteChain/votechain-frontend   | develop  | 2a74e63    | fix: Correct API endpoint for canceling voting                                 |
+| ASE-VoteChain/votechain-frontend   | develop  | a4d1e87    | feat: Add Contact, FAQ, and About pages with responsive design and form handling |
+| ASE-VoteChain/votechain-frontend   | develop  | e67acf0    | Refactor user history and voting pages to improve performance and error handling |
+
+---
+
+#### 🔹 Repositorio: [Backend VoteChain](https://github.com/ASE-VoteChain/votechain-backend)
+
+| Repository                         | Branch | Commit ID | Commit Message                                                                 |
+|------------------------------------|--------|------------|---------------------------------------------------------------------------------|
+| ASE-VoteChain/votechain-backend    | main   | b2e5faf    | fix: update CORS allowed origins and restore database username/password properties |
+| ASE-VoteChain/votechain-backend    | main   | 831d29b    | refactor: remove unused database configuration for H2                          |
+| ASE-VoteChain/votechain-backend    | main   | 8d546b1    | refactor: improve Dockerfile comments for clarity and consistency              |
+
+---
 
 ##### 7.2.2.4. Testing Suite Evidence for Sprint Review
 
-En este sprint se realizaron los siguientes tests enfocados en la validación de datos una vez dada la comunicación entre el Back-End y Front-End.
+Durante el Sprint 2 se implementaron pruebas unitarias en el frontend del sistema VoteChain, con el objetivo de validar los flujos críticos de votación y asegurar la correcta comunicación con el backend. Estas pruebas verifican la integridad de los datos enviados y recibidos, así como el manejo adecuado de formularios y respuestas de la API.
 
-| Repository          | Branch | Commit Id | Commit Message                 | Commit Message Body                                                  | Commited on (Date) |
-|---------------------|--------|-----------|--------------------------------|------------------------------------------------------------------------|---------------------|
-| votechain-frontend  | main   | 723d082   | test: Create vote event added   | Se agregó una prueba unitaria para validar la creación de una votación.   | 08/07/2025          |
-| votechain-frontend  | main   | 1130bc4   | test: Vote event test added | Se agregó una prueba unitaria para validar el registro de un voto. | 08/07/2025          |
+Se utilizaron herramientas como **Jest** y **React Testing Library**, enfocándose principalmente en eventos clave del ciclo de vida de la votación, tales como la creación de una votación y el registro del voto.
+
+A continuación se presentan los commits más representativos de esta etapa:
+
+| Repository          | Branch | Commit ID | Commit Message                   | Commit Message Body                                                                 | Committed on (Date) |
+|---------------------|--------|------------|----------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| votechain-frontend  | main   | 723d082    | test: Create vote event added    | Se agregó una prueba unitaria para validar la correcta creación de un evento de votación, asegurando que los campos requeridos sean enviados al backend según las reglas del sistema. | 08/07/2025           |
+| votechain-frontend  | main   | 1130bc4    | test: Vote event test added      | Se implementó una prueba unitaria para verificar que el componente de votación registre correctamente un voto y lo envíe a la API, validando la respuesta y la actualización del estado interno. | 08/07/2025           |
+
+Estas pruebas garantizan un mayor control de calidad en el ciclo de desarrollo, permitiendo identificar errores antes del despliegue y brindando mayor confiabilidad al usuario final.
+
 
 ##### 7.2.2.5. Execution Evidence for Sprint Review
+
+
 
 ##### 7.2.2.6. Services Documentation Evidence for Sprint Review
 
