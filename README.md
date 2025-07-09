@@ -4355,7 +4355,51 @@ En esta sección se mostrará la documentación de los endpoints que se implemen
 
 ##### 7.2.2.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint se logró con éxito el despliegue completo tanto del **frontend** como del **backend** de VoteChain, asegurando su disponibilidad pública y funcional para revisión de stakeholders y pruebas en ambiente de producción. A continuación, se detallan las evidencias de despliegue:
 
+---
+
+### Frontend Deployment – Vercel
+
+- **URL pública:** [`https://votechain-frontend-one.vercel.app/public`](https://votechain-frontend-one.vercel.app/public)
+- **Branch desplegada:** `main`
+- **Último commit:** `22b0dc0`
+- **Mensaje:** `refactor: Improve vote history loading logic and pagination handling`
+- **Responsable:** @yoursuario
+
+La plataforma fue desplegada utilizando **Vercel**, una solución altamente eficiente para entornos React/Next.js. En la imagen de evidencia se observa:
+
+- El estado del despliegue figura como **"Ready"**.
+- Se refiere al commit más reciente desde `main`, indicando integración continua.
+- Se confirma la compilación y publicación exitosa.
+- Protección activa del entorno de despliegue: *Deployment Protection*, *Fluid Compute*, *Skew Protection*.
+
+**Observaciones técnicas:**
+
+- Se visualiza analítica activa de tráfico y uso.
+- Se reportan 401 *Edge Requests* recientes, indicando interacción real con la aplicación.
+- El sitio está operativo y permite navegación completa para usuarios y votantes.
+
+---
+
+### Backend Deployment – Railway
+
+- **URL pública:** [`https://votechain-backend-production.up.railway.app/api/swagger-ui/index.html`](https://votechain-backend-production.up.railway.app/api/swagger-ui/index.html)
+- **Último commit desplegado:** `b2e5faf`
+- **Mensaje:** `fix: update CORS allowed origins and restore database username/password properties`
+- **Responsable:** @yoursuario
+
+El backend fue desplegado usando **Railway**, una solución de infraestructura moderna. En la captura adjunta se muestra:
+
+- Estado del deployment: **ACTIVE**.
+- Despliegue exitoso pasando por todas las etapas: *Initialization*, *Build*, *Deploy* y *Post-deploy*.
+- Conexión activa a base de datos PostgreSQL, también alojada en Railway.
+
+**Observaciones técnicas:**
+
+- Logs accesibles para trazabilidad y diagnóstico.
+- Swagger UI habilitado para documentación e interacción con los endpoints de la API REST.
+- CORS correctamente configurado para permitir integración frontend-backend.
 
 ##### 7.2.2.8. Team Collaboration Insights during Sprint
 
