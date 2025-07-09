@@ -4367,7 +4367,7 @@ Durante este Sprint se realizó el proceso de despliegue del frontend de VoteCha
   <!-- 6 -->
   <tr>
     <td>E03_US002</td>
-    <td>Encryotion / Security</td>
+    <td>Encryption / Security</td>
     <td>Probar encriptación de voto completa</td>
     <td>COMO votante QUIERO que mi voto esté encriptado PARA protegerlo de manipulaciones.</td>
     <td>8 h</td>
@@ -4399,6 +4399,18 @@ Durante este Sprint se realizó el proceso de despliegue del frontend de VoteCha
 </table>
 
 ##### 7.2.2.3. Development Evidence for Sprint Review
+
+Durante este Sprint se implementó la comunicación entre el Back-end y Front-End.
+
+| Repository                               | Branch   | Commit Id | Commit Message                                     | Commit Message Body                                                               | Committed on (Date) |
+|------------------------------------------|----------|------------|---------------------------------------------------|------------------------------------------------------------------------------------|----------------------|
+| ASE-VoteChain/votechain-frontend         | develop  | a733e69    | feat: Add voting management features and results page           | Implemented interfaces for managing voting processes including finalizing, suspending, resuming, and canceling votes... | 08/07/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | 2a74e63    | fix: Correct API endpoint for canceling voting      | Factorizar API endpoint para voto cancelado. | 08/07/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | a4d1e87    | feat: Add Contact, FAQ, and About pages with responsive design and form handling                     | Implemented Contact page with a form for user inquiries, including validation and submission feedback...                              | 08/07/2025           |
+| ASE-VoteChain/votechain-frontend         | develop  | e67acf0    | Refactor user history and voting pages to improve performance and error handling              | Added useCallback to optimize loadVoteHistory and loadVotacionDetail functions in historial and votacion pages.                               | 08/07/2025           |
+| ASE-VoteChain/votechain-backend     | main     | 8d546b1    | refactor: improve Dockerfile comments for clarity and consistency                                 | Comentarios añadidos para claridad y consistencia.                                       | 08/07/2025           |
+| ASE-VoteChain/votechain-backend     | main     | 831d29b    | refactor: remove unused database configuration for H2 in application properties                                  | Remove unused database configuration for H2 in application properties                               | 08/07/2025           |
+| ASE-VoteChain/votechain-backend     | main     | b2e5faf    | fix: update CORS allowed origins and restore database username/password properties               | Update CORS allowed origins and restore database username/password properties                          | 08/07/2025           |
 
 ##### 7.2.2.4. Testing Suite Evidence for Sprint Review
 
