@@ -4414,6 +4414,13 @@ Durante este Sprint se implementó la comunicación entre el Back-end y Front-En
 
 ##### 7.2.2.4. Testing Suite Evidence for Sprint Review
 
+En este sprint se realizaron los siguientes tests enfocados en la validación de datos una vez dada la comunicación entre el Back-End y Front-End.
+
+| Repository          | Branch | Commit Id | Commit Message                 | Commit Message Body                                                  | Commited on (Date) |
+|---------------------|--------|-----------|--------------------------------|------------------------------------------------------------------------|---------------------|
+| votechain-frontend  | main   | 723d082   | test: Create vote event added   | Se agregó una prueba unitaria para validar la creación de una votación.   | 08/07/2025          |
+| votechain-frontend  | main   | 1130bc4   | test: Vote event test added | Se agregó una prueba unitaria para validar el registro de un voto. | 08/07/2025          |
+
 ##### 7.2.2.5. Execution Evidence for Sprint Review
 
 ##### 7.2.2.6. Services Documentation Evidence for Sprint Review
