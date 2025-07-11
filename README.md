@@ -32,7 +32,7 @@ Grupo: 5
 |     Ramos Ramirez, Renzo Manuel     | u202113745 |
 |    Castillo Robles, Steve Roger     | u202121679 |
 
-Junio 2025
+Julio 2025
 
 </div>
 
@@ -251,6 +251,14 @@ Junio 2025
     - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
     - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
     - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+  - [7.2.2. Sprint 2](#722-sprint-2)
+  - [7.2.2.1. Sprint Planning 2](#7221-sprint-planning-2)
+  - [7.2.2.2. Sprint Backlog 2](#7222-sprint-backlog-2)
+  - [7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
+  - [7.2.2.4. Testing Suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
+  - [7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
+  - [7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
+  - [7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
 - [7.3. Validation Interviews](#73-validation-interviews)
   - [7.3.1. Diseño de entrevistas](#731-diseño-de-entrevistas)
   - [7.3.2. Registro de entrevistas](#732-registro-de-entrevistas)
